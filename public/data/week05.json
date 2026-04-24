@@ -1,0 +1,373 @@
+{
+  "weekId": "week05",
+  "weekNumber": 5,
+  "words": [
+    {
+      "id": "w05_001",
+      "english": "sapling",
+      "japanese": "苗木、若い木",
+      "englishDef": "a young tree",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsæp.lɪŋ/",
+      "katakana": "SAP-ling",
+      "emoji": "🌱",
+      "exampleEn": "We planted a sapling in the garden last spring.",
+      "exampleJa": "去年の春、庭に苗木を植えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sap", "type": "root", "meaning": "樹液・生命力" },
+          { "part": "-ling", "type": "suffix", "meaning": "小さいもの・幼いもの" }
+        ],
+        "imageDescription": "小さな緑の木の苗が、大きな木に向かって伸びようとしている様子",
+        "relatedWords": ["seedling", "duckling", "youngling"],
+        "memoryTip": "「sap（樹液）」がたっぷり入った小さな木 → 苗木！"
+      }
+    },
+    {
+      "id": "w05_002",
+      "english": "intemperate",
+      "japanese": "節度のない、穏やかでない",
+      "englishDef": "not moderate or mild",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈtem.pər.ɪt/",
+      "katakana": "in-TEM-pər-it",
+      "emoji": "🌡️",
+      "exampleEn": "His intemperate reaction shocked everyone in the room.",
+      "exampleJa": "彼の節度のない反応は、部屋にいた全員を驚かせた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "temper", "type": "root", "meaning": "バランス・節度・調節する" },
+          { "part": "-ate", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "温度計が振り切れて、爆発しそうなほど赤くなっている様子",
+        "relatedWords": ["temperate", "temperature", "temperament", "temper"],
+        "memoryTip": "in（否定）＋ temper（バランス）＝ バランスが取れていない → 節度のない"
+      }
+    },
+    {
+      "id": "w05_003",
+      "english": "resplendent",
+      "japanese": "輝かしい、華やか",
+      "englishDef": "shining brilliantly; gorgeous and dazzling",
+      "partOfSpeech": "adj",
+      "ipa": "/rɪˈsplen.dənt/",
+      "katakana": "ri-SPLEN-dənt",
+      "emoji": "✨",
+      "exampleEn": "The queen looked resplendent in her golden gown.",
+      "exampleJa": "女王は黄金のドレスを着て輝かしかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "強調（さらに・完全に）" },
+          { "part": "splend", "type": "root", "meaning": "輝く・光り輝く" },
+          { "part": "-ent", "type": "suffix", "meaning": "形容詞化（～している状態の）" }
+        ],
+        "imageDescription": "王冠をかぶった女王が黄金のドレスを着て、まばゆい光を放っている様子",
+        "relatedWords": ["splendid", "splendor", "resplendence", "splendidly"],
+        "memoryTip": "re（完全に）＋ splend（輝く）＝ 完全に輝いている → 輝かしい！"
+      }
+    },
+    {
+      "id": "w05_004",
+      "english": "beguiling",
+      "japanese": "魅力的な、人を引きつける",
+      "englishDef": "charmingly attractive; pleasantly deceptive",
+      "partOfSpeech": "adj",
+      "ipa": "/bɪˈɡaɪ.lɪŋ/",
+      "katakana": "bi-GY-ling",
+      "emoji": "🪄",
+      "exampleEn": "The salesman had a beguiling smile that made you trust him instantly.",
+      "exampleJa": "そのセールスマンはすぐに信頼させてしまう魅力的な笑顔を持っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "be-", "type": "prefix", "meaning": "すっかり・完全に（強調）" },
+          { "part": "guile", "type": "root", "meaning": "策略・巧みなだまし" },
+          { "part": "-ing", "type": "suffix", "meaning": "形容詞化（～している）" }
+        ],
+        "imageDescription": "魔法使いが星を出しながら笑顔でウィンクし、見る人を引きつけている様子",
+        "relatedWords": ["guile", "beguile", "guileful", "guileless"],
+        "memoryTip": "be（すっかり）＋ guile（策略）＝ 人を魅了して引きつける → 魅力的"
+      }
+    },
+    {
+      "id": "w05_005",
+      "english": "disentangle",
+      "japanese": "ほぐす、解きほぐす",
+      "englishDef": "to unravel or free from tangles",
+      "partOfSpeech": "v",
+      "ipa": "/ˌdɪs.ɪnˈtæŋ.ɡəl/",
+      "katakana": "dis-in-TANG-gəl",
+      "emoji": "🪢",
+      "exampleEn": "It took an hour to disentangle the fishing lines.",
+      "exampleJa": "釣り糸をほぐすのに1時間かかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dis-", "type": "prefix", "meaning": "分ける・取り除く・反対" },
+          { "part": "en-", "type": "prefix", "meaning": "～の状態にする" },
+          { "part": "tangle", "type": "root", "meaning": "絡まる・もつれる" }
+        ],
+        "imageDescription": "もつれた糸玉を、ゆっくり丁寧にほどいている手の様子",
+        "relatedWords": ["entangle", "tangle", "untangle", "disentanglement"],
+        "memoryTip": "dis（取り除く）＋ en-tangle（絡まった状態）＝ 絡まりを取り除く → ほぐす"
+      }
+    },
+    {
+      "id": "w05_006",
+      "english": "abolish",
+      "japanese": "廃止する、無効にする",
+      "englishDef": "to officially end or annul",
+      "partOfSpeech": "v",
+      "ipa": "/əˈbɒl.ɪʃ/",
+      "katakana": "ə-BOL-ish",
+      "emoji": "🚫",
+      "exampleEn": "Many countries have moved to abolish the death penalty.",
+      "exampleJa": "多くの国が死刑を廃止する方向に動いている。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab-", "type": "prefix", "meaning": "離れて・遠ざかる" },
+          { "part": "ol", "type": "root", "meaning": "育つ・成長する（adolescent と同語源）" },
+          { "part": "-ish", "type": "suffix", "meaning": "動詞化" }
+        ],
+        "imageDescription": "大きなバツ印が法律の文書にスタンプされて消えていく様子",
+        "relatedWords": ["abolition", "abolishment", "abolitionist"],
+        "memoryTip": "ab（離れる）＋ ol（育つ）＝ 育つのをやめさせる → 廃止する"
+      }
+    },
+    {
+      "id": "w05_007",
+      "english": "intrepid",
+      "japanese": "勇敢な、不屈の",
+      "englishDef": "fearlessly bold and brave",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈtrep.ɪd/",
+      "katakana": "in-TREP-id",
+      "emoji": "🦁",
+      "exampleEn": "The intrepid explorer crossed the desert alone.",
+      "exampleJa": "その勇敢な探検家は一人で砂漠を横断した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "trep", "type": "root", "meaning": "震える・恐れる（trepidation と同語源）" },
+          { "part": "-id", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "ライオンと向き合い、全く恐れずに仁王立ちしている探検家の様子",
+        "relatedWords": ["trepidation", "intrepidity", "trepid"],
+        "memoryTip": "in（否定）＋ trep（震える）＝ 恐れて震えない → 勇敢な！"
+      }
+    },
+    {
+      "id": "w05_008",
+      "english": "languid",
+      "japanese": "疲れ果てて力なくだらりとした",
+      "englishDef": "weak and drooping from exhaustion",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈlæŋ.ɡwɪd/",
+      "katakana": "LANG-gwid",
+      "emoji": "😪",
+      "exampleEn": "She gave a languid wave and sank back into her chair.",
+      "exampleJa": "彼女はだるそうに手を振り、椅子に沈み込んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "langu", "type": "root", "meaning": "力が抜ける・しおれる・疲弊する" },
+          { "part": "-id", "type": "suffix", "meaning": "形容詞化（その状態の）" }
+        ],
+        "imageDescription": "椅子にぐったりと沈み込み、腕がだらりと垂れ下がっている人の様子",
+        "relatedWords": ["languish", "languor", "languorous", "languidly"],
+        "memoryTip": "langu（力が抜ける）→ 「ラング」＝ 肺が力なくぺちゃんこ → だらりとした"
+      }
+    },
+    {
+      "id": "w05_009",
+      "english": "pirouette",
+      "japanese": "つま先でくるくる回る",
+      "englishDef": "to spin on the tip of one foot",
+      "partOfSpeech": "v",
+      "ipa": "/ˌpɪr.uˈet/",
+      "katakana": "pir-u-ET",
+      "emoji": "🩰",
+      "exampleEn": "The ballerina pirouetted gracefully across the stage.",
+      "exampleJa": "バレリーナは舞台を優雅にくるくると回った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "piro", "type": "root", "meaning": "こま（フランス語：spinning top）" },
+          { "part": "-uette", "type": "suffix", "meaning": "フランス語の縮小辞（小さいもの）" }
+        ],
+        "imageDescription": "バレリーナがつま先立ちで両手を広げ、優雅に回転している様子",
+        "relatedWords": ["pivot", "pirouetter"],
+        "memoryTip": "フランス語で「こま（spinning top）」が語源 → くるくる回る！"
+      }
+    },
+    {
+      "id": "w05_010",
+      "english": "supple",
+      "japanese": "しなやかな、柔軟な",
+      "englishDef": "easily bent; flexible and not stiff",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsʌp.əl/",
+      "katakana": "SUP-əl",
+      "emoji": "🤸",
+      "exampleEn": "Daily stretching keeps your body supple and injury-free.",
+      "exampleJa": "毎日のストレッチで体が柔軟に保たれ、怪我をしにくくなる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sub-", "type": "prefix", "meaning": "下へ・下に従う" },
+          { "part": "pl", "type": "root", "meaning": "折り畳む・曲がる（fold/bend）" }
+        ],
+        "imageDescription": "体操選手が体を大きく曲げ、信じられないほど柔軟なポーズをとっている様子",
+        "relatedWords": ["suppleness", "supplement", "supply", "supplication"],
+        "memoryTip": "sub（下へ）＋ pl（折れ曲がる）＝ すんなり曲がれる → しなやかな"
+      }
+    },
+    {
+      "id": "w05_011",
+      "english": "reverent",
+      "japanese": "敬虔な、深い敬意を示す",
+      "englishDef": "showing deep respect and admiration",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrev.ər.ənt/",
+      "katakana": "REV-ər-ənt",
+      "emoji": "🙏",
+      "exampleEn": "The crowd fell into a reverent silence as the ceremony began.",
+      "exampleJa": "式典が始まると、観衆は敬虔な沈黙に包まれた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rever", "type": "root", "meaning": "あがめる・深く敬う（revere）" },
+          { "part": "-ent", "type": "suffix", "meaning": "形容詞化（～している状態の）" }
+        ],
+        "imageDescription": "人々が静かに手を合わせ、深く頭を下げている厳かな式典の様子",
+        "relatedWords": ["revere", "reverence", "irreverent", "reverently"],
+        "memoryTip": "revere（あがめる）＋ -ent → あがめている状態 → 敬虔な"
+      }
+    },
+    {
+      "id": "w05_012",
+      "english": "abseil",
+      "japanese": "ロープで懸垂下降する",
+      "englishDef": "to descend a cliff by sliding down a rope",
+      "partOfSpeech": "v",
+      "ipa": "/ˈæb.seɪl/",
+      "katakana": "AB-sayl",
+      "emoji": "🧗",
+      "exampleEn": "The rescue team had to abseil down the cliff to reach the injured hiker.",
+      "exampleJa": "救助隊は崖をロープで降りなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab", "type": "root", "meaning": "下へ（ドイツ語：away/down）" },
+          { "part": "Seil", "type": "root", "meaning": "ロープ（ドイツ語：rope）" }
+        ],
+        "imageDescription": "崖にロープを固定し、壁を蹴りながら下降しているクライマーの様子",
+        "relatedWords": ["rappel"],
+        "memoryTip": "ドイツ語 ab（下へ）＋ Seil（ロープ）＝ ロープで下りる → 懸垂下降！"
+      }
+    },
+    {
+      "id": "w05_013",
+      "english": "adulation",
+      "japanese": "過度の称賛、お世辞",
+      "englishDef": "excessive admiration or praise",
+      "partOfSpeech": "n",
+      "ipa": "/ˌæd.jʊˈleɪ.ʃən/",
+      "katakana": "ad-yoo-LAY-shən",
+      "emoji": "🤩",
+      "exampleEn": "The pop star received adulation from thousands of fans.",
+      "exampleJa": "そのポップスターは何千人ものファンから熱狂的な称賛を受けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "adulat", "type": "root", "meaning": "へつらう・しっぽを振る（犬が主人に対するように）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化（行為・状態）" }
+        ],
+        "imageDescription": "アイドルに向かって大勢のファンが手を伸ばし、熱狂している様子",
+        "relatedWords": ["adulate", "adulatory", "adulator", "adulatory"],
+        "memoryTip": "犬がしっぽを振ってへつらう様子が語源 → 度を超えた称賛・お世辞"
+      }
+    },
+    {
+      "id": "w05_014",
+      "english": "decapitate",
+      "japanese": "斬首する、首をはねる",
+      "englishDef": "to cut off the head; to behead",
+      "partOfSpeech": "v",
+      "ipa": "/dɪˈkæp.ɪ.teɪt/",
+      "katakana": "di-KAP-i-tayt",
+      "emoji": "⚔️",
+      "exampleEn": "The strong wind decapitated the sunflower in our garden.",
+      "exampleJa": "強風が庭のヒマワリの頭を吹き飛ばした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de-", "type": "prefix", "meaning": "取り除く・分離する" },
+          { "part": "capit", "type": "root", "meaning": "頭（head）" },
+          { "part": "-ate", "type": "suffix", "meaning": "動詞化（～する）" }
+        ],
+        "imageDescription": "capital（首都）の「capit＝頭」から、de（取り除く）でバッサリ！",
+        "relatedWords": ["capital", "captain", "decapitation", "capitalize", "per capita"],
+        "memoryTip": "de（取り除く）＋ capit（頭）＝ 頭を取り除く → 斬首する！\ncapital（首都）も「国の頭」という意味！"
+      }
+    },
+    {
+      "id": "w05_015",
+      "english": "incandescent",
+      "japanese": "白熱した、強烈に輝く",
+      "englishDef": "glowing white-hot with intense heat",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌɪn.kænˈdes.ənt/",
+      "katakana": "in-kan-DES-ənt",
+      "emoji": "💡",
+      "exampleEn": "The incandescent light of the volcano lit up the night sky.",
+      "exampleJa": "火山の白熱した光が夜空を照らした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "強調（完全に・激しく）" },
+          { "part": "cand", "type": "root", "meaning": "輝く・白く燃える・ろうそく" },
+          { "part": "-escent", "type": "suffix", "meaning": "だんだん～になっていく" }
+        ],
+        "imageDescription": "電球のフィラメントが白く輝いている様子と、燃えるろうそくの炎",
+        "relatedWords": ["candle", "candid", "incandescence", "candidate"],
+        "memoryTip": "cand（ろうそく・輝く）＋ -escent（なっていく）＝ どんどん白熱していく！\ncandle（ろうそく）と同じ語根！"
+      }
+    },
+    {
+      "id": "w05_016",
+      "english": "diversion",
+      "japanese": "注意をそらすこと",
+      "englishDef": "something that draws attention away from the main activity",
+      "partOfSpeech": "n",
+      "ipa": "/daɪˈvɜː.ʒən/",
+      "katakana": "dai-VUR-zhən",
+      "emoji": "🔀",
+      "exampleEn": "The thief created a diversion so his partner could steal the bag.",
+      "exampleJa": "泥棒は仲間がバッグを盗めるよう、注意をそらした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "di-", "type": "prefix", "meaning": "離れて・別方向へ" },
+          { "part": "vert", "type": "root", "meaning": "向ける・回す・変える" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化（行為・状態）" }
+        ],
+        "imageDescription": "矢印が急に別方向に曲がり、視線がそちらに引きつけられている様子",
+        "relatedWords": ["divert", "diverse", "convert", "revert", "versatile", "advertise"],
+        "memoryTip": "di（別方向へ）＋ vert（向ける）＝ 注意を別方向に向ける → 注意をそらすこと"
+      }
+    },
+    {
+      "id": "w05_017",
+      "english": "impenetrable",
+      "japanese": "入り込めない、突き抜けられない",
+      "englishDef": "impossible to enter, pass through, or understand",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪmˈpen.ɪ.trə.bəl/",
+      "katakana": "im-PEN-i-trə-bəl",
+      "emoji": "🧱",
+      "exampleEn": "The jungle was so thick it seemed impenetrable.",
+      "exampleJa": "ジャングルはあまりに深く、入り込めないように思えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "im-", "type": "prefix", "meaning": "否定（不可能・～できない）" },
+          { "part": "penetr", "type": "root", "meaning": "突き通す・入り込む" },
+          { "part": "-able", "type": "suffix", "meaning": "～できる（形容詞化）" }
+        ],
+        "imageDescription": "分厚い石の壁に矢が刺さろうとして跳ね返されている様子",
+        "relatedWords": ["penetrate", "penetration", "penetrable", "impenetrably"],
+        "memoryTip": "im（不可能）＋ penetr（突き通す）＋ -able（できる）＝ 突き通せない → 入り込めない"
+      }
+    }
+  ]
+}

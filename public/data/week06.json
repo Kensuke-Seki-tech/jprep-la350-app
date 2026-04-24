@@ -1,0 +1,348 @@
+{
+  "weekId": "week06",
+  "weekNumber": 6,
+  "words": [
+    {
+      "id": "w06_001",
+      "english": "ravishing",
+      "japanese": "うっとりさせる、とても魅力的な",
+      "englishDef": "being unusually attractive, pleasing, or beautiful",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈræv.ɪ.ʃɪŋ/",
+      "katakana": "RAV-i-shing",
+      "emoji": "😍",
+      "exampleEn": "She looked ravishing in her wedding gown.",
+      "exampleJa": "彼女はウェディングドレス姿でうっとりするほど美しかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rav", "type": "root", "meaning": "奪い去る・魂を持っていく" },
+          { "part": "-ish", "type": "suffix", "meaning": "動詞化" },
+          { "part": "-ing", "type": "suffix", "meaning": "形容詞化（～している）" }
+        ],
+        "imageDescription": "花嫁が歩くたびに、周りの人たちが思わず振り返って見惚れている様子",
+        "relatedWords": ["ravish", "ravage", "ravishment", "ravenous"],
+        "memoryTip": "rav（心を奪い去る）→ 見た人の心をさらっていくほど → うっとりするほど美しい！"
+      }
+    },
+    {
+      "id": "w06_002",
+      "english": "frothy",
+      "japanese": "泡立った、軽薄な",
+      "englishDef": "having bubbles formed in or on a liquid; foamy",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈfrɒθ.i/",
+      "katakana": "FROTH-ee",
+      "emoji": "🫧",
+      "exampleEn": "The barista poured the frothy milk on top of the coffee.",
+      "exampleJa": "バリスタはコーヒーの上に泡立ったミルクを注いだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "froth", "type": "root", "meaning": "泡・泡立つ（古ノルド語 froða が語源）" },
+          { "part": "-y", "type": "suffix", "meaning": "形容詞化（～の性質がある）" }
+        ],
+        "imageDescription": "カフェラテの上にふんわりとした白い泡がたっぷりのった様子",
+        "relatedWords": ["froth", "frothing", "frothiness", "frothily"],
+        "memoryTip": "froth（泡）＋ -y＝ 泡立っている！ カプチーノの上のあの泡！"
+      }
+    },
+    {
+      "id": "w06_003",
+      "english": "incredulous",
+      "japanese": "信じられない、疑い深い",
+      "englishDef": "skeptical; unwilling to admit or accept what is offered as true",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈkred.jʊ.ləs/",
+      "katakana": "in-KRED-yoo-ləs",
+      "emoji": "🤨",
+      "exampleEn": "She gave him an incredulous look when he told her the news.",
+      "exampleJa": "彼がそのニュースを告げると、彼女は信じられないという表情をした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "cred", "type": "root", "meaning": "信じる・信頼する" },
+          { "part": "-ulous", "type": "suffix", "meaning": "形容詞化（～の傾向がある）" }
+        ],
+        "imageDescription": "片眉を上げて半信半疑の目で相手を見つめている人の表情",
+        "relatedWords": ["credible", "incredible", "credit", "credulous", "credentials", "creed"],
+        "memoryTip": "in（否定）＋ cred（信じる）＝ 信じない → 疑い深い！\ncredit（クレジット）も「信用」が語源！"
+      }
+    },
+    {
+      "id": "w06_004",
+      "english": "convulsive",
+      "japanese": "痙攣性の、激しく震える",
+      "englishDef": "in a state of abnormal violent and involuntary muscle contractions",
+      "partOfSpeech": "adj",
+      "ipa": "/kənˈvʌl.sɪv/",
+      "katakana": "kən-VUL-siv",
+      "emoji": "⚡",
+      "exampleEn": "The patient had convulsive movements during the seizure.",
+      "exampleJa": "患者は発作中に痙攣性の動きをした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con-", "type": "prefix", "meaning": "共に・全体的に" },
+          { "part": "vuls", "type": "root", "meaning": "引き裂く・激しく引っ張る" },
+          { "part": "-ive", "type": "suffix", "meaning": "形容詞化（～する傾向の）" }
+        ],
+        "imageDescription": "全身が電気に打たれたように激しく振動している様子",
+        "relatedWords": ["convulse", "convulsion", "revulsion", "revulsive"],
+        "memoryTip": "con（全体が）＋ vuls（引き裂く）＝ 全身が引っ張られるように震える → 痙攣性の"
+      }
+    },
+    {
+      "id": "w06_005",
+      "english": "corrosive",
+      "japanese": "腐食性の",
+      "englishDef": "having the power to eat or wear away gradually by chemicals",
+      "partOfSpeech": "adj",
+      "ipa": "/kəˈrəʊ.sɪv/",
+      "katakana": "kə-ROH-siv",
+      "emoji": "⚗️",
+      "exampleEn": "Handle the corrosive acid with extreme care.",
+      "exampleJa": "腐食性の酸は細心の注意を払って扱いなさい。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cor-", "type": "prefix", "meaning": "強調（完全に・徹底的に）" },
+          { "part": "ros", "type": "root", "meaning": "かじる・少しずつ食べる" },
+          { "part": "-ive", "type": "suffix", "meaning": "形容詞化（～する傾向の）" }
+        ],
+        "imageDescription": "金属が酸に触れてジュワジュワと溶けていくビーカーの様子",
+        "relatedWords": ["corrode", "corrosion", "erosion", "erode"],
+        "memoryTip": "cor（徹底的に）＋ ros（かじる）＝ 徹底的にかじり溶かす → 腐食性の！\neros（浸食）も同じ語根！"
+      }
+    },
+    {
+      "id": "w06_006",
+      "english": "corporal",
+      "japanese": "伍長",
+      "englishDef": "a lower or middle ranking officer in an army",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkɔː.pər.əl/",
+      "katakana": "KOR-pər-əl",
+      "emoji": "🎖️",
+      "exampleEn": "The corporal led his small squad into the forest.",
+      "exampleJa": "伍長は小隊を率いて森の中に入った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "corpor", "type": "root", "meaning": "体・集団・組織（body/group）" },
+          { "part": "-al", "type": "suffix", "meaning": "形容詞・名詞化" }
+        ],
+        "imageDescription": "腕に二本の縞模様の階級章をつけた軍人が部隊を指揮している様子",
+        "relatedWords": ["corporation", "corpse", "corpus", "incorporate", "corporate"],
+        "memoryTip": "corpor（集団・体）＋ -al → 小集団を率いる者 → 伍長！\ncorporation（法人・集団）も同じ語根！"
+      }
+    },
+    {
+      "id": "w06_007",
+      "english": "menace",
+      "japanese": "脅威、威嚇",
+      "englishDef": "a threat; a show of wanting to inflict harm",
+      "partOfSpeech": "n",
+      "ipa": "/ˈmen.ɪs/",
+      "katakana": "MEN-is",
+      "emoji": "⚠️",
+      "exampleEn": "The stray dog became a menace to the neighborhood.",
+      "exampleJa": "その野良犬は近所の脅威となった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "men", "type": "root", "meaning": "突き出す・脅かす（ラテン語 minari）" },
+          { "part": "-ace", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "鋭い牙をむき出しにした大きな犬が、低い唸り声とともに迫ってくる様子",
+        "relatedWords": ["menacing", "menacingly", "threaten"],
+        "memoryTip": "men（突き出す・脅かす）→ 「メニー（many）な危険を突きつける」 → 脅威！"
+      }
+    },
+    {
+      "id": "w06_008",
+      "english": "confiscate",
+      "japanese": "没収する、押収する",
+      "englishDef": "to seize or take as if by authority",
+      "partOfSpeech": "v",
+      "ipa": "/ˈkɒn.fɪ.skeɪt/",
+      "katakana": "KON-fi-skayt",
+      "emoji": "🏦",
+      "exampleEn": "The teacher confiscated the student's phone during the exam.",
+      "exampleJa": "先生は試験中に生徒の電話を没収した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con-", "type": "prefix", "meaning": "共に・一緒に" },
+          { "part": "fisc", "type": "root", "meaning": "国庫・王の金庫（treasury）" },
+          { "part": "-ate", "type": "suffix", "meaning": "動詞化（～する）" }
+        ],
+        "imageDescription": "権威ある役人が手を伸ばして、持ち物を取り上げている様子",
+        "relatedWords": ["fiscal", "confiscation", "fiscally"],
+        "memoryTip": "con + fisc（国庫）＋ -ate＝ 国庫に取り込む → 没収する！\nfiscal year（会計年度）も同じ語根！"
+      }
+    },
+    {
+      "id": "w06_009",
+      "english": "demerit",
+      "japanese": "欠点、罰点",
+      "englishDef": "a mark or point usually given when someone breaks the rules",
+      "partOfSpeech": "n",
+      "ipa": "/ˌdiːˈmer.ɪt/",
+      "katakana": "dee-MER-it",
+      "emoji": "❌",
+      "exampleEn": "He received a demerit for being late to class.",
+      "exampleJa": "彼は授業に遅刻して罰点を受けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de-", "type": "prefix", "meaning": "否定・逆（away from）" },
+          { "part": "merit", "type": "root", "meaning": "値打ち・功績・ポイント" }
+        ],
+        "imageDescription": "成績表に赤いバツ印がついて、点数が引かれていく様子",
+        "relatedWords": ["merit", "meritorious", "demerit system"],
+        "memoryTip": "de（否定）＋ merit（良い点）＝ 良い点の反対 → 欠点・罰点！"
+      }
+    },
+    {
+      "id": "w06_010",
+      "english": "bedraggled",
+      "japanese": "ずぶ濡れの、汚れてよれよれの",
+      "englishDef": "soiled and stained by mud or wet and limp from water or rain",
+      "partOfSpeech": "adj",
+      "ipa": "/bɪˈdræɡ.əld/",
+      "katakana": "bi-DRAG-əld",
+      "emoji": "🌧️",
+      "exampleEn": "The bedraggled cat shivered on the doorstep.",
+      "exampleJa": "ずぶ濡れの猫が玄関先で震えていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "be-", "type": "prefix", "meaning": "強調・完全に（すっかり）" },
+          { "part": "draggle", "type": "root", "meaning": "泥の中を引きずる・濡れてよれよれになる" }
+        ],
+        "imageDescription": "大雨に打たれて全身ずぶ濡れになり、毛が貼り付いた猫が玄関で震えている様子",
+        "relatedWords": ["draggle", "dragged", "bedraggle"],
+        "memoryTip": "be（すっかり）＋ draggle（泥で引きずる）＝ すっかり引きずり回されてよれよれ → ずぶ濡れ！"
+      }
+    },
+    {
+      "id": "w06_011",
+      "english": "chastened",
+      "japanese": "懲らしめられた、反省した",
+      "englishDef": "corrected by punishment or discipline",
+      "partOfSpeech": "v",
+      "ipa": "/ˈtʃeɪ.snd/",
+      "katakana": "CHAY-snd",
+      "emoji": "😔",
+      "exampleEn": "He felt chastened after his father's stern lecture.",
+      "exampleJa": "父の厳しい説教の後、彼は反省した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "chaste", "type": "root", "meaning": "純粋な・清潔な・正しい" },
+          { "part": "-en", "type": "suffix", "meaning": "動詞化（～にする）" },
+          { "part": "-ed", "type": "suffix", "meaning": "過去形・受け身（～された）" }
+        ],
+        "imageDescription": "うつむいて肩を落とし、深く反省している子供の様子",
+        "relatedWords": ["chaste", "chastise", "chastity", "chasten"],
+        "memoryTip": "chaste（純粋・清潔）にする → 悪い行動を正す → 懲らしめる → 反省した"
+      }
+    },
+    {
+      "id": "w06_012",
+      "english": "ultrasonic",
+      "japanese": "超音波の",
+      "englishDef": "having a sound frequency above the human ear capability",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌʌl.trəˈsɒn.ɪk/",
+      "katakana": "ul-trə-SON-ik",
+      "emoji": "🦇",
+      "exampleEn": "Bats use ultrasonic waves to navigate in the dark.",
+      "exampleJa": "コウモリは暗闇で超音波を使ってナビゲートする。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ultra-", "type": "prefix", "meaning": "超えた・を超えて（beyond）" },
+          { "part": "son", "type": "root", "meaning": "音・音波（sound）" },
+          { "part": "-ic", "type": "suffix", "meaning": "形容詞化（～の）" }
+        ],
+        "imageDescription": "コウモリが暗闇で超音波を出し、前にある障害物を「見て」いる様子",
+        "relatedWords": ["ultrasound", "sonic", "supersonic", "resonance", "sonata"],
+        "memoryTip": "ultra（超える）＋ son（音）＝ 人の耳を超えた音 → 超音波！\nsonata（ソナタ）も「音」が語源！"
+      }
+    },
+    {
+      "id": "w06_013",
+      "english": "digression",
+      "japanese": "脱線、余談",
+      "englishDef": "leaving the main topic of conversation to explain something",
+      "partOfSpeech": "n",
+      "ipa": "/daɪˈɡreʃ.ən/",
+      "katakana": "dai-GRESH-ən",
+      "emoji": "💬",
+      "exampleEn": "The professor's digression about his cat amused the class.",
+      "exampleJa": "教授の猫についての余談にクラスは面白がった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "di-", "type": "prefix", "meaning": "離れて・わきへ（away）" },
+          { "part": "gress", "type": "root", "meaning": "歩く・進む（go/step）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化（行為・状態）" }
+        ],
+        "imageDescription": "まっすぐな道から急に横道にそれて歩いていく人の様子",
+        "relatedWords": ["progress", "regress", "transgress", "aggressive", "congress", "ingress"],
+        "memoryTip": "di（わきへ）＋ gress（進む）＝ 話がわき道へ進む → 脱線・余談！\nprogress（前へ進む）の仲間！"
+      }
+    },
+    {
+      "id": "w06_014",
+      "english": "recalcitrant",
+      "japanese": "反抗的な、強情な",
+      "englishDef": "stubbornly uncooperative or disobedient",
+      "partOfSpeech": "adj",
+      "ipa": "/rɪˈkæl.sɪ.trənt/",
+      "katakana": "ri-KAL-si-trənt",
+      "emoji": "😤",
+      "exampleEn": "The recalcitrant child refused to go to bed.",
+      "exampleJa": "反抗的な子供は寝るのを拒んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "後ろへ・逆らって" },
+          { "part": "calcitrant", "type": "root", "meaning": "かかとで蹴る（calc＝かかと）" }
+        ],
+        "imageDescription": "腕を組んで足をどんどん踏みならし、頑として言うことを聞かない子供の様子",
+        "relatedWords": ["recalcitrance", "recalcitrantly"],
+        "memoryTip": "re（後ろへ）＋ calc（かかと）で蹴る＝ かかとで蹴り返す → 反抗的！\n馬が後ろ脚で蹴る様子が語源！"
+      }
+    },
+    {
+      "id": "w06_015",
+      "english": "pun",
+      "japanese": "駄洒落、言葉遊び",
+      "englishDef": "a use of a word in a funny way to suggest another meaning",
+      "partOfSpeech": "n",
+      "ipa": "/pʌn/",
+      "katakana": "PUN",
+      "emoji": "😄",
+      "exampleEn": "His pun about the math teacher made everyone groan.",
+      "exampleJa": "彼の数学の先生についての駄洒落は、みんなをうめかせた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pun", "type": "root", "meaning": "同音異義語・二重の意味（イタリア語 puntiglio＝細かい点 が語源説）" }
+        ],
+        "imageDescription": "二つの意味がある言葉から吹き出しが二方向に出て、みんながくすくす笑っている様子",
+        "relatedWords": ["punning", "punster", "wordplay", "play on words"],
+        "memoryTip": "同じ音で違う意味 → 二重の「点（point）」で笑わせる → 駄洒落！"
+      }
+    },
+    {
+      "id": "w06_016",
+      "english": "bleak",
+      "japanese": "荒涼とした、暗い",
+      "englishDef": "cold; barren and exposed",
+      "partOfSpeech": "adj",
+      "ipa": "/bliːk/",
+      "katakana": "BLEEK",
+      "emoji": "🌫️",
+      "exampleEn": "The landscape looked bleak in the winter fog.",
+      "exampleJa": "風景は冬の霧の中で荒涼として見えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "bleak", "type": "root", "meaning": "青白い・冷たい・さらされた（古ノルド語 bleikr）" }
+        ],
+        "imageDescription": "霧に包まれた冬の荒野に、枯れ木が一本だけ立っている寂しい風景",
+        "relatedWords": ["bleakness", "bleakly", "bleaker", "bleakest"],
+        "memoryTip": "古ノルド語で「青白い・冷たい」 → 血の気のない荒涼とした風景 → bleak！"
+      }
+    }
+  ]
+}

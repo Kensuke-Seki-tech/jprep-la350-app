@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "weeks": [
+    { "weekId": "week05", "weekNumber": 5, "label": "Week 5", "status": "available", "dataUrl": "/data/week05.json", "wordCount": 17 },
+    { "weekId": "week06", "weekNumber": 6, "label": "Week 6", "status": "available", "dataUrl": "/data/week06.json", "wordCount": 16 },
+    { "weekId": "week07", "weekNumber": 7, "label": "Week 7", "status": "coming_soon", "dataUrl": null, "wordCount": 0 }
+  ]
+}
