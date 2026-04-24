@@ -9,7 +9,7 @@ interface QuizAnswer {
 }
 
 export function useQuizSession(words: Word[], mode: QuizMode) {
-  const questions = useState(() => shuffleArray(words))[0];
+  const [questions, setQuestions] = useState(() => shuffleArray(words));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<QuizAnswer[]>([]);
   const [isAnswered, setIsAnswered] = useState(false);
@@ -44,6 +44,15 @@ export function useQuizSession(words: Word[], mode: QuizMode) {
     }
   }, [currentIndex, questions.length]);
 
+  const reset = useCallback(() => {
+    setQuestions(shuffleArray(words));
+    setCurrentIndex(0);
+    setAnswers([]);
+    setIsAnswered(false);
+    setIsFinished(false);
+    startTimeRef.current = Date.now();
+  }, [words]);
+
   const score = answers.filter(a => a.correct).length;
   const total = questions.length;
   const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
@@ -61,6 +70,7 @@ export function useQuizSession(words: Word[], mode: QuizMode) {
     isFinished,
     answerQuestion,
     nextQuestion,
+    reset,
     mode,
   };
 }

@@ -38,30 +38,47 @@ export function useAudio(): UseAudioReturn {
 
       const url = buildTTSUrl(text, targetSpeed);
       const audio = new Audio(url);
+
+      // preload='auto': browser starts buffering immediately to prevent start cutoff
+      audio.preload = 'auto';
       audioRef.current = audio;
 
-      // playback rate で細かい速度調整（Google TTS の slow=true は 0.7倍相当）
-      // 0.5倍（ディクテーション用）は slow=true + playbackRate でさらにゆっくりに
+      // playback rate adjustment (Google TTS slow=true is approx 0.7x)
+      // 0.5x (dictation) = slow=true + playbackRate 0.75
       if (targetSpeed === 0.5) {
-        audio.playbackRate = 0.75; // slow=true(約0.7x) × 0.75 ≈ 0.5x 相当
+        audio.playbackRate = 0.75;
       } else {
         audio.playbackRate = 1.0;
       }
 
       setIsPlaying(true);
 
-      audio.play().catch(() => {
-        // CORS 等でブロックされた場合は Web Speech API へフォールバック
-        setIsPlaying(false);
-        fallbackWebSpeech(text, targetSpeed);
-      });
+      // Play helper with double-execution guard
+      let playStarted = false;
+      const startPlay = () => {
+        if (playStarted) return;
+        playStarted = true;
+        audio.play().catch(() => {
+          // CORS block -> fallback to Web Speech API
+          setIsPlaying(false);
+          fallbackWebSpeech(text, targetSpeed);
+        });
+      };
+
+      // canplaythrough: enough data buffered, play immediately
+      audio.addEventListener('canplaythrough', startPlay, { once: true });
+
+      // Fallback: if canplaythrough doesn't fire within 300ms, play anyway
+      const fallbackTimer = setTimeout(startPlay, 300);
 
       audio.onended = () => {
+        clearTimeout(fallbackTimer);
         setIsPlaying(false);
         audioRef.current = null;
       };
 
       audio.onerror = () => {
+        clearTimeout(fallbackTimer);
         setIsPlaying(false);
         audioRef.current = null;
         fallbackWebSpeech(text, targetSpeed);
@@ -77,7 +94,7 @@ export function useAudio(): UseAudioReturn {
   return { isPlaying, currentSpeed, setSpeed, speak, stop };
 }
 
-/** Web Speech API フォールバック（en-US 優先） */
+/** Web Speech API fallback (en-US priority) */
 function fallbackWebSpeech(text: string, speed: AudioSpeed) {
   if (!window.speechSynthesis) return;
   window.speechSynthesis.cancel();
@@ -85,14 +102,14 @@ function fallbackWebSpeech(text: string, speed: AudioSpeed) {
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'en-US';
 
-  // en-US 音声を優先して選択
+  // Prefer en-US voice
   const voices = window.speechSynthesis.getVoices();
   const enUSVoice = voices.find(
     (v) => v.lang === 'en-US' && !v.name.toLowerCase().includes('google')
   ) || voices.find((v) => v.lang.startsWith('en'));
   if (enUSVoice) utterance.voice = enUSVoice;
 
-  // 速度マッピング: 1.0x→rate 1.0、0.7x→rate 0.7、0.5x→rate 0.5
+  // Speed mapping: 1.0x->1.0, 0.7x->0.7, 0.5x->0.5
   utterance.rate = speed;
   window.speechSynthesis.speak(utterance);
 }
