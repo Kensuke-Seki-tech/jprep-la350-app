@@ -13,8 +13,9 @@ export default function HomeScreen() {
 
   const menuItems = [
     { icon: '🔬', label: '語源学習', desc: '語根・接頭辞・イラストで覚える', path: '/etymology', color: 'bg-green-500' },
-    { icon: '🃏', label: 'フラッシュカード', desc: '単語をめくって覚えよう', path: `/flashcard/${currentWeekId}`, color: 'bg-blue-500' },
+    { icon: '🃏', label: 'フラッシュカード', desc: '英→日・日→英・英→英 3モード', path: `/flashcard/${currentWeekId}`, color: 'bg-blue-500' },
     { icon: '📝', label: 'クイズ', desc: '4択で実力チェック', path: `/quiz/${currentWeekId}`, color: 'bg-purple-500' },
+    { icon: '🎯', label: '予想問題', desc: 'マッチング・穴埋め・選択・ディクテーション', path: `/predicted-quiz/${currentWeekId}`, color: 'bg-red-500' },
     { icon: '📖', label: '単語一覧', desc: '例文付き全単語リスト', path: `/wordlist/${currentWeekId}`, color: 'bg-teal-500' },
     { icon: '📊', label: '進捗確認', desc: '学習の記録を見る', path: '/progress', color: 'bg-orange-500' },
   ]

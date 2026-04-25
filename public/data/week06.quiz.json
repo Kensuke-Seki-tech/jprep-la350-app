@@ -1,0 +1,38 @@
+{
+  "weekId": "week06",
+  "match": [
+    { "word": "ravishing",   "def": "being unusually attractive, pleasing, or beautiful" },
+    { "word": "frothy",      "def": "having bubbles formed in or on a liquid; foamy" },
+    { "word": "incredulous", "def": "skeptical; unwilling to admit or accept what is offered as true" },
+    { "word": "convulsive",  "def": "in a state of abnormal violent and involuntary muscle contractions" },
+    { "word": "corrosive",   "def": "having the power to eat or wear away gradually by chemicals" },
+    { "word": "corporal",    "def": "a lower or middle ranking officer in an army" },
+    { "word": "menace",      "def": "a threat; a show of wanting to inflict harm" },
+    { "word": "confiscate",  "def": "to seize or take as if by authority" },
+    { "word": "demerit",     "def": "a mark or point usually given when someone breaks the rules" },
+    { "word": "bedraggled",  "def": "soiled and stained by mud or wet and limp from water or rain" }
+  ],
+  "gap": [
+    { "answer": "ravishing",   "sentence": "She looked ravishing in her wedding gown.",                               "ja": "彼女はウェディングドレス姿でうっとりするほど美しかった。" },
+    { "answer": "frothy",      "sentence": "The barista poured the frothy milk on top of the coffee.",               "ja": "バリスタはコーヒーの上に泡立ったミルクを注いだ。" },
+    { "answer": "incredulous", "sentence": "She gave him an incredulous look when he told her the news.",            "ja": "彼がそのニュースを告げると、彼女は信じられないという表情をした。" },
+    { "answer": "convulsive",  "sentence": "The patient had convulsive movements during the seizure.",               "ja": "患者は発作中に痙攣性の動きをした。" },
+    { "answer": "corrosive",   "sentence": "Handle the corrosive acid with extreme care.",                           "ja": "腐食性の酸は細心の注意を払って扱いなさい。" }
+  ],
+  "bank": ["ravishing", "frothy", "incredulous", "convulsive", "corrosive", "corporal", "menace", "confiscate", "demerit", "bedraggled"],
+  "mc": [
+    { "q": "What does \"demerit\" mean?",     "opts": ["corrected by punishment or discipline", "a mark or point usually given when someone breaks the rules", "stubbornly uncooperative or disobedient", "having bubbles formed in or on a liquid; foamy"], "answer": 1, "word": "demerit" },
+    { "q": "What does \"bedraggled\" mean?",  "opts": ["soiled and stained by mud or wet and limp from water or rain", "being unusually attractive, pleasing, or beautiful", "skeptical; unwilling to admit or accept what is offered as true", "having a sound frequency above the human ear capability"], "answer": 0, "word": "bedraggled" },
+    { "q": "What does \"chastened\" mean?",   "opts": ["being unusually attractive, pleasing, or beautiful", "corrected by punishment or discipline", "a lower or middle ranking officer in an army", "stubbornly uncooperative or disobedient"], "answer": 1, "word": "chastened" },
+    { "q": "What does \"ultrasonic\" mean?",  "opts": ["a use of a word in a funny way to suggest another meaning", "leaving the main topic of conversation to explain something", "a threat; a show of wanting to inflict harm", "having a sound frequency above the human ear capability"], "answer": 3, "word": "ultrasonic" },
+    { "q": "What does \"digression\" mean?",  "opts": ["soiled and stained by mud or wet and limp from water or rain", "stubbornly uncooperative or disobedient", "corrected by punishment or discipline", "leaving the main topic of conversation to explain something"], "answer": 3, "word": "digression" },
+    { "q": "What does \"recalcitrant\" mean?","opts": ["stubbornly uncooperative or disobedient", "a lower or middle ranking officer in an army", "having bubbles formed in or on a liquid; foamy", "leaving the main topic of conversation to explain something"], "answer": 0, "word": "recalcitrant" },
+    { "q": "What does \"pun\" mean?",         "opts": ["a use of a word in a funny way to suggest another meaning", "leaving the main topic of conversation to explain something", "having bubbles formed in or on a liquid; foamy", "having a sound frequency above the human ear capability"], "answer": 0, "word": "pun" },
+    { "q": "What does \"bleak\" mean?",       "opts": ["cold; barren and exposed", "soiled and stained by mud or wet and limp from water or rain", "being unusually attractive, pleasing, or beautiful", "having bubbles formed in or on a liquid; foamy"], "answer": 0, "word": "bleak" }
+  ],
+  "dict": [
+    { "text": "She looked ravishing in her wedding gown.",                              "word": "ravishing" },
+    { "text": "The barista poured the frothy milk on top of the coffee.",              "word": "frothy" },
+    { "text": "She gave him an incredulous look when he told her the news.",           "word": "incredulous" }
+  ]
+}

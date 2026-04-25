@@ -1,6 +1,7 @@
 import type { Word } from '@/types/word';
 
 export type QuizMode = 'en_to_ja' | 'ja_to_en';
+export type FlashcardMode = 'en_to_ja' | 'ja_to_en' | 'en_to_en';
 
 export function generateChoices(
   correct: Word,

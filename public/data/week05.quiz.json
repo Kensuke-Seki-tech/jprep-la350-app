@@ -1,0 +1,38 @@
+{
+  "weekId": "week05",
+  "match": [
+    { "word": "sapling",     "def": "a young tree" },
+    { "word": "intemperate", "def": "not moderate or mild" },
+    { "word": "resplendent", "def": "shining brilliantly; gorgeous and dazzling" },
+    { "word": "beguiling",   "def": "charmingly attractive; pleasantly deceptive" },
+    { "word": "disentangle", "def": "to unravel or free from tangles" },
+    { "word": "abolish",     "def": "to officially end or annul" },
+    { "word": "intrepid",    "def": "fearlessly bold and brave" },
+    { "word": "languid",     "def": "weak and drooping from exhaustion" },
+    { "word": "pirouette",   "def": "to spin on the tip of one foot" },
+    { "word": "supple",      "def": "easily bent; flexible and not stiff" }
+  ],
+  "gap": [
+    { "answer": "sapling",     "sentence": "We planted a sapling in the garden last spring.",                           "ja": "去年の春、庭に苗木を植えた。" },
+    { "answer": "intemperate", "sentence": "His intemperate reaction shocked everyone in the room.",                    "ja": "彼の節度のない反応は、部屋にいた全員を驚かせた。" },
+    { "answer": "resplendent", "sentence": "The queen looked resplendent in her golden gown.",                         "ja": "女王は黄金のドレスを着て輝かしかった。" },
+    { "answer": "beguiling",   "sentence": "The salesman had a beguiling smile that made you trust him instantly.",    "ja": "そのセールスマンはすぐに信頼させてしまう魅力的な笑顔を持っていた。" },
+    { "answer": "disentangle", "sentence": "It took an hour to disentangle the fishing lines.",                        "ja": "釣り糸をほぐすのに1時間かかった。" }
+  ],
+  "bank": ["sapling", "intemperate", "resplendent", "beguiling", "disentangle", "abolish", "intrepid", "languid", "pirouette", "supple"],
+  "mc": [
+    { "q": "What does \"supple\" mean?",      "opts": ["excessive admiration or praise", "to officially end or annul", "to spin on the tip of one foot", "easily bent; flexible and not stiff"],              "answer": 3, "word": "supple" },
+    { "q": "What does \"reverent\" mean?",    "opts": ["shining brilliantly; gorgeous and dazzling", "something that draws attention away from the main activity", "not moderate or mild", "showing deep respect and admiration"], "answer": 3, "word": "reverent" },
+    { "q": "What does \"abseil\" mean?",      "opts": ["weak and drooping from exhaustion", "to spin on the tip of one foot", "fearlessly bold and brave", "to descend a cliff by sliding down a rope"],        "answer": 3, "word": "abseil" },
+    { "q": "What does \"adulation\" mean?",   "opts": ["to descend a cliff by sliding down a rope", "excessive admiration or praise", "a young tree", "charmingly attractive; pleasantly deceptive"],          "answer": 1, "word": "adulation" },
+    { "q": "What does \"decapitate\" mean?",  "opts": ["shining brilliantly; gorgeous and dazzling", "excessive admiration or praise", "impossible to enter, pass through, or understand", "to cut off the head; to behead"], "answer": 3, "word": "decapitate" },
+    { "q": "What does \"incandescent\" mean?","opts": ["to unravel or free from tangles", "shining brilliantly; gorgeous and dazzling", "a young tree", "glowing white-hot with intense heat"],                 "answer": 3, "word": "incandescent" },
+    { "q": "What does \"diversion\" mean?",   "opts": ["shining brilliantly; gorgeous and dazzling", "something that draws attention away from the main activity", "to officially end or annul", "to cut off the head; to behead"], "answer": 1, "word": "diversion" },
+    { "q": "What does \"impenetrable\" mean?","opts": ["impossible to enter, pass through, or understand", "shining brilliantly; gorgeous and dazzling", "to descend a cliff by sliding down a rope", "fearlessly bold and brave"], "answer": 0, "word": "impenetrable" }
+  ],
+  "dict": [
+    { "text": "We planted a sapling in the garden last spring.",           "word": "sapling" },
+    { "text": "His intemperate reaction shocked everyone in the room.",   "word": "intemperate" },
+    { "text": "The queen looked resplendent in her golden gown.",         "word": "resplendent" }
+  ]
+}

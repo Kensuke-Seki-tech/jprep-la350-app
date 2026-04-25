@@ -53,32 +53,20 @@ export function useAudio(): UseAudioReturn {
 
       setIsPlaying(true);
 
-      // Play helper with double-execution guard
-      let playStarted = false;
-      const startPlay = () => {
-        if (playStarted) return;
-        playStarted = true;
-        audio.play().catch(() => {
-          // CORS block -> fallback to Web Speech API
-          setIsPlaying(false);
-          fallbackWebSpeech(text, targetSpeed);
-        });
-      };
-
-      // canplaythrough: enough data buffered, play immediately
-      audio.addEventListener('canplaythrough', startPlay, { once: true });
-
-      // Fallback: if canplaythrough doesn't fire within 300ms, play anyway
-      const fallbackTimer = setTimeout(startPlay, 300);
+      // iOS Safari fix: call play() synchronously within the user-gesture handler.
+      // Deferring via canplaythrough/setTimeout loses the gesture context and blocks playback.
+      audio.play().catch(() => {
+        setIsPlaying(false);
+        audioRef.current = null;
+        fallbackWebSpeech(text, targetSpeed);
+      });
 
       audio.onended = () => {
-        clearTimeout(fallbackTimer);
         setIsPlaying(false);
         audioRef.current = null;
       };
 
       audio.onerror = () => {
-        clearTimeout(fallbackTimer);
         setIsPlaying(false);
         audioRef.current = null;
         fallbackWebSpeech(text, targetSpeed);
@@ -101,15 +89,15 @@ function fallbackWebSpeech(text: string, speed: AudioSpeed) {
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'en-US';
-
-  // Prefer en-US voice
-  const voices = window.speechSynthesis.getVoices();
-  const enUSVoice = voices.find(
-    (v) => v.lang === 'en-US' && !v.name.toLowerCase().includes('google')
-  ) || voices.find((v) => v.lang.startsWith('en'));
-  if (enUSVoice) utterance.voice = enUSVoice;
-
-  // Speed mapping: 1.0x->1.0, 0.7x->0.7, 0.5x->0.5
   utterance.rate = speed;
+
+  // On iOS, getVoices() may return empty until onvoiceschanged fires.
+  // Speak immediately without a specific voice — the browser uses lang='en-US' to pick one.
+  const voices = window.speechSynthesis.getVoices();
+  if (voices.length > 0) {
+    const enVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en'));
+    if (enVoice) utterance.voice = enVoice;
+  }
+
   window.speechSynthesis.speak(utterance);
 }

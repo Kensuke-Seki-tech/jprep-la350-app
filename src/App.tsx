@@ -7,6 +7,7 @@ import QuizScreen from '@/pages/QuizScreen'
 import WordListScreen from '@/pages/WordListScreen'
 import ProgressScreen from '@/pages/ProgressScreen'
 import { EtymologyScreen } from '@/pages/EtymologyScreen'
+import PredictedQuizScreen from '@/pages/PredictedQuizScreen'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/etymology" element={<EtymologyScreen />} />
           <Route path="/flashcard/:weekId" element={<FlashcardScreen />} />
           <Route path="/quiz/:weekId" element={<QuizScreen />} />
+          <Route path="/predicted-quiz/:weekId" element={<PredictedQuizScreen />} />
           <Route path="/wordlist/:weekId" element={<WordListScreen />} />
           <Route path="/progress" element={<ProgressScreen />} />
           <Route path="*" element={<Navigate to="/" replace />} />
