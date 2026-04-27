@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
@@ -29,6 +29,13 @@ function renderScreen() {
 }
 
 describe('FlashcardScreen - 3 モード', () => {
+  beforeEach(() => {
+    vi.spyOn(Math, 'random').mockReturnValue(0.5)
+  })
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
   it('TC-U-FLASHCARD-MODE-01: 初期モードは en_to_ja（英→日 が選択）', async () => {
     renderScreen()
     const button = await screen.findByRole('button', { name: /英 → 日/ })
