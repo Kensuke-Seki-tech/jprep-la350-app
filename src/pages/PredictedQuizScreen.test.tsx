@@ -45,7 +45,7 @@ describe('PredictedQuizScreen - Part 1 マッチング', () => {
     await startToPart1(user)
     await user.click(screen.getByRole('button', { name: 'sapling' }))
     await user.click(screen.getByRole('button', { name: /a young tree/ }))
-    expect(await screen.findByText(/1 \/ 3 マッチ完了/)).toBeInTheDocument()
+    expect(await screen.findByText(/1 \/ 10 マッチ完了/)).toBeInTheDocument()
   })
 
   it('TC-U-PRED-02: 誤ったペアで wrongPair セット & 500ms 後リセット', async () => {
@@ -60,15 +60,10 @@ describe('PredictedQuizScreen - Part 1 マッチング', () => {
     }, { timeout: 1500 })
   })
 
-  it('TC-U-PRED-03: 全 3 ペア完了で [Part 2 へ] ボタン表示', async () => {
+  it('TC-U-PRED-03: 全 10 ペア完了で [Part 2 へ] ボタン表示', async () => {
     const user = userEvent.setup()
     await startToPart1(user)
-    const pairs: Array<[string, RegExp]> = [
-      ['sapling', /a young tree/],
-      ['abolish', /to officially end or annul/],
-      ['languid', /weak and drooping from exhaustion/],
-    ]
-    for (const [w, defRe] of pairs) {
+    for (const [w, defRe] of ALL_PAIRS) {
       await user.click(screen.getByRole('button', { name: w }))
       await user.click(screen.getByRole('button', { name: defRe }))
     }
@@ -77,14 +72,22 @@ describe('PredictedQuizScreen - Part 1 マッチング', () => {
   })
 })
 
+const ALL_PAIRS: Array<[string, RegExp]> = [
+  ['sapling', /a young tree/],
+  ['abolish', /to officially end or annul/],
+  ['languid', /weak and drooping from exhaustion/],
+  ['pirouette', /to spin on the tip of one foot/],
+  ['supple', /easily bent/],
+  ['intrepid', /fearlessly bold and brave/],
+  ['fortify', /to strengthen/],
+  ['tranquil', /calm and peaceful/],
+  ['vigilant', /keeping careful watch/],
+  ['rigid', /unable to bend/],
+]
+
 async function jumpToPart2(user: ReturnType<typeof userEvent.setup>) {
   await startToPart1(user)
-  const pairs: Array<[string, RegExp]> = [
-    ['sapling', /a young tree/],
-    ['abolish', /to officially end or annul/],
-    ['languid', /weak and drooping from exhaustion/],
-  ]
-  for (const [w, defRe] of pairs) {
+  for (const [w, defRe] of ALL_PAIRS) {
     await user.click(screen.getByRole('button', { name: w }))
     await user.click(screen.getByRole('button', { name: defRe }))
   }
@@ -130,7 +133,7 @@ describe('PredictedQuizScreen - Part 2 ギャップ', () => {
 
 async function jumpToPart3(user: ReturnType<typeof userEvent.setup>) {
   await jumpToPart2(user)
-  for (const word of ['sapling', 'abolish'] as const) {
+  for (const word of ['sapling', 'abolish', 'languid', 'pirouette', 'supple'] as const) {
     const blanks = screen.getAllByRole('button', { name: /＿＿＿/ })
     if (blanks[0]) await user.click(blanks[0])
     await user.click(screen.getByRole('button', { name: word }))
@@ -172,6 +175,9 @@ async function jumpToPart4(user: ReturnType<typeof userEvent.setup>) {
   await jumpToPart3(user)
   await user.click(screen.getByRole('button', { name: 'a young tree' }))
   await user.click(screen.getByRole('button', { name: 'to end' }))
+  await user.click(screen.getByRole('button', { name: 'weak' }))
+  await user.click(screen.getByRole('button', { name: 'brave' }))
+  await user.click(screen.getByRole('button', { name: 'calm' }))
   await user.click(await screen.findByRole('button', { name: 'Part 4 へ' }))
   await screen.findByText('Dictation')
 }
@@ -238,13 +244,21 @@ describe('PredictedQuizScreen - スコア集計と結果画面', () => {
     const user = userEvent.setup()
     await jumpToPart4(user)
     const inputs = screen.getAllByPlaceholderText('聴こえた文を書き取ろう...')
-    await user.type(inputs[0]!, 'we planted a sapling in the garden last spring')
-    await user.click(screen.getAllByRole('button', { name: '採点' })[0]!)
-    await user.type(inputs[1]!, 'they abolished the law')
-    await user.click(screen.getAllByRole('button', { name: '採点' })[0]!)
+    const dictTexts = [
+      'we planted a sapling in the garden last spring',
+      'they abolished the law',
+      'a languid afternoon by the river',
+      'an intrepid explorer crossed the desert',
+      'tranquil waters reflect the sky',
+    ]
+    for (let i = 0; i < dictTexts.length; i++) {
+      await user.type(inputs[i]!, dictTexts[i]!)
+      await user.click(screen.getAllByRole('button', { name: '採点' })[0]!)
+    }
     await user.click(await screen.findByRole('button', { name: '結果を見る' }))
-    expect(await screen.findByText(/20 \/ \d+ 点/)).toBeInTheDocument()
-  })
+    // Part1 全 10 +20 / Part2 全 5 +10 / Part3 全 5 +10 / Part4 全 5 完全一致 +15 = 55/55
+    expect(await screen.findByText(/55 \/ 55 点/)).toBeInTheDocument()
+  }, 20000)
 
   it('TC-U-PRED-16: 90%以上で 🏆 Outstanding!!', async () => {
     const user = userEvent.setup()
@@ -278,12 +292,71 @@ describe('PredictedQuizScreen - スコア集計と結果画面', () => {
   })
 
   it('TC-U-PRED-17: 75-89% で 🎉 Great Job!', async () => {
-    expect('Great Job!').toMatch(/Great/)
-    expect('Keep Going!').toMatch(/Keep/)
+    const user = userEvent.setup()
+    vi.mocked(fetch).mockReset()
+    vi.mocked(fetch).mockResolvedValueOnce(new Response(JSON.stringify({
+      ...mockQuizData,
+      match: [{ word: 'sapling', def: 'a young tree' }],
+      gap: [{ answer: 'sapling', sentence: 'plant a sapling now', ja: 'いま苗木を植える' }],
+      bank: ['sapling'],
+      mc: [{ q: 'meaning?', opts: ['a young tree', 'X', 'Y', 'Z'], answer: 0, word: 'sapling' }],
+      dict: [{ text: 'plant a sapling', word: 'sapling' }],
+    }), { status: 200 }))
+    renderScreen()
+    await screen.findByText(/予想問題/)
+    await user.click(screen.getByRole('button', { name: 'スタート' }))
+    await screen.findByText('Vocabulary Matching')
+    // Part1 正解 (+2)
+    await user.click(screen.getByRole('button', { name: 'sapling' }))
+    await user.click(screen.getByRole('button', { name: /a young tree/ }))
+    await user.click(await screen.findByRole('button', { name: 'Part 2 へ' }))
+    // Part2 正解 (+2)
+    await user.click(screen.getByRole('button', { name: /＿＿＿/ }))
+    await user.click(screen.getByRole('button', { name: 'sapling' }))
+    await user.click(await screen.findByRole('button', { name: 'Part 3 へ' }))
+    // Part3 正解 (+2)
+    await user.click(screen.getByRole('button', { name: 'a young tree' }))
+    await user.click(await screen.findByRole('button', { name: 'Part 4 へ' }))
+    // Part4 部分一致 50%以上 (+1) → 計 7/9 = 77.78% → Great Job!
+    const input = screen.getByPlaceholderText('聴こえた文を書き取ろう...')
+    await user.type(input, 'plant sapling')
+    await user.click(screen.getByRole('button', { name: '採点' }))
+    await user.click(await screen.findByRole('button', { name: '結果を見る' }))
+    expect(await screen.findByText('Great Job!')).toBeInTheDocument()
+    expect(screen.getByText('🎉')).toBeInTheDocument()
   })
 
   it('TC-U-PRED-18: 0-29% で 🌱 Try Again', async () => {
-    expect("Let's Try Again!").toMatch(/Try Again/)
+    const user = userEvent.setup()
+    vi.mocked(fetch).mockReset()
+    vi.mocked(fetch).mockResolvedValueOnce(new Response(JSON.stringify({
+      ...mockQuizData,
+      match: [{ word: 'sapling', def: 'a young tree' }],
+      gap: [{ answer: 'sapling', sentence: 'plant a sapling now', ja: 'いま苗木を植える' }],
+      bank: ['sapling'],
+      mc: [{ q: 'meaning?', opts: ['a young tree', 'X', 'Y', 'Z'], answer: 0, word: 'sapling' }],
+      dict: [{ text: 'plant a sapling', word: 'sapling' }],
+    }), { status: 200 }))
+    renderScreen()
+    await screen.findByText(/予想問題/)
+    await user.click(screen.getByRole('button', { name: 'スタート' }))
+    await screen.findByText('Vocabulary Matching')
+    // Part1 正解 (+2)
+    await user.click(screen.getByRole('button', { name: 'sapling' }))
+    await user.click(screen.getByRole('button', { name: /a young tree/ }))
+    await user.click(await screen.findByRole('button', { name: 'Part 2 へ' }))
+    // Part2 正解 (+2)
+    await user.click(screen.getByRole('button', { name: /＿＿＿/ }))
+    await user.click(screen.getByRole('button', { name: 'sapling' }))
+    await user.click(await screen.findByRole('button', { name: 'Part 3 へ' }))
+    // Part3 誤答 (-1)
+    await user.click(screen.getByRole('button', { name: 'X' }))
+    await user.click(await screen.findByRole('button', { name: 'Part 4 へ' }))
+    // Part4 reveal (-1) → 計 2/9 = 22.22% → Try Again
+    await user.click(screen.getByRole('button', { name: '👁 答え' }))
+    await user.click(await screen.findByRole('button', { name: '結果を見る' }))
+    expect(await screen.findByText("Let's Try Again!")).toBeInTheDocument()
+    expect(screen.getByText('🌱')).toBeInTheDocument()
   })
 
   it('TC-U-PRED-19: fetch 失敗時に「データが見つかりません」表示', async () => {
