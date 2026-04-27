@@ -2,3 +2,9 @@ node_modules
 dist
 .DS_Store
 *.local
+coverage/
+test-results/
+test-results-nf/
+playwright-report/
+playwright-report-nf/
+playwright/.cache/

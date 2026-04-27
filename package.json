@@ -6,24 +6,39 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:nf": "vite build && playwright test --config playwright.nf.config.ts"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
-    "zustand": "^4.5.0",
-    "@tanstack/react-query": "^5.17.0"
+    "zustand": "^4.5.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^14.3.1",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest-axe": "^3.5.9",
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "^2.1.9",
     "autoprefixer": "^10.4.0",
+    "jest-axe": "^9.0.0",
+    "jsdom": "^24.1.3",
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.2.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "vitest": "^2.1.9"
   }
 }

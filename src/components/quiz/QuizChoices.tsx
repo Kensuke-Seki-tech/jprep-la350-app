@@ -19,6 +19,7 @@ export function QuizChoices({ choices, correctAnswer, selected, onAnswer }: Prop
         return (
           <button
             key={`${choice}-${i}`}
+            data-testid={`quiz-choice-${i}`}
             onClick={() => !selected && onAnswer(choice)}
             disabled={!!selected}
             className={`w-full text-left px-5 py-4 rounded-xl font-medium text-base transition-colors min-h-[56px] ${style}`}
