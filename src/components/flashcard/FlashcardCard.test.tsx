@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen, within } from '@testing-library/react'
+import { render, screen, within, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { FlashcardCard } from './FlashcardCard'
 import { mockWords } from '@/test/fixtures'
@@ -25,8 +25,10 @@ describe('FlashcardCard - en_to_ja モード', () => {
     )
     const card = container.querySelector('.flip-card')!
     await user.click(card)
-    const inner = container.querySelector('.flip-inner')
-    expect(inner?.className).toContain('flipped')
+    await waitFor(() => {
+      const inner = container.querySelector('.flip-inner')
+      expect(inner?.className).toContain('flipped')
+    })
     const back = container.querySelector('.flip-back')!
     expect(within(back as HTMLElement).getByText('苗木')).toBeInTheDocument()
   })
@@ -38,8 +40,9 @@ describe('FlashcardCard - en_to_ja モード', () => {
       <FlashcardCard word={mockWords[0]!} index={0} total={6} mode="en_to_ja" onResult={onResult} />,
     )
     await user.click(container.querySelector('.flip-card')!)
-    await user.click(screen.getByRole('button', { name: 'Got it!' }))
-    await vi.waitFor(() => expect(onResult).toHaveBeenCalledWith('correct'))
+    const gotIt = await screen.findByRole('button', { name: 'Got it!' })
+    await user.click(gotIt)
+    await waitFor(() => expect(onResult).toHaveBeenCalledWith('correct'))
   })
 
   it('TC-C-005: フリップ後に「Again」で onResult("incorrect") が呼ばれる', async () => {
@@ -49,8 +52,9 @@ describe('FlashcardCard - en_to_ja モード', () => {
       <FlashcardCard word={mockWords[0]!} index={0} total={6} mode="en_to_ja" onResult={onResult} />,
     )
     await user.click(container.querySelector('.flip-card')!)
-    await user.click(screen.getByRole('button', { name: 'Again' }))
-    await vi.waitFor(() => expect(onResult).toHaveBeenCalledWith('incorrect'))
+    const again = await screen.findByRole('button', { name: 'Again' })
+    await user.click(again)
+    await waitFor(() => expect(onResult).toHaveBeenCalledWith('incorrect'))
   })
 
   it('TC-C-006: aria-label が単語に応じて設定されている', () => {

@@ -1,21 +1,21 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { act } from '@testing-library/react'
+import { act } from 'react'
 import { UserSelectScreen } from './UserSelectScreen'
 import { useUserStore } from '@/hooks/useUserStore'
 import { MAX_USERS } from '@/types/user'
 
-beforeEach(() => {
-  act(() => {
+beforeEach(async () => {
+  await act(async () => {
     useUserStore.setState({ users: [], currentUserId: null })
   })
   localStorage.clear()
 })
 
 describe('UserSelectScreen', () => {
-  it('TC-C-020: 既存ユーザーが一覧表示される', () => {
-    act(() => {
+  it('TC-C-020: 既存ユーザーが一覧表示される', async () => {
+    await act(async () => {
       useUserStore.getState().addUser('Alice', '#FF0000')
       useUserStore.getState().addUser('Bob', '#00FF00')
     })
@@ -25,23 +25,27 @@ describe('UserSelectScreen', () => {
   })
 
   it('TC-C-021: ユーザークリックで selectUser が呼ばれる（currentUserId 更新）', async () => {
-    act(() => useUserStore.getState().addUser('Alice', '#FF0000'))
+    await act(async () => {
+      useUserStore.getState().addUser('Alice', '#FF0000')
+    })
     const aliceId = useUserStore.getState().users[0]!.userId
     const user = userEvent.setup()
     render(<UserSelectScreen />)
     await user.click(screen.getByRole('button', { name: /Alice/ }))
-    expect(useUserStore.getState().currentUserId).toBe(aliceId)
+    await waitFor(() => {
+      expect(useUserStore.getState().currentUserId).toBe(aliceId)
+    })
   })
 
   it('TC-C-022: 「＋ 新しいユーザーを追加」で入力フォームが表示される', async () => {
     const user = userEvent.setup()
     render(<UserSelectScreen />)
     await user.click(screen.getByRole('button', { name: /新しいユーザーを追加/ }))
-    expect(screen.getByPlaceholderText('名前を入力')).toBeInTheDocument()
+    expect(await screen.findByPlaceholderText('名前を入力')).toBeInTheDocument()
   })
 
-  it('TC-C-023: MAX_USERS いる場合「追加」ボタンが非表示', () => {
-    act(() => {
+  it('TC-C-023: MAX_USERS いる場合「追加」ボタンが非表示', async () => {
+    await act(async () => {
       for (let i = 0; i < MAX_USERS; i++) {
         useUserStore.getState().addUser(`User${i}`, '#000')
       }
@@ -54,8 +58,10 @@ describe('UserSelectScreen', () => {
     const user = userEvent.setup()
     render(<UserSelectScreen />)
     await user.click(screen.getByRole('button', { name: /新しいユーザーを追加/ }))
-    await user.type(screen.getByPlaceholderText('名前を入力'), 'Charlie')
+    await user.type(await screen.findByPlaceholderText('名前を入力'), 'Charlie')
     await user.click(screen.getByRole('button', { name: '作成' }))
-    expect(useUserStore.getState().users.some(u => u.displayName === 'Charlie')).toBe(true)
+    await waitFor(() => {
+      expect(useUserStore.getState().users.some(u => u.displayName === 'Charlie')).toBe(true)
+    })
   })
 })
