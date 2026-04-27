@@ -44,9 +44,6 @@ export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
   }
 
   const frontLabel = mode === 'ja_to_en' ? word.japanese : word.english
-  const ariaLabel = flipped
-    ? (mode === 'ja_to_en' ? word.english : word.japanese)
-    : frontLabel
 
   return (
     <div className="w-full">
@@ -61,8 +58,6 @@ export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
       <div
         className="flip-card w-full cursor-pointer"
         onClick={handleFlip}
-        role="button"
-        aria-label={ariaLabel}
       >
         <div className={`flip-inner relative ${flipped ? 'flipped' : ''}`} style={{ minHeight: 280 }}>
 
@@ -179,7 +174,12 @@ export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
         </div>
       )}
       {!flipped && (
-        <Button variant="ghost" className="w-full mt-4" onClick={handleFlip}>
+        <Button
+          variant="ghost"
+          className="w-full mt-4"
+          onClick={handleFlip}
+          aria-label={frontLabel}
+        >
           Tap to reveal meaning
         </Button>
       )}
