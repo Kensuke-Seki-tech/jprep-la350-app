@@ -13,6 +13,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
     testTimeout: 20000,
+    exclude: ['node_modules', 'dist', 'e2e', 'e2e-nf', '.idea', '.git', '.cache'],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html', 'json-summary'],
@@ -23,21 +24,14 @@ export default defineConfig({
         'src/App.tsx',
         '**/*.config.*',
         '**/dist/**',
+        // 残ページ（E2E カバー、ユニット未着手）
         'src/pages/HomeScreen.tsx',
         'src/pages/EtymologyScreen.tsx',
         'src/pages/QuizScreen.tsx',
         'src/pages/WordListScreen.tsx',
         'src/pages/ProgressScreen.tsx',
+        // E2E 内部 / 視覚専用
         'src/components/auth/AuthGate.tsx',
-        'src/components/common/**',
-        'src/components/layout/**',
-        'src/components/progress/**',
-        'src/components/wordlist/**',
-        'src/components/quiz/QuizProgress.tsx',
-        'src/components/quiz/QuizQuestion.tsx',
-        'src/hooks/useWeeks.ts',
-        'src/hooks/useWordData.ts',
-        'src/utils/format.ts',
         'src/utils/wordSvg.tsx',
       ],
       thresholds: {
