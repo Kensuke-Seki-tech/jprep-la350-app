@@ -53,6 +53,9 @@ describe('WordListItem', () => {
           { part: 'sap', meaning: 'tree juice', type: 'root' },
           { part: '-ling', meaning: 'small one', type: 'suffix' },
         ],
+        imageDescription: '',
+        relatedWords: [],
+        memoryTip: '',
       },
     }
     render(<WordListItem word={wordWithEtym} index={0} />)
