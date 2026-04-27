@@ -192,13 +192,18 @@ function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: 
     } else {
       setWrongPair({ word, def })
       setPts(p => p - 1)
-      setTimeout(() => {
-        setWrongPair(null)
-        setSelectedWord(null)
-        setSelectedDef(null)
-      }, 500)
     }
   }
+
+  useEffect(() => {
+    if (!wrongPair) return
+    const id = window.setTimeout(() => {
+      setWrongPair(null)
+      setSelectedWord(null)
+      setSelectedDef(null)
+    }, 500)
+    return () => clearTimeout(id)
+  }, [wrongPair])
 
   const handleWord = (word: string) => {
     if (matched.has(word)) return
@@ -293,6 +298,7 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
   const [results, setResults]       = useState<(boolean | null)[]>(Array(items.length).fill(null))
   const [selectedBlank, setSelectedBlank] = useState<number | null>(null)
   const [usedWords, setUsedWords]   = useState<Set<string>>(new Set())
+  const [wrongBlank, setWrongBlank] = useState<number | null>(null)
   const [pts, setPts] = useState(0)
 
   const doneCount = results.filter(r => r !== null).length
@@ -316,15 +322,21 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
       setPts(p => p + GAP_PTS)
     } else {
       setPts(p => p - 1)
-      setTimeout(() => {
-        const rf = [...newFilled];  rf[selectedBlank]  = null
-        const rr = [...newResults]; rr[selectedBlank] = null
-        setFilled(rf)
-        setResults(rr)
-      }, 600)
+      setWrongBlank(selectedBlank)
     }
     setSelectedBlank(null)
   }
+
+  useEffect(() => {
+    if (wrongBlank === null) return
+    const blank = wrongBlank
+    const id = window.setTimeout(() => {
+      setFilled(prev => { const next = [...prev]; next[blank] = null; return next })
+      setResults(prev => { const next = [...prev]; next[blank] = null; return next })
+      setWrongBlank(null)
+    }, 600)
+    return () => clearTimeout(id)
+  }, [wrongBlank])
 
   const allDone = doneCount === items.length
 

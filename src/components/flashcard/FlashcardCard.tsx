@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import type { Word } from '@/types/word'
 import type { FlashcardMode } from '@/utils/quiz'
 import { Button } from '@/components/common/Button'
@@ -21,6 +21,8 @@ const posLabel: Record<string, string> = {
 export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
   const [flipped, setFlipped] = useState(false)
   const { isPlaying, currentSpeed, setSpeed, speak } = useAudio()
+  const speakTimerRef = useRef<number | null>(null)
+  const resultTimerRef = useRef<number | null>(null)
 
   useEffect(() => {
     // Auto-play English when showing English on front
@@ -31,16 +33,31 @@ export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [word.id])
 
+  useEffect(() => {
+    return () => {
+      if (speakTimerRef.current !== null) clearTimeout(speakTimerRef.current)
+      if (resultTimerRef.current !== null) clearTimeout(resultTimerRef.current)
+    }
+  }, [])
+
   const handleFlip = () => {
     if (!flipped) {
       setFlipped(true)
-      setTimeout(() => speak(word.english, currentSpeed), 200)
+      if (speakTimerRef.current !== null) clearTimeout(speakTimerRef.current)
+      speakTimerRef.current = window.setTimeout(() => {
+        speakTimerRef.current = null
+        speak(word.english, currentSpeed)
+      }, 200)
     }
   }
 
   const handleResult = (r: 'correct' | 'incorrect') => {
     setFlipped(false)
-    setTimeout(() => onResult(r), 50)
+    if (resultTimerRef.current !== null) clearTimeout(resultTimerRef.current)
+    resultTimerRef.current = window.setTimeout(() => {
+      resultTimerRef.current = null
+      onResult(r)
+    }, 50)
   }
 
   const frontLabel = mode === 'ja_to_en' ? word.japanese : word.english
