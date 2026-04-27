@@ -29,10 +29,7 @@ describe('UserSelectScreen', () => {
     const aliceId = useUserStore.getState().users[0]!.userId
     const user = userEvent.setup()
     render(<UserSelectScreen />)
-    // UserSelectScreen の行 button が UserAvatar の <button> を内包しているため複数 button が /Alice/ にマッチ。
-    // 外側のクリック対象 button は DOM 順で最初に現れるため [0] で取得。
-    const rowBtns = screen.getAllByRole('button', { name: /Alice/ })
-    await user.click(rowBtns[0]!)
+    await user.click(screen.getByRole('button', { name: /Alice/ }))
     expect(useUserStore.getState().currentUserId).toBe(aliceId)
   })
 
