@@ -4,7 +4,6 @@ import { useWordData } from '@/hooks/useWordData';
 import { useAudio } from '@/hooks/useAudio';
 import { AudioButton } from '@/components/common/AudioButton';
 import { SpeedControl } from '@/components/common/SpeedControl';
-import { getWordSvg } from '@/utils/wordSvg';
 import type { Word, MorphemeType, AudioSpeed } from '@/types/word';
 
 const MORPHEME_COLORS: Record<MorphemeType, { bg: string; text: string; border: string; label: string }> = {
@@ -127,12 +126,12 @@ export const EtymologyScreen: React.FC = () => {
 
         {/* 単語カード */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-          {/* SVGイラスト */}
-          <div className="bg-gradient-to-br from-green-50 to-blue-50 p-4 flex justify-center">
-            <div className="w-32 h-32">
-              {getWordSvg(word.id)}
+          {/* 絵文字イラスト（フラッシュカードと共通） */}
+          {word.emoji && (
+            <div className="bg-gradient-to-br from-green-50 to-blue-50 p-4 flex justify-center items-center">
+              <span className="text-8xl">{word.emoji}</span>
             </div>
-          </div>
+          )}
 
           {/* 単語情報 */}
           <div className="p-4">

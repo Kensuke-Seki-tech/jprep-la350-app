@@ -1,0 +1,38 @@
+{
+  "weekId": "week07",
+  "match": [
+    { "word": "deciduous",     "def": "having the trait of shedding seasonally at a certain stage of development" },
+    { "word": "raja",          "def": "a title of nobility among the Hindus; an Indian or Malay prince or ruler" },
+    { "word": "savagery",      "def": "the quality of being untamed, fierce, or violent" },
+    { "word": "suppress",      "def": "to put an end to by force; to keep from public knowledge" },
+    { "word": "contortionist", "def": "someone, usually an acrobat, who can contort their body into dramatic positions" },
+    { "word": "desolation",    "def": "a state of complete emptiness and grief; utter loneliness" },
+    { "word": "serenade",      "def": "a vocal or complimentary performance given to one who is admired by another" },
+    { "word": "tramp",         "def": "to walk or step heavily" },
+    { "word": "annotation",    "def": "a comment or explanation noted in writing" },
+    { "word": "synchronize",   "def": "to happen or arrange at the same time" }
+  ],
+  "gap": [
+    { "answer": "deciduous",     "sentence": "The maple is a deciduous tree that sheds its leaves every autumn.",              "ja": "カエデは毎秋葉を落とす落葉樹です。" },
+    { "answer": "suppress",      "sentence": "She tried to suppress her anger and remain calm.",                               "ja": "彼女は怒りを抑えて冷静でいようとした。" },
+    { "answer": "acrid",         "sentence": "The acrid smell of smoke filled the hallway after the fire.",                    "ja": "火事の後、廊下は刺激臭のある煙で充満した。" },
+    { "answer": "contortionist", "sentence": "The contortionist bent her body into impossible shapes at the circus.",          "ja": "サーカスの曲芸師は体を信じられないような形に曲げた。" },
+    { "answer": "synchronize",   "sentence": "The swimmers perfectly synchronized their movements in the water.",              "ja": "水泳選手たちは水中での動きを完璧に同期させた。" }
+  ],
+  "bank": ["deciduous", "raja", "savagery", "suppress", "contortionist", "desolation", "serenade", "tramp", "annotation", "synchronize"],
+  "mc": [
+    { "q": "What does \"innocuous\" mean?",      "opts": ["bold resistance to authority", "not likely to bother; inoffensive; harmless", "the state of being forgotten", "a comment or explanation noted in writing"], "answer": 1, "word": "innocuous" },
+    { "q": "What does \"pinion\" mean?",         "opts": ["to walk or step heavily", "a vocal performance given to an admired person", "the terminal section of a bird's wing", "having the trait of shedding seasonally"], "answer": 2, "word": "pinion" },
+    { "q": "What does \"defiance\" mean?",       "opts": ["the quality of being untamed or violent", "a state of complete emptiness and grief", "bold resistance to authority; the act of defying", "to happen or arrange at the same time"], "answer": 2, "word": "defiance" },
+    { "q": "What does \"oblivion\" mean?",       "opts": ["intense sorrow caused by loss", "a title of nobility among the Hindus", "causing annoyance or physical discomfort", "the state of being forgotten or no longer remembered"], "answer": 3, "word": "oblivion" },
+    { "q": "What does \"grief\" mean?",          "opts": ["a performer of gymnastic feats", "intense sorrow, especially caused by loss", "having or displaying violent aggressiveness", "expressing admiration or praise"], "answer": 1, "word": "grief" },
+    { "q": "What does \"fierce\" mean?",         "opts": ["not objectionable or harmful", "the act of losing something naturally", "having or displaying intense, violent aggressiveness", "situated at the end of something"], "answer": 2, "word": "fierce" },
+    { "q": "What does \"acrobat\" mean?",        "opts": ["a follower of Hinduism", "a performer of gymnastic feats requiring great skill and agility", "a distinguishing quality or characteristic", "openly resisting authority"], "answer": 1, "word": "acrobat" },
+    { "q": "What does \"terminal\" mean?",       "opts": ["expressing admiration or praise", "in a way that varies by time of year", "causing annoyance or discomfort", "situated at or forming the end or extremity of something"], "answer": 3, "word": "terminal" }
+  ],
+  "dict": [
+    { "text": "The maple is a deciduous tree that sheds its leaves every autumn.",    "word": "deciduous" },
+    { "text": "She tried to suppress her anger and remain calm.",                     "word": "suppress" },
+    { "text": "The acrid smell of smoke filled the hallway after the fire.",          "word": "acrid" }
+  ]
+}

@@ -109,9 +109,9 @@ export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
               <p className="text-2xl font-bold text-center mb-3">{word.englishDef}</p>
               <hr className="border-blue-400 w-full my-3" />
               <div className="flex items-start gap-2 w-full" onClick={e => e.stopPropagation()}>
-                <p className="flex-1 text-sm text-blue-100 italic text-center leading-relaxed">{word.exampleEn}</p>
+                <p className="flex-1 text-sm text-blue-100 italic text-center leading-relaxed">{word.englishDef}</p>
                 <AudioButton
-                  text={word.exampleEn}
+                  text={word.englishDef}
                   speed={currentSpeed}
                   isPlaying={isPlaying}
                   onSpeak={speak}

@@ -17,6 +17,7 @@ export default function HomeScreen() {
     { icon: '📝', label: 'クイズ', desc: '4択で実力チェック', path: `/quiz/${currentWeekId}`, color: 'bg-purple-500' },
     { icon: '🎯', label: '予想問題', desc: 'マッチング・穴埋め・選択・ディクテーション', path: `/predicted-quiz/${currentWeekId}`, color: 'bg-red-500' },
     { icon: '📖', label: '単語一覧', desc: '例文付き全単語リスト', path: `/wordlist/${currentWeekId}`, color: 'bg-teal-500' },
+    { icon: '✍', label: 'ディクテーション', desc: 'Sentences to Remember — テストに出る', path: `/dictation/${currentWeekId}`, color: 'bg-amber-500' },
     { icon: '📊', label: '進捗確認', desc: '学習の記録を見る', path: '/progress', color: 'bg-orange-500' },
   ]
 

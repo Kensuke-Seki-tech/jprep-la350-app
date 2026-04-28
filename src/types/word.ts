@@ -30,10 +30,16 @@ export interface Word {
   etymology?: Etymology;
 }
 
+export interface SentenceToRemember {
+  text: string;
+  ja?: string;
+}
+
 export interface WeekData {
   weekId: string;
   weekNumber: number;
   words: Word[];
+  sentencesToRemember?: SentenceToRemember[];
 }
 
 export interface WeekConfig {
