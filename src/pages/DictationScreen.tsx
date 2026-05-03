@@ -57,7 +57,7 @@ export default function DictationScreen() {
           <h2 className="text-2xl font-bold text-slate-800">Dictation</h2>
           <p className="text-sm text-slate-400">{week?.label} - Sentences to Remember</p>
         </div>
-        <SpeedControl currentSpeed={currentSpeed} onSpeedChange={setSpeed} showDictation={false} />
+        <SpeedControl currentSpeed={currentSpeed} onSpeedChange={setSpeed} showDictation={true} />
       </div>
 
       <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 mb-6 flex items-start gap-2">

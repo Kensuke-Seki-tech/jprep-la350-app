@@ -8,3 +8,6 @@ test-results-nf/
 playwright-report/
 playwright-report-nf/
 playwright/.cache/
+
+# Local Netlify folder
+.netlify

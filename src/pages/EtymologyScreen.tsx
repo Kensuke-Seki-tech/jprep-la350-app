@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { useWeeksConfig } from '@/hooks/useWeeks';
+import { useWeekStore, useWeeksConfig } from '@/hooks/useWeeks';
 import { useWordData } from '@/hooks/useWordData';
 import { useAudio } from '@/hooks/useAudio';
 import { AudioButton } from '@/components/common/AudioButton';
@@ -28,12 +28,11 @@ const MORPHEME_COLORS: Record<MorphemeType, { bg: string; text: string; border: 
 };
 
 export const EtymologyScreen: React.FC = () => {
+  const { currentWeekId } = useWeekStore();
   const { data: weeksConfig, isLoading: weeksLoading } = useWeeksConfig();
   const availableWeeks = (weeksConfig ?? []).filter((w) => w.status === 'available');
 
-  const [selectedWeekId, setSelectedWeekId] = useState(
-    availableWeeks[0]?.weekId ?? 'week05'
-  );
+  const [selectedWeekId, setSelectedWeekId] = useState(currentWeekId);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showMeaning, setShowMeaning] = useState(false);
 
@@ -85,7 +84,7 @@ export const EtymologyScreen: React.FC = () => {
   const etym = word.etymology;
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col min-h-screen bg-gray-50 overflow-x-hidden">
       {/* ヘッダー */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-lg mx-auto px-4 py-3">
@@ -287,20 +286,32 @@ export const EtymologyScreen: React.FC = () => {
             ← 前の単語
           </button>
 
-          {/* ページドット */}
-          <div className="flex gap-1">
-            {wordList.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => goTo(i)}
-                className={`rounded-full transition-all ${
-                  i === currentIndex
-                    ? 'w-4 h-3 bg-green-500'
-                    : 'w-2.5 h-2.5 bg-gray-200 hover:bg-gray-300'
-                }`}
-              />
-            ))}
-          </div>
+          {/* ページインジケーター */}
+          {wordList.length <= 10 ? (
+            <div className="flex gap-1">
+              {wordList.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => goTo(i)}
+                  className={`rounded-full transition-all ${
+                    i === currentIndex
+                      ? 'w-4 h-3 bg-green-500'
+                      : 'w-2.5 h-2.5 bg-gray-200 hover:bg-gray-300'
+                  }`}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="flex flex-col items-center gap-1">
+              <div className="w-24 h-2 bg-gray-200 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-green-500 rounded-full transition-all duration-200"
+                  style={{ width: `${((currentIndex + 1) / wordList.length) * 100}%` }}
+                />
+              </div>
+              <span className="text-xs text-gray-400">{currentIndex + 1} / {wordList.length}</span>
+            </div>
+          )}
 
           <button
             onClick={() => goTo(currentIndex + 1)}

@@ -180,26 +180,32 @@ export function FlashcardCard({ word, index, total, mode, onResult }: Props) {
         </div>
       </div>
 
-      {flipped && (
-        <div className="flex gap-3 mt-4">
-          <Button variant="danger" className="flex-1" onClick={() => handleResult('incorrect')}>
-            Again
-          </Button>
-          <Button variant="success" className="flex-1" onClick={() => handleResult('correct')}>
-            Got it!
-          </Button>
-        </div>
-      )}
-      {!flipped && (
-        <Button
-          variant="ghost"
-          className="w-full mt-4"
-          onClick={handleFlip}
-          aria-label={frontLabel}
-        >
-          Tap to reveal meaning
-        </Button>
-      )}
+      <div className="flex gap-3 mt-4">
+        {flipped ? (
+          <>
+            <Button variant="danger" className="flex-1" onClick={() => handleResult('incorrect')}>
+              Again
+            </Button>
+            <Button variant="success" className="flex-1" onClick={() => handleResult('correct')}>
+              Got it!
+            </Button>
+          </>
+        ) : (
+          <>
+            <Button
+              variant="ghost"
+              className="flex-1"
+              onClick={handleFlip}
+              aria-label={frontLabel}
+            >
+              Tap to reveal
+            </Button>
+            <Button variant="success" className="flex-1" onClick={() => handleResult('correct')}>
+              Got it!
+            </Button>
+          </>
+        )}
+      </div>
     </div>
   )
 }
