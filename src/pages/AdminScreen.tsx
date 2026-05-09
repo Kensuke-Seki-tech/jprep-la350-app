@@ -7,6 +7,7 @@ import type { AggregatedRow } from '@/components/admin/ActivityTable'
 const STORAGE_KEY = 'jprep_admin_auth'
 const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD as string
 
+
 interface ActivityLog {
   id: string
   user_name: string
