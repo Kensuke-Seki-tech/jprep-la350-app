@@ -15,6 +15,7 @@
     "test:e2e:nf": "vite build && playwright test --config playwright.nf.config.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
     "@tanstack/react-query": "^5.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
