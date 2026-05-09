@@ -9,6 +9,7 @@ import ProgressScreen from '@/pages/ProgressScreen'
 import { EtymologyScreen } from '@/pages/EtymologyScreen'
 import PredictedQuizScreen from '@/pages/PredictedQuizScreen'
 import DictationScreen from '@/pages/DictationScreen'
+import AdminScreen from '@/pages/AdminScreen'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/wordlist/:weekId" element={<WordListScreen />} />
           <Route path="/dictation/:weekId" element={<DictationScreen />} />
           <Route path="/progress" element={<ProgressScreen />} />
+          <Route path="/admin" element={<AdminScreen />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
