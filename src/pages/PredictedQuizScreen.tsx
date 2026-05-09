@@ -279,12 +279,10 @@ function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: 
         </div>
       </div>
 
-      {allMatched && (
-        <div className="text-center">
-          <p className="text-green-600 font-bold mb-4">全問マッチ完了！🎉</p>
-          <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 2 へ</Button>
-        </div>
-      )}
+      <div className="text-center">
+        {allMatched && <p className="text-green-600 font-bold mb-4">全問マッチ完了！🎉</p>}
+        <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 2 へ</Button>
+      </div>
     </div>
   )
 }
@@ -300,8 +298,6 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
   const [usedWords, setUsedWords]   = useState<Set<string>>(new Set())
   const [wrongBlank, setWrongBlank] = useState<number | null>(null)
   const [pts, setPts] = useState(0)
-
-  const doneCount = results.filter(r => r !== null).length
 
   const selectBlank = (i: number) => {
     if (results[i] === true) return
@@ -337,8 +333,6 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
     }, 600)
     return () => clearTimeout(id)
   }, [wrongBlank])
-
-  const allDone = doneCount === items.length
 
   return (
     <div className="py-4">
@@ -391,7 +385,6 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
                     {parts[1]}
                   </p>
                   <div className="flex items-center gap-2 mt-1">
-                    <p className="text-xs text-slate-400 flex-1">{item.ja}</p>
                     <button
                       onClick={() => speak(item.sentence)}
                       className="text-blue-400 hover:text-blue-600 text-sm"
@@ -405,11 +398,9 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
         })}
       </div>
 
-      {allDone && (
-        <div className="text-center">
-          <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 3 へ</Button>
-        </div>
-      )}
+      <div className="text-center">
+        <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 3 へ</Button>
+      </div>
     </div>
   )
 }

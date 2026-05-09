@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useMemo } from 'react';
 import type { Word } from '@/types/word';
 import { shuffleArray, generateChoices, type QuizMode } from '@/utils/quiz';
 
@@ -17,15 +17,18 @@ export function useQuizSession(words: Word[], mode: QuizMode) {
   const startTimeRef = useRef(Date.now());
 
   const currentWord = questions[currentIndex];
-  const choices = currentWord
-    ? generateChoices(currentWord, words, mode)
-    : [];
+  const choices = useMemo(
+    () => currentWord ? generateChoices(currentWord, words, mode) : [],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [currentWord?.id, mode]
+  );
 
   const answerQuestion = useCallback((selected: string) => {
     if (!currentWord || isAnswered) return;
-    const correctAnswer = mode === 'en_to_ja'
-      ? currentWord.japanese
-      : currentWord.english;
+    const correctAnswer =
+      mode === 'en_to_ja' ? currentWord.japanese :
+      mode === 'ja_to_en' ? currentWord.english :
+      currentWord.englishDef;
     const correct = selected === correctAnswer;
     setAnswers(prev => [...prev, {
       wordId: currentWord.id,

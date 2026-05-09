@@ -32,23 +32,18 @@ export default function QuizScreen() {
   useEffect(() => {
     if (!selected) return
     const t = setTimeout(() => {
-      if (session.isFinished) return
       session.nextQuestion()
       setSelected(null)
-    }, 1000)
+    }, 2000)
     return () => clearTimeout(t)
-  }, [selected, session])
+  // session.nextQuestion は useCallback で安定しているため session 全体を依存から外す
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selected])
 
   const handleAnswer = (ans: string) => {
     if (selected) return
     session.answerQuestion(ans)
     setSelected(ans)
-    if (session.currentIndex >= session.total - 1) {
-      setTimeout(() => {
-        session.nextQuestion()
-        setSelected(null)
-      }, 1100)
-    }
   }
 
   const handleFinish = () => {
@@ -74,7 +69,7 @@ export default function QuizScreen() {
         <div className="w-full max-w-xs mb-6">
           <p className="text-sm font-semibold text-slate-600 mb-2">出題形式</p>
           <div className="flex gap-3">
-            {(['en_to_ja', 'ja_to_en'] as QuizMode[]).map(m => (
+            {(['en_to_ja', 'ja_to_en', 'en_to_en'] as QuizMode[]).map(m => (
               <button
                 key={m}
                 onClick={() => setMode(m)}
@@ -82,7 +77,7 @@ export default function QuizScreen() {
                   mode === m ? 'border-blue-600 bg-blue-600 text-white' : 'border-slate-200 text-slate-600'
                 }`}
               >
-                {m === 'en_to_ja' ? '英→日' : '日→英'}
+                {m === 'en_to_ja' ? '英→日' : m === 'ja_to_en' ? '日→英' : '英→英'}
               </button>
             ))}
           </div>
@@ -115,6 +110,14 @@ export default function QuizScreen() {
     )
   }
 
+  const correctAnswer = session.currentWord
+    ? mode === 'en_to_ja' ? session.currentWord.japanese
+      : mode === 'ja_to_en' ? session.currentWord.english
+      : session.currentWord.englishDef
+    : ''
+
+  const isCorrect = selected !== null && selected === correctAnswer
+
   return (
     <div className="py-4">
       <QuizProgress currentIndex={session.currentIndex} total={session.total} score={session.score} />
@@ -128,10 +131,17 @@ export default function QuizScreen() {
           />
           <QuizChoices
             choices={session.choices}
-            correctAnswer={mode === 'en_to_ja' ? session.currentWord.japanese : session.currentWord.english}
+            correctAnswer={correctAnswer}
             selected={selected}
             onAnswer={handleAnswer}
           />
+          {selected && (
+            <div className={`mt-4 px-5 py-3 rounded-xl text-center font-bold text-base ${
+              isCorrect ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'
+            }`}>
+              {isCorrect ? '✅ 正解！' : `❌ 不正解 — 正解: ${correctAnswer}`}
+            </div>
+          )}
         </>
       )}
     </div>

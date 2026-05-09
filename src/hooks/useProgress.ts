@@ -8,7 +8,7 @@ export interface QuizScore {
   score: number;
   total: number;
   percentage: number;
-  mode: 'en_to_ja' | 'ja_to_en';
+  mode: 'en_to_ja' | 'ja_to_en' | 'en_to_en';
   timestamp: string;
   durationSec: number;
 }

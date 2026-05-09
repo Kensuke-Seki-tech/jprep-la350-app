@@ -1,6 +1,6 @@
 import type { Word } from '@/types/word';
 
-export type QuizMode = 'en_to_ja' | 'ja_to_en';
+export type QuizMode = 'en_to_ja' | 'ja_to_en' | 'en_to_en';
 export type FlashcardMode = 'en_to_ja' | 'ja_to_en' | 'en_to_en';
 
 export function generateChoices(
@@ -8,7 +8,10 @@ export function generateChoices(
   allWords: Word[],
   mode: QuizMode
 ): string[] {
-  const getAnswer = (w: Word) => mode === 'en_to_ja' ? w.japanese : w.english;
+  const getAnswer = (w: Word) =>
+    mode === 'en_to_ja' ? w.japanese :
+    mode === 'ja_to_en' ? w.english :
+    w.englishDef;
   const correctAnswer = getAnswer(correct);
   const pool = allWords
     .filter(w => w.id !== correct.id)

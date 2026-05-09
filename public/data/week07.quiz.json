@@ -10,7 +10,12 @@
     { "word": "serenade",      "def": "a vocal or complimentary performance given to one who is admired by another" },
     { "word": "tramp",         "def": "to walk or step heavily" },
     { "word": "annotation",    "def": "a comment or explanation noted in writing" },
-    { "word": "synchronize",   "def": "to happen or arrange at the same time" }
+    { "word": "synchronize",   "def": "to happen or arrange at the same time" },
+    { "word": "innocuous",     "def": "not likely to bother; inoffensive; harmless" },
+    { "word": "pinion",        "def": "the terminal section of a bird's wing" },
+    { "word": "acrid",         "def": "something sharp, irritating, or biting in taste or odor" },
+    { "word": "defiance",      "def": "bold resistance to authority; the act of defying" },
+    { "word": "oblivion",      "def": "the state of being forgotten or no longer remembered" }
   ],
   "gap": [
     { "answer": "deciduous",     "sentence": "The maple is a deciduous tree that sheds its leaves every autumn.",              "ja": "カエデは毎秋葉を落とす落葉樹です。" },
@@ -19,7 +24,7 @@
     { "answer": "contortionist", "sentence": "The contortionist bent her body into impossible shapes at the circus.",          "ja": "サーカスの曲芸師は体を信じられないような形に曲げた。" },
     { "answer": "synchronize",   "sentence": "The swimmers perfectly synchronized their movements in the water.",              "ja": "水泳選手たちは水中での動きを完璧に同期させた。" }
   ],
-  "bank": ["deciduous", "raja", "savagery", "suppress", "contortionist", "desolation", "serenade", "tramp", "annotation", "synchronize"],
+  "bank": ["deciduous", "raja", "savagery", "suppress", "contortionist", "desolation", "serenade", "tramp", "annotation", "synchronize", "acrid"],
   "mc": [
     { "q": "What does \"innocuous\" mean?",      "opts": ["bold resistance to authority", "not likely to bother; inoffensive; harmless", "the state of being forgotten", "a comment or explanation noted in writing"], "answer": 1, "word": "innocuous" },
     { "q": "What does \"pinion\" mean?",         "opts": ["to walk or step heavily", "a vocal performance given to an admired person", "the terminal section of a bird's wing", "having the trait of shedding seasonally"], "answer": 2, "word": "pinion" },

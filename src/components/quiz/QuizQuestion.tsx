@@ -9,7 +9,7 @@ interface Props {
 }
 
 export function QuizQuestion({ word, mode, currentIndex, total }: Props) {
-  const question = mode === 'en_to_ja' ? word.english : word.japanese
+  const question = mode === 'ja_to_en' ? word.japanese : word.english
   const sub = mode === 'en_to_ja' ? word.englishDef : ''
 
   return (
