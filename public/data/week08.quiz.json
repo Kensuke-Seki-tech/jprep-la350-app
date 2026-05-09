@@ -1,0 +1,44 @@
+{
+  "weekId": "week08",
+  "match": [
+    { "word": "apprentice",        "def": "an inexperienced person learning by practical experience under a skilled worker" },
+    { "word": "incriminating",     "def": "to charge with or show evidence of involvement in a crime" },
+    { "word": "legion",            "def": "a large military force" },
+    { "word": "catapult",          "def": "to throw or fling" },
+    { "word": "mutilate",          "def": "to cut or alter radically; to cut or cause severe damage" },
+    { "word": "self-recrimination","def": "the act of accusing or blaming oneself" },
+    { "word": "mutinous",          "def": "rebellious; unruly" },
+    { "word": "buoyant",           "def": "capable of floating" },
+    { "word": "barter",            "def": "to trade by exchanging things of equal value" },
+    { "word": "raucous",           "def": "disorderly or harsh" },
+    { "word": "strident",          "def": "commanding attention by a loud quality" },
+    { "word": "cacophony",         "def": "a chaotic mixture of harsh sounds" },
+    { "word": "outcrops",          "def": "crops coming out of solid rock or its surrounding soil" },
+    { "word": "impregnable",       "def": "unable to be conquered" },
+    { "word": "cadaverous",        "def": "related or similar to a dead body" },
+    { "word": "eerie",             "def": "mysterious, strange as to send chills up someone's spine" }
+  ],
+  "gap": [
+    { "answer": "apprentice",  "sentence": "The young apprentice spent three years learning carpentry from a master craftsman.",  "ja": "若い見習いは名工のもとで3年間大工仕事を学んだ。" },
+    { "answer": "catapult",    "sentence": "Her talent for singing quickly catapulted her to stardom.",                           "ja": "歌の才能が彼女をすぐにスターダムへと一気に押し上げた。" },
+    { "answer": "mutinous",    "sentence": "The mutinous sailors refused to follow the captain's orders.",                        "ja": "反乱を起こした船員たちは船長の命令に従うことを拒んだ。" },
+    { "answer": "barter",      "sentence": "Before money existed, people would barter goods such as grain for livestock.",        "ja": "お金が存在する前、人々は穀物と家畜などの物々交換をしていた。" },
+    { "answer": "cacophony",   "sentence": "The construction site produced a cacophony of drilling, hammering, and machinery.",   "ja": "建設現場はドリル、ハンマー、機械の不協和音を生み出していた。" }
+  ],
+  "bank": ["apprentice", "catapult", "mutinous", "barter", "cacophony", "legion", "incriminating", "buoyant", "raucous", "strident", "impregnable"],
+  "mc": [
+    { "q": "What does \"strident\" mean?",          "opts": ["capable of floating", "commanding attention by a loud quality", "related or similar to a dead body", "unable to be conquered"], "answer": 1, "word": "strident" },
+    { "q": "What does \"cadaverous\" mean?",         "opts": ["rebellious; unruly", "a chaotic mixture of harsh sounds", "related or similar to a dead body", "disorderly or harsh"], "answer": 2, "word": "cadaverous" },
+    { "q": "What does \"impregnable\" mean?",        "opts": ["mysterious, strange as to send chills", "unable to be conquered", "crops coming out of solid rock", "an inexperienced person learning from a skilled worker"], "answer": 1, "word": "impregnable" },
+    { "q": "What does \"eerie\" mean?",              "opts": ["commanding attention by a loud quality", "disorderly or harsh", "a large military force", "mysterious, strange as to send chills up someone's spine"], "answer": 3, "word": "eerie" },
+    { "q": "What does \"legion\" mean?",             "opts": ["to throw or fling", "a large military force", "the act of accusing oneself", "crops coming out of solid rock"], "answer": 1, "word": "legion" },
+    { "q": "What does \"outcrops\" mean?",           "opts": ["unable to be conquered", "rebellious; unruly", "crops coming out of solid rock or its surrounding soil", "capable of floating"], "answer": 2, "word": "outcrops" },
+    { "q": "What does \"self-recrimination\" mean?", "opts": ["to trade by exchanging things of equal value", "the act of accusing or blaming oneself", "a chaotic mixture of harsh sounds", "an inexperienced learner"], "answer": 1, "word": "self-recrimination" },
+    { "q": "What does \"mutilate\" mean?",           "opts": ["to charge with evidence of a crime", "the act of blaming oneself", "a large military force", "to cut or alter radically; to cut or cause severe damage"], "answer": 3, "word": "mutilate" }
+  ],
+  "dict": [
+    { "text": "My father was born into a Traveler family, not that he ever talks about it.", "word": "Traveler" },
+    { "text": "The moon was full and huge, like a giant silver ship setting across a dark sea.", "word": "silver" },
+    { "text": "She turned and ran through boat after boat, desperate now, turning at random.", "word": "desperate" }
+  ]
+}

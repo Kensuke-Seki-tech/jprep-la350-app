@@ -1,0 +1,366 @@
+{
+  "weekId": "week08",
+  "weekNumber": 8,
+  "sentencesToRemember": [
+    {
+      "text": "My father was born into a Traveler family, not that he ever talks about it.",
+      "ja": "父はトラベラーの家に生まれたが、そのことを話したことは一度もない。"
+    },
+    {
+      "text": "Plates were smashed and pages had been torn out of books and scattered across the floor.",
+      "ja": "皿は砕かれ、本のページは引きちぎられて床中に散らばっていた。"
+    },
+    {
+      "text": "Inside was a dim, busy room, lit by portholes and elegant bay windows along its length.",
+      "ja": "中は薄暗く賑やかな部屋で、舷窓と優雅なベイウィンドウが一面に光を差し込んでいた。"
+    },
+    {
+      "text": "The moon was full and huge, like a giant silver ship setting across a dark sea.",
+      "ja": "月は満月で巨大で、暗い海を渡る巨大な銀の船のようだった。"
+    },
+    {
+      "text": "She turned and ran through boat after boat, desperate now, turning at random.",
+      "ja": "彼女は向きを変え、必死になって次々とボートを駆け抜け、でたらめに方向を変えた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w08_001",
+      "english": "apprentice",
+      "japanese": "見習い、徒弟",
+      "englishDef": "an inexperienced person who is learning by practical experience under a skilled worker",
+      "partOfSpeech": "n",
+      "ipa": "/əˈpren.tɪs/",
+      "katakana": "ə-PREN-tis",
+      "emoji": "🔨",
+      "exampleEn": "The young apprentice spent three years learning carpentry from a master craftsman.",
+      "exampleJa": "若い見習いは名工のもとで3年間大工仕事を学んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ap-", "type": "prefix", "meaning": "～に向かって（ラテン語 ad- の変形）" },
+          { "part": "prend/prehend", "type": "root", "meaning": "つかむ・学ぶ（ラテン語 apprehendere）" }
+        ],
+        "imageDescription": "熟練した職人のそばで真剣な表情で技を学んでいる若い見習いの様子",
+        "relatedWords": ["apprehend", "comprehend", "prehensile", "apprenticeship"],
+        "memoryTip": "ap（～に）＋ prend（つかむ）→ 技術を「つかみ取ろう」とする人 → 見習い！\napprehend（理解する・捕まえる）も同じ語根！"
+      }
+    },
+    {
+      "id": "w08_002",
+      "english": "incriminating",
+      "japanese": "有罪を示す、不利な証拠となる",
+      "englishDef": "to charge with or show evidence of involvement in a crime",
+      "partOfSpeech": "v",
+      "ipa": "/ɪnˈkrɪm.ɪ.neɪ.tɪŋ/",
+      "katakana": "in-KRIM-i-nay-ting",
+      "emoji": "🔍",
+      "exampleEn": "The detective found incriminating evidence that linked the suspect to the crime scene.",
+      "exampleJa": "刑事は容疑者を犯行現場に結びつける不利な証拠を発見した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "中へ・～に" },
+          { "part": "crimin", "type": "root", "meaning": "罪・告発（ラテン語 crimen）" },
+          { "part": "-ate/-ing", "type": "suffix", "meaning": "動詞化" }
+        ],
+        "imageDescription": "刑事が犯人の指紋のついた凶器を証拠袋に入れている場面",
+        "relatedWords": ["criminal", "crime", "incriminate", "discriminate", "recrimination"],
+        "memoryTip": "in（中へ）＋ crimin（罪）→ 罪の中に引き込む → 有罪を示す！\ncriminal（犯罪者）も同じ語根 crimin！"
+      }
+    },
+    {
+      "id": "w08_003",
+      "english": "legion",
+      "japanese": "軍団、大勢の集団",
+      "englishDef": "a large military force",
+      "partOfSpeech": "n",
+      "ipa": "/ˈliː.dʒən/",
+      "katakana": "LEE-jən",
+      "emoji": "⚔️",
+      "exampleEn": "A Roman legion consisted of thousands of highly trained soldiers.",
+      "exampleJa": "ローマの軍団は何千人もの精鋭兵士で構成されていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "leg", "type": "root", "meaning": "集める・選ぶ（ラテン語 legere）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化（集合体）" }
+        ],
+        "imageDescription": "盾と槍を持ったローマの兵士たちが整然と隊列を組んで行進している様子",
+        "relatedWords": ["legible", "collect", "select", "lecture", "elegant", "legion"],
+        "memoryTip": "leg（集める）＋ -ion → 集めた人々の集団 → 軍団！\nlegible（読める）も「文字を集め取る」から同じ語根！"
+      }
+    },
+    {
+      "id": "w08_004",
+      "english": "catapult",
+      "japanese": "投石機；急速に押し上げる",
+      "englishDef": "to throw or fling",
+      "partOfSpeech": "v",
+      "ipa": "/ˈkæt.ə.pʌlt/",
+      "katakana": "KAT-ə-pult",
+      "emoji": "🪃",
+      "exampleEn": "Her talent for singing quickly catapulted her to stardom.",
+      "exampleJa": "歌の才能が彼女をすぐにスターダムへと一気に押し上げた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "kata-", "type": "prefix", "meaning": "下へ・勢いよく（ギリシャ語）" },
+          { "part": "pult/pallein", "type": "root", "meaning": "投げる（ギリシャ語 pallein）" }
+        ],
+        "imageDescription": "中世の攻城戦で大きな石を勢いよく投げ飛ばすカタパルト（投石機）の様子",
+        "relatedWords": ["catapult (noun)"],
+        "memoryTip": "kata（勢いよく）＋ pult（投げる）→ 勢いよく投げ飛ばす → 投石機・急上昇させる！"
+      }
+    },
+    {
+      "id": "w08_005",
+      "english": "mutilate",
+      "japanese": "切断する、ひどく傷つける",
+      "englishDef": "to cut or alter radically; to cut or cause severe damage",
+      "partOfSpeech": "v",
+      "ipa": "/ˈmjuː.tɪ.leɪt/",
+      "katakana": "MYOO-ti-layt",
+      "emoji": "🗡️",
+      "exampleEn": "The storm mutilated the ancient oak tree, leaving only a broken stump.",
+      "exampleJa": "嵐は古いオークの木をひどく損傷させ、折れた切り株だけを残した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mutilus", "type": "root", "meaning": "切り取られた・不完全な（ラテン語）" },
+          { "part": "-ate", "type": "suffix", "meaning": "動詞化（～する）" }
+        ],
+        "imageDescription": "嵐によって幹が折れ、枝が引きちぎられてしまった大木の無残な姿",
+        "relatedWords": ["mutilation", "mutilated"],
+        "memoryTip": "mutilus（切り取られた）→ 体や物をひどく傷つけること → 切断する！"
+      }
+    },
+    {
+      "id": "w08_006",
+      "english": "self-recrimination",
+      "japanese": "自己非難、自分を責めること",
+      "englishDef": "the act of accusing or blaming oneself",
+      "partOfSpeech": "n",
+      "ipa": "/self rɪˌkrɪm.ɪˈneɪ.ʃən/",
+      "katakana": "self ri-krim-i-NAY-shən",
+      "emoji": "😔",
+      "exampleEn": "After the accident, he was filled with self-recrimination for not acting sooner.",
+      "exampleJa": "事故の後、彼はもっと早く行動しなかったことへの自己非難でいっぱいになった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "self", "type": "root", "meaning": "自分自身" },
+          { "part": "re-", "type": "prefix", "meaning": "返す・再び" },
+          { "part": "crimin", "type": "root", "meaning": "罪・告発（ラテン語 crimen）" },
+          { "part": "-ation", "type": "suffix", "meaning": "名詞化（行為）" }
+        ],
+        "imageDescription": "頭を抱えて自分を責め続けている人が暗い部屋の隅でうずくまっている様子",
+        "relatedWords": ["recriminate", "recrimination", "criminal", "incriminate"],
+        "memoryTip": "self（自分）＋ re（返す）＋ crimin（罪）→ 自分に罪を返す → 自己非難！\nincriminating（有罪を示す）も同じ語根！"
+      }
+    },
+    {
+      "id": "w08_007",
+      "english": "mutinous",
+      "japanese": "反乱の、反抗的な",
+      "englishDef": "rebellious; unruly",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈmjuː.tɪ.nəs/",
+      "katakana": "MYOO-ti-nəs",
+      "emoji": "🏴‍☠️",
+      "exampleEn": "The mutinous sailors refused to follow the captain's orders.",
+      "exampleJa": "反乱を起こした船員たちは船長の命令に従うことを拒んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mutin", "type": "root", "meaning": "反乱・暴動（フランス語 mutin → ラテン語 movere＝動く）" },
+          { "part": "-ous", "type": "suffix", "meaning": "形容詞化（～の性質の）" }
+        ],
+        "imageDescription": "船上で武器を手に持ち船長に反旗を翻した船員たちが向き合っている場面",
+        "relatedWords": ["mutiny", "mutineer", "mutinously"],
+        "memoryTip": "mutin（反乱）＋ -ous → 反乱の性質を持つ → 反乱の・反抗的な！\nmutiny（反乱）の形容詞形！"
+      }
+    },
+    {
+      "id": "w08_008",
+      "english": "buoyant",
+      "japanese": "浮力のある、快活な",
+      "englishDef": "capable of floating",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈbɔɪ.ənt/",
+      "katakana": "BOY-ənt",
+      "emoji": "🛟",
+      "exampleEn": "The life jacket kept him buoyant as he waited to be rescued.",
+      "exampleJa": "救命胴衣が彼を水に浮かせたまま救助を待つことができた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "buoy", "type": "root", "meaning": "浮標・浮かぶ（スペイン語 boya → フランス語 bouée）" },
+          { "part": "-ant", "type": "suffix", "meaning": "形容詞化（～の能力がある）" }
+        ],
+        "imageDescription": "オレンジ色の救命ブイが青い海面に浮かんでいる様子",
+        "relatedWords": ["buoy", "buoyancy", "buoyantly"],
+        "memoryTip": "buoy（ブイ・浮標）＋ -ant（できる）→ ブイのように浮かべる → 浮力のある！"
+      }
+    },
+    {
+      "id": "w08_009",
+      "english": "barter",
+      "japanese": "物々交換する、交易する",
+      "englishDef": "to trade by exchanging things of equal value",
+      "partOfSpeech": "v",
+      "ipa": "/ˈbɑː.tər/",
+      "katakana": "BAR-tər",
+      "emoji": "🔄",
+      "exampleEn": "Before money existed, people would barter goods such as grain for livestock.",
+      "exampleJa": "お金が存在する前、人々は穀物と家畜などの物々交換をしていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "barater", "type": "root", "meaning": "交換する・だます（古フランス語）" }
+        ],
+        "imageDescription": "古代の市場で農夫が穀物の袋と布地を交換している様子",
+        "relatedWords": ["barter (n)", "bartering"],
+        "memoryTip": "barater（交換する）→ お金を使わず物と物を交換する → 物々交換！\n「バーター」として日本語にも入っている！"
+      }
+    },
+    {
+      "id": "w08_010",
+      "english": "raucous",
+      "japanese": "騒々しい、耳障りな",
+      "englishDef": "disorderly or harsh",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrɔː.kəs/",
+      "katakana": "RAW-kəs",
+      "emoji": "📣",
+      "exampleEn": "The raucous crowd cheered wildly as the team scored the winning goal.",
+      "exampleJa": "チームが決勝ゴールを決めると、騒々しい群衆が狂ったように歓声を上げた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "raucus", "type": "root", "meaning": "しゃがれた・耳障りな（ラテン語）" }
+        ],
+        "imageDescription": "スタジアムで大勢のファンが大声で叫び騒いでいる様子",
+        "relatedWords": ["raucously", "raucousness", "hoarse"],
+        "memoryTip": "raucus（しゃがれた）→ 耳障りな大騒ぎ → 騒々しい！\n「ロックコンサート」の rau- で覚えよう！"
+      }
+    },
+    {
+      "id": "w08_011",
+      "english": "strident",
+      "japanese": "甲高い、耳障りに大きな",
+      "englishDef": "commanding attention by a loud quality",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈstraɪ.dənt/",
+      "katakana": "STRY-dənt",
+      "emoji": "📢",
+      "exampleEn": "Her strident voice could be heard across the entire hall.",
+      "exampleJa": "彼女の甲高い声はホール全体に響き渡った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "strid", "type": "root", "meaning": "耳障りな音を出す（ラテン語 stridere）" },
+          { "part": "-ent", "type": "suffix", "meaning": "形容詞化（～している）" }
+        ],
+        "imageDescription": "拡声器で大声を張り上げ聴衆の注目を集めている演説者の様子",
+        "relatedWords": ["stridor", "stridently", "stridency"],
+        "memoryTip": "strid（きしむ音）＋ -ent → きしむような甲高い音を出す → 甲高い！"
+      }
+    },
+    {
+      "id": "w08_012",
+      "english": "cacophony",
+      "japanese": "不協和音、騒音の混乱",
+      "englishDef": "a chaotic mixture of harsh sounds",
+      "partOfSpeech": "n",
+      "ipa": "/kæˈkɒf.ə.ni/",
+      "katakana": "kə-KOF-ə-nee",
+      "emoji": "🔊",
+      "exampleEn": "The construction site produced a cacophony of drilling, hammering, and machinery.",
+      "exampleJa": "建設現場はドリル、ハンマー、機械の不協和音を生み出していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "caco-", "type": "prefix", "meaning": "悪い・不快な（ギリシャ語 kakos）" },
+          { "part": "phon", "type": "root", "meaning": "音・声（ギリシャ語 phonē）" },
+          { "part": "-y", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "工事現場でドリル・ハンマー・機械が同時に轟音を出し混沌とした様子",
+        "relatedWords": ["euphony", "symphony", "microphone", "phonics", "cacophonous"],
+        "memoryTip": "caco（悪い）＋ phon（音）→ 悪い音の集まり → 不協和音！\neuphony（美しい音）は eu（良い）＋ phon（音）で対義語！"
+      }
+    },
+    {
+      "id": "w08_013",
+      "english": "outcrops",
+      "japanese": "岩の露頭（地面から突き出た岩）",
+      "englishDef": "crops coming out of solid rock or its surrounding soil",
+      "partOfSpeech": "n",
+      "ipa": "/ˈaʊt.krɒps/",
+      "katakana": "AWT-krops",
+      "emoji": "🪨",
+      "exampleEn": "The hikers rested on the rocky outcrops that jutted out from the hillside.",
+      "exampleJa": "ハイカーたちは丘の斜面から突き出た岩の露頭で休憩した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "out", "type": "prefix", "meaning": "外へ・突き出て" },
+          { "part": "crop", "type": "root", "meaning": "突き出るもの・現れるもの（古英語）" }
+        ],
+        "imageDescription": "山の斜面から大きな岩盤が地表に突き出ている地質学的な露頭の様子",
+        "relatedWords": ["outcrop (v)", "crop up"],
+        "memoryTip": "out（外へ）＋ crop（突き出るもの）→ 地面から突き出た岩 → 露頭！\ncrop up（突然現れる）も同じ crop！"
+      }
+    },
+    {
+      "id": "w08_014",
+      "english": "impregnable",
+      "japanese": "難攻不落の、攻略不可能な",
+      "englishDef": "unable to be conquered",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪmˈpreɡ.nə.bəl/",
+      "katakana": "im-PREG-nə-bəl",
+      "emoji": "🏰",
+      "exampleEn": "The fortress was considered impregnable due to its thick walls and strategic location.",
+      "exampleJa": "その要塞は厚い壁と戦略的な立地から難攻不落とされていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "im-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "pregn/prend", "type": "root", "meaning": "取る・攻め取る（古フランス語 prendre）" },
+          { "part": "-able", "type": "suffix", "meaning": "形容詞化（～できる）" }
+        ],
+        "imageDescription": "高い石壁と深い堀に守られた巨大な城が敵の攻撃を跳ね返している様子",
+        "relatedWords": ["pregnable", "impregnate", "impenetrably"],
+        "memoryTip": "im（否定）＋ pregn（取る）＋ -able（できる）→ 取ることができない → 難攻不落！"
+      }
+    },
+    {
+      "id": "w08_015",
+      "english": "cadaverous",
+      "japanese": "死体のような、青白くやせ細った",
+      "englishDef": "related or similar to a dead body",
+      "partOfSpeech": "adj",
+      "ipa": "/kəˈdæv.ər.əs/",
+      "katakana": "kə-DAV-ər-əs",
+      "emoji": "💀",
+      "exampleEn": "The prisoner emerged from the cell looking cadaverous after months of illness.",
+      "exampleJa": "その囚人は何ヶ月もの病気の後、死体のような顔で独房から出てきた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cadaver", "type": "root", "meaning": "死体（ラテン語 → cadere＝落ちる・倒れる）" },
+          { "part": "-ous", "type": "suffix", "meaning": "形容詞化（～に似た）" }
+        ],
+        "imageDescription": "長い闘病で頬がこけ、青白い顔で病院のベッドに横たわっている人の様子",
+        "relatedWords": ["cadaver", "cadence", "cascade", "accident", "decay"],
+        "memoryTip": "cadaver（死体）＋ -ous → 死体に似た → 青白くやせ細った！\ncadere（落ちる）→ cadence・cascade・accident も同じ語根！"
+      }
+    },
+    {
+      "id": "w08_016",
+      "english": "eerie",
+      "japanese": "不気味な、ぞっとするような",
+      "englishDef": "mysterious, strange as to send chills up someone's spine",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈɪər.i/",
+      "katakana": "EER-ee",
+      "emoji": "👻",
+      "exampleEn": "An eerie silence fell over the abandoned village as night approached.",
+      "exampleJa": "夜が近づくにつれ、廃村に不気味な静寂が漂った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "earg", "type": "root", "meaning": "恐ろしい・臆病な（古英語）→ 不気味な（中英語 eri）" }
+        ],
+        "imageDescription": "霧の立ちこめる夜の廃屋の窓に青白い光が揺れ、背筋がぞっとするような情景",
+        "relatedWords": ["eerily", "eeriness"],
+        "memoryTip": "earg（恐ろしい）→ eerie → 背筋がぞっとする不気味さ！\n「イーリー（eerie）」→ 「いやーな感じ」で覚えよう！"
+      }
+    }
+  ]
+}
