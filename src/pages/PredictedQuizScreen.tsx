@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
 import { useAudio } from '@/hooks/useAudio'
 import { Button } from '@/components/common/Button'
@@ -35,6 +36,7 @@ function shuffled<T>(arr: T[]): T[] {
 // ── Main component ───────────────────────────────────────────
 export default function PredictedQuizScreen() {
   const { weekId = 'week05' } = useParams()
+  useActivityLog('predicted_quiz', weekId)
   const navigate = useNavigate()
   const { data: weeks } = useWeeksConfig()
   const week = weeks?.find(w => w.weekId === weekId)

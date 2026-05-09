@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
 import { useWordData } from '@/hooks/useWordData'
 import { useCurrentUser } from '@/hooks/useUserStore'
@@ -15,6 +16,7 @@ import type { QuizMode } from '@/utils/quiz'
 
 export default function QuizScreen() {
   const { weekId = 'week05' } = useParams()
+  useActivityLog('quiz', weekId)
   const navigate = useNavigate()
   const { data: weeks } = useWeeksConfig()
   const week = weeks?.find(w => w.weekId === weekId)

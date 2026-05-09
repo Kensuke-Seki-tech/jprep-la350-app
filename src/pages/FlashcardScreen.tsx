@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
 import { useWordData } from '@/hooks/useWordData'
 import { useCurrentUser } from '@/hooks/useUserStore'
@@ -20,6 +21,7 @@ const MODES: { value: FlashcardMode; label: string; desc: string }[] = [
 
 export default function FlashcardScreen() {
   const { weekId = 'week05' } = useParams()
+  useActivityLog('flashcard', weekId)
   const navigate = useNavigate()
   const { data: weeks } = useWeeksConfig()
   const week = weeks?.find(w => w.weekId === weekId)

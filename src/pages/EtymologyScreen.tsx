@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { useWeekStore, useWeeksConfig } from '@/hooks/useWeeks';
+import { useActivityLog } from '@/hooks/useActivityLog';
 import { useWordData } from '@/hooks/useWordData';
 import { useAudio } from '@/hooks/useAudio';
 import { AudioButton } from '@/components/common/AudioButton';
@@ -29,6 +30,7 @@ const MORPHEME_COLORS: Record<MorphemeType, { bg: string; text: string; border: 
 
 export const EtymologyScreen: React.FC = () => {
   const { currentWeekId } = useWeekStore();
+  useActivityLog('etymology', currentWeekId);
   const { data: weeksConfig, isLoading: weeksLoading } = useWeeksConfig();
   const availableWeeks = (weeksConfig ?? []).filter((w) => w.status === 'available');
 

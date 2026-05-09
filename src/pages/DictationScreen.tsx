@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import { useActivityLog } from '@/hooks/useActivityLog'
 import { useQuery } from '@tanstack/react-query'
 import { useWeeksConfig } from '@/hooks/useWeeks'
 import { useAudio } from '@/hooks/useAudio'
@@ -10,6 +11,7 @@ import type { WeekData, SentenceToRemember } from '@/types/word'
 
 export default function DictationScreen() {
   const { weekId = 'week05' } = useParams()
+  useActivityLog('dictation', weekId)
   const navigate = useNavigate()
   const { data: weeks } = useWeeksConfig()
   const week = weeks?.find(w => w.weekId === weekId)

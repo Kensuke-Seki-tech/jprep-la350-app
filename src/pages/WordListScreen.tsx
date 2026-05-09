@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
 import { useWordData } from '@/hooks/useWordData'
 import { WordListItem } from '@/components/wordlist/WordListItem'
@@ -9,6 +10,7 @@ import type { AudioSpeed } from '@/types/word'
 
 export default function WordListScreen() {
   const { weekId = 'week05' } = useParams()
+  useActivityLog('wordlist', weekId)
   const { data: weeks } = useWeeksConfig()
   const week = weeks?.find(w => w.weekId === weekId)
   const { data: wordData, isLoading } = useWordData(weekId, week?.dataUrl ?? null)
