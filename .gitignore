@@ -11,3 +11,6 @@ playwright/.cache/
 
 # Local Netlify folder
 .netlify
+
+# Claude Code 個人ローカル設定
+.claude/settings.local.json
