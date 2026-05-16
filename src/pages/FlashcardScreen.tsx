@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
@@ -12,6 +12,7 @@ import { Button } from '@/components/common/Button'
 import { ProgressBar } from '@/components/common/ProgressBar'
 
 type CardResult = { wordId: string; result: 'correct' | 'incorrect' }
+type FilterMode = 'all' | 'wrong'
 
 const MODES: { value: FlashcardMode; label: string; desc: string }[] = [
   { value: 'en_to_ja', label: '英 → 日', desc: '英単語を見て日本語を答える' },
@@ -27,7 +28,7 @@ export default function FlashcardScreen() {
   const week = weeks?.find(w => w.weekId === weekId)
   const { data: words } = useWordData(weekId, week?.dataUrl ?? null)
   const currentUser = useCurrentUser()
-  const { saveFlashcardResult } = useProgress(currentUser?.userId ?? null)
+  const { saveFlashcardResult, getLastFlashcardWrongWordIds, getFlashcardScores } = useProgress(currentUser?.userId ?? null)
 
   const [cards, setCards] = useState<typeof words>()
   const [index, setIndex] = useState(0)
@@ -35,10 +36,29 @@ export default function FlashcardScreen() {
   const [started, setStarted] = useState(false)
   const [finished, setFinished] = useState(false)
   const [mode, setMode] = useState<FlashcardMode>('en_to_ja')
+  const [filterMode, setFilterMode] = useState<FilterMode>('all')
+
+  const wrongIds = useMemo(
+    () => getLastFlashcardWrongWordIds(weekId),
+    [getLastFlashcardWrongWordIds, weekId]
+  )
+
+  const hasLastSession = useMemo(
+    () => getFlashcardScores().some(s => s.weekId === weekId),
+    [getFlashcardScores, weekId]
+  )
+
+  const wrongDisabled = wrongIds.length === 0
+  const wrongLabel = wrongDisabled
+    ? hasLastSession ? '前回全問正解！' : '前回データなし'
+    : `${wrongIds.length}語`
 
   const start = () => {
     if (!words) return
-    setCards(shuffleArray(words))
+    const pool = filterMode === 'wrong' && wrongIds.length > 0
+      ? words.filter(w => wrongIds.includes(w.id))
+      : words
+    setCards(shuffleArray(pool))
     setIndex(0)
     setResults([])
     setStarted(true)
@@ -80,7 +100,7 @@ export default function FlashcardScreen() {
         <h2 className="text-2xl font-bold text-slate-800 mb-2">フラッシュカード</h2>
         <p className="text-slate-500 mb-6">{week?.label} — {words.length}語</p>
 
-        <div className="w-full max-w-xs mb-6">
+        <div className="w-full max-w-xs mb-4">
           <p className="text-sm font-semibold text-slate-600 mb-2">学習モード</p>
           <div className="flex flex-col gap-2">
             {MODES.map(m => (
@@ -97,6 +117,35 @@ export default function FlashcardScreen() {
                 <span className={`text-xs ${mode === m.value ? 'text-blue-100' : 'text-slate-400'}`}>{m.desc}</span>
               </button>
             ))}
+          </div>
+        </div>
+
+        <div className="w-full max-w-xs mb-6">
+          <p className="text-sm font-semibold text-slate-600 mb-2">出題範囲</p>
+          <div className="flex flex-col gap-2">
+            <button
+              onClick={() => setFilterMode('all')}
+              className={`w-full py-3 px-4 rounded-xl border-2 font-semibold text-sm transition-colors text-left ${
+                filterMode === 'all'
+                  ? 'border-blue-600 bg-blue-600 text-white'
+                  : 'border-slate-200 text-slate-600 bg-white'
+              }`}
+            >
+              全問 ({words.length}語)
+            </button>
+            <button
+              onClick={() => !wrongDisabled && setFilterMode('wrong')}
+              disabled={wrongDisabled}
+              className={`w-full py-3 px-4 rounded-xl border-2 font-semibold text-sm transition-colors text-left ${
+                wrongDisabled
+                  ? 'border-slate-100 bg-slate-50 text-slate-300 cursor-not-allowed'
+                  : filterMode === 'wrong'
+                  ? 'border-blue-600 bg-blue-600 text-white'
+                  : 'border-slate-200 text-slate-600 bg-white'
+              }`}
+            >
+              前回間違えた問題 ({wrongLabel})
+            </button>
           </div>
         </div>
 

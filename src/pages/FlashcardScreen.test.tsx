@@ -67,3 +67,23 @@ describe('FlashcardScreen - 3 モード', () => {
     expect(await screen.findByText('a young tree')).toBeInTheDocument()
   })
 })
+
+describe('FlashcardScreen — 出題範囲フィルタ', () => {
+  beforeEach(() => {
+    vi.spyOn(Math, 'random').mockReturnValue(0.5)
+  })
+
+  it('TC-U-FLASHCARD-FILTER-01: 出題範囲セクションが表示され全問がデフォルト', async () => {
+    renderScreen()
+    expect(await screen.findByText('出題範囲')).toBeInTheDocument()
+    const allBtn = screen.getByRole('button', { name: /全問/ })
+    expect(allBtn.className).toContain('blue-600')
+  })
+
+  it('TC-U-FLASHCARD-FILTER-02: 前回データなしの時、前回間違えた問題ボタンがdisabled', async () => {
+    renderScreen()
+    await screen.findByText('出題範囲')
+    const wrongBtn = screen.getByRole('button', { name: /前回間違えた問題/ })
+    expect(wrongBtn).toBeDisabled()
+  })
+})
