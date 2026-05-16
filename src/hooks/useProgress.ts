@@ -1,6 +1,11 @@
 import { useState, useCallback } from 'react';
 import { getItem, setItem, userKey } from '@/utils/storage';
+import type { QuizMode } from '@/utils/quiz';
 
+export interface QuizAnswer {
+  wordId: string;
+  correct: boolean;
+}
 
 export interface QuizScore {
   scoreId: string;
@@ -11,6 +16,7 @@ export interface QuizScore {
   mode: 'en_to_ja' | 'ja_to_en' | 'en_to_en';
   timestamp: string;
   durationSec: number;
+  answers?: QuizAnswer[];
 }
 
 export interface FlashcardResult {
@@ -27,6 +33,20 @@ export interface FlashcardScore {
   timestamp: string;
 }
 
+export interface PredictedQuizScore {
+  sessionId: string;
+  weekId: string;
+  timestamp: string;
+  score: number;
+  maxScore: number;
+  wrongItems: {
+    match: string[];
+    gap: string[];
+    mc: string[];
+    dict: string[];
+  };
+}
+
 export function useProgress(userId: string | null) {
   const [_refresh, setRefresh] = useState(0);
   const refresh = useCallback(() => setRefresh(n => n + 1), []);
@@ -39,6 +59,11 @@ export function useProgress(userId: string | null) {
   const getFlashcardScores = useCallback((): FlashcardScore[] => {
     if (!userId) return [];
     return getItem<FlashcardScore[]>(userKey(userId, 'flashcard_scores')) ?? [];
+  }, [userId, _refresh]); // eslint-disable-line
+
+  const getPredictedQuizScores = useCallback((): PredictedQuizScore[] => {
+    if (!userId) return [];
+    return getItem<PredictedQuizScore[]>(userKey(userId, 'predicted_quiz_scores')) ?? [];
   }, [userId, _refresh]); // eslint-disable-line
 
   const getWeekBestScore = useCallback((weekId: string): number | null => {
@@ -61,6 +86,34 @@ export function useProgress(userId: string | null) {
     const all = [...quizDates, ...fcDates].sort().reverse();
     return all[0] ?? null;
   }, [getQuizScores, getFlashcardScores]);
+
+  const getLastQuizWrongWordIds = useCallback((weekId: string, mode: QuizMode): string[] => {
+    const scores = getQuizScores()
+      .filter(s => s.weekId === weekId && s.mode === mode)
+      .sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+    if (scores.length === 0) return [];
+    return (scores[0]!.answers ?? [])
+      .filter(a => !a.correct)
+      .map(a => a.wordId);
+  }, [getQuizScores]);
+
+  const getLastFlashcardWrongWordIds = useCallback((weekId: string): string[] => {
+    const scores = getFlashcardScores()
+      .filter(s => s.weekId === weekId)
+      .sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+    if (scores.length === 0) return [];
+    return scores[0]!.results
+      .filter(r => r.result === 'incorrect')
+      .map(r => r.wordId);
+  }, [getFlashcardScores]);
+
+  const getLastPredictedQuizWrong = useCallback((weekId: string): PredictedQuizScore['wrongItems'] | null => {
+    const scores = getPredictedQuizScores()
+      .filter(s => s.weekId === weekId)
+      .sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+    if (scores.length === 0) return null;
+    return scores[0]!.wrongItems;
+  }, [getPredictedQuizScores]);
 
   const saveQuizResult = useCallback((
     result: Omit<QuizScore, 'scoreId' | 'timestamp'>
@@ -90,13 +143,32 @@ export function useProgress(userId: string | null) {
     refresh();
   }, [userId, refresh]);
 
+  const savePredictedQuizResult = useCallback((
+    result: Omit<PredictedQuizScore, 'sessionId' | 'timestamp'>
+  ) => {
+    if (!userId) return;
+    const scores = getItem<PredictedQuizScore[]>(userKey(userId, 'predicted_quiz_scores')) ?? [];
+    const newScore: PredictedQuizScore = {
+      ...result,
+      sessionId: crypto.randomUUID(),
+      timestamp: new Date().toISOString(),
+    };
+    setItem(userKey(userId, 'predicted_quiz_scores'), [...scores, newScore]);
+    refresh();
+  }, [userId, refresh]);
+
   return {
     getQuizScores,
     getFlashcardScores,
+    getPredictedQuizScores,
     getWeekBestScore,
     getWeekFlashcardCount,
     getLastStudied,
+    getLastQuizWrongWordIds,
+    getLastFlashcardWrongWordIds,
+    getLastPredictedQuizWrong,
     saveQuizResult,
     saveFlashcardResult,
+    savePredictedQuizResult,
   };
 }
