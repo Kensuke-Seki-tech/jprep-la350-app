@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
@@ -14,6 +14,8 @@ import { ProgressBar } from '@/components/common/ProgressBar'
 import { formatDuration } from '@/utils/format'
 import type { QuizMode } from '@/utils/quiz'
 
+type FilterMode = 'all' | 'wrong'
+
 export default function QuizScreen() {
   const { weekId = 'week05' } = useParams()
   useActivityLog('quiz', weekId)
@@ -22,14 +24,37 @@ export default function QuizScreen() {
   const week = weeks?.find(w => w.weekId === weekId)
   const { data: words } = useWordData(weekId, week?.dataUrl ?? null)
   const currentUser = useCurrentUser()
-  const { saveQuizResult, getWeekBestScore } = useProgress(currentUser?.userId ?? null)
+  const { saveQuizResult, getWeekBestScore, getLastQuizWrongWordIds, getQuizScores } = useProgress(currentUser?.userId ?? null)
 
   const [started, setStarted] = useState(false)
   const [mode, setMode] = useState<QuizMode>('en_to_ja')
+  const [filterMode, setFilterMode] = useState<FilterMode>('all')
   const [selected, setSelected] = useState<string | null>(null)
   const [savedBest] = useState(() => getWeekBestScore(weekId))
 
-  const session = useQuizSession(words ?? [], mode)
+  const wrongIds = useMemo(
+    () => getLastQuizWrongWordIds(weekId, mode),
+    [getLastQuizWrongWordIds, weekId, mode]
+  )
+
+  const hasLastSession = useMemo(
+    () => getQuizScores().some(s => s.weekId === weekId && s.mode === mode),
+    [getQuizScores, weekId, mode]
+  )
+
+  const wrongDisabled = wrongIds.length === 0
+  const wrongLabel = wrongDisabled
+    ? hasLastSession ? '前回全問正解！' : '前回データなし'
+    : `${wrongIds.length}語`
+
+  const filteredWords = useMemo(
+    () => filterMode === 'wrong' && wrongIds.length > 0
+      ? (words ?? []).filter(w => wrongIds.includes(w.id))
+      : (words ?? []),
+    [filterMode, wrongIds, words]
+  )
+
+  const session = useQuizSession(filteredWords, mode, words ?? [])
 
   useEffect(() => {
     if (!selected) return
@@ -38,7 +63,6 @@ export default function QuizScreen() {
       setSelected(null)
     }, 2000)
     return () => clearTimeout(t)
-  // session.nextQuestion は useCallback で安定しているため session 全体を依存から外す
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected])
 
@@ -46,6 +70,11 @@ export default function QuizScreen() {
     if (selected) return
     session.answerQuestion(ans)
     setSelected(ans)
+  }
+
+  const handleStart = () => {
+    session.reset()
+    setStarted(true)
   }
 
   const handleFinish = () => {
@@ -56,6 +85,7 @@ export default function QuizScreen() {
       percentage: session.percentage,
       mode: session.mode,
       durationSec: session.durationSec,
+      answers: session.answers.map(a => ({ wordId: a.wordId, correct: a.correct })),
     })
   }
 
@@ -68,7 +98,7 @@ export default function QuizScreen() {
         <h2 className="text-2xl font-bold text-slate-800 mb-2">クイズ</h2>
         <p className="text-slate-500 mb-6">{week?.label} — {words.length}語</p>
 
-        <div className="w-full max-w-xs mb-6">
+        <div className="w-full max-w-xs mb-4">
           <p className="text-sm font-semibold text-slate-600 mb-2">出題形式</p>
           <div className="flex gap-3">
             {(['en_to_ja', 'ja_to_en', 'en_to_en'] as QuizMode[]).map(m => (
@@ -85,7 +115,36 @@ export default function QuizScreen() {
           </div>
         </div>
 
-        <Button size="lg" onClick={() => setStarted(true)} className="w-full max-w-xs">スタート</Button>
+        <div className="w-full max-w-xs mb-6">
+          <p className="text-sm font-semibold text-slate-600 mb-2">出題範囲</p>
+          <div className="flex flex-col gap-2">
+            <button
+              onClick={() => setFilterMode('all')}
+              className={`w-full py-3 px-4 rounded-xl border-2 font-semibold text-sm transition-colors text-left ${
+                filterMode === 'all'
+                  ? 'border-blue-600 bg-blue-600 text-white'
+                  : 'border-slate-200 text-slate-600 bg-white'
+              }`}
+            >
+              全問 ({words.length}語)
+            </button>
+            <button
+              onClick={() => !wrongDisabled && setFilterMode('wrong')}
+              disabled={wrongDisabled}
+              className={`w-full py-3 px-4 rounded-xl border-2 font-semibold text-sm transition-colors text-left ${
+                wrongDisabled
+                  ? 'border-slate-100 bg-slate-50 text-slate-300 cursor-not-allowed'
+                  : filterMode === 'wrong'
+                  ? 'border-blue-600 bg-blue-600 text-white'
+                  : 'border-slate-200 text-slate-600 bg-white'
+              }`}
+            >
+              前回間違えた問題 ({wrongLabel})
+            </button>
+          </div>
+        </div>
+
+        <Button size="lg" onClick={handleStart} className="w-full max-w-xs">スタート</Button>
       </div>
     )
   }
