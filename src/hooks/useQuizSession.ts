@@ -8,7 +8,7 @@ interface QuizAnswer {
   correct: boolean;
 }
 
-export function useQuizSession(words: Word[], mode: QuizMode) {
+export function useQuizSession(words: Word[], mode: QuizMode, allWords?: Word[]) {
   const [questions, setQuestions] = useState(() => shuffleArray(words));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<QuizAnswer[]>([]);
@@ -17,8 +17,9 @@ export function useQuizSession(words: Word[], mode: QuizMode) {
   const startTimeRef = useRef(Date.now());
 
   const currentWord = questions[currentIndex];
+  const choicePool = allWords ?? words;
   const choices = useMemo(
-    () => currentWord ? generateChoices(currentWord, words, mode) : [],
+    () => currentWord ? generateChoices(currentWord, choicePool, mode) : [],
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [currentWord?.id, mode]
   );
@@ -71,6 +72,7 @@ export function useQuizSession(words: Word[], mode: QuizMode) {
     durationSec,
     isAnswered,
     isFinished,
+    answers,
     answerQuestion,
     nextQuestion,
     reset,

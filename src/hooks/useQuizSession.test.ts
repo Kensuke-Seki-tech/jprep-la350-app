@@ -71,4 +71,11 @@ describe('useQuizSession', () => {
     expect(result.current.score).toBe(0)
     expect(result.current.isFinished).toBe(false)
   })
+
+  it('TC-U-027: answerQuestion で answers[0].wordId が currentWord.id と一致', () => {
+    const { result } = renderHook(() => useQuizSession(mockWords, 'en_to_ja'))
+    const wordId = result.current.currentWord!.id
+    act(() => result.current.answerQuestion('anything'))
+    expect(result.current.answers[0]!.wordId).toBe(wordId)
+  })
 })
