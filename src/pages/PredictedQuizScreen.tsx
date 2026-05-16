@@ -1,8 +1,10 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useActivityLog } from '@/hooks/useActivityLog'
 import { useWeeksConfig } from '@/hooks/useWeeks'
 import { useAudio } from '@/hooks/useAudio'
+import { useCurrentUser } from '@/hooks/useUserStore'
+import { useProgress } from '@/hooks/useProgress'
 import { Button } from '@/components/common/Button'
 
 // ── Data types ──────────────────────────────────────────────
@@ -21,6 +23,7 @@ interface QuizData {
 }
 
 type Phase = 'intro' | 'part1' | 'part2' | 'part3' | 'part4' | 'result'
+type FilterMode = 'all' | 'wrong'
 
 // ── Score constants ──────────────────────────────────────────
 const MATCH_PTS = 2
@@ -33,6 +36,10 @@ function shuffled<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5)
 }
 
+function calcMaxScore(data: QuizData): number {
+  return data.match.length * MATCH_PTS + data.gap.length * GAP_PTS + data.mc.length * MC_PTS + data.dict.length * DICT_PTS
+}
+
 // ── Main component ───────────────────────────────────────────
 export default function PredictedQuizScreen() {
   const { weekId = 'week05' } = useParams()
@@ -40,18 +47,25 @@ export default function PredictedQuizScreen() {
   const navigate = useNavigate()
   const { data: weeks } = useWeeksConfig()
   const week = weeks?.find(w => w.weekId === weekId)
+  const currentUser = useCurrentUser()
+  const { savePredictedQuizResult, getLastPredictedQuizWrong, getPredictedQuizScores } = useProgress(currentUser?.userId ?? null)
 
   const [quizData, setQuizData] = useState<QuizData | null>(null)
   const [loading, setLoading]   = useState(true)
   const [phase, setPhase]       = useState<Phase>('intro')
+  const [filterMode, setFilterMode] = useState<FilterMode>('all')
 
   const [score, setScore]       = useState(0)
-  const [maxScore, setMaxScore] = useState(0)
   const scoreRef    = useRef(0)
-  const maxScoreRef = useRef(0)
+
+  // 各パートの間違いアイテム（識別文字列）
+  const [wrongMatch, setWrongMatch] = useState<string[]>([])
+  const [wrongGap,   setWrongGap]   = useState<string[]>([])
+  const [wrongMc,    setWrongMc]    = useState<string[]>([])
+  const [wrongDict,  setWrongDict]  = useState<string[]>([])
+
   const addScore = (pts: number) => {
     scoreRef.current += pts
-    maxScoreRef.current += Math.abs(pts) // not used inline but tracked in maxScore state
     setScore(s => s + pts)
   }
 
@@ -62,25 +76,104 @@ export default function PredictedQuizScreen() {
       .then(r => r.json())
       .then((d: QuizData) => {
         setQuizData(d)
-        const ms = d.match.length * MATCH_PTS + d.gap.length * GAP_PTS + d.mc.length * MC_PTS + d.dict.length * DICT_PTS
-        setMaxScore(ms)
-        maxScoreRef.current = ms
         setLoading(false)
       })
       .catch(() => setLoading(false))
   }, [weekId])
 
+  const lastWrong = useMemo(
+    () => getLastPredictedQuizWrong(weekId),
+    [getLastPredictedQuizWrong, weekId]
+  )
+
+  const hasLastSession = useMemo(
+    () => getPredictedQuizScores().some(s => s.weekId === weekId),
+    [getPredictedQuizScores, weekId]
+  )
+
+  // フィルタ済みデータ（全問 or 前回間違えたもの）
+  const effectiveData = useMemo((): QuizData | null => {
+    if (!quizData) return null
+    if (filterMode === 'all' || !lastWrong) return quizData
+    return {
+      ...quizData,
+      match: quizData.match.filter(item => lastWrong.match.includes(item.word)),
+      gap:   quizData.gap.filter(item => lastWrong.gap.includes(item.answer)),
+      mc:    quizData.mc.filter(item => lastWrong.mc.includes(item.word)),
+      dict:  quizData.dict.filter(item => lastWrong.dict.includes(item.word)),
+    }
+  }, [quizData, filterMode, lastWrong])
+
+  const wrongDisabled = !lastWrong || (
+    lastWrong.match.length === 0 &&
+    lastWrong.gap.length === 0 &&
+    lastWrong.mc.length === 0 &&
+    lastWrong.dict.length === 0
+  )
+
+  const wrongLabel = wrongDisabled
+    ? hasLastSession ? '前回全問正解！' : '前回データなし'
+    : undefined
+
+  // フィルタモード時に空のパートをスキップして次のphaseを返す
+  const nextPhase = (current: Phase): Phase => {
+    if (!effectiveData) return 'result'
+    const order: Phase[] = ['part1', 'part2', 'part3', 'part4', 'result']
+    const partData: Record<string, unknown[]> = {
+      part1: effectiveData.match,
+      part2: effectiveData.gap,
+      part3: effectiveData.mc,
+      part4: effectiveData.dict,
+    }
+    let next = order[order.indexOf(current) + 1] ?? 'result'
+    while (next !== 'result' && (partData[next]?.length ?? 0) === 0) {
+      next = order[order.indexOf(next) + 1] ?? 'result'
+    }
+    return next
+  }
+
+  const handleComplete = (
+    part: 'match' | 'gap' | 'mc' | 'dict',
+    pts: number,
+    wrongIds: string[],
+    currentPhase: Phase
+  ) => {
+    addScore(pts)
+    if (part === 'match') setWrongMatch(wrongIds)
+    else if (part === 'gap') setWrongGap(wrongIds)
+    else if (part === 'mc') setWrongMc(wrongIds)
+    else setWrongDict(wrongIds)
+
+    const next = nextPhase(currentPhase)
+    if (next === 'result') {
+      // scoreRef.current already includes pts from addScore above
+      savePredictedQuizResult({
+        weekId,
+        score: scoreRef.current,
+        maxScore: effectiveData ? calcMaxScore(effectiveData) : 0,
+        wrongItems: {
+          match: part === 'match' ? wrongIds : wrongMatch,
+          gap:   part === 'gap'   ? wrongIds : wrongGap,
+          mc:    part === 'mc'    ? wrongIds : wrongMc,
+          dict:  part === 'dict'  ? wrongIds : wrongDict,
+        },
+      })
+    }
+    setPhase(next)
+  }
+
   if (loading) return <div className="py-8 text-center text-slate-400">読み込み中...</div>
-  if (!quizData) return <div className="py-8 text-center text-slate-400">データが見つかりません</div>
+  if (!quizData || !effectiveData) return <div className="py-8 text-center text-slate-400">データが見つかりません</div>
 
   // ── Phase renderers ──
   if (phase === 'intro') {
+    const maxScore = calcMaxScore(quizData)
     return (
       <div className="py-8 flex flex-col items-center">
         <div className="text-6xl mb-4">🎯</div>
         <h2 className="text-2xl font-bold text-slate-800 mb-1">{week?.label} 予想問題</h2>
         <p className="text-slate-500 mb-6">LA350 の単語で腕試し！</p>
-        <div className="w-full max-w-xs space-y-2 mb-8">
+        <div className="w-full max-w-xs space-y-2 mb-6">
           {[
             { part: 'Part 1', icon: '🔗', title: 'Vocabulary Matching', desc: `${quizData.match.length}問 — 単語と定義を対応させよう` },
             { part: 'Part 2', icon: '📝', title: 'Sentence Gap Fill',   desc: `${quizData.gap.length}問 — 空欄を埋めよう` },
@@ -96,8 +189,38 @@ export default function PredictedQuizScreen() {
             </div>
           ))}
         </div>
+
+        <div className="w-full max-w-xs mb-4">
+          <p className="text-sm font-semibold text-slate-600 mb-2">出題範囲</p>
+          <div className="flex flex-col gap-2">
+            <button
+              onClick={() => setFilterMode('all')}
+              className={`w-full py-3 px-4 rounded-xl border-2 font-semibold text-sm transition-colors text-left ${
+                filterMode === 'all'
+                  ? 'border-blue-600 bg-blue-600 text-white'
+                  : 'border-slate-200 text-slate-600 bg-white'
+              }`}
+            >
+              全問
+            </button>
+            <button
+              onClick={() => !wrongDisabled && setFilterMode('wrong')}
+              disabled={wrongDisabled}
+              className={`w-full py-3 px-4 rounded-xl border-2 font-semibold text-sm transition-colors text-left ${
+                wrongDisabled
+                  ? 'border-slate-100 bg-slate-50 text-slate-300 cursor-not-allowed'
+                  : filterMode === 'wrong'
+                  ? 'border-blue-600 bg-blue-600 text-white'
+                  : 'border-slate-200 text-slate-600 bg-white'
+              }`}
+            >
+              {wrongLabel ? `前回間違えた問題 (${wrongLabel})` : '前回間違えた問題'}
+            </button>
+          </div>
+        </div>
+
         <p className="text-sm text-slate-400 mb-4">満点: {maxScore}点</p>
-        <Button size="lg" onClick={() => setPhase('part1')} className="w-full max-w-xs">スタート</Button>
+        <Button size="lg" onClick={() => { setScore(0); scoreRef.current = 0; setPhase(nextPhase('intro')) }} className="w-full max-w-xs">スタート</Button>
       </div>
     )
   }
@@ -105,8 +228,8 @@ export default function PredictedQuizScreen() {
   if (phase === 'part1') {
     return (
       <Part1Matching
-        items={quizData.match}
-        onComplete={(pts) => { addScore(pts); setPhase('part2') }}
+        items={effectiveData.match}
+        onComplete={(pts, wrongWords) => handleComplete('match', pts, wrongWords, 'part1')}
       />
     )
   }
@@ -114,9 +237,9 @@ export default function PredictedQuizScreen() {
   if (phase === 'part2') {
     return (
       <Part2GapFill
-        items={quizData.gap}
+        items={effectiveData.gap}
         bank={quizData.bank}
-        onComplete={(pts) => { addScore(pts); setPhase('part3') }}
+        onComplete={(pts, wrongAnswers) => handleComplete('gap', pts, wrongAnswers, 'part2')}
       />
     )
   }
@@ -124,8 +247,8 @@ export default function PredictedQuizScreen() {
   if (phase === 'part3') {
     return (
       <Part3MultipleChoice
-        items={quizData.mc}
-        onComplete={(pts) => { addScore(pts); setPhase('part4') }}
+        items={effectiveData.mc}
+        onComplete={(pts, wrongWords) => handleComplete('mc', pts, wrongWords, 'part3')}
       />
     )
   }
@@ -133,13 +256,14 @@ export default function PredictedQuizScreen() {
   if (phase === 'part4') {
     return (
       <Part4Dictation
-        items={quizData.dict}
-        onComplete={(pts) => { addScore(pts); setPhase('result') }}
+        items={effectiveData.dict}
+        onComplete={(pts, wrongWords) => handleComplete('dict', pts, wrongWords, 'part4')}
       />
     )
   }
 
   // Result
+  const maxScore = calcMaxScore(effectiveData)
   const pct = maxScore > 0 ? Math.max(0, Math.min(100, Math.round(score / maxScore * 100))) : 0
   let emoji = '🌱', title = "Let's Try Again!", msg = '焦らず、発音を聴きながら一語ずつ覚えよう！'
   if (pct >= 90) { emoji = '🏆'; title = 'Outstanding!!'; msg = '完璧！本番のクイズも余裕で合格できそう！' }
@@ -156,14 +280,14 @@ export default function PredictedQuizScreen() {
       <p className="text-sm text-slate-400 mb-6">{msg}</p>
       <div className="w-full max-w-xs space-y-2 mb-6 text-left">
         <div className="bg-slate-50 rounded-xl p-3 text-sm text-slate-600 space-y-1">
-          <p>Part 1 マッチング: 満点 {quizData.match.length * MATCH_PTS}点</p>
-          <p>Part 2 穴埋め: 満点 {quizData.gap.length * GAP_PTS}点</p>
-          <p>Part 3 選択問題: 満点 {quizData.mc.length * MC_PTS}点</p>
-          <p>Part 4 ディクテーション: 満点 {quizData.dict.length * DICT_PTS}点</p>
+          <p>Part 1 マッチング: 満点 {effectiveData.match.length * MATCH_PTS}点</p>
+          <p>Part 2 穴埋め: 満点 {effectiveData.gap.length * GAP_PTS}点</p>
+          <p>Part 3 選択問題: 満点 {effectiveData.mc.length * MC_PTS}点</p>
+          <p>Part 4 ディクテーション: 満点 {effectiveData.dict.length * DICT_PTS}点</p>
         </div>
       </div>
       <div className="flex flex-col gap-3 w-full max-w-xs">
-        <Button onClick={() => { setScore(0); scoreRef.current = 0; setPhase('intro') }}>もう一度</Button>
+        <Button onClick={() => { setScore(0); scoreRef.current = 0; setWrongMatch([]); setWrongGap([]); setWrongMc([]); setWrongDict([]); setPhase('intro') }}>もう一度</Button>
         <Button variant="secondary" onClick={() => navigate('/')}>ホームへ</Button>
       </div>
     </div>
@@ -173,7 +297,7 @@ export default function PredictedQuizScreen() {
 // ══════════════════════════════════════════════════════════════
 // Part 1: Vocabulary Matching
 // ══════════════════════════════════════════════════════════════
-function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: (pts: number) => void }) {
+function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: (pts: number, wrongWords: string[]) => void }) {
   const [wordOrder] = useState(() => shuffled(items))
   const [defOrder]  = useState(() => shuffled(items))
   const [matched, setMatched]       = useState<Set<string>>(new Set())
@@ -228,13 +352,17 @@ function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: 
 
   const allMatched = matched.size === items.length
 
+  const handleComplete = () => {
+    const wrongWords = items.filter(item => !matched.has(item.word)).map(item => item.word)
+    onComplete(pts, wrongWords)
+  }
+
   return (
     <div className="py-4">
       <PartHeader part={1} title="Vocabulary Matching" desc="単語をタップ→定義をタップして対応させよう" />
       <div className="mb-4 text-right text-sm text-slate-500">{matched.size} / {items.length} マッチ完了</div>
 
       <div className="grid grid-cols-2 gap-3 mb-6">
-        {/* Words column */}
         <div className="space-y-2">
           {wordOrder.map(item => {
             const isMatched  = matched.has(item.word)
@@ -257,7 +385,6 @@ function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: 
           })}
         </div>
 
-        {/* Definitions column */}
         <div className="space-y-2">
           {defOrder.map((item, idx) => {
             const isMatched  = matched.has(item.word)
@@ -283,7 +410,7 @@ function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: 
 
       <div className="text-center">
         {allMatched && <p className="text-green-600 font-bold mb-4">全問マッチ完了！🎉</p>}
-        <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 2 へ</Button>
+        <Button onClick={handleComplete} className="w-full max-w-xs">Part 2 へ</Button>
       </div>
     </div>
   )
@@ -292,7 +419,7 @@ function Part1Matching({ items, onComplete }: { items: MatchItem[]; onComplete: 
 // ══════════════════════════════════════════════════════════════
 // Part 2: Sentence Gap Fill
 // ══════════════════════════════════════════════════════════════
-function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: string[]; onComplete: (pts: number) => void }) {
+function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: string[]; onComplete: (pts: number, wrongAnswers: string[]) => void }) {
   const { speak } = useAudio()
   const [filled, setFilled]         = useState<(string | null)[]>(Array(items.length).fill(null))
   const [results, setResults]       = useState<(boolean | null)[]>(Array(items.length).fill(null))
@@ -310,7 +437,7 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
     if (usedWords.has(word)) return
     if (selectedBlank === null) return
     const item = items[selectedBlank]
-    const correct = word.toLowerCase() === item.answer.toLowerCase()
+    const correct = word.toLowerCase() === item!.answer.toLowerCase()
     const newFilled  = [...filled];  newFilled[selectedBlank]  = word
     const newResults = [...results]; newResults[selectedBlank] = correct
     setFilled(newFilled)
@@ -336,11 +463,17 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
     return () => clearTimeout(id)
   }, [wrongBlank])
 
+  const handleComplete = () => {
+    const wrongAnswers = items
+      .filter((_, i) => results[i] !== true)
+      .map(item => item.answer)
+    onComplete(pts, wrongAnswers)
+  }
+
   return (
     <div className="py-4">
       <PartHeader part={2} title="Sentence Gap Fill" desc="空欄をタップ→下の単語を選んで埋めよう" />
 
-      {/* Word bank */}
       <div className="bg-slate-50 rounded-xl p-3 mb-4">
         <p className="text-xs text-slate-400 mb-2 font-medium">単語バンク</p>
         <div className="flex flex-wrap gap-2">
@@ -360,7 +493,6 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
         </div>
       </div>
 
-      {/* Sentences */}
       <div className="space-y-3 mb-6">
         {items.map((item, i) => {
           const parts = item.sentence.split(new RegExp(`\\b${item.answer}\\b`, 'i'))
@@ -401,7 +533,7 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
       </div>
 
       <div className="text-center">
-        <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 3 へ</Button>
+        <Button onClick={handleComplete} className="w-full max-w-xs">Part 3 へ</Button>
       </div>
     </div>
   )
@@ -410,7 +542,7 @@ function Part2GapFill({ items, bank, onComplete }: { items: GapItem[]; bank: str
 // ══════════════════════════════════════════════════════════════
 // Part 3: Multiple Choice
 // ══════════════════════════════════════════════════════════════
-function Part3MultipleChoice({ items, onComplete }: { items: MCItem[]; onComplete: (pts: number) => void }) {
+function Part3MultipleChoice({ items, onComplete }: { items: MCItem[]; onComplete: (pts: number, wrongWords: string[]) => void }) {
   const { speak } = useAudio()
   const [answers, setAnswers] = useState<(number | null)[]>(Array(items.length).fill(null))
   const [pts, setPts] = useState(0)
@@ -419,13 +551,20 @@ function Part3MultipleChoice({ items, onComplete }: { items: MCItem[]; onComplet
 
   const pick = (qi: number, ji: number) => {
     if (answers[qi] !== null) return
-    const correct = ji === items[qi].answer
+    const correct = ji === items[qi]!.answer
     const next = [...answers]; next[qi] = ji
     setAnswers(next)
     setPts(p => p + (correct ? MC_PTS : -1))
   }
 
   const allDone = answeredCount === items.length
+
+  const handleComplete = () => {
+    const wrongWords = items
+      .filter((item, qi) => answers[qi] !== item.answer)
+      .map(item => item.word)
+    onComplete(pts, wrongWords)
+  }
 
   return (
     <div className="py-4">
@@ -468,7 +607,7 @@ function Part3MultipleChoice({ items, onComplete }: { items: MCItem[]; onComplet
 
       {allDone && (
         <div className="text-center">
-          <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">Part 4 へ</Button>
+          <Button onClick={handleComplete} className="w-full max-w-xs">Part 4 へ</Button>
         </div>
       )}
     </div>
@@ -478,7 +617,7 @@ function Part3MultipleChoice({ items, onComplete }: { items: MCItem[]; onComplet
 // ══════════════════════════════════════════════════════════════
 // Part 4: Dictation
 // ══════════════════════════════════════════════════════════════
-function Part4Dictation({ items, onComplete }: { items: DictItem[]; onComplete: (pts: number) => void }) {
+function Part4Dictation({ items, onComplete }: { items: DictItem[]; onComplete: (pts: number, wrongWords: string[]) => void }) {
   const { speak } = useAudio()
   const [inputs,  setInputs]  = useState<string[]>(Array(items.length).fill(''))
   const [done,    setDone]    = useState<(boolean | null)[]>(Array(items.length).fill(null))
@@ -487,8 +626,8 @@ function Part4Dictation({ items, onComplete }: { items: DictItem[]; onComplete: 
 
   const submit = (i: number) => {
     if (done[i] !== null) return
-    const v = inputs[i].trim().toLowerCase().replace(/[^a-z0-9 ]/g, '')
-    const a = items[i].text.toLowerCase().replace(/[^a-z0-9 ]/g, '')
+    const v = inputs[i]!.trim().toLowerCase().replace(/[^a-z0-9 ]/g, '')
+    const a = items[i]!.text.toLowerCase().replace(/[^a-z0-9 ]/g, '')
     if (!v) return
     const aTok = a.split(/\s+/).filter(Boolean)
     const vTok = v.split(/\s+/).filter(Boolean)
@@ -515,6 +654,13 @@ function Part4Dictation({ items, onComplete }: { items: DictItem[]; onComplete: 
   }
 
   const allDone = done.every(d => d !== null)
+
+  const handleComplete = () => {
+    const wrongWords = items
+      .filter((_, i) => done[i] === false)
+      .map(item => item.word)
+    onComplete(pts, wrongWords)
+  }
 
   return (
     <div className="py-4">
@@ -578,7 +724,7 @@ function Part4Dictation({ items, onComplete }: { items: DictItem[]; onComplete: 
 
       {allDone && (
         <div className="text-center">
-          <Button onClick={() => onComplete(pts)} className="w-full max-w-xs">結果を見る</Button>
+          <Button onClick={handleComplete} className="w-full max-w-xs">結果を見る</Button>
         </div>
       )}
     </div>

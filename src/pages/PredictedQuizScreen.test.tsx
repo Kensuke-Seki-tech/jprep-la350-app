@@ -11,6 +11,11 @@ vi.mock('@/hooks/useWeeks', () => ({
   }),
 }))
 
+vi.mock('@/hooks/useUserStore', () => ({
+  useCurrentUser: () => ({ userId: 'u1', displayName: 'Test', avatarColor: '#000', createdAt: '', lastLoginAt: '' }),
+  useUserStore: () => ({ users: [], currentUserId: 'u1', addUser: vi.fn(), selectUser: vi.fn(), removeUser: vi.fn(), clearCurrentUser: vi.fn() }),
+}))
+
 function renderScreen() {
   return render(
     <MemoryRouter initialEntries={['/predicted-quiz/week05']}>
@@ -373,4 +378,58 @@ describe('PredictedQuizScreen - スコア集計と結果画面', () => {
     await user.click(screen.getByRole('button', { name: 'スタート' }))
     expect(await screen.findByText('Vocabulary Matching')).toBeInTheDocument()
   })
+})
+
+describe('PredictedQuizScreen — 出題範囲フィルタ', () => {
+  it('TC-U-PRED-21: イントロ画面に出題範囲セクションが表示される', async () => {
+    mockFetchOk()
+    renderScreen()
+    expect(await screen.findByText('出題範囲')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /全問/ })).toBeInTheDocument()
+  })
+
+  it('TC-U-PRED-22: 前回データなしの時、前回間違えた問題ボタンがdisabled', async () => {
+    mockFetchOk()
+    renderScreen()
+    await screen.findByText('出題範囲')
+    const wrongBtn = screen.getByRole('button', { name: /前回間違えた問題/ })
+    expect(wrongBtn).toBeDisabled()
+  })
+
+  it('TC-U-PRED-23: 全問終了後に predicted_quiz_scores が localStorage に保存される', async () => {
+    const user = userEvent.setup()
+    vi.mocked(fetch).mockReset()
+    vi.mocked(fetch).mockResolvedValueOnce(new Response(JSON.stringify({
+      ...mockQuizData,
+      match: [{ word: 'sapling', def: 'a young tree' }],
+      gap: [{ answer: 'sapling', sentence: 'plant a sapling now', ja: 'いま苗木を植える' }],
+      bank: ['sapling'],
+      mc: [{ q: 'meaning?', opts: ['a young tree', 'X', 'Y', 'Z'], answer: 0, word: 'sapling' }],
+      dict: [{ text: 'plant a sapling', word: 'sapling' }],
+    }), { status: 200 }))
+    renderScreen()
+    await screen.findByText(/予想問題/)
+    await user.click(screen.getByRole('button', { name: 'スタート' }))
+    // Part1 正解
+    await user.click(screen.getByRole('button', { name: 'sapling' }))
+    await user.click(screen.getByRole('button', { name: /a young tree/ }))
+    await user.click(await screen.findByRole('button', { name: 'Part 2 へ' }))
+    // Part2 正解
+    await user.click(screen.getByRole('button', { name: /＿＿＿/ }))
+    await user.click(screen.getByRole('button', { name: 'sapling' }))
+    await user.click(await screen.findByRole('button', { name: 'Part 3 へ' }))
+    // Part3 正解
+    await user.click(screen.getByRole('button', { name: 'a young tree' }))
+    await user.click(await screen.findByRole('button', { name: 'Part 4 へ' }))
+    // Part4 正解
+    const input = screen.getByPlaceholderText('聴こえた文を書き取ろう...')
+    await user.type(input, 'plant a sapling')
+    await user.click(screen.getByRole('button', { name: '採点' }))
+    await user.click(await screen.findByRole('button', { name: '結果を見る' }))
+    await screen.findByText('Outstanding!!')
+    // localStorage に保存されていることを確認
+    const { getItem } = await import('@/utils/storage')
+    const saved = getItem<unknown[]>('user_u1_predicted_quiz_scores')
+    expect(saved).toHaveLength(1)
+  }, 20000)
 })
