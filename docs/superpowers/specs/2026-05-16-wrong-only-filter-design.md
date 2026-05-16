@@ -50,9 +50,9 @@ export interface PredictedQuizScore {
   maxScore: number;
   wrongItems: {
     match: string[];   // 間違えたword文字列
-    gap: number[];     // 間違えたGapItemのindex
-    mc: number[];      // 間違えたMCItemのindex
-    dict: number[];    // 間違えたDictItemのindex
+    gap: string[];     // 間違えたanswer文字列
+    mc: string[];      // 間違えたword文字列
+    dict: string[];    // 間違えたword文字列
   };
 }
 ```
