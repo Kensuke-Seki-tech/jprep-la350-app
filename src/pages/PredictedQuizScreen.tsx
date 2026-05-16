@@ -228,6 +228,7 @@ export default function PredictedQuizScreen() {
   if (phase === 'part1') {
     return (
       <Part1Matching
+        key={filterMode}
         items={effectiveData.match}
         onComplete={(pts, wrongWords) => handleComplete('match', pts, wrongWords, 'part1')}
       />
@@ -237,6 +238,7 @@ export default function PredictedQuizScreen() {
   if (phase === 'part2') {
     return (
       <Part2GapFill
+        key={filterMode}
         items={effectiveData.gap}
         bank={quizData.bank}
         onComplete={(pts, wrongAnswers) => handleComplete('gap', pts, wrongAnswers, 'part2')}
@@ -247,6 +249,7 @@ export default function PredictedQuizScreen() {
   if (phase === 'part3') {
     return (
       <Part3MultipleChoice
+        key={filterMode}
         items={effectiveData.mc}
         onComplete={(pts, wrongWords) => handleComplete('mc', pts, wrongWords, 'part3')}
       />
@@ -256,6 +259,7 @@ export default function PredictedQuizScreen() {
   if (phase === 'part4') {
     return (
       <Part4Dictation
+        key={filterMode}
         items={effectiveData.dict}
         onComplete={(pts, wrongWords) => handleComplete('dict', pts, wrongWords, 'part4')}
       />
