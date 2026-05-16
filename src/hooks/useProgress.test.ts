@@ -67,6 +67,22 @@ describe('useProgress — 前回間違えたWordId', () => {
     expect(result.current.getLastQuizWrongWordIds('week05', 'en_to_ja')).toEqual([])
   })
 
+  it('TC-U-035b: getLastQuizWrongWordIds — モードをまたいで混在しない', () => {
+    const { result } = renderHook(() => useProgress('u1'))
+    act(() => {
+      result.current.saveQuizResult({
+        weekId: 'week05', score: 1, total: 2, percentage: 50, mode: 'en_to_ja', durationSec: 30,
+        answers: [{ wordId: 'w2', correct: false }, { wordId: 'w1', correct: true }],
+      })
+      result.current.saveQuizResult({
+        weekId: 'week05', score: 1, total: 2, percentage: 50, mode: 'ja_to_en', durationSec: 30,
+        answers: [{ wordId: 'w3', correct: false }, { wordId: 'w1', correct: true }],
+      })
+    })
+    expect(result.current.getLastQuizWrongWordIds('week05', 'en_to_ja')).toEqual(['w2'])
+    expect(result.current.getLastQuizWrongWordIds('week05', 'ja_to_en')).toEqual(['w3'])
+  })
+
   it('TC-U-037: getLastFlashcardWrongWordIds — 直近セッションのincorrect wordIdを返す', () => {
     const { result } = renderHook(() => useProgress('u1'))
     act(() => result.current.saveFlashcardResult({
@@ -77,6 +93,11 @@ describe('useProgress — 前回間違えたWordId', () => {
       ],
     }))
     expect(result.current.getLastFlashcardWrongWordIds('week05')).toEqual(['w2'])
+  })
+
+  it('TC-U-037b: getLastFlashcardWrongWordIds — スコアなしは空配列', () => {
+    const { result } = renderHook(() => useProgress('u1'))
+    expect(result.current.getLastFlashcardWrongWordIds('week99')).toEqual([])
   })
 
   it('TC-U-038: savePredictedQuizResult — 保存後に getLastPredictedQuizWrong が返す', () => {
