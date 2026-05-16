@@ -1,0 +1,44 @@
+{
+  "weekId": "week10",
+  "match": [
+    { "word": "shunt",        "def": "to shift; to turn off to one side" },
+    { "word": "foreboding",   "def": "an omen or prediction of coming evil" },
+    { "word": "ravenous",     "def": "very eager for food, satisfaction, or gratification" },
+    { "word": "unerring",     "def": "committing no error" },
+    { "word": "jeer",         "def": "to speak with mockery" },
+    { "word": "hostage",      "def": "a person held by another to secure demands of money or control" },
+    { "word": "invincible",   "def": "unable to be conquered, overcame, or subdued" },
+    { "word": "hoarse",       "def": "rough or harsh in sound" },
+    { "word": "impulsively",  "def": "to be acting spontaneously or in excitement" },
+    { "word": "inevitable",   "def": "incapable of being avoided" },
+    { "word": "ammunition",   "def": "a projectile of guns or explosive military items" },
+    { "word": "cudgel",       "def": "a short heavy club" },
+    { "word": "gaudy",        "def": "tasteless showiness" },
+    { "word": "atrocious",    "def": "extremely wicked or cruel" },
+    { "word": "meticulously", "def": "very careful; showing extreme care" },
+    { "word": "dyslexia",     "def": "a learning disability involving difficulties in processing written language" }
+  ],
+  "gap": [
+    { "answer": "shunt",        "sentence": "The train was shunted onto a side track to let the express pass.",                                   "ja": "急行列車を通すために、その電車は支線へと転換された。" },
+    { "answer": "ravenous",     "sentence": "After hiking for six hours, the group was ravenous and devoured everything on the table.",            "ja": "6時間ハイキングした後、グループは腹ぺこで、テーブルの上のものを何でも食べ尽くした。" },
+    { "answer": "invincible",   "sentence": "The championship team felt invincible after winning fifteen games in a row.",                         "ja": "15連勝したチャンピオンチームは、自分たちが無敵だと感じていた。" },
+    { "answer": "inevitable",   "sentence": "After years of poor management, the company's collapse was inevitable.",                             "ja": "何年もの経営不振の末、その会社の倒産は避けられないことだった。" },
+    { "answer": "meticulously", "sentence": "The surgeon meticulously cleaned and stitched the wound to minimize scarring.",                      "ja": "外科医は傷跡を最小限にするために、傷口を念入りに洗浄し縫合した。" }
+  ],
+  "bank": ["shunt", "ravenous", "invincible", "inevitable", "meticulously", "foreboding", "unerring", "hostage", "impulsively", "gaudy", "atrocious"],
+  "mc": [
+    { "q": "What does \"foreboding\" mean?",  "opts": ["an omen or prediction of coming evil", "committing no error", "to be acting spontaneously", "very eager for food"], "answer": 0, "word": "foreboding" },
+    { "q": "What does \"unerring\" mean?",    "opts": ["tasteless showiness", "rough or harsh in sound", "committing no error", "unable to be conquered"], "answer": 2, "word": "unerring" },
+    { "q": "What does \"jeer\" mean?",        "opts": ["to shift to one side", "to speak with mockery", "incapable of being avoided", "to transfer pollen"], "answer": 1, "word": "jeer" },
+    { "q": "What does \"hostage\" mean?",     "opts": ["a short heavy club", "a learning disability", "a person held to secure demands of money or control", "extremely wicked or cruel"], "answer": 2, "word": "hostage" },
+    { "q": "What does \"hoarse\" mean?",      "opts": ["rough or harsh in sound", "an omen of coming evil", "tasteless showiness", "very eager for food"], "answer": 0, "word": "hoarse" },
+    { "q": "What does \"impulsively\" mean?", "opts": ["showing extreme care", "unable to be conquered", "to be acting spontaneously or in excitement", "committing no error"], "answer": 2, "word": "impulsively" },
+    { "q": "What does \"ammunition\" mean?",  "opts": ["a person held by another", "a proposed outline of a trip", "a projectile of guns or explosive military items", "tasteless showiness"], "answer": 2, "word": "ammunition" },
+    { "q": "What does \"gaudy\" mean?",       "opts": ["extremely wicked or cruel", "tasteless showiness", "rough or harsh in sound", "committing no error"], "answer": 1, "word": "gaudy" }
+  ],
+  "dict": [
+    { "text": "She thought she could have walked the paths blindfolded, navigating by her green-sense alone.", "word": "navigating" },
+    { "text": "There was a sudden silence all around, broken only by the dull cracking of the flames.", "word": "silence" },
+    { "text": "He used to go off for hours on his own, daydreaming and sketching.", "word": "sketching" }
+  ]
+}

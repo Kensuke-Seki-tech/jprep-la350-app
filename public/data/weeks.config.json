@@ -4,6 +4,8 @@
     { "weekId": "week05", "weekNumber": 5, "label": "Week 5", "status": "available", "dataUrl": "/data/week05.json", "wordCount": 17 },
     { "weekId": "week06", "weekNumber": 6, "label": "Week 6", "status": "available", "dataUrl": "/data/week06.json", "wordCount": 16 },
     { "weekId": "week07", "weekNumber": 7, "label": "Week 7", "status": "available", "dataUrl": "/data/week07.json", "wordCount": 15 },
-    { "weekId": "week08", "weekNumber": 8, "label": "Week 8", "status": "available", "dataUrl": "/data/week08.json", "wordCount": 16 }
+    { "weekId": "week08", "weekNumber": 8, "label": "Week 8", "status": "available", "dataUrl": "/data/week08.json", "wordCount": 16 },
+    { "weekId": "week09", "weekNumber": 9, "label": "Week 9", "status": "available", "dataUrl": "/data/week09.json", "wordCount": 16 },
+    { "weekId": "week10", "weekNumber": 10, "label": "Week 10", "status": "available", "dataUrl": "/data/week10.json", "wordCount": 16 }
   ]
 }

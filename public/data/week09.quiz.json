@@ -1,0 +1,44 @@
+{
+  "weekId": "week09",
+  "match": [
+    { "word": "eccentric",        "def": "having whimsy; not following an established or usual pattern" },
+    { "word": "spores",           "def": "a unicellular, reproductive body made by plants, fungi, and some microorganisms" },
+    { "word": "betrayal",         "def": "the act of violation of someone's trust or confidence" },
+    { "word": "pollinate",        "def": "to transfer pollen from one plant to another" },
+    { "word": "stricken",         "def": "to be overwhelmed by disease, misfortune, or sorrow" },
+    { "word": "disoriented",      "def": "having lost one's sense of time, place, or identity" },
+    { "word": "curtly",           "def": "in a rude way" },
+    { "word": "frantic",          "def": "emotionally out of control" },
+    { "word": "queasy",           "def": "causing nausea" },
+    { "word": "scrupulous",       "def": "acting in a strict regard for what is right or proper" },
+    { "word": "surreptitiously",  "def": "having done, made, or acquired by stealth" },
+    { "word": "brooding",         "def": "darkly or sullenly thoughtful or serious" },
+    { "word": "straggler",        "def": "a person who wanders from the path or course" },
+    { "word": "sulkily",          "def": "having moments of moody silence" },
+    { "word": "itinerary",        "def": "a travel diary; a proposed outline of a trip" },
+    { "word": "turmoil",          "def": "a state of extreme confusion or commotion" }
+  ],
+  "gap": [
+    { "answer": "eccentric",       "sentence": "The eccentric professor wore mismatched socks and talked to his plants every morning.",          "ja": "その風変わりな教授は左右違う靴下をはき、毎朝植物に話しかけていた。" },
+    { "answer": "pollinate",       "sentence": "Bees pollinate flowers as they collect nectar, helping plants reproduce.",                        "ja": "ミツバチは蜜を集めながら花を受粉させ、植物の繁殖を助ける。" },
+    { "answer": "surreptitiously", "sentence": "She surreptitiously passed a note to her friend during the boring lecture.",                      "ja": "退屈な講義中、彼女はこっそりと友人にメモを手渡した。" },
+    { "answer": "itinerary",       "sentence": "She carefully planned her itinerary to include all the historical sites she wanted to visit.",    "ja": "彼女は訪れたいすべての史跡を含めるよう、旅程を慎重に計画した。" },
+    { "answer": "turmoil",         "sentence": "The sudden resignation of the president threw the company into complete turmoil.",                "ja": "社長の突然の辞任で、会社は完全な混乱状態に陥った。" }
+  ],
+  "bank": ["eccentric", "pollinate", "surreptitiously", "itinerary", "turmoil", "spores", "betrayal", "stricken", "frantic", "queasy", "brooding"],
+  "mc": [
+    { "q": "What does \"stricken\" mean?",    "opts": ["emotionally out of control", "to be overwhelmed by disease, misfortune, or sorrow", "darkly or sullenly thoughtful or serious", "having lost one's sense of time, place, or identity"], "answer": 1, "word": "stricken" },
+    { "q": "What does \"disoriented\" mean?", "opts": ["having lost one's sense of time, place, or identity", "the act of violation of someone's trust or confidence", "acting in a strict regard for what is right or proper", "causing nausea"], "answer": 0, "word": "disoriented" },
+    { "q": "What does \"frantic\" mean?",     "opts": ["darkly or sullenly thoughtful or serious", "having moments of moody silence", "emotionally out of control", "in a rude way"], "answer": 2, "word": "frantic" },
+    { "q": "What does \"queasy\" mean?",      "opts": ["acting in a strict regard for what is right", "causing nausea", "a person who wanders from the path or course", "a state of extreme confusion"], "answer": 1, "word": "queasy" },
+    { "q": "What does \"scrupulous\" mean?",  "opts": ["having whimsy; not following a usual pattern", "darkly or sullenly thoughtful", "to transfer pollen from one plant to another", "acting in a strict regard for what is right or proper"], "answer": 3, "word": "scrupulous" },
+    { "q": "What does \"brooding\" mean?",    "opts": ["causing nausea", "in a rude way", "darkly or sullenly thoughtful or serious", "a state of extreme confusion or commotion"], "answer": 2, "word": "brooding" },
+    { "q": "What does \"straggler\" mean?",   "opts": ["a unicellular reproductive body", "the act of violation of someone's trust", "acting in a strict regard for what is right", "a person who wanders from the path or course"], "answer": 3, "word": "straggler" },
+    { "q": "What does \"betrayal\" mean?",    "opts": ["the act of violation of someone's trust or confidence", "having done something by stealth", "a proposed outline of a trip", "to be overwhelmed by misfortune"], "answer": 0, "word": "betrayal" }
+  ],
+  "dict": [
+    { "text": "I can't wait until I'm old enough to start green magic.", "word": "magic" },
+    { "text": "She blinked very fast and dug her spade furiously in the soil.", "word": "furiously" },
+    { "text": "Plants lay mutilated on the floor, their pots shattered and leaves shredded.", "word": "shattered" }
+  ]
+}

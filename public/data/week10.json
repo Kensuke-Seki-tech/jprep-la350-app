@@ -1,0 +1,363 @@
+{
+  "weekId": "week10",
+  "weekNumber": 10,
+  "sentencesToRemember": [
+    {
+      "text": "She thought she could have walked the paths blindfolded, navigating by her green-sense alone.",
+      "ja": "彼女は目隠しをしたままでも、グリーンセンスだけを頼りに道を歩けると思っていた。"
+    },
+    {
+      "text": "It was heavy and cool in her hands, like a crystal ball.",
+      "ja": "それは水晶玉のように、手の中で重く冷たかった。"
+    },
+    {
+      "text": "There was a sudden silence all around, broken only by the dull cracking of the flames.",
+      "ja": "周囲は突然静まり返り、炎がくすんだ音でパチパチとはぜる音だけが響いた。"
+    },
+    {
+      "text": "The ground dropped away and the air became cooler as she reached the level of the roof.",
+      "ja": "屋根の高さまで登ると、足元の地面が遠のき、空気が冷たくなった。"
+    },
+    {
+      "text": "He used to go off for hours on his own, daydreaming and sketching.",
+      "ja": "彼はかつて何時間も一人でふらりと出かけ、空想にふけりながらスケッチをしていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w10_001",
+      "english": "shunt",
+      "japanese": "わきへそらす、転換する",
+      "englishDef": "to shift; to turn off to one side",
+      "partOfSpeech": "v",
+      "ipa": "/ʃʌnt/",
+      "katakana": "SHUNT",
+      "emoji": "↩️",
+      "exampleEn": "The train was shunted onto a side track to let the express pass.",
+      "exampleJa": "急行列車を通すために、その電車は支線へと転換された。",
+      "etymology": {
+        "morphemes": [
+          { "part": "shunten", "type": "root", "meaning": "わきにそらす（中英語；語源諸説あり）" }
+        ],
+        "imageDescription": "駅構内で列車が本線から外れて側線へとポイント切り替えで移動している様子",
+        "relatedWords": ["shunter", "shunting", "divert", "sidetrack"],
+        "memoryTip": "「シャント」→ 「邪魔！」と横にどかされるイメージ！\n医療用語でも shunt（バイパス管）として使われる！"
+      }
+    },
+    {
+      "id": "w10_002",
+      "english": "foreboding",
+      "japanese": "予感、不吉な予兆",
+      "englishDef": "an omen or prediction of coming evil",
+      "partOfSpeech": "n",
+      "ipa": "/fɔːˈbəʊ.dɪŋ/",
+      "katakana": "for-BOH-ding",
+      "emoji": "🌑",
+      "exampleEn": "A sense of foreboding washed over her as she entered the dark, silent building.",
+      "exampleJa": "暗く静まりかえったビルに入ると、不吉な予感が彼女を包んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fore-", "type": "prefix", "meaning": "前もって・事前に（古英語）" },
+          { "part": "bode", "type": "root", "meaning": "予告する・前兆となる（古英語 bodian）" },
+          { "part": "-ing", "type": "suffix", "meaning": "名詞化（状態・行為）" }
+        ],
+        "imageDescription": "嵐の前に空が不気味に暗くなり、何か悪いことが起きそうな気配が漂っている情景",
+        "relatedWords": ["forebode", "forboding", "bode", "omen", "premonition"],
+        "memoryTip": "fore（前もって）＋ bode（前兆となる）→ 前もって感じる悪い予感 → 不吉な予兆！\nbode well/ill（良い・悪い兆しを示す）という表現と合わせて覚えよう！"
+      }
+    },
+    {
+      "id": "w10_003",
+      "english": "ravenous",
+      "japanese": "非常に空腹な、飢えた",
+      "englishDef": "very eager for food, satisfaction, or gratification",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈræv.ə.nəs/",
+      "katakana": "RAV-ə-nəs",
+      "emoji": "🦅",
+      "exampleEn": "After hiking for six hours, the group was ravenous and devoured everything on the table.",
+      "exampleJa": "6時間ハイキングした後、グループは腹ぺこで、テーブルの上のものを何でも食べ尽くした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "raven", "type": "root", "meaning": "略奪する・貪る（古フランス語 raviner → ラテン語 rapina）" },
+          { "part": "-ous", "type": "suffix", "meaning": "形容詞化（～の性質の）" }
+        ],
+        "imageDescription": "獲物を捕まえるために急降下するワシのように、食べ物に貪欲に飛びかかろうとしている人の様子",
+        "relatedWords": ["ravenously", "ravenousness", "raven (bird)", "ravine", "rapacious"],
+        "memoryTip": "raven（カラス）のように何でも貪欲に食べる → 非常に空腹な！\nrapacious（貪欲な）・ravage（荒廃させる）も同じ語根 rapere（奪う）！"
+      }
+    },
+    {
+      "id": "w10_004",
+      "english": "unerring",
+      "japanese": "誤りのない、正確無比の",
+      "englishDef": "committing no error",
+      "partOfSpeech": "adj",
+      "ipa": "/ʌnˈɜː.rɪŋ/",
+      "katakana": "un-UR-ing",
+      "emoji": "🎯",
+      "exampleEn": "The archer's unerring aim allowed her to hit the bullseye every single time.",
+      "exampleJa": "弓使いの正確無比な狙いで、彼女は毎回必ず的の中心を射抜いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "un-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "err", "type": "root", "meaning": "誤る・さまよう（ラテン語 errare）" },
+          { "part": "-ing", "type": "suffix", "meaning": "形容詞化（継続的な性質）" }
+        ],
+        "imageDescription": "暗闇の中でも一度も外さず的の中心だけを射抜き続ける熟練の弓使いのイメージ",
+        "relatedWords": ["err", "error", "errant", "erroneous", "errata"],
+        "memoryTip": "un（否定）＋ err（誤る）＋ -ing → 誤りを犯さない → 正確無比の！\nerror（エラー）の否定形！「アンエリング」→ エラーなし！"
+      }
+    },
+    {
+      "id": "w10_005",
+      "english": "jeer",
+      "japanese": "嘲笑する、やじを飛ばす",
+      "englishDef": "to speak with mockery",
+      "partOfSpeech": "v",
+      "ipa": "/dʒɪər/",
+      "katakana": "JEER",
+      "emoji": "😜",
+      "exampleEn": "The crowd began to jeer at the politician who had broken his election promises.",
+      "exampleJa": "選挙公約を破った政治家に向かって、群衆はやじを飛ばし始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "jeer", "type": "root", "meaning": "嘲笑・からかい（16世紀英語；語源諸説あり）" }
+        ],
+        "imageDescription": "舞台の上でしくじった演者に向かって観客席から口をゆがめてやじを飛ばしている様子",
+        "relatedWords": ["jeering", "jeeringly", "jeer (n)", "mock", "taunt", "sneer"],
+        "memoryTip": "「ジャー（jeer）！」という野次の音そのまま → 嘲笑する！\nsneer（冷笑する）・mock（嘲笑する）と一緒に覚えよう！"
+      }
+    },
+    {
+      "id": "w10_006",
+      "english": "hostage",
+      "japanese": "人質",
+      "englishDef": "a person held by another to secure demands of money or control",
+      "partOfSpeech": "n",
+      "ipa": "/ˈhɒs.tɪdʒ/",
+      "katakana": "HOS-tij",
+      "emoji": "🔒",
+      "exampleEn": "The negotiators worked tirelessly to secure the safe release of the hostages.",
+      "exampleJa": "交渉担当者たちは人質の安全な解放を確保するために不眠不休で働いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "hostagium", "type": "root", "meaning": "人質として与えること（中世ラテン語；hospes＝客・主人）" }
+        ],
+        "imageDescription": "要求が通るまで監禁された人質と、解放を求めて交渉する警察官の対峙する場面",
+        "relatedWords": ["hostage-taker", "host", "hospital", "hospitality", "hotel"],
+        "memoryTip": "hospes（客・主人）→ 「お客様扱い」で縛り付ける → 人質！\nhospital（病院）・hotel（ホテル）も同じ語根 hospes から！"
+      }
+    },
+    {
+      "id": "w10_007",
+      "english": "invincible",
+      "japanese": "無敵の、征服できない",
+      "englishDef": "unable to be conquered, overcame, or subdued",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈvɪn.sɪ.bəl/",
+      "katakana": "in-VIN-si-bəl",
+      "emoji": "🦸",
+      "exampleEn": "The championship team felt invincible after winning fifteen games in a row.",
+      "exampleJa": "15連勝したチャンピオンチームは、自分たちが無敵だと感じていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "vinc", "type": "root", "meaning": "征服する・勝つ（ラテン語 vincere）" },
+          { "part": "-ible", "type": "suffix", "meaning": "形容詞化（～できる）" }
+        ],
+        "imageDescription": "どんな攻撃も跳ね返し、無傷で敵の中心に立ち続けるスーパーヒーローのイメージ",
+        "relatedWords": ["invincibility", "vincible", "convince", "victory", "victor"],
+        "memoryTip": "in（否定）＋ vinc（征服する）＋ -ible（できる）→ 征服できない → 無敵の！\nvictory（勝利）・convince（説得する＝論理で打ち負かす）も同じ語根！"
+      }
+    },
+    {
+      "id": "w10_008",
+      "english": "hoarse",
+      "japanese": "しゃがれた、かすれた",
+      "englishDef": "rough or harsh in sound",
+      "partOfSpeech": "adj",
+      "ipa": "/hɔːrs/",
+      "katakana": "HAWRS",
+      "emoji": "🤧",
+      "exampleEn": "Her voice was hoarse from cheering at the concert for three hours straight.",
+      "exampleJa": "コンサートで3時間ぶっ通しで声援を送ったため、彼女の声はしゃがれていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "has/hars", "type": "root", "meaning": "しゃがれた・耳障りな（古英語 has）" }
+        ],
+        "imageDescription": "コンサートで叫び続けて喉が枯れ、しゃがれた声しか出なくなった人が口を押さえている様子",
+        "relatedWords": ["hoarsely", "hoarseness", "raucous", "husky"],
+        "memoryTip": "「ホース（hoarse）」→ 馬（horse）のようなしゃがれた声！\nhoarse と horse は発音が同じ（ホモフォン）→ 馬のいなないきのような声！"
+      }
+    },
+    {
+      "id": "w10_009",
+      "english": "impulsively",
+      "japanese": "衝動的に、思わず",
+      "englishDef": "to be acting spontaneously or in excitement",
+      "partOfSpeech": "adv",
+      "ipa": "/ɪmˈpʌl.sɪv.li/",
+      "katakana": "im-PUL-siv-lee",
+      "emoji": "⚡",
+      "exampleEn": "She impulsively booked a flight to Paris after seeing a beautiful photo online.",
+      "exampleJa": "オンラインで美しい写真を見て、彼女は衝動的にパリ行きのフライトを予約した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "im-", "type": "prefix", "meaning": "中へ・強意（ラテン語 in-）" },
+          { "part": "puls", "type": "root", "meaning": "押す・駆り立てる（ラテン語 pellere/pulsare）" },
+          { "part": "-ive/-ly", "type": "suffix", "meaning": "形容詞化＋副詞化" }
+        ],
+        "imageDescription": "特に考えもせず、内側から突き動かされるような感覚でパッと行動してしまう人のイメージ",
+        "relatedWords": ["impulsive", "impulse", "impulsion", "compulsive", "expel", "repel"],
+        "memoryTip": "im（中へ）＋ puls（押す）→ 内側から突き動かされる → 衝動的に！\nimpulse（衝動）の副詞形！compulsive（強迫的な）・repel（押しやる）も同じ語根！"
+      }
+    },
+    {
+      "id": "w10_010",
+      "english": "inevitable",
+      "japanese": "避けられない、必然の",
+      "englishDef": "incapable of being avoided",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈev.ɪ.tə.bəl/",
+      "katakana": "in-EV-i-tə-bəl",
+      "emoji": "⏳",
+      "exampleEn": "After years of poor management, the company's collapse was inevitable.",
+      "exampleJa": "何年もの経営不振の末、その会社の倒産は避けられないことだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "evit", "type": "root", "meaning": "避ける（ラテン語 evitare）" },
+          { "part": "-able", "type": "suffix", "meaning": "形容詞化（～できる）" }
+        ],
+        "imageDescription": "砂時計の砂が尽きるように、どれほど望んでも止められない時間の流れを表すイメージ",
+        "relatedWords": ["inevitably", "inevitability", "evitable", "avoid"],
+        "memoryTip": "in（否定）＋ evit（避ける）＋ -able（できる）→ 避けることができない → 必然の！\n「イネビタブル」→ 「いや！（in-）避けられない（evitable）！」"
+      }
+    },
+    {
+      "id": "w10_011",
+      "english": "ammunition",
+      "japanese": "弾薬、攻撃材料",
+      "englishDef": "a projectile of guns or explosive military items",
+      "partOfSpeech": "n",
+      "ipa": "/ˌæm.jʊˈnɪʃ.ən/",
+      "katakana": "am-yoo-NISH-ən",
+      "emoji": "💣",
+      "exampleEn": "The soldiers ran low on ammunition after three days of continuous fighting.",
+      "exampleJa": "3日間の連続戦闘の後、兵士たちの弾薬は底をついてきた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "la munition", "type": "root", "meaning": "防衛物資（フランス語；ラテン語 munire＝要塞化する）" }
+        ],
+        "imageDescription": "戦場で兵士たちが弾薬箱から実弾を補給している緊張感あふれる場面",
+        "relatedWords": ["ammo", "munition", "munitions", "fortify", "immune"],
+        "memoryTip": "la munition（防衛物資）→ l'ammunition → ammunition（弾薬）！\nmunire（要塞化する）→ immune（免疫の）・fortify も同じ語根！"
+      }
+    },
+    {
+      "id": "w10_012",
+      "english": "cudgel",
+      "japanese": "こん棒、短い棍棒",
+      "englishDef": "a short heavy club",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkʌdʒ.əl/",
+      "katakana": "KUJ-əl",
+      "emoji": "🏏",
+      "exampleEn": "The guard raised his cudgel threateningly when the prisoners tried to escape.",
+      "exampleJa": "囚人たちが脱走しようとすると、看守は脅すようにこん棒を振り上げた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cycgel", "type": "root", "meaning": "こん棒（古英語）" }
+        ],
+        "imageDescription": "中世の番人が頑丈な短い棒を握りしめ、侵入者を威嚇している様子",
+        "relatedWords": ["cudgel (v)", "club", "baton", "truncheon"],
+        "memoryTip": "「カジェル（cudgel）」→ 「叶えル」頭を叩いてでも言うことを聞かせる棍棒！\ncudgel one's brains（頭をひねる）という慣用表現も覚えよう！"
+      }
+    },
+    {
+      "id": "w10_013",
+      "english": "gaudy",
+      "japanese": "けばけばしい、趣味の悪い",
+      "englishDef": "tasteless showiness",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈɡɔː.di/",
+      "katakana": "GAW-dee",
+      "emoji": "🎪",
+      "exampleEn": "The entrance hall was decorated with gaudy gold statues and neon-colored carpets.",
+      "exampleJa": "玄関ホールはけばけばしい金の彫像とネオンカラーのカーペットで飾られていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "gaude", "type": "root", "meaning": "喜ぶ・安物の飾り（ラテン語 gaudere＝喜ぶ）" }
+        ],
+        "imageDescription": "金ぴかの装飾・派手な色彩・過剰な宝石で埋め尽くされた、趣味の悪い豪華絢爛な部屋のイメージ",
+        "relatedWords": ["gaudily", "gaudiness", "gaudy (n: university feast)", "joy", "gaudeamus"],
+        "memoryTip": "gaudere（喜ぶ）→ 過剰に喜びを表現しようとしすぎた結果 → けばけばしい！\n「ゴーディ（gaudy）」→ ゴテゴテした趣味の悪い装飾！"
+      }
+    },
+    {
+      "id": "w10_014",
+      "english": "atrocious",
+      "japanese": "残忍な、ひどい、極めて悪い",
+      "englishDef": "extremely wicked or cruel",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈtrəʊ.ʃəs/",
+      "katakana": "ə-TROH-shəs",
+      "emoji": "😡",
+      "exampleEn": "The documentary exposed the atrocious conditions in which the workers were forced to live.",
+      "exampleJa": "そのドキュメンタリーは、労働者たちが強いられていた残忍な生活環境を暴露した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "atrox", "type": "root", "meaning": "残忍な・恐ろしい（ラテン語；ater＝暗い・黒い）" },
+          { "part": "-ious", "type": "suffix", "meaning": "形容詞化（～の性質の）" }
+        ],
+        "imageDescription": "言葉では言い表せないほどひどい不正義や残虐行為に対して世界が憤慨している様子",
+        "relatedWords": ["atrociously", "atrociousness", "atrocity", "atrocities"],
+        "memoryTip": "ater（黒い・暗い）→ 暗くおぞましい性質 → 残忍な！\natrocity（残虐行為）の形容詞形！「アトロシャス」→ 「あっ、恐ろしすぎる！」"
+      }
+    },
+    {
+      "id": "w10_015",
+      "english": "meticulously",
+      "japanese": "細心の注意を払って、念入りに",
+      "englishDef": "very careful; showing extreme care",
+      "partOfSpeech": "adv",
+      "ipa": "/mɪˈtɪk.jʊ.ləs.li/",
+      "katakana": "mi-TIK-yoo-ləs-lee",
+      "emoji": "🔬",
+      "exampleEn": "The surgeon meticulously cleaned and stitched the wound to minimize scarring.",
+      "exampleJa": "外科医は傷跡を最小限にするために、傷口を念入りに洗浄し縫合した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "metus", "type": "root", "meaning": "恐れ・不安（ラテン語）" },
+          { "part": "-iculous/-ously", "type": "suffix", "meaning": "形容詞化＋副詞化" }
+        ],
+        "imageDescription": "顕微鏡を覗きながら細かな作業を一ミリの誤差も許さぬ集中力で行う科学者のイメージ",
+        "relatedWords": ["meticulous", "meticulousness", "timid"],
+        "memoryTip": "metus（恐れ）→ 失敗を恐れるあまり細心の注意を払う → 念入りに！\n「メティキュラスリー」→ 「めっちゃ気を使いながら」のイメージ！"
+      }
+    },
+    {
+      "id": "w10_016",
+      "english": "dyslexia",
+      "japanese": "失読症、ディスレクシア",
+      "englishDef": "a learning disability involving difficulties in processing written language",
+      "partOfSpeech": "n",
+      "ipa": "/dɪsˈlek.si.ə/",
+      "katakana": "dis-LEK-see-ə",
+      "emoji": "📖",
+      "exampleEn": "With extra support and specialized tools, students with dyslexia can excel academically.",
+      "exampleJa": "追加のサポートと専門的なツールがあれば、ディスレクシアの生徒も学業で優秀な成績を収められる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dys-", "type": "prefix", "meaning": "困難・障害（ギリシャ語 dys＝悪い・困難な）" },
+          { "part": "lexis", "type": "root", "meaning": "言葉・読む（ギリシャ語 lexis → legein＝読む）" },
+          { "part": "-ia", "type": "suffix", "meaning": "名詞化（状態・病態）" }
+        ],
+        "imageDescription": "本の文字が入り組んで見えたり並び順が入れ替わって見えたりする読字困難のある人のイメージ",
+        "relatedWords": ["dyslexic", "lexical", "lexicon", "dysfunctional", "dystopia"],
+        "memoryTip": "dys（困難）＋ lexis（言葉・読む）→ 読むことに困難を抱える → 失読症！\ndystopia（ディストピア）・dysfunctional（機能不全の）も同じ dys-！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "weekId": "week09",
+  "weekNumber": 9,
+  "sentencesToRemember": [
+    {
+      "text": "I can't wait until I'm old enough to start green magic.",
+      "ja": "早くグリーンマジックを始められる年齢になりたくてたまらない。"
+    },
+    {
+      "text": "No matter how hard she's tried, her vine remained stubborn and unmoving.",
+      "ja": "どれほど頑張っても、彼女のつる植物は頑固なままでびくともしなかった。"
+    },
+    {
+      "text": "She sloshed hot tea into the mugs, and the potted palm cowered as she stomped to refill the teapot.",
+      "ja": "彼女はマグカップに熱いお茶をドバドバと注ぎ、やかんに水を足すためにドスドスと歩くと、鉢植えのヤシの木が縮み上がった。"
+    },
+    {
+      "text": "She blinked very fast and dug her spade furiously in the soil.",
+      "ja": "彼女はまばたきを繰り返し、スコップで土を激しく掘り起こした。"
+    },
+    {
+      "text": "Plants lay mutilated on the floor, their pots shattered and leaves shredded.",
+      "ja": "植物たちは床に無残な姿で倒れ、鉢は砕け、葉は細切れになっていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w09_001",
+      "english": "eccentric",
+      "japanese": "風変わりな、奇抜な",
+      "englishDef": "having whimsy; not following an established or usual pattern",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪkˈsen.trɪk/",
+      "katakana": "ik-SEN-trik",
+      "emoji": "🎩",
+      "exampleEn": "The eccentric professor wore mismatched socks and talked to his plants every morning.",
+      "exampleJa": "その風変わりな教授は左右違う靴下をはき、毎朝植物に話しかけていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ec-/ex-", "type": "prefix", "meaning": "外へ・離れて（ラテン語 ex-）" },
+          { "part": "centr", "type": "root", "meaning": "中心（ギリシャ語 kentron）" },
+          { "part": "-ic", "type": "suffix", "meaning": "形容詞化（～の性質の）" }
+        ],
+        "imageDescription": "中心から外れた軌道を描く惑星のように、社会の常識から離れた行動をとる奇抜な人物のイメージ",
+        "relatedWords": ["eccentricity", "eccentrically", "center", "concentric"],
+        "memoryTip": "ec（外へ）＋ centr（中心）→ 中心から外れている → 風変わりな！\n「エキセントリック」として日本語にも定着している！"
+      }
+    },
+    {
+      "id": "w09_002",
+      "english": "spores",
+      "japanese": "胞子",
+      "englishDef": "a unicellular, reproductive body made by plants, fungi, and some microorganisms",
+      "partOfSpeech": "n",
+      "ipa": "/spɔːrz/",
+      "katakana": "SPAWRZ",
+      "emoji": "🍄",
+      "exampleEn": "Ferns release millions of spores into the air to reproduce without seeds.",
+      "exampleJa": "シダ植物は種を使わずに繁殖するため、何百万もの胞子を空中に放出する。",
+      "etymology": {
+        "morphemes": [
+          { "part": "spor", "type": "root", "meaning": "種・まく（ギリシャ語 spora → speirein＝まき散らす）" },
+          { "part": "-e/-s", "type": "suffix", "meaning": "名詞複数形" }
+        ],
+        "imageDescription": "キノコの傘の裏から無数の微細な胞子が空中にふわりと舞い広がっている様子",
+        "relatedWords": ["spore (singular)", "sporophyte", "sporadic", "diaspora"],
+        "memoryTip": "speirein（まき散らす）→ 胞子（spore）→ sporadic（散発的な）も同じ語根！\nキノコの裏から「スポー」っとまき散らされるイメージ！"
+      }
+    },
+    {
+      "id": "w09_003",
+      "english": "betrayal",
+      "japanese": "裏切り、背信行為",
+      "englishDef": "the act of violation of someone's trust or confidence",
+      "partOfSpeech": "n",
+      "ipa": "/bɪˈtreɪ.əl/",
+      "katakana": "bi-TRAY-əl",
+      "emoji": "🗡️",
+      "exampleEn": "His betrayal of their friendship left her heartbroken and unable to trust anyone.",
+      "exampleJa": "友情を裏切られた彼女は傷心し、誰も信じられなくなってしまった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "be-", "type": "prefix", "meaning": "強意・完全に（古英語）" },
+          { "part": "tray/traitor", "type": "root", "meaning": "引き渡す・裏切る（ラテン語 tradere）" },
+          { "part": "-al", "type": "suffix", "meaning": "名詞化（行為）" }
+        ],
+        "imageDescription": "親友だと思っていた人が秘密を敵に売り渡し、背中を刺されるような衝撃を受けている様子",
+        "relatedWords": ["betray", "betrayer", "traitor", "treason", "tradition"],
+        "memoryTip": "be（強意）＋ tray（引き渡す）→ 完全に引き渡してしまう → 裏切り！\ntraitor（反逆者）・treason（反逆）も同じ語根 tradere！"
+      }
+    },
+    {
+      "id": "w09_004",
+      "english": "pollinate",
+      "japanese": "受粉させる",
+      "englishDef": "to transfer pollen from one plant to another",
+      "partOfSpeech": "v",
+      "ipa": "/ˈpɒl.ɪ.neɪt/",
+      "katakana": "POL-i-nayt",
+      "emoji": "🐝",
+      "exampleEn": "Bees pollinate flowers as they collect nectar, helping plants reproduce.",
+      "exampleJa": "ミツバチは蜜を集めながら花を受粉させ、植物の繁殖を助ける。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pollen", "type": "root", "meaning": "花粉（ラテン語 pollen＝細かい粉・粉末）" },
+          { "part": "-ate", "type": "suffix", "meaning": "動詞化（～する）" }
+        ],
+        "imageDescription": "ミツバチが黄色い花粉を体いっぱいにつけながら花から花へと飛び回っている様子",
+        "relatedWords": ["pollen", "pollination", "pollinator", "powder"],
+        "memoryTip": "pollen（花粉）＋ -ate（する）→ 花粉を運ぶ行為 → 受粉させる！\nミツバチが「ポリネート（pollinate）」するイメージで覚えよう！"
+      }
+    },
+    {
+      "id": "w09_005",
+      "english": "stricken",
+      "japanese": "打ちのめされた、苦悩に満ちた",
+      "englishDef": "to be overwhelmed by disease, misfortune, or sorrow",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈstrɪk.ən/",
+      "katakana": "STRIK-ən",
+      "emoji": "😰",
+      "exampleEn": "The stricken village received emergency aid after the earthquake destroyed their homes.",
+      "exampleJa": "地震で家が壊滅した打ちのめされた村に緊急支援が届いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "strike", "type": "root", "meaning": "打つ・叩く（古英語 strican）" },
+          { "part": "-en", "type": "suffix", "meaning": "過去分詞形（打たれた状態）" }
+        ],
+        "imageDescription": "洪水や地震などの災害に見舞われ、呆然と立ち尽くしている人々の様子",
+        "relatedWords": ["strike", "stricken (fever-stricken, grief-stricken)", "struck"],
+        "memoryTip": "strike（打つ）の過去分詞 → 打たれた・打ちのめされた状態 → 苦悩に満ちた！\ngrief-stricken（悲嘆に打ちひしがれた）・panic-stricken（パニックになった）などの複合語でよく使う！"
+      }
+    },
+    {
+      "id": "w09_006",
+      "english": "disoriented",
+      "japanese": "方向感覚を失った、混乱した",
+      "englishDef": "having lost one's sense of time, place, or identity",
+      "partOfSpeech": "adj",
+      "ipa": "/dɪsˈɔː.ri.en.tɪd/",
+      "katakana": "dis-AW-ree-en-tid",
+      "emoji": "🌀",
+      "exampleEn": "Waking up in an unfamiliar hotel room, she felt completely disoriented.",
+      "exampleJa": "見知らぬホテルの部屋で目を覚ました彼女は、完全に方向感覚を失っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dis-", "type": "prefix", "meaning": "否定・逆（ラテン語）" },
+          { "part": "orient", "type": "root", "meaning": "東・方向を定める（ラテン語 oriens＝昇る太陽）" },
+          { "part": "-ed", "type": "suffix", "meaning": "形容詞化（状態）" }
+        ],
+        "imageDescription": "深い霧の中で地図もコンパスもなく、どちらへ進めばいいか分からず立ち尽くしている旅人の様子",
+        "relatedWords": ["disorient", "disorientation", "orient", "orientation", "oriental"],
+        "memoryTip": "dis（否定）＋ orient（方向を定める）→ 方向が定まらない → 方向感覚を失った！\norientation（オリエンテーション）の dis- 否定形！"
+      }
+    },
+    {
+      "id": "w09_007",
+      "english": "curtly",
+      "japanese": "ぶっきらぼうに、無愛想に",
+      "englishDef": "in a rude way",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈkɜːt.li/",
+      "katakana": "KURT-lee",
+      "emoji": "😤",
+      "exampleEn": "\"I'm busy,\" he said curtly, not even looking up from his work.",
+      "exampleJa": "「忙しい」と彼はぶっきらぼうに言い、仕事から目も上げなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "curt", "type": "root", "meaning": "短い・無愛想な（ラテン語 curtus＝切り詰めた）" },
+          { "part": "-ly", "type": "suffix", "meaning": "副詞化（～な方法で）" }
+        ],
+        "imageDescription": "相手の目も見ず、一言二言だけで会話を打ち切り、さっさと立ち去ろうとしている人物の様子",
+        "relatedWords": ["curt", "curtness", "curtail", "short"],
+        "memoryTip": "curtus（切り詰めた）→ curt（ぶっきらぼうな）→ curtly（ぶっきらぼうに）！\ncurtail（切り詰める・削減する）も同じ語根！"
+      }
+    },
+    {
+      "id": "w09_008",
+      "english": "frantic",
+      "japanese": "半狂乱の、取り乱した",
+      "englishDef": "emotionally out of control",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈfræn.tɪk/",
+      "katakana": "FRAN-tik",
+      "emoji": "😱",
+      "exampleEn": "The mother was frantic with worry when her child didn't come home after school.",
+      "exampleJa": "子供が放課後帰宅しないと、母親は心配で半狂乱になった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "phrenitis", "type": "root", "meaning": "脳の炎症・狂気（ギリシャ語 phren＝心・横隔膜）" }
+        ],
+        "imageDescription": "行方不明の子供を探して街中を走り回り、叫びながら人々に問いかけている親の姿",
+        "relatedWords": ["frantically", "frenzy", "phrenology", "schizophrenia"],
+        "memoryTip": "phren（心・精神）＋ 炎症 → 精神が燃え上がった状態 → 半狂乱の！\nfrenzy（狂乱）も同じ語根！「フランティックな状態」でパニクるイメージ！"
+      }
+    },
+    {
+      "id": "w09_009",
+      "english": "queasy",
+      "japanese": "吐き気を催す、気持ち悪い",
+      "englishDef": "causing nausea",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈkwiː.zi/",
+      "katakana": "KWEE-zee",
+      "emoji": "🤢",
+      "exampleEn": "The boat ride in rough seas made nearly everyone on board feel queasy.",
+      "exampleJa": "荒れた海でのボート乗りで、船内のほぼ全員が吐き気を感じた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "quasy/coysy", "type": "root", "meaning": "不快・吐き気（中英語；スカンジナビア語起源）" }
+        ],
+        "imageDescription": "荒波に揺れる船の上で顔面蒼白になり、手で口を押さえながらうずくまっている人の様子",
+        "relatedWords": ["queasiness", "queasily", "nausea", "nauseated"],
+        "memoryTip": "「クイジー（queasy）」→ 「気持ち悪ぃ～ずい」とうなっている感じで覚えよう！\n乗り物酔いで「クィーっ」と気持ち悪くなるイメージ！"
+      }
+    },
+    {
+      "id": "w09_010",
+      "english": "scrupulous",
+      "japanese": "良心的な、誠実な、細心の注意を払う",
+      "englishDef": "acting in a strict regard for what is right or proper",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈskruː.pjʊ.ləs/",
+      "katakana": "SKROO-pyoo-ləs",
+      "emoji": "⚖️",
+      "exampleEn": "The scrupulous accountant checked every figure three times to ensure accuracy.",
+      "exampleJa": "良心的な会計士は正確さを確保するために、すべての数字を3回確認した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "scrupul", "type": "root", "meaning": "小石・不安（ラテン語 scrupulus＝靴の中の小石のような不安感）" },
+          { "part": "-ous", "type": "suffix", "meaning": "形容詞化（～の性質の）" }
+        ],
+        "imageDescription": "天秤の両皿を細かく調整しながら正確さを極めようとする良心的な人物のイメージ",
+        "relatedWords": ["scrupulously", "scrupulousness", "unscrupulous", "scruple"],
+        "memoryTip": "scrupulus（靴の中の小石）→ 小さなことも気になる → 良心的・誠実！\nunscrupulous（不誠実な）はその否定形！「スクルプル」→ 細かいことにこだわる人！"
+      }
+    },
+    {
+      "id": "w09_011",
+      "english": "surreptitiously",
+      "japanese": "こっそりと、内密に",
+      "englishDef": "having done, made, or acquired by stealth",
+      "partOfSpeech": "adv",
+      "ipa": "/ˌsʌr.əpˈtɪʃ.əs.li/",
+      "katakana": "sur-əp-TISH-əs-lee",
+      "emoji": "🕵️",
+      "exampleEn": "She surreptitiously passed a note to her friend during the boring lecture.",
+      "exampleJa": "退屈な講義中、彼女はこっそりと友人にメモを手渡した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sur-/sub-", "type": "prefix", "meaning": "下に・こっそり（ラテン語 sub-）" },
+          { "part": "rep/rapt", "type": "root", "meaning": "つかむ・奪う（ラテン語 rapere）" },
+          { "part": "-itious/-ly", "type": "suffix", "meaning": "形容詞化＋副詞化" }
+        ],
+        "imageDescription": "授業中に先生の目を盗んでこっそりとノートに友人へのメモを書き渡している学生の様子",
+        "relatedWords": ["surreptitious", "surreptitiousness", "rapture", "rapt", "usurp"],
+        "memoryTip": "sub（下に）＋ rapere（つかむ）→ こっそり下から奪い取る → 内密に！\n「サレプティシャス」→ 「去れ」と言われないようにこっそりやる感じ！"
+      }
+    },
+    {
+      "id": "w09_012",
+      "english": "brooding",
+      "japanese": "暗く物思いにふける、陰気な",
+      "englishDef": "darkly or sullenly thoughtful or serious",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈbruː.dɪŋ/",
+      "katakana": "BROO-ding",
+      "emoji": "🌧️",
+      "exampleEn": "He sat alone in the corner, brooding over the argument he had with his best friend.",
+      "exampleJa": "彼は隅に一人座り、親友との口論について暗く物思いにふけっていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "brood", "type": "root", "meaning": "卵を温める・じっくり考える（古英語 brod）" },
+          { "part": "-ing", "type": "suffix", "meaning": "形容詞化（継続的な状態）" }
+        ],
+        "imageDescription": "嵐の前の暗い空の下、一人でじっと暗い考えに沈み込んでいる人物の後ろ姿",
+        "relatedWords": ["brood (v/n)", "broodingly", "broody"],
+        "memoryTip": "brood（卵を温める）→ 考えをじっくり温め続ける → 暗く物思いにふける！\n「ブルーディング」→ ブルー（blue＝憂鬱）な気持ちでじっと考えているイメージ！"
+      }
+    },
+    {
+      "id": "w09_013",
+      "english": "straggler",
+      "japanese": "落伍者、迷子になった人",
+      "englishDef": "a person who wanders from the path or course",
+      "partOfSpeech": "n",
+      "ipa": "/ˈstræɡ.lər/",
+      "katakana": "STRAG-lər",
+      "emoji": "🚶",
+      "exampleEn": "The tour guide waited patiently for the stragglers who had stopped to take photos.",
+      "exampleJa": "ツアーガイドは写真を撮るために立ち止まった落伍者たちを辛抱強く待った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "straggle", "type": "root", "meaning": "群れからはぐれて歩く・散らばる（方言語源不詳）" },
+          { "part": "-er", "type": "suffix", "meaning": "名詞化（行為者）" }
+        ],
+        "imageDescription": "団体旅行のグループから遅れてしまい、一人でとぼとぼと後ろを歩いている人の様子",
+        "relatedWords": ["straggle", "straggling", "stray", "wander"],
+        "memoryTip": "straggle（散らばる）＋ -er（する人）→ 群れからはぐれる人 → 落伍者！\n「ストラグル（struggle＝もがく）」と混同しないよう注意！"
+      }
+    },
+    {
+      "id": "w09_014",
+      "english": "sulkily",
+      "japanese": "不機嫌そうに、ふくれっ面で",
+      "englishDef": "having moments of moody silence",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈsʌl.kɪ.li/",
+      "katakana": "SUL-ki-lee",
+      "emoji": "😒",
+      "exampleEn": "The child sulkily pushed away the plate of vegetables without saying a word.",
+      "exampleJa": "子供は一言も言わず、不機嫌そうに野菜の皿を押しやった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sulk", "type": "root", "meaning": "不機嫌に黙り込む（語源不詳、おそらく古英語）" },
+          { "part": "-ily", "type": "suffix", "meaning": "副詞化（～な様子で）" }
+        ],
+        "imageDescription": "口を尖らせてふくれっ面をし、腕を組んで沈黙している子供の様子",
+        "relatedWords": ["sulk", "sulky", "sulkiness", "sullen"],
+        "memoryTip": "sulk（不機嫌に黙る）＋ -ily → 不機嫌な様子で → ふくれっ面で！\n「サルキリー」→ 「去る気」で黙って部屋から出て行くイメージ！"
+      }
+    },
+    {
+      "id": "w09_015",
+      "english": "itinerary",
+      "japanese": "旅程、旅行計画",
+      "englishDef": "a travel diary; a proposed outline of a trip",
+      "partOfSpeech": "n",
+      "ipa": "/aɪˈtɪn.ər.er.i/",
+      "katakana": "ay-TIN-ər-er-ee",
+      "emoji": "🗺️",
+      "exampleEn": "She carefully planned her itinerary to include all the historical sites she wanted to visit.",
+      "exampleJa": "彼女は訪れたいすべての史跡を含めるよう、旅程を慎重に計画した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "itiner", "type": "root", "meaning": "旅・道（ラテン語 iter＝行くこと・旅）" },
+          { "part": "-ary", "type": "suffix", "meaning": "名詞化（関連するもの）" }
+        ],
+        "imageDescription": "地図の上に旅行日程・経路・宿泊地が書き込まれた手帳が広げられている様子",
+        "relatedWords": ["itinerant", "itinerate", "circuit"],
+        "memoryTip": "iter（旅）＋ -ary → 旅に関するもの → 旅程・旅行計画！\nitinerant（旅回りの・遍歴する）も同じ語根！"
+      }
+    },
+    {
+      "id": "w09_016",
+      "english": "turmoil",
+      "japanese": "混乱、騒動、大混乱",
+      "englishDef": "a state of extreme confusion or commotion",
+      "partOfSpeech": "n",
+      "ipa": "/ˈtɜː.mɔɪl/",
+      "katakana": "TUR-moyl",
+      "emoji": "🌪️",
+      "exampleEn": "The sudden resignation of the president threw the company into complete turmoil.",
+      "exampleJa": "社長の突然の辞任で、会社は完全な混乱状態に陥った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "turmoil", "type": "root", "meaning": "語源不詳（16世紀英語；おそらくフランス語 tremouille＝水車の粉受けから）" }
+        ],
+        "imageDescription": "嵐の中で渦を巻く竜巻のように、すべてが混乱してあちこちで問題が噴出している様子",
+        "relatedWords": ["turmoil (v)", "chaos", "commotion", "upheaval", "disorder"],
+        "memoryTip": "「ターモイル」→ ターボエンジンが唸りを上げて「モイル（もいる＝もがく）」ような激しい混乱！\n竜巻（tornado）のように渦巻く大混乱のイメージ！"
+      }
+    }
+  ]
+}
