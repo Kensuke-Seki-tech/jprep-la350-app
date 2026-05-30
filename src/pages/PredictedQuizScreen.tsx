@@ -696,14 +696,14 @@ function Part4Dictation({ items, onComplete }: { items: DictItem[]; onComplete: 
                 </button>
               </div>
             </div>
-            <input
-              type="text"
+            <textarea
+              rows={3}
               value={inputs[i]}
               onChange={e => { const next = [...inputs]; next[i] = e.target.value; setInputs(next) }}
-              onKeyDown={e => { if (e.key === 'Enter') submit(i) }}
+              onKeyDown={e => { if (e.key === 'Enter') { e.preventDefault(); submit(i) } }}
               placeholder="聴こえた文を書き取ろう..."
               disabled={done[i] !== null}
-              className={`w-full px-3 py-2 rounded-lg border-2 text-sm mb-2 transition-colors
+              className={`w-full px-3 py-2 rounded-lg border-2 text-sm mb-2 transition-colors resize-none
                 ${done[i] === true  ? 'border-green-400 bg-green-50' :
                   done[i] === false ? 'border-red-400 bg-red-50' :
                                       'border-slate-200 bg-white focus:border-blue-400 outline-none'}`}
