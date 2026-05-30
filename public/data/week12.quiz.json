@@ -1,0 +1,38 @@
+{
+  "weekId": "week12",
+  "match": [
+    { "word": "stray",       "def": "to move away from the correct path or group; to roam" },
+    { "word": "droop",       "def": "to hang or bend downward loosely; to become limp" },
+    { "word": "squat",       "def": "to bend one's knees and lower the body close to the ground" },
+    { "word": "stationary",  "def": "not moving; remaining in one place" },
+    { "word": "hysterical",  "def": "wildly uncontrolled in emotion; extremely funny or upset" },
+    { "word": "resentful",   "def": "feeling anger or bitterness about something you think is unfair" },
+    { "word": "peer",        "def": "to look closely or carefully, especially with difficulty" },
+    { "word": "staggering",  "def": "extremely shocking or surprising; overwhelming" },
+    { "word": "cling",       "def": "to hold tightly to something or someone" },
+    { "word": "thrust",      "def": "to push or drive with force; to extend something suddenly" }
+  ],
+  "gap": [
+    { "answer": "stray",      "sentence": "The little lamb strayed from the flock and got lost in the fields.",          "ja": "子羊は群れからはぐれ、野原で迷子になってしまった。" },
+    { "answer": "droop",      "sentence": "The sunflowers began to droop without water for several days.",                "ja": "何日も水をもらえなかったヒマワリがしおれ始めた。" },
+    { "answer": "squat",      "sentence": "The child squatted down to look at the tiny frog in the puddle.",             "ja": "子どもは水たまりの中の小さなカエルを見ようとしゃがみ込んだ。" },
+    { "answer": "stationary", "sentence": "The car remained stationary at the red light for several minutes.",           "ja": "赤信号で車は数分間静止したままだった。" },
+    { "answer": "hysterical", "sentence": "The crowd became hysterical when the singer appeared on stage.",              "ja": "歌手がステージに現れると、観衆はヒステリックな状態になった。" }
+  ],
+  "bank": ["stray", "droop", "squat", "stationary", "hysterical", "resentful", "peer", "staggering", "cling", "thrust"],
+  "mc": [
+    { "q": "What does \"resentful\" mean?",   "opts": ["wildly uncontrolled in emotion", "feeling anger or bitterness about something you think is unfair", "to look closely or carefully", "to hold tightly to something"],               "answer": 1, "word": "resentful" },
+    { "q": "What does \"peer\" mean?",        "opts": ["to look closely or carefully, especially with difficulty", "not moving; remaining in one place", "extremely shocking or surprising", "to push or drive with force"],               "answer": 0, "word": "peer" },
+    { "q": "What does \"staggering\" mean?",  "opts": ["to hold tightly to something", "to walk in a slow, relaxed way", "extremely shocking or surprising; overwhelming", "feeling anger or bitterness"],                                  "answer": 2, "word": "staggering" },
+    { "q": "What does \"cling\" mean?",       "opts": ["to hang or bend downward loosely", "to make a sharp reply to someone", "not moving; remaining in one place", "to hold tightly to something or someone"],                          "answer": 3, "word": "cling" },
+    { "q": "What does \"cage\" mean?",        "opts": ["an enclosed structure used to confine animals or people", "intensely irritated and frustrated", "to walk in a slow, relaxed way", "to move away from the correct path"],           "answer": 0, "word": "cage" },
+    { "q": "What does \"exasperated\" mean?", "opts": ["to push or drive with force", "to make a sharp reply", "intensely irritated and frustrated", "not moving; remaining in one place"],                                               "answer": 2, "word": "exasperated" },
+    { "q": "What does \"stroll\" mean?",      "opts": ["to bend one's knees and lower the body", "to walk in a slow, relaxed way", "to move away from the correct path", "to hang or bend downward loosely"],                            "answer": 1, "word": "stroll" },
+    { "q": "What does \"retort\" mean?",      "opts": ["to hold tightly to something", "pleasant and enjoyable; willing to agree", "to push or drive with force", "to make a sharp or witty reply to someone"],                          "answer": 3, "word": "retort" }
+  ],
+  "dict": [
+    { "text": "It was hard to know whether the toad was listening or not.", "word": "whether" },
+    { "text": "Shifting his position, he turned his attention to a little pile of pebbles next to him.", "word": "staggering" },
+    { "text": "For a long moment they looked at each other in silence, the boy with his arm still raised to his mouth.", "word": "silence" }
+  ]
+}

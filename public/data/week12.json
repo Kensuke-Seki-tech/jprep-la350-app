@@ -1,0 +1,339 @@
+{
+  "weekId": "week12",
+  "weekNumber": 12,
+  "label": "Term B - Week 2",
+  "sentencesToRemember": [
+    {
+      "text": "It was hard to know whether the toad was listening or not.",
+      "ja": "そのヒキガエルが聞いているかどうか、知るのは難しかった。"
+    },
+    {
+      "text": "I'll never be able to do anything important if I stay in here like this.",
+      "ja": "このままここにいたら、大切なことは何もできないだろう。"
+    },
+    {
+      "text": "No one ever said precisely what it was that she would not be able to manage.",
+      "ja": "彼女がうまくできないだろうことが何なのか、誰も正確には言わなかった。"
+    },
+    {
+      "text": "Shifting his position, he turned his attention to a little pile of pebbles next to him.",
+      "ja": "体勢を変えながら、彼は隣の小石の山に注意を向けた。"
+    },
+    {
+      "text": "For a long moment they looked at each other in silence, the boy with his arm still raised to his mouth.",
+      "ja": "しばらくの間、彼らは無言で見つめ合っていた。少年はまだ腕を口元に上げたままだった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w12_001",
+      "english": "stray",
+      "japanese": "さまよう、道をそれる",
+      "englishDef": "to move away from the correct path or group; to roam",
+      "partOfSpeech": "v",
+      "ipa": "/streɪ/",
+      "katakana": "stray",
+      "emoji": "🐾",
+      "exampleEn": "The little lamb strayed from the flock and got lost in the fields.",
+      "exampleJa": "子羊は群れからはぐれ、野原で迷子になってしまった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "estraier", "type": "root", "meaning": "さまよう・道に迷う（古フランス語）" }
+        ],
+        "imageDescription": "群れから離れて一匹だけ別の方向に歩いていく羊の様子",
+        "relatedWords": ["stray dog", "astray", "wander", "roam"],
+        "memoryTip": "stray（さまよう）→ 「ストレー」＝ まっすぐ（straight）から外れる！"
+      }
+    },
+    {
+      "id": "w12_002",
+      "english": "droop",
+      "japanese": "垂れ下がる、しおれる",
+      "englishDef": "to hang or bend downward loosely; to become limp",
+      "partOfSpeech": "v",
+      "ipa": "/druːp/",
+      "katakana": "droop",
+      "emoji": "🌸",
+      "exampleEn": "The sunflowers began to droop without water for several days.",
+      "exampleJa": "何日も水をもらえなかったヒマワリがしおれ始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dropa", "type": "root", "meaning": "垂れ下がる・たれる（古ノルド語）" }
+        ],
+        "imageDescription": "水不足でうなだれて下を向いているヒマワリの花の様子",
+        "relatedWords": ["drop", "drip", "sag", "wilt"],
+        "memoryTip": "droop（垂れ下がる）→ drop（落ちる）と同語源 → 力なく落ちていく！"
+      }
+    },
+    {
+      "id": "w12_003",
+      "english": "squat",
+      "japanese": "しゃがむ、かがむ",
+      "englishDef": "to bend one's knees and lower the body close to the ground",
+      "partOfSpeech": "v",
+      "ipa": "/skwɒt/",
+      "katakana": "skwot",
+      "emoji": "🏋️",
+      "exampleEn": "The child squatted down to look at the tiny frog in the puddle.",
+      "exampleJa": "子どもは水たまりの中の小さなカエルを見ようとしゃがみ込んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "esquatir", "type": "root", "meaning": "押しつぶす・身を低くする（古フランス語）" }
+        ],
+        "imageDescription": "地面に近いところにいる虫を観察しようとひざを曲げてしゃがんでいる子どもの様子",
+        "relatedWords": ["crouch", "kneel", "hunker", "squat down"],
+        "memoryTip": "squat（しゃがむ）→ スクワット（筋トレ）！ ひざを曲げて低くなる動き！"
+      }
+    },
+    {
+      "id": "w12_004",
+      "english": "stationary",
+      "japanese": "静止した、動かない",
+      "englishDef": "not moving; remaining in one place",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsteɪ.ʃən.ər.i/",
+      "katakana": "STAY-shə-ner-ee",
+      "emoji": "🚦",
+      "exampleEn": "The car remained stationary at the red light for several minutes.",
+      "exampleJa": "赤信号で車は数分間静止したままだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "station", "type": "root", "meaning": "立つ場所・停止（ラテン語 statio）" },
+          { "part": "-ary", "type": "suffix", "meaning": "形容詞化（～に関する）" }
+        ],
+        "imageDescription": "赤信号の前でピタリと止まって動かない車の様子",
+        "relatedWords": ["station", "static", "stagnant", "stationary bike"],
+        "memoryTip": "stationary（動かない）← station（駅）→ 駅はいつも同じ場所に立ち止まっている！"
+      }
+    },
+    {
+      "id": "w12_005",
+      "english": "hysterical",
+      "japanese": "ヒステリックな、感情的に取り乱した",
+      "englishDef": "wildly uncontrolled in emotion; extremely funny or upset",
+      "partOfSpeech": "adj",
+      "ipa": "/hɪˈster.ɪ.kəl/",
+      "katakana": "hi-STER-i-kəl",
+      "emoji": "😱",
+      "exampleEn": "The crowd became hysterical when the singer appeared on stage.",
+      "exampleJa": "歌手がステージに現れると、観衆はヒステリックな状態になった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "hystera", "type": "root", "meaning": "子宮（ギリシャ語）" },
+          { "part": "-ic", "type": "suffix", "meaning": "形容詞化（～に関する）" },
+          { "part": "-al", "type": "suffix", "meaning": "形容詞強化" }
+        ],
+        "imageDescription": "感情が抑えられず泣き叫んでいる人たちの様子",
+        "relatedWords": ["hysteria", "hysteric", "hysterically", "panic"],
+        "memoryTip": "hysteria（ヒステリー）→ 古代ギリシャで「子宮の病気」が感情的混乱の原因とされた！"
+      }
+    },
+    {
+      "id": "w12_006",
+      "english": "resentful",
+      "japanese": "憤慨した、腹を立てた",
+      "englishDef": "feeling anger or bitterness about something you think is unfair",
+      "partOfSpeech": "adj",
+      "ipa": "/rɪˈzent.fəl/",
+      "katakana": "ri-ZENT-fəl",
+      "emoji": "😤",
+      "exampleEn": "She felt resentful that her younger brother always got special treatment.",
+      "exampleJa": "弟がいつも特別扱いされることに、彼女は憤慨していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "再び・強調" },
+          { "part": "sent", "type": "root", "meaning": "感じる（ラテン語 sentire）" },
+          { "part": "-ful", "type": "suffix", "meaning": "～に満ちた（形容詞化）" }
+        ],
+        "imageDescription": "不公平な扱いに眉をひそめて腕を組んでいる人の様子",
+        "relatedWords": ["resent", "resentment", "bitter", "grudge"],
+        "memoryTip": "re（再び）＋ sent（感じる）＝ 繰り返し感じてしまう怒り → 憤慨！"
+      }
+    },
+    {
+      "id": "w12_007",
+      "english": "peer",
+      "japanese": "じっと見る、目を凝らす",
+      "englishDef": "to look closely or carefully, especially with difficulty",
+      "partOfSpeech": "v",
+      "ipa": "/pɪər/",
+      "katakana": "pɪər",
+      "emoji": "👀",
+      "exampleEn": "He peered through the fog, trying to make out the distant figures.",
+      "exampleJa": "彼は霧の中に目を凝らし、遠くの人影を見分けようとした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "piren", "type": "root", "meaning": "細目を向ける・じっと見る（中期英語）" }
+        ],
+        "imageDescription": "霧の中や暗がりで目を細めながら前方をじっと見つめている人の様子",
+        "relatedWords": ["stare", "gaze", "squint", "scrutinize"],
+        "memoryTip": "peer（じっと見る）→ ピアレビュー（peer review）の peer＝同輩 → 同僚をじっと見て評価する！"
+      }
+    },
+    {
+      "id": "w12_008",
+      "english": "staggering",
+      "japanese": "衝撃的な、仰天するような",
+      "englishDef": "extremely shocking or surprising; overwhelming",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈstæɡ.ər.ɪŋ/",
+      "katakana": "STAG-ər-ing",
+      "emoji": "🤯",
+      "exampleEn": "The staggering cost of the new stadium shocked the city council.",
+      "exampleJa": "新しいスタジアムの仰天するような費用は市議会を驚かせた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stagger", "type": "root", "meaning": "よろめく・ふらつく（古ノルド語 stakra）" },
+          { "part": "-ing", "type": "suffix", "meaning": "形容詞化（～するような）" }
+        ],
+        "imageDescription": "あまりの驚きによろめいてしまっている人の様子",
+        "relatedWords": ["stagger", "overwhelming", "astounding", "stunning"],
+        "memoryTip": "stagger（よろめく）＋ -ing → 人をよろめかせるほど衝撃的！"
+      }
+    },
+    {
+      "id": "w12_009",
+      "english": "cling",
+      "japanese": "しがみつく、くっついて離れない",
+      "englishDef": "to hold tightly to something or someone",
+      "partOfSpeech": "v",
+      "ipa": "/klɪŋ/",
+      "katakana": "kling",
+      "emoji": "🧲",
+      "exampleEn": "The frightened child clung to her mother's hand tightly.",
+      "exampleJa": "怖がっている子どもはお母さんの手にしっかりとしがみついた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "clingan", "type": "root", "meaning": "しがみつく・くっつく（古英語）" }
+        ],
+        "imageDescription": "嵐の中で木の幹にしっかりとしがみついている人の様子",
+        "relatedWords": ["clingy", "stick", "grip", "hold on"],
+        "memoryTip": "cling（しがみつく）→ 「クリング」＝ クリングラップ（食品ラップ）がぴったりくっつく！"
+      }
+    },
+    {
+      "id": "w12_010",
+      "english": "thrust",
+      "japanese": "突き刺す、勢いよく押し込む",
+      "englishDef": "to push or drive with force; to extend something suddenly",
+      "partOfSpeech": "v",
+      "ipa": "/θrʌst/",
+      "katakana": "thrəst",
+      "emoji": "⚔️",
+      "exampleEn": "He thrust his hand into his pocket and pulled out the key.",
+      "exampleJa": "彼はポケットに手を突っ込み、鍵を取り出した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "þrysta", "type": "root", "meaning": "押す・突く（古ノルド語）" }
+        ],
+        "imageDescription": "素早く前に手を突き出している様子",
+        "relatedWords": ["push", "shove", "plunge", "drive"],
+        "memoryTip": "thrust（突き刺す）→ 「スラスト」＝ ロケットのスラスト（推力）で力強く押し出す！"
+      }
+    },
+    {
+      "id": "w12_011",
+      "english": "cage",
+      "japanese": "かご、檻",
+      "englishDef": "an enclosed structure made of bars or wire used to confine animals or people",
+      "partOfSpeech": "n",
+      "ipa": "/keɪdʒ/",
+      "katakana": "kayj",
+      "emoji": "🐦",
+      "exampleEn": "The parrot sat quietly inside its large metal cage.",
+      "exampleJa": "オウムは大きな金属の檻の中で静かに座っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cavea", "type": "root", "meaning": "空洞・おり（ラテン語）" }
+        ],
+        "imageDescription": "金属の棒で囲まれた鳥かごの中に鳥が入っている様子",
+        "relatedWords": ["enclosure", "prison", "trap", "birdcage"],
+        "memoryTip": "cage → cave（洞窟）と同語源 → 洞窟のように閉じ込める場所 → 檻！"
+      }
+    },
+    {
+      "id": "w12_012",
+      "english": "exasperated",
+      "japanese": "激しくいらいらした、うんざりした",
+      "englishDef": "intensely irritated and frustrated",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪɡˈzæs.pər.eɪ.tɪd/",
+      "katakana": "ig-ZAS-pər-ay-tid",
+      "emoji": "😤",
+      "exampleEn": "The teacher was exasperated by the students' repeated mistakes.",
+      "exampleJa": "先生は生徒たちの繰り返しのミスにうんざりしていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ex-", "type": "prefix", "meaning": "外へ・完全に（強調）" },
+          { "part": "asper", "type": "root", "meaning": "荒い・ざらざらした（ラテン語）" },
+          { "part": "-ate", "type": "suffix", "meaning": "動詞化" }
+        ],
+        "imageDescription": "繰り返しのミスに額に手を当て、目を閉じてため息をついている大人の様子",
+        "relatedWords": ["exasperate", "exasperation", "irritated", "frustrated"],
+        "memoryTip": "ex（完全に）＋ asper（荒い）＝ 完全にザラザラになった → 激しくいらいらした！"
+      }
+    },
+    {
+      "id": "w12_013",
+      "english": "stroll",
+      "japanese": "散歩する、ぶらぶら歩く",
+      "englishDef": "to walk in a slow, relaxed way",
+      "partOfSpeech": "v",
+      "ipa": "/strəʊl/",
+      "katakana": "strohl",
+      "emoji": "🚶",
+      "exampleEn": "On Sunday afternoons, they liked to stroll through the park together.",
+      "exampleJa": "日曜の午後、彼らは一緒に公園をぶらぶら歩くのが好きだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "strolchen", "type": "root", "meaning": "さまよう・うろつく（ドイツ語）" }
+        ],
+        "imageDescription": "手をつないで公園をゆったりと散歩しているカップルの様子",
+        "relatedWords": ["saunter", "wander", "amble", "stroller"],
+        "memoryTip": "stroll（散歩）→ ベビーカー（stroller）でゆっくり歩く → のんびり散歩！"
+      }
+    },
+    {
+      "id": "w12_014",
+      "english": "agreeable",
+      "japanese": "感じのよい、心地よい",
+      "englishDef": "pleasant and enjoyable; willing to agree",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈɡriː.ə.bəl/",
+      "katakana": "ə-GREE-ə-bəl",
+      "emoji": "😊",
+      "exampleEn": "The warm spring weather made for a very agreeable afternoon outdoors.",
+      "exampleJa": "暖かい春の天気のおかげで、午後の外出はとても心地よかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "agree", "type": "root", "meaning": "賛成する・気に入る（古フランス語 agreer）" },
+          { "part": "-able", "type": "suffix", "meaning": "～できる・～な性質の（形容詞化）" }
+        ],
+        "imageDescription": "晴れた公園で笑顔でくつろいでいる人たちの様子",
+        "relatedWords": ["agree", "agreement", "disagreeable", "pleasant"],
+        "memoryTip": "agree（賛成する）＋ -able（～できる）＝ 誰もが賛成できるほど気持ちいい → 心地よい！"
+      }
+    },
+    {
+      "id": "w12_015",
+      "english": "retort",
+      "japanese": "言い返す、反論する",
+      "englishDef": "to make a sharp or witty reply to someone",
+      "partOfSpeech": "v",
+      "ipa": "/rɪˈtɔːt/",
+      "katakana": "ri-TORT",
+      "emoji": "💬",
+      "exampleEn": "\"That's none of your business,\" she retorted sharply.",
+      "exampleJa": "「それはあなたには関係ないことよ」と彼女はするどく言い返した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "返す・後ろへ" },
+          { "part": "tort", "type": "root", "meaning": "ねじる・曲げる（ラテン語 torquere）" }
+        ],
+        "imageDescription": "言い争いで相手の言葉をスパッと切り返している人の様子",
+        "relatedWords": ["retort", "retaliate", "riposte", "comeback"],
+        "memoryTip": "re（返す）＋ tort（ねじる）＝ 相手の言葉をねじって返す → 言い返す！"
+      }
+    }
+  ]
+}

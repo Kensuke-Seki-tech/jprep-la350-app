@@ -1,0 +1,40 @@
+{
+  "weekId": "week14",
+  "match": [
+    { "word": "solemn",   "def": "formal and serious, without humor" },
+    { "word": "kidnap",   "def": "to take someone away and keep them illegally" },
+    { "word": "saddle",   "def": "a seat put on top of a horse's back to make riding the horse easier" },
+    { "word": "astonish", "def": "to surprise or shock someone" },
+    { "word": "merely",   "def": "just, nothing more than" },
+    { "word": "abrupt",   "def": "sudden and quick, without warning" },
+    { "word": "outrage",  "def": "a great feeling of anger and shock" },
+    { "word": "dismay",   "def": "a feeling of disappointment and concern" },
+    { "word": "falter",   "def": "to lose strength or motivation" },
+    { "word": "shimmer",  "def": "to shine with an unstable light" }
+  ],
+  "gap": [
+    { "answer": "solemn",   "sentence": "The funeral was a solemn occasion that left everyone quiet and reflective.",     "ja": "葬儀は厳粛な場であり、全員が静かに思いに沈んだ。" },
+    { "answer": "kidnap",   "sentence": "The villain threatened to kidnap the princess and demand a ransom.",              "ja": "悪役は王女を誘拐して身代金を要求すると脅した。" },
+    { "answer": "saddle",   "sentence": "The cowboy adjusted the saddle before climbing onto the horse.",                  "ja": "カウボーイは馬に乗る前に鞍を調整した。" },
+    { "answer": "astonish", "sentence": "The magician's final trick astonished the entire audience.",                      "ja": "マジシャンの最後の技は観客全員を仰天させた。" },
+    { "answer": "merely",   "sentence": "I was merely trying to help; I didn't mean to cause any trouble.",               "ja": "ただ助けようとしていただけで、面倒をかけるつもりはなかった。" }
+  ],
+  "bank": ["solemn", "kidnap", "saddle", "astonish", "merely", "abrupt", "outrage", "dismay", "falter", "shimmer"],
+  "mc": [
+    { "q": "What does \"abrupt\" mean?",   "opts": ["sudden and quick, without warning", "to shine with an unstable light", "formal and serious, without humor", "a great feeling of anger and shock"],           "answer": 0, "word": "abrupt" },
+    { "q": "What does \"outrage\" mean?",  "opts": ["to lose strength or motivation", "to look at something with a high amount of concentration", "a great feeling of anger and shock", "a feeling of disappointment and concern"], "answer": 2, "word": "outrage" },
+    { "q": "What does \"dismay\" mean?",   "opts": ["sudden and quick, without warning", "a feeling of disappointment and concern", "feeling superior to someone in a disrespectful manner", "to surprise or shock someone"], "answer": 1, "word": "dismay" },
+    { "q": "What does \"falter\" mean?",   "opts": ["to take someone away and keep them illegally", "to shine with an unstable light", "just, nothing more than", "to lose strength or motivation"],                "answer": 3, "word": "falter" },
+    { "q": "What does \"shimmer\" mean?",  "opts": ["to let out a breath of relief, sadness, or fatigue", "to shine with an unstable light", "a very small and narrow river", "sudden and quick, without warning"],  "answer": 1, "word": "shimmer" },
+    { "q": "What does \"scornful\" mean?", "opts": ["formal and serious, without humor", "to lose strength or motivation", "feeling superior to someone in a disrespectful manner", "to surprise or shock someone"],  "answer": 2, "word": "scornful" },
+    { "q": "What does \"sigh\" mean?",     "opts": ["to look at something with a high amount of concentration", "a great feeling of anger and shock", "a very small and narrow river", "to let out a breath of relief, sadness, or fatigue"], "answer": 3, "word": "sigh" },
+    { "q": "What does \"gaze\" mean?",     "opts": ["to look at something with a high amount of concentration", "to take someone away and keep them illegally", "sudden and quick, without warning", "a person or thing that is not easily broken, influenced, or disturbed"], "answer": 0, "word": "gaze" },
+    { "q": "What does \"stream\" mean?",   "opts": ["a feeling of disappointment and concern", "feeling superior to someone in a disrespectful manner", "a very small and narrow river", "to lose strength or motivation"], "answer": 2, "word": "stream" },
+    { "q": "What does \"fortress\" mean?", "opts": ["to shine with an unstable light", "a great feeling of anger and shock", "to let out a breath of relief, sadness, or fatigue", "a person or thing that is not easily broken, influenced, or disturbed"], "answer": 3, "word": "fortress" }
+  ],
+  "dict": [
+    { "text": "They had all looked exactly the same for eighty-seven years.",            "word": "exactly" },
+    { "text": "There was no room for carelessness, no putting things off until later.",  "word": "carelessness" },
+    { "text": "The man in the yellow suit overheard their conversation.",               "word": "overheard" }
+  ]
+}

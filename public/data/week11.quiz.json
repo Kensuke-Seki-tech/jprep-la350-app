@@ -1,0 +1,38 @@
+{
+  "weekId": "week11",
+  "match": [
+    { "word": "quiver",     "def": "to shake or tremble slightly" },
+    { "word": "meager",     "def": "lacking in quantity or quality; insufficient" },
+    { "word": "capable",    "def": "having the ability or skill to do something" },
+    { "word": "forbid",     "def": "to order someone not to do something; to prohibit" },
+    { "word": "trespass",   "def": "to enter someone's land or property without permission" },
+    { "word": "damp",       "def": "slightly wet; moist" },
+    { "word": "immense",    "def": "very large or great in size, amount, or degree" },
+    { "word": "weary",      "def": "extremely tired; worn out from exertion" },
+    { "word": "melancholy", "def": "a deep sadness or gloom, often arising from reflection" },
+    { "word": "tarnish",    "def": "to dull the shine or luster of; to spoil or damage" }
+  ],
+  "gap": [
+    { "answer": "quiver",     "sentence": "The leaves quivered in the gentle breeze.",                               "ja": "木の葉がそよ風に揺れた。" },
+    { "answer": "meager",     "sentence": "The survivors lived on meager rations of bread and water.",               "ja": "生存者たちはパンと水のわずかな配給で生き延びた。" },
+    { "answer": "capable",    "sentence": "She is capable of solving very difficult math problems.",                 "ja": "彼女はとても難しい数学の問題を解く能力がある。" },
+    { "answer": "forbid",     "sentence": "The school rules forbid students from using phones in class.",            "ja": "学校の規則により、授業中の携帯電話の使用が禁じられている。" },
+    { "answer": "trespass",   "sentence": "The sign warned visitors not to trespass on the private farmland.",      "ja": "その看板は、私有農地への不法侵入を禁じる警告を訪問者に示していた。" }
+  ],
+  "bank": ["quiver", "meager", "capable", "forbid", "trespass", "damp", "immense", "weary", "melancholy", "tarnish"],
+  "mc": [
+    { "q": "What does \"damp\" mean?",       "opts": ["extremely tired; worn out", "to dull the shine or luster of", "slightly wet; moist", "to enter someone's land without permission"],              "answer": 2, "word": "damp" },
+    { "q": "What does \"immense\" mean?",    "opts": ["very large or great in size, amount, or degree", "lacking in quantity or quality", "to shake or tremble slightly", "a deep sadness or gloom"], "answer": 0, "word": "immense" },
+    { "q": "What does \"weary\" mean?",      "opts": ["slightly wet; moist", "having the ability to do something", "unusual or surprising; not familiar", "extremely tired; worn out from exertion"], "answer": 3, "word": "weary" },
+    { "q": "What does \"melancholy\" mean?", "opts": ["to order someone not to do something", "a deep sadness or gloom, often arising from reflection", "thin and narrow; very small in amount", "to dull the shine or luster of"], "answer": 1, "word": "melancholy" },
+    { "q": "What does \"tarnish\" mean?",    "opts": ["to enter someone's land without permission", "to interrupt or bother someone", "very large or great in size", "to dull the shine or luster of; to spoil or damage"], "answer": 3, "word": "tarnish" },
+    { "q": "What does \"strange\" mean?",    "opts": ["to shake or tremble slightly", "unusual or surprising; not familiar", "lacking in quantity or quality", "extremely tired; worn out"], "answer": 1, "word": "strange" },
+    { "q": "What does \"disturb\" mean?",    "opts": ["to interrupt or bother someone; to interfere with", "to order someone not to do something", "slightly wet; moist", "thin and narrow; very small"], "answer": 0, "word": "disturb" },
+    { "q": "What does \"slim\" mean?",       "opts": ["to dull the shine or luster of", "a deep sadness or gloom", "thin and narrow; very small in amount", "unusual or surprising"], "answer": 2, "word": "slim" }
+  ],
+  "dict": [
+    { "text": "There was something strange about the wood.", "word": "strange" },
+    { "text": "The wood was at the center, the hub of the wheel.", "word": "root" },
+    { "text": "There is no thunder, no relieving rain.", "word": "melancholy" }
+  ]
+}

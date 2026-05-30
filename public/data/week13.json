@@ -1,0 +1,334 @@
+{
+  "weekId": "week13",
+  "weekNumber": 13,
+  "label": "Term B - Week 3",
+  "sentencesToRemember": [
+    {
+      "text": "Yes, it was the same music she had heard the night before.",
+      "ja": "そう、それは彼女が前の夜に聞いた同じ音楽だった。"
+    },
+    {
+      "text": "They had come to the edge of the wood now, with no sign of slowing their rapid jog.",
+      "ja": "彼らはもう森の端まで来ていたが、素早い小走りを緩める様子はなかった。"
+    },
+    {
+      "text": "They had sped up the hill and down its other side, and the opportunity was lost.",
+      "ja": "彼らは丘を駆け上り、その反対側を下り、機会は失われてしまった。"
+    },
+    {
+      "text": "They had thought they would start a farm, as soon as they came to the end of the trees.",
+      "ja": "彼らは、木々が途切れたらすぐに農場を始めようと思っていた。"
+    },
+    {
+      "text": "If you'd had a drink of it today, you'd stay a little girl forever.",
+      "ja": "もし今日それを飲んでいたら、あなたはずっと小さな女の子のままでいることになっていただろう。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w13_001",
+      "english": "squint",
+      "japanese": "目を細める",
+      "englishDef": "to make one's eyes smaller in order to see better",
+      "partOfSpeech": "v",
+      "ipa": "/skwɪnt/",
+      "katakana": "SKWINT",
+      "emoji": "👀",
+      "exampleEn": "She squinted at the small print on the medicine bottle.",
+      "exampleJa": "彼女は薬瓶の小さな文字を読もうと目を細めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "squint", "type": "root", "meaning": "斜視・横目（古英語・オランダ語 schuin「斜め」から）" }
+        ],
+        "imageDescription": "強い日差しの中、眩しそうに目を細めて遠くを見ている人の顔",
+        "relatedWords": ["squinting", "squinty", "asquint"],
+        "memoryTip": "「スクイント」→ ギュッと目を「圧迫（squeeze）」する感じ → 目を細める！"
+      }
+    },
+    {
+      "id": "w13_002",
+      "english": "eager",
+      "japanese": "熱心な、熱望している",
+      "englishDef": "excited to do something, really wanting to do something",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈiː.ɡər/",
+      "katakana": "EE-gər",
+      "emoji": "🙋",
+      "exampleEn": "The eager students raised their hands before the teacher finished asking.",
+      "exampleJa": "熱心な生徒たちは先生が質問し終わる前に手を挙げた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "eager", "type": "root", "meaning": "鋭い・激しい（ラテン語 acer「鋭い」から）" }
+        ],
+        "imageDescription": "前のめりになり、目を輝かせて手を挙げている生徒の様子",
+        "relatedWords": ["eagerly", "eagerness", "over-eager"],
+        "memoryTip": "「イーガー」→「行くぞ！」という意気込み → 熱心な・熱望している！"
+      }
+    },
+    {
+      "id": "w13_003",
+      "english": "latch",
+      "japanese": "掛け金、留め金",
+      "englishDef": "a bar that is used to lock a door or gate",
+      "partOfSpeech": "n",
+      "ipa": "/læʧ/",
+      "katakana": "LACH",
+      "emoji": "🔒",
+      "exampleEn": "He lifted the latch and pushed open the garden gate.",
+      "exampleJa": "彼は掛け金を持ち上げ、庭の門を押し開けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "latch", "type": "root", "meaning": "捕まえる・引っかかる（古英語 læccan「捕まえる」から）" }
+        ],
+        "imageDescription": "木製のフェンスの門に取り付けられた金属製の掛け金の様子",
+        "relatedWords": ["latchkey", "unlatched", "latching"],
+        "memoryTip": "「ラッチ」→ドアが「catch（掴む）」されている状態 → 掛け金！"
+      }
+    },
+    {
+      "id": "w13_004",
+      "english": "remnant",
+      "japanese": "残り物、名残",
+      "englishDef": "a small part or portion of something larger that is leftover",
+      "partOfSpeech": "n",
+      "ipa": "/ˈrem.nənt/",
+      "katakana": "REM-nənt",
+      "emoji": "🧩",
+      "exampleEn": "Only a remnant of the old castle wall still stands today.",
+      "exampleJa": "今日では古い城壁の残りの一部だけがまだ立っている。",
+      "etymology": {
+        "morphemes": [
+          { "part": "remane", "type": "root", "meaning": "残る（ラテン語 remanere「残る」から）" },
+          { "part": "-ant", "type": "suffix", "meaning": "名詞化（～なもの）" }
+        ],
+        "imageDescription": "大きなパズルのほとんどが完成しているが、端に数ピースだけ残っている様子",
+        "relatedWords": ["remain", "remainder", "remaining", "remnants"],
+        "memoryTip": "re（残って）＋ mane（留まる）＝ 残り続けるもの → 残り物・名残"
+      }
+    },
+    {
+      "id": "w13_005",
+      "english": "coward",
+      "japanese": "臆病者、卑怯者",
+      "englishDef": "a person who is not brave or courageous, a person who is often scared",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkaʊ.ərd/",
+      "katakana": "KAU-ərd",
+      "emoji": "😰",
+      "exampleEn": "He felt like a coward for running away instead of facing the problem.",
+      "exampleJa": "問題に向き合わずに逃げてしまい、彼は臆病者のように感じた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "coart", "type": "root", "meaning": "尾（フランス語 coart「尻尾を巻く者」から）" }
+        ],
+        "imageDescription": "危険な状況で尻尾を巻いて逃げ出そうとしている人の様子",
+        "relatedWords": ["cowardly", "cowardice", "cowardliness"],
+        "memoryTip": "「コワード」→「怖（こわ）い」＋「ード」→ 怖がりな人 → 臆病者！"
+      }
+    },
+    {
+      "id": "w13_006",
+      "english": "venture",
+      "japanese": "冒険、危険を冒すこと",
+      "englishDef": "a journey, a risk",
+      "partOfSpeech": "n",
+      "ipa": "/ˈven.ʧər/",
+      "katakana": "VEN-chər",
+      "emoji": "🗺️",
+      "exampleEn": "Starting a new business is always a risky venture.",
+      "exampleJa": "新しいビジネスを始めることは常に危険を冒す冒険だ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "advent", "type": "root", "meaning": "やって来ること（ラテン語 adventura「起こること」から）" },
+          { "part": "-ure", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "地図を持ち、未知の荒野に向かって歩き出す探検家の後ろ姿",
+        "relatedWords": ["adventure", "adventurous", "venturous", "venture capital"],
+        "memoryTip": "adventure（冒険）の短縮形 → 危険を冒す旅・冒険！"
+      }
+    },
+    {
+      "id": "w13_007",
+      "english": "breath",
+      "japanese": "息、呼吸",
+      "englishDef": "the air taken into and pushed out of the body",
+      "partOfSpeech": "n",
+      "ipa": "/breθ/",
+      "katakana": "BRETH",
+      "emoji": "💨",
+      "exampleEn": "She paused to catch her breath after running up the stairs.",
+      "exampleJa": "階段を駆け上がった後、彼女は息を整えるために立ち止まった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "breath", "type": "root", "meaning": "蒸気・におい・息（古英語 brǣþ から）" }
+        ],
+        "imageDescription": "冬の寒い空気の中で、白い息を吐き出している人の口元",
+        "relatedWords": ["breathe", "breathless", "breathtaking", "out of breath"],
+        "memoryTip": "breath（名詞）と breathe（動詞）を混同しない！eがあるかないか！"
+      }
+    },
+    {
+      "id": "w13_008",
+      "english": "helpless",
+      "japanese": "無力な、どうしようもない",
+      "englishDef": "not able to defend oneself",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈhelp.ləs/",
+      "katakana": "HELP-ləs",
+      "emoji": "🆘",
+      "exampleEn": "The baby bird looked helpless after falling from its nest.",
+      "exampleJa": "巣から落ちた雛鳥は無力そうに見えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "help", "type": "root", "meaning": "助ける・援助" },
+          { "part": "-less", "type": "suffix", "meaning": "～がない（欠如）" }
+        ],
+        "imageDescription": "手足が縛られ、助けを求めて目を潤ませている人の様子",
+        "relatedWords": ["helplessness", "helplessly", "helpfulness"],
+        "memoryTip": "help（助け）＋ -less（ない）＝ 助けがない状態 → 無力な！"
+      }
+    },
+    {
+      "id": "w13_009",
+      "english": "weep",
+      "japanese": "泣く、すすり泣く",
+      "englishDef": "to cry, whimper, or sob",
+      "partOfSpeech": "v",
+      "ipa": "/wiːp/",
+      "katakana": "WEEP",
+      "emoji": "😢",
+      "exampleEn": "She began to weep quietly when she heard the sad news.",
+      "exampleJa": "悲しいニュースを聞いて、彼女は静かに泣き始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "weep", "type": "root", "meaning": "叫ぶ・泣き叫ぶ（古英語 wēpan から）" }
+        ],
+        "imageDescription": "頬を伝う涙を手で拭いながら、静かに泣いている人の横顔",
+        "relatedWords": ["weeping", "weeper", "weepy", "wept"],
+        "memoryTip": "「ウィープ」→「う、いっぱい（泣く）」→ すすり泣く！"
+      }
+    },
+    {
+      "id": "w13_010",
+      "english": "dismay",
+      "japanese": "狼狽、ろうばい",
+      "englishDef": "stress or surprise caused by something unexpected",
+      "partOfSpeech": "n",
+      "ipa": "/dɪsˈmeɪ/",
+      "katakana": "dis-MAY",
+      "emoji": "😧",
+      "exampleEn": "The team reacted with dismay when they heard they had lost.",
+      "exampleJa": "チームは負けたと聞いて狼狽した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dis-", "type": "prefix", "meaning": "否定・取り除く" },
+          { "part": "may", "type": "root", "meaning": "力・能力（古フランク語 magan「できる」から）" }
+        ],
+        "imageDescription": "予想外の悪いニュースを聞いて、口を開けて驚き固まっている人の様子",
+        "relatedWords": ["dismayed", "dismaying", "dismayingly"],
+        "memoryTip": "dis（否定）＋ may（力）＝ 力を失う → 狼狽・ろうばい！"
+      }
+    },
+    {
+      "id": "w13_011",
+      "english": "wander",
+      "japanese": "さまよう、ぶらぶら歩く",
+      "englishDef": "to walk or move in an aimless way",
+      "partOfSpeech": "v",
+      "ipa": "/ˈwɒn.dər/",
+      "katakana": "WON-dər",
+      "emoji": "🚶",
+      "exampleEn": "They wandered through the old town, exploring narrow alleyways.",
+      "exampleJa": "彼らは細い路地を探索しながら、旧市街をぶらぶらと歩き回った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "wander", "type": "root", "meaning": "さまよう（古英語 wandrian から）" }
+        ],
+        "imageDescription": "地図も目的地もなく、花を見たり空を眺めたりしながら道をぶらつく人の様子",
+        "relatedWords": ["wanderer", "wandering", "wanderlust"],
+        "memoryTip": "「ワンダー（wonder）」に似ている → 不思議なものを求めてさまよう！"
+      }
+    },
+    {
+      "id": "w13_012",
+      "english": "sturdy",
+      "japanese": "頑丈な、がっしりした",
+      "englishDef": "well built, strong and solid",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈstɜː.di/",
+      "katakana": "STUR-dee",
+      "emoji": "🏗️",
+      "exampleEn": "The sturdy wooden table had survived in the family for three generations.",
+      "exampleJa": "その頑丈な木製のテーブルは、家族の中で三世代にわたって使われてきた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sturdy", "type": "root", "meaning": "荒々しい・強い（古フランス語 estourdi「気絶するほど強い」から）" }
+        ],
+        "imageDescription": "嵐の中でびくともしない、太い柱で作られた頑丈な木の橋の様子",
+        "relatedWords": ["sturdily", "sturdiness", "sturdy-built"],
+        "memoryTip": "「スターディ」→「スタード（star＋hard）」→ 星のように硬い → 頑丈！"
+      }
+    },
+    {
+      "id": "w13_013",
+      "english": "protest",
+      "japanese": "抗議する、異議を唱える",
+      "englishDef": "to say something in opposition",
+      "partOfSpeech": "v",
+      "ipa": "/prəˈtest/",
+      "katakana": "prə-TEST",
+      "emoji": "✊",
+      "exampleEn": "Students gathered in the square to protest against the new policy.",
+      "exampleJa": "学生たちは新しい方針に抗議するために広場に集まった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pro-", "type": "prefix", "meaning": "前に・公に" },
+          { "part": "test", "type": "root", "meaning": "証言する・証拠を示す（ラテン語 testis「証人」から）" }
+        ],
+        "imageDescription": "プラカードを掲げ、声を上げてデモ行進している人々の様子",
+        "relatedWords": ["protest (n.)", "protester", "protestation", "Protestant"],
+        "memoryTip": "pro（公に）＋ test（証言）＝ 公に反対を証言する → 抗議する！"
+      }
+    },
+    {
+      "id": "w13_014",
+      "english": "stern",
+      "japanese": "厳格な、厳しい",
+      "englishDef": "strict and serious",
+      "partOfSpeech": "adj",
+      "ipa": "/stɜːn/",
+      "katakana": "STERN",
+      "emoji": "😠",
+      "exampleEn": "The stern teacher gave the class a look that silenced everyone immediately.",
+      "exampleJa": "厳格な先生が視線を向けると、クラス全員がすぐに静まり返った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stern", "type": "root", "meaning": "硬い・頑固な（古英語 styrne から）" }
+        ],
+        "imageDescription": "眉をひそめ、腕を組んで真剣な表情でこちらを見つめる厳しい先生の様子",
+        "relatedWords": ["sternly", "sternness", "stern-faced"],
+        "memoryTip": "「スターン」→ 船の「stern（船尾）」のようにどっしりと揺るがない → 厳格！"
+      }
+    },
+    {
+      "id": "w13_015",
+      "english": "haunt",
+      "japanese": "悩ませ続ける、つきまとう",
+      "englishDef": "to continue to cause trouble for someone",
+      "partOfSpeech": "v",
+      "ipa": "/hɔːnt/",
+      "katakana": "HAWNT",
+      "emoji": "👻",
+      "exampleEn": "The memory of his mistake continued to haunt him for years.",
+      "exampleJa": "自分のミスの記憶は、何年もの間彼を悩ませ続けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "haunt", "type": "root", "meaning": "しばしば訪れる（古フランス語 hanter「しばしば行く」から）" }
+        ],
+        "imageDescription": "古い屋敷に現れる幽霊が、住人を夜ごと恐怖で悩ませている様子",
+        "relatedWords": ["haunting", "haunted", "haunts"],
+        "memoryTip": "お化け屋敷（haunted house）のように、逃げても逃げても追いかけてくる → 悩ませ続ける！"
+      }
+    }
+  ]
+}

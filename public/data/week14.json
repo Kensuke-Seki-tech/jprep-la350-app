@@ -1,0 +1,337 @@
+{
+  "weekId": "week14",
+  "weekNumber": 14,
+  "label": "Term B - Week 4",
+  "sentencesToRemember": [
+    {
+      "text": "They had all looked exactly the same for eighty-seven years.",
+      "ja": "彼らは八十七年間、まったく同じ見た目をしていた。"
+    },
+    {
+      "text": "They tried to convince her to keep the secret of the spring.",
+      "ja": "彼らは泉の秘密を守るよう彼女を説得しようとした。"
+    },
+    {
+      "text": "There was no room for carelessness, no putting things off until later.",
+      "ja": "不注意の余地はなく、後回しにすることも許されなかった。"
+    },
+    {
+      "text": "Their lifestyle was unlike anything she had experienced before.",
+      "ja": "彼らの生活様式は、彼女がこれまで経験したどんなものとも異なっていた。"
+    },
+    {
+      "text": "The man in the yellow suit overheard their conversation.",
+      "ja": "黄色いスーツを着た男が、彼らの会話を盗み聞きしていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w14_001",
+      "english": "solemn",
+      "japanese": "厳粛な、まじめな",
+      "englishDef": "formal and serious, without humor",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsɒl.əm/",
+      "katakana": "SOL-əm",
+      "emoji": "🕯️",
+      "exampleEn": "The funeral was a solemn occasion that left everyone quiet and reflective.",
+      "exampleJa": "葬儀は厳粛な場であり、全員が静かに思いに沈んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "solemn", "type": "root", "meaning": "毎年の・宗教的儀式の（ラテン語 sollemnis「定められた年に行われる」から）" }
+        ],
+        "imageDescription": "ろうそくの灯りの中で、全員が頭を垂れて静かに祈りを捧げている厳粛な儀式の様子",
+        "relatedWords": ["solemnly", "solemnity", "solemnize", "solemn oath"],
+        "memoryTip": "「ソレム」→「そ、厳（れむ）しい！」→ 厳粛な・まじめな！"
+      }
+    },
+    {
+      "id": "w14_002",
+      "english": "kidnap",
+      "japanese": "誘拐する",
+      "englishDef": "to take someone away and keep them illegally",
+      "partOfSpeech": "v",
+      "ipa": "/ˈkɪd.næp/",
+      "katakana": "KID-nap",
+      "emoji": "🚨",
+      "exampleEn": "The villain threatened to kidnap the princess and demand a ransom.",
+      "exampleJa": "悪役は王女を誘拐して身代金を要求すると脅した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "kid", "type": "root", "meaning": "子ども（17世紀のスラング）" },
+          { "part": "nap", "type": "root", "meaning": "捕まえる・つかむ（古語 nab「素早く取る」から）" }
+        ],
+        "imageDescription": "暗い夜に、覆面をした人物が子どもをさらおうとしている危険な場面",
+        "relatedWords": ["kidnapper", "kidnapping", "abduct"],
+        "memoryTip": "kid（子ども）＋ nap（捕まえる）＝ 子どもを捕まえる → 誘拐する！"
+      }
+    },
+    {
+      "id": "w14_003",
+      "english": "saddle",
+      "japanese": "鞍（くら）",
+      "englishDef": "a seat put on top of a horse's back to make riding the horse easier",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsæd.əl/",
+      "katakana": "SAD-əl",
+      "emoji": "🐴",
+      "exampleEn": "The cowboy adjusted the saddle before climbing onto the horse.",
+      "exampleJa": "カウボーイは馬に乗る前に鞍を調整した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "saddle", "type": "root", "meaning": "座るための道具（古英語 sadol「座席」から）" }
+        ],
+        "imageDescription": "茶色い馬の背中に皮製の鞍がしっかりと取り付けられている様子",
+        "relatedWords": ["saddlebag", "unsaddle", "saddlery", "in the saddle"],
+        "memoryTip": "「サドル」→ 自転車の「サドル（座席）」と同じ！馬用の座席 → 鞍！"
+      }
+    },
+    {
+      "id": "w14_004",
+      "english": "astonish",
+      "japanese": "驚かせる、仰天させる",
+      "englishDef": "to surprise or shock someone",
+      "partOfSpeech": "v",
+      "ipa": "/əˈstɒn.ɪʃ/",
+      "katakana": "ə-STON-ish",
+      "emoji": "😲",
+      "exampleEn": "The magician's final trick astonished the entire audience.",
+      "exampleJa": "マジシャンの最後の技は観客全員を仰天させた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ex-", "type": "prefix", "meaning": "外へ（強調）" },
+          { "part": "ton", "type": "root", "meaning": "雷（ラテン語 tonare「雷を鳴らす」から）" },
+          { "part": "-ish", "type": "suffix", "meaning": "動詞化" }
+        ],
+        "imageDescription": "手品師が帽子からウサギを取り出した瞬間、観客が口を開けて目を丸くしている様子",
+        "relatedWords": ["astonished", "astonishing", "astonishment", "astound"],
+        "memoryTip": "雷（ton）に打たれたように驚く → 仰天させる！astound も同語源！"
+      }
+    },
+    {
+      "id": "w14_005",
+      "english": "merely",
+      "japanese": "ただ～だけ、単に",
+      "englishDef": "just, nothing more than",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈmɪər.li/",
+      "katakana": "MEER-lee",
+      "emoji": "💬",
+      "exampleEn": "I was merely trying to help; I didn't mean to cause any trouble.",
+      "exampleJa": "ただ助けようとしていただけで、面倒をかけるつもりはなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mere", "type": "root", "meaning": "純粋な・それだけの（ラテン語 merus「純粋な」から）" },
+          { "part": "-ly", "type": "suffix", "meaning": "副詞化" }
+        ],
+        "imageDescription": "「それだけ」と両手を広げて、大げさに言い訳している人の様子",
+        "relatedWords": ["mere", "merely", "merest"],
+        "memoryTip": "mere（それだけの）＋ -ly（副詞）＝ それだけ → ただ～だけ・単に！"
+      }
+    },
+    {
+      "id": "w14_006",
+      "english": "abrupt",
+      "japanese": "突然の、唐突な",
+      "englishDef": "sudden and quick, without warning",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈbrʌpt/",
+      "katakana": "ə-BRUPT",
+      "emoji": "⚡",
+      "exampleEn": "The meeting came to an abrupt end when the fire alarm went off.",
+      "exampleJa": "火災警報が鳴り、会議は突然終わりを迎えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab-", "type": "prefix", "meaning": "離れて・突然" },
+          { "part": "rupt", "type": "root", "meaning": "壊す・破る（ラテン語 rumpere「壊す」から）" }
+        ],
+        "imageDescription": "穏やかに進んでいた道が突然崖っぷちで途切れている様子",
+        "relatedWords": ["abruptly", "abruptness", "rupture", "interrupt", "erupt"],
+        "memoryTip": "ab（突然）＋ rupt（壊れる）＝ 突然バキッと壊れる → 突然の・唐突な！"
+      }
+    },
+    {
+      "id": "w14_007",
+      "english": "outrage",
+      "japanese": "激怒、憤慨",
+      "englishDef": "a great feeling of anger and shock",
+      "partOfSpeech": "n",
+      "ipa": "/ˈaʊt.reɪdʒ/",
+      "katakana": "AUT-raydj",
+      "emoji": "😡",
+      "exampleEn": "The unfair decision caused outrage among the players and fans alike.",
+      "exampleJa": "不公平な判定は選手とファンの両方に憤慨をもたらした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "outre", "type": "root", "meaning": "限度を超えた行為（古フランス語 outrage「過度・暴行」から）" }
+        ],
+        "imageDescription": "審判の不公平な判定に対して、選手やファンが拳を振り上げて怒っている様子",
+        "relatedWords": ["outrageous", "outrageously", "outrageousness"],
+        "memoryTip": "「アウトレイジ」→ 限度（out）を超えた rage（怒り）→ 激怒！"
+      }
+    },
+    {
+      "id": "w14_008",
+      "english": "dismay",
+      "japanese": "失望、落胆",
+      "englishDef": "a feeling of disappointment and concern",
+      "partOfSpeech": "n",
+      "ipa": "/dɪsˈmeɪ/",
+      "katakana": "dis-MAY",
+      "emoji": "😞",
+      "exampleEn": "To her dismay, she discovered the concert had already sold out.",
+      "exampleJa": "彼女が落胆したことに、コンサートはすでに完売していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dis-", "type": "prefix", "meaning": "否定・取り除く" },
+          { "part": "may", "type": "root", "meaning": "力・能力（古フランク語 magan「できる」から）" }
+        ],
+        "imageDescription": "楽しみにしていたイベントがすでに終了していると知り、肩を落としてしょんぼりしている人の様子",
+        "relatedWords": ["dismayed", "dismaying", "dismayingly"],
+        "memoryTip": "dis（否定）＋ may（力）＝ 力を奪われる → 失望・落胆！"
+      }
+    },
+    {
+      "id": "w14_009",
+      "english": "falter",
+      "japanese": "ためらう、弱まる",
+      "englishDef": "to lose strength or motivation",
+      "partOfSpeech": "v",
+      "ipa": "/ˈfɔːl.tər/",
+      "katakana": "FAWL-tər",
+      "emoji": "😟",
+      "exampleEn": "Her voice faltered as she tried to deliver the difficult news.",
+      "exampleJa": "難しいニュースを伝えようとしたとき、彼女の声はためらいがちになった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "falter", "type": "root", "meaning": "つまずく・よろける（古北欧語 faltrask「よろける」から）" }
+        ],
+        "imageDescription": "長距離マラソンの終盤で、足がもつれながらも前に進もうとしている選手の様子",
+        "relatedWords": ["faltering", "falteringly", "unfaltering"],
+        "memoryTip": "「フォルター」→「フォルト（fault）する」→ 失敗しそうになってよろける → ためらう・弱まる！"
+      }
+    },
+    {
+      "id": "w14_010",
+      "english": "shimmer",
+      "japanese": "きらきらと光る、揺れながら輝く",
+      "englishDef": "to shine with an unstable light",
+      "partOfSpeech": "v",
+      "ipa": "/ˈʃɪm.ər/",
+      "katakana": "SHIM-ər",
+      "emoji": "✨",
+      "exampleEn": "The lake shimmered beautifully in the afternoon sunlight.",
+      "exampleJa": "午後の日差しの中、湖が美しくきらきらと輝いていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "shimmer", "type": "root", "meaning": "弱く揺れる光（古英語 scimerian「微かに輝く」から）" }
+        ],
+        "imageDescription": "日光が水面に反射して、細かく揺れる光の模様を作り出している様子",
+        "relatedWords": ["shimmering", "shimmery", "shimmer (n.)"],
+        "memoryTip": "「シマー」→「shine + murmur」→ 呟くように揺れながら輝く → きらきら光る！"
+      }
+    },
+    {
+      "id": "w14_011",
+      "english": "scornful",
+      "japanese": "軽蔑的な、見下した",
+      "englishDef": "feeling superior to someone in a disrespectful manner",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈskɔːn.fəl/",
+      "katakana": "SKORN-fəl",
+      "emoji": "😒",
+      "exampleEn": "She gave him a scornful look and walked away without saying a word.",
+      "exampleJa": "彼女は彼に軽蔑的な視線を向け、一言も言わずに立ち去った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "scorn", "type": "root", "meaning": "軽蔑する（古フランス語 escarnir「嘲る」から）" },
+          { "part": "-ful", "type": "suffix", "meaning": "～に満ちた（形容詞化）" }
+        ],
+        "imageDescription": "鼻を高くして目を細め、相手を上から見下すような表情をしている人の様子",
+        "relatedWords": ["scorn", "scornfully", "scornfulness", "disdainful"],
+        "memoryTip": "scorn（軽蔑）＋ -ful（満ちた）＝ 軽蔑でいっぱい → 軽蔑的な！"
+      }
+    },
+    {
+      "id": "w14_012",
+      "english": "sigh",
+      "japanese": "ため息をつく",
+      "englishDef": "to let out a breath of relief, sadness, or fatigue",
+      "partOfSpeech": "v",
+      "ipa": "/saɪ/",
+      "katakana": "SY",
+      "emoji": "😮‍💨",
+      "exampleEn": "He sighed deeply when he finally finished the long report.",
+      "exampleJa": "長いレポートをついに書き終え、彼は深くため息をついた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sigh", "type": "root", "meaning": "ため息（古英語 sīcan「ため息をつく」から）" }
+        ],
+        "imageDescription": "仕事の山を終えた後、椅子に深く座り大きなため息をついている人の様子",
+        "relatedWords": ["sighing", "sigh (n.)", "sigh of relief"],
+        "memoryTip": "「サイ」→「最（さい）後の力を絞り出す息」→ ため息をつく！"
+      }
+    },
+    {
+      "id": "w14_013",
+      "english": "stream",
+      "japanese": "小川",
+      "englishDef": "a very small and narrow river",
+      "partOfSpeech": "n",
+      "ipa": "/striːm/",
+      "katakana": "STREEM",
+      "emoji": "🏞️",
+      "exampleEn": "The children played by the stream, catching tadpoles in a jar.",
+      "exampleJa": "子どもたちは小川のそばでオタマジャクシを瓶に捕まえながら遊んでいた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stream", "type": "root", "meaning": "流れ・流れる（古英語 strēam「水の流れ」から）" }
+        ],
+        "imageDescription": "緑に囲まれた森の中を細く澄んだ水が流れる小川の様子",
+        "relatedWords": ["streaming", "downstream", "upstream", "mainstream"],
+        "memoryTip": "「ストリーム」→ 動画「ストリーミング」のように絶えず流れる水 → 小川！"
+      }
+    },
+    {
+      "id": "w14_014",
+      "english": "gaze",
+      "japanese": "じっと見つめる",
+      "englishDef": "to look at something with a high amount of concentration",
+      "partOfSpeech": "v",
+      "ipa": "/ɡeɪz/",
+      "katakana": "GAYZ",
+      "emoji": "👁️",
+      "exampleEn": "She gazed out the window, lost in thought about her future.",
+      "exampleJa": "彼女は自分の未来について考え込みながら、窓の外をじっと見つめた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "gaze", "type": "root", "meaning": "じっと見る（スカンジナビア語 gasa「じっと見る」から）" }
+        ],
+        "imageDescription": "遠くの星空を、表情を動かさずにじっと見上げている人の横顔",
+        "relatedWords": ["gazing", "gaze (n.)", "stargazing"],
+        "memoryTip": "「ゲイズ」→「glaze（ガラスのように固まった目）」→ じっと見つめる！"
+      }
+    },
+    {
+      "id": "w14_015",
+      "english": "fortress",
+      "japanese": "要塞、城砦",
+      "englishDef": "a person or thing that is not easily broken, influenced, or disturbed",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfɔː.trəs/",
+      "katakana": "FOR-trəs",
+      "emoji": "🏰",
+      "exampleEn": "His calm manner was like a fortress that no criticism could break through.",
+      "exampleJa": "彼の落ち着いた態度は、どんな批判も突き崩せない要塞のようだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fort", "type": "root", "meaning": "強い・砦（ラテン語 fortis「強い」から）" },
+          { "part": "-ress", "type": "suffix", "meaning": "場所・構造物を示す名詞化" }
+        ],
+        "imageDescription": "高い石の城壁で囲まれた難攻不落の要塞が、荒れた大地にそびえ立っている様子",
+        "relatedWords": ["fort", "fortify", "forte", "fortification", "comfort"],
+        "memoryTip": "fort（強い）＋ -ress（場所）＝ 強固な場所 → 要塞・城砦！"
+      }
+    }
+  ]
+}

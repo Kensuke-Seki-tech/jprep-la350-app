@@ -1,0 +1,335 @@
+{
+  "weekId": "week11",
+  "weekNumber": 11,
+  "label": "Term B - Week 1",
+  "sentencesToRemember": [
+    {
+      "text": "There is no thunder, no relieving rain.",
+      "ja": "雷もなく、恵みの雨もない。"
+    },
+    {
+      "text": "The wood was at the center, the hub of the wheel.",
+      "ja": "その森は中心に、車輪のハブのようにあった。"
+    },
+    {
+      "text": "The road no longer belonged to the cows.",
+      "ja": "その道はもはや牛たちのものではなかった。"
+    },
+    {
+      "text": "There was something strange about the wood.",
+      "ja": "その森には何か奇妙なものがあった。"
+    },
+    {
+      "text": "She did this quickly and skillfully without a single glance in the mirror.",
+      "ja": "彼女は鏡を一度も見ることなく、素早く器用にそれをやってのけた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w11_001",
+      "english": "quiver",
+      "japanese": "震える、揺れる",
+      "englishDef": "to shake or tremble slightly",
+      "partOfSpeech": "v",
+      "ipa": "/ˈkwɪv.ər/",
+      "katakana": "KWIV-ər",
+      "emoji": "🍃",
+      "exampleEn": "The leaves quivered in the gentle breeze.",
+      "exampleJa": "木の葉がそよ風に揺れた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "quiver", "type": "root", "meaning": "震える（古英語・中期英語の擬音語由来）" }
+        ],
+        "imageDescription": "木の葉がそよ風でふるふると震えている様子",
+        "relatedWords": ["shiver", "quake", "tremble", "vibrate"],
+        "memoryTip": "quiver（震える）→ 矢筒（quiver）の中の矢がガタガタ震える！"
+      }
+    },
+    {
+      "id": "w11_002",
+      "english": "meager",
+      "japanese": "乏しい、不十分な",
+      "englishDef": "lacking in quantity or quality; insufficient",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈmiː.ɡər/",
+      "katakana": "MEE-gər",
+      "emoji": "🪣",
+      "exampleEn": "The survivors lived on meager rations of bread and water.",
+      "exampleJa": "生存者たちはパンと水のわずかな配給で生き延びた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "maigre", "type": "root", "meaning": "やせた・薄い（古フランス語）" }
+        ],
+        "imageDescription": "ほとんど空の食器に少しだけ食べ物が入っている様子",
+        "relatedWords": ["scanty", "sparse", "scant", "lean"],
+        "memoryTip": "meager（乏しい）→ 「ミーグル」＝ 見るも哀れなほど少ない！"
+      }
+    },
+    {
+      "id": "w11_003",
+      "english": "capable",
+      "japanese": "能力のある、できる",
+      "englishDef": "having the ability or skill to do something",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈkeɪ.pə.bəl/",
+      "katakana": "KAY-pə-bəl",
+      "emoji": "💪",
+      "exampleEn": "She is capable of solving very difficult math problems.",
+      "exampleJa": "彼女はとても難しい数学の問題を解く能力がある。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cap", "type": "root", "meaning": "つかむ・受け取る（ラテン語 capere）" },
+          { "part": "-able", "type": "suffix", "meaning": "～できる（形容詞化）" }
+        ],
+        "imageDescription": "力強く何かをしっかり握っている手の様子",
+        "relatedWords": ["capability", "incapable", "capacity", "capture"],
+        "memoryTip": "cap（つかむ）＋ -able（できる）＝ しっかりつかめる → 能力がある！"
+      }
+    },
+    {
+      "id": "w11_004",
+      "english": "forbid",
+      "japanese": "禁じる、禁止する",
+      "englishDef": "to order someone not to do something; to prohibit",
+      "partOfSpeech": "v",
+      "ipa": "/fərˈbɪd/",
+      "katakana": "fər-BID",
+      "emoji": "🚫",
+      "exampleEn": "The school rules forbid students from using phones in class.",
+      "exampleJa": "学校の規則により、授業中の携帯電話の使用が禁じられている。",
+      "etymology": {
+        "morphemes": [
+          { "part": "for-", "type": "prefix", "meaning": "反対に・妨げる（古英語）" },
+          { "part": "bid", "type": "root", "meaning": "命じる・言う（古英語 beodan）" }
+        ],
+        "imageDescription": "大きな赤いバツ印が描かれた看板の前で誰かが止められている様子",
+        "relatedWords": ["forbidden", "prohibition", "ban", "forbiddance"],
+        "memoryTip": "for（反対に）＋ bid（命じる）＝ 「するな」と命じる → 禁止する！"
+      }
+    },
+    {
+      "id": "w11_005",
+      "english": "trespass",
+      "japanese": "不法侵入する、立ち入る",
+      "englishDef": "to enter someone's land or property without permission",
+      "partOfSpeech": "v",
+      "ipa": "/ˈtres.pæs/",
+      "katakana": "TRES-pas",
+      "emoji": "⚠️",
+      "exampleEn": "The sign warned visitors not to trespass on the private farmland.",
+      "exampleJa": "その看板は、私有農地への不法侵入を禁じる警告を訪問者に示していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tres-", "type": "prefix", "meaning": "超えて・横切って（ラテン語 trans）" },
+          { "part": "pass", "type": "root", "meaning": "通る・通過する" }
+        ],
+        "imageDescription": "「立入禁止」の柵を乗り越えようとしている人の様子",
+        "relatedWords": ["transgress", "intrude", "encroach", "trespasser"],
+        "memoryTip": "tres（超えて）＋ pass（通る）＝ 許可なく境界を越えて入る → 不法侵入！"
+      }
+    },
+    {
+      "id": "w11_006",
+      "english": "damp",
+      "japanese": "湿った、じめじめした",
+      "englishDef": "slightly wet; moist",
+      "partOfSpeech": "adj",
+      "ipa": "/dæmp/",
+      "katakana": "damp",
+      "emoji": "💧",
+      "exampleEn": "The basement walls were damp after the heavy rainfall.",
+      "exampleJa": "大雨の後、地下室の壁が湿っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "damp", "type": "root", "meaning": "蒸気・霧（中低地ドイツ語 damp）" }
+        ],
+        "imageDescription": "雨上がりの壁に水滴がついてじっとりと湿っている様子",
+        "relatedWords": ["moisture", "humid", "moist", "dampness"],
+        "memoryTip": "damp（湿った）→ ダムのそばはいつもじめじめ！"
+      }
+    },
+    {
+      "id": "w11_007",
+      "english": "immense",
+      "japanese": "巨大な、計り知れない",
+      "englishDef": "very large or great in size, amount, or degree",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪˈmens/",
+      "katakana": "i-MENS",
+      "emoji": "🏔️",
+      "exampleEn": "The explorers were stunned by the immense size of the ancient temple.",
+      "exampleJa": "探検家たちは古代神殿の計り知れない大きさに驚愕した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "im-", "type": "prefix", "meaning": "否定（～でない）" },
+          { "part": "mens", "type": "root", "meaning": "測る（ラテン語 metiri）" }
+        ],
+        "imageDescription": "広大な山脈が地平線の彼方まで続き、その大きさが測れない様子",
+        "relatedWords": ["immensity", "immensely", "measure", "dimension"],
+        "memoryTip": "im（否定）＋ mens（測る）＝ 測れないほど大きい → 巨大な！"
+      }
+    },
+    {
+      "id": "w11_008",
+      "english": "weary",
+      "japanese": "ひどく疲れた、疲れ果てた",
+      "englishDef": "extremely tired; worn out from exertion",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈwɪər.i/",
+      "katakana": "WIER-ee",
+      "emoji": "😩",
+      "exampleEn": "After the long journey, the weary travelers fell asleep immediately.",
+      "exampleJa": "長旅の後、疲れ果てた旅人たちはすぐに眠りについた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "weary", "type": "root", "meaning": "疲れた（古英語 wērig）" }
+        ],
+        "imageDescription": "長い旅の後、重い荷物を背負ったままぐったりとしている旅人の様子",
+        "relatedWords": ["wearisome", "weariness", "tired", "exhausted"],
+        "memoryTip": "weary（疲れた）→ 「ウィアリー」＝ 「うわぁリー（離れたい）」と感じるほど疲れた！"
+      }
+    },
+    {
+      "id": "w11_009",
+      "english": "melancholy",
+      "japanese": "憂鬱、物悲しさ",
+      "englishDef": "a deep sadness or gloom, often arising from reflection",
+      "partOfSpeech": "n",
+      "ipa": "/ˈmel.ən.kɒl.i/",
+      "katakana": "MEL-ən-kol-ee",
+      "emoji": "🌧️",
+      "exampleEn": "A sense of melancholy swept over him as he looked at the old photographs.",
+      "exampleJa": "古い写真を見ていると、彼は憂鬱な気持ちに包まれた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "melan-", "type": "prefix", "meaning": "黒い（ギリシャ語 melas）" },
+          { "part": "choly", "type": "root", "meaning": "胆汁（ギリシャ語 kholē）" }
+        ],
+        "imageDescription": "窓の雨粒を眺めながら物思いにふけり、ぼんやりとしている人の様子",
+        "relatedWords": ["melancholic", "melancholia", "gloom", "dejection"],
+        "memoryTip": "melan（黒い）＋ choly（胆汁）＝ 黒い胆汁が体を満たす → 古代医学で「憂鬱」の原因とされた！"
+      }
+    },
+    {
+      "id": "w11_010",
+      "english": "tarnish",
+      "japanese": "くすませる、輝きを失わせる",
+      "englishDef": "to dull the shine or luster of; to spoil or damage",
+      "partOfSpeech": "v",
+      "ipa": "/ˈtɑː.nɪʃ/",
+      "katakana": "TAR-nish",
+      "emoji": "🪙",
+      "exampleEn": "Leaving silver jewelry in the open air will cause it to tarnish.",
+      "exampleJa": "銀のアクセサリーを外気にさらしておくと、くすんでしまう。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ternir", "type": "root", "meaning": "くすませる・暗くする（古フランス語）" }
+        ],
+        "imageDescription": "ピカピカだった銀のコインが酸化してくすんでいく様子",
+        "relatedWords": ["tarnished", "dull", "blemish", "stain"],
+        "memoryTip": "tarnish（くすませる）→ 「ターニッシュ」＝ 光がターン（消える）してしまう！"
+      }
+    },
+    {
+      "id": "w11_011",
+      "english": "strange",
+      "japanese": "奇妙な、見慣れない",
+      "englishDef": "unusual or surprising; not familiar",
+      "partOfSpeech": "adj",
+      "ipa": "/streɪndʒ/",
+      "katakana": "straynj",
+      "emoji": "🌀",
+      "exampleEn": "There was something strange about the way the old man smiled.",
+      "exampleJa": "その老人の微笑み方には何か奇妙なところがあった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "estrange", "type": "root", "meaning": "外来の・よそ者（古フランス語 estrange）" }
+        ],
+        "imageDescription": "見慣れない形の建物の前で首をかしげて不思議そうに眺めている人の様子",
+        "relatedWords": ["stranger", "estrange", "strangeness", "bizarre"],
+        "memoryTip": "strange → estrange（疎遠にする）と同語源 → 知らない・見慣れない → 奇妙！"
+      }
+    },
+    {
+      "id": "w11_012",
+      "english": "whether",
+      "japanese": "～かどうか、～か～か",
+      "englishDef": "used to express a choice or doubt between two alternatives",
+      "partOfSpeech": "conj",
+      "ipa": "/ˈweð.ər/",
+      "katakana": "WEDH-ər",
+      "emoji": "🤔",
+      "exampleEn": "I couldn't decide whether to take the bus or walk home.",
+      "exampleJa": "バスに乗るか歩いて帰るか、決められなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "hwether", "type": "root", "meaning": "どちらか一方（古英語）" }
+        ],
+        "imageDescription": "二本の道の分かれ目に立ち、どちらに進もうか迷っている人の様子",
+        "relatedWords": ["either", "or", "if"],
+        "memoryTip": "whether（～かどうか）→ weather（天気）と同じ発音！天気みたいに「晴れか雨か」どちら？"
+      }
+    },
+    {
+      "id": "w11_013",
+      "english": "disturb",
+      "japanese": "邪魔をする、乱す",
+      "englishDef": "to interrupt or bother someone; to interfere with",
+      "partOfSpeech": "v",
+      "ipa": "/dɪˈstɜːb/",
+      "katakana": "di-STURB",
+      "emoji": "🔔",
+      "exampleEn": "Please do not disturb the sleeping baby by making loud noises.",
+      "exampleJa": "大きな音を立てて、眠っている赤ちゃんの邪魔をしないでください。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dis-", "type": "prefix", "meaning": "完全に・バラバラに" },
+          { "part": "turb", "type": "root", "meaning": "かき乱す・混乱させる（ラテン語 turbare）" }
+        ],
+        "imageDescription": "静かに眠っている人のそばで騒がしくして起こしてしまいそうな場面",
+        "relatedWords": ["disturbance", "turbulent", "turmoil", "perturb"],
+        "memoryTip": "dis（完全に）＋ turb（かき乱す）＝ 完全にかき乱す → 邪魔をする！"
+      }
+    },
+    {
+      "id": "w11_014",
+      "english": "slim",
+      "japanese": "細い、わずかな",
+      "englishDef": "thin and narrow; very small in amount",
+      "partOfSpeech": "adj",
+      "ipa": "/slɪm/",
+      "katakana": "slim",
+      "emoji": "🪄",
+      "exampleEn": "There is only a slim chance of winning the lottery.",
+      "exampleJa": "宝くじに当たる可能性はわずかしかない。",
+      "etymology": {
+        "morphemes": [
+          { "part": "slim", "type": "root", "meaning": "細い・弱い（オランダ語・低地ドイツ語 slim）" }
+        ],
+        "imageDescription": "細い隙間をやっとのことで通り抜けようとしている人の様子",
+        "relatedWords": ["thin", "slender", "slight", "narrow"],
+        "memoryTip": "slim（細い）→ スリムな体型 → 幅が小さい・可能性もわずか！"
+      }
+    },
+    {
+      "id": "w11_015",
+      "english": "root",
+      "japanese": "根、根本",
+      "englishDef": "the underground part of a plant that anchors it and absorbs water",
+      "partOfSpeech": "n",
+      "ipa": "/ruːt/",
+      "katakana": "root",
+      "emoji": "🌳",
+      "exampleEn": "The roots of the old oak tree stretched deep beneath the ground.",
+      "exampleJa": "古いオークの木の根は地中深くまで広がっていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rot", "type": "root", "meaning": "根（古英語 wyrt）→ 古ノルド語 rót" }
+        ],
+        "imageDescription": "大きな木の地面から広がる複雑に絡み合った根の様子",
+        "relatedWords": ["uproot", "rooted", "root out", "radix"],
+        "memoryTip": "root（根）→ 「ルーツ（roots）」 ＝ 自分の出身・起源！植物の根も人の出自も「根っこ」！"
+      }
+    }
+  ]
+}

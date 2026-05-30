@@ -1,0 +1,40 @@
+{
+  "weekId": "week13",
+  "match": [
+    { "word": "squint",   "def": "to make one's eyes smaller in order to see better" },
+    { "word": "eager",    "def": "excited to do something, really wanting to do something" },
+    { "word": "latch",    "def": "a bar that is used to lock a door or gate" },
+    { "word": "remnant",  "def": "a small part or portion of something larger that is leftover" },
+    { "word": "coward",   "def": "a person who is not brave or courageous, a person who is often scared" },
+    { "word": "venture",  "def": "a journey, a risk" },
+    { "word": "breath",   "def": "the air taken into and pushed out of the body" },
+    { "word": "helpless", "def": "not able to defend oneself" },
+    { "word": "weep",     "def": "to cry, whimper, or sob" },
+    { "word": "dismay",   "def": "stress or surprise caused by something unexpected" }
+  ],
+  "gap": [
+    { "answer": "squint",   "sentence": "She squinted at the small print on the medicine bottle.",                      "ja": "彼女は薬瓶の小さな文字を読もうと目を細めた。" },
+    { "answer": "eager",    "sentence": "The eager students raised their hands before the teacher finished asking.",    "ja": "熱心な生徒たちは先生が質問し終わる前に手を挙げた。" },
+    { "answer": "latch",    "sentence": "He lifted the latch and pushed open the garden gate.",                        "ja": "彼は掛け金を持ち上げ、庭の門を押し開けた。" },
+    { "answer": "remnant",  "sentence": "Only a remnant of the old castle wall still stands today.",                   "ja": "今日では古い城壁の残りの一部だけがまだ立っている。" },
+    { "answer": "coward",   "sentence": "He felt like a coward for running away instead of facing the problem.",       "ja": "問題に向き合わずに逃げてしまい、彼は臆病者のように感じた。" }
+  ],
+  "bank": ["squint", "eager", "latch", "remnant", "coward", "venture", "breath", "helpless", "weep", "dismay"],
+  "mc": [
+    { "q": "What does \"venture\" mean?",  "opts": ["a bar that is used to lock a door or gate", "a journey, a risk", "to cry, whimper, or sob", "not able to defend oneself"],                                   "answer": 1, "word": "venture" },
+    { "q": "What does \"breath\" mean?",   "opts": ["the air taken into and pushed out of the body", "stress or surprise caused by something unexpected", "to walk or move in an aimless way", "a small part or portion of something larger that is leftover"], "answer": 0, "word": "breath" },
+    { "q": "What does \"helpless\" mean?", "opts": ["strict and serious", "to continue to cause trouble for someone", "not able to defend oneself", "excited to do something, really wanting to do something"],   "answer": 2, "word": "helpless" },
+    { "q": "What does \"weep\" mean?",     "opts": ["to say something in opposition", "to walk or move in an aimless way", "to make one's eyes smaller in order to see better", "to cry, whimper, or sob"],        "answer": 3, "word": "weep" },
+    { "q": "What does \"dismay\" mean?",   "opts": ["well built, strong and solid", "stress or surprise caused by something unexpected", "to continue to cause trouble for someone", "a journey, a risk"],         "answer": 1, "word": "dismay" },
+    { "q": "What does \"wander\" mean?",   "opts": ["to walk or move in an aimless way", "strict and serious", "to make one's eyes smaller in order to see better", "the air taken into and pushed out of the body"], "answer": 0, "word": "wander" },
+    { "q": "What does \"sturdy\" mean?",   "opts": ["to cry, whimper, or sob", "to say something in opposition", "to continue to cause trouble for someone", "well built, strong and solid"],                      "answer": 3, "word": "sturdy" },
+    { "q": "What does \"protest\" mean?",  "opts": ["to say something in opposition", "not able to defend oneself", "a bar that is used to lock a door or gate", "strict and serious"],                            "answer": 0, "word": "protest" },
+    { "q": "What does \"stern\" mean?",    "opts": ["a journey, a risk", "to walk or move in an aimless way", "strict and serious", "well built, strong and solid"],                                               "answer": 2, "word": "stern" },
+    { "q": "What does \"haunt\" mean?",    "opts": ["to say something in opposition", "to continue to cause trouble for someone", "stressed or surprised by something unexpected", "not able to defend oneself"],  "answer": 1, "word": "haunt" }
+  ],
+  "dict": [
+    { "text": "Yes, it was the same music she had heard the night before.",                                            "word": "heard" },
+    { "text": "They had come to the edge of the wood now, with no sign of slowing their rapid jog.",                  "word": "rapid" },
+    { "text": "If you'd had a drink of it today, you'd stay a little girl forever.",                                   "word": "forever" }
+  ]
+}
