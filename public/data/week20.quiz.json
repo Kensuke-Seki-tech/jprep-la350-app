@@ -1,0 +1,210 @@
+{
+  "weekId": "week20",
+  "match": [
+    {
+      "word": "pry",
+      "def": "to move or separate something with force"
+    },
+    {
+      "word": "protrude",
+      "def": "to stick out of something, to be exposed"
+    },
+    {
+      "word": "constrict",
+      "def": "to limit the movement of something, usually by wrapping around it"
+    },
+    {
+      "word": "apprehension",
+      "def": "fear or worry that something bad will happen"
+    },
+    {
+      "word": "comical",
+      "def": "silly in a strange way"
+    },
+    {
+      "word": "custody",
+      "def": "the responsibility of caring for something"
+    },
+    {
+      "word": "pharmacy",
+      "def": "a place where medicine is stored, prepared, and sold"
+    },
+    {
+      "word": "queer",
+      "def": "weird, strange"
+    },
+    {
+      "word": "monument",
+      "def": "a building or structure built to honor someone or something"
+    },
+    {
+      "word": "imposing",
+      "def": "looking very important and impressive"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "pry",
+      "sentence": "He used a crowbar to pry the lid off the old wooden crate.",
+      "ja": "彼はバールを使って、古い木箱のふたをこじ開けた。"
+    },
+    {
+      "answer": "protrude",
+      "sentence": "A sharp nail protruded from the old fence, so we had to be careful.",
+      "ja": "古い柵から鋭い釘が突き出ていたので、私たちは注意しなければならなかった。"
+    },
+    {
+      "answer": "constrict",
+      "sentence": "The snake constricted its body tightly around the branch.",
+      "ja": "そのヘビは枝にしっかりと体を巻きつけて締め付けた。"
+    },
+    {
+      "answer": "apprehension",
+      "sentence": "She felt a growing sense of apprehension as the exam date approached.",
+      "ja": "試験の日が近づくにつれ、彼女は募る不安を感じた。"
+    },
+    {
+      "answer": "comical",
+      "sentence": "The puppy made a comical attempt to catch its own tail.",
+      "ja": "その子犬は自分のしっぽを捕まえようと、こっけいな試みをした。"
+    }
+  ],
+  "bank": [
+    "pry",
+    "protrude",
+    "constrict",
+    "apprehension",
+    "comical",
+    "custody",
+    "pharmacy",
+    "queer",
+    "monument",
+    "imposing"
+  ],
+  "mc": [
+    {
+      "q": "What does \"custody\" mean?",
+      "opts": [
+        "looking very important and impressive",
+        "to limit the movement of something, usually by wrapping around it",
+        "unmoving and stiff; hard to bend",
+        "the responsibility of caring for something"
+      ],
+      "answer": 3,
+      "word": "custody"
+    },
+    {
+      "q": "What does \"pharmacy\" mean?",
+      "opts": [
+        "unmoving and stiff; hard to bend",
+        "to stick out of something, to be exposed",
+        "to limit the movement of something, usually by wrapping around it",
+        "a place where medicine is stored, prepared, and sold"
+      ],
+      "answer": 3,
+      "word": "pharmacy"
+    },
+    {
+      "q": "What does \"queer\" mean?",
+      "opts": [
+        "someone who assists in a crime",
+        "weird, strange",
+        "to stick out of something, to be exposed",
+        "a place where medicine is stored, prepared, and sold"
+      ],
+      "answer": 1,
+      "word": "queer"
+    },
+    {
+      "q": "What does \"monument\" mean?",
+      "opts": [
+        "a place where medicine is stored, prepared, and sold",
+        "a building or structure built to honor someone or something",
+        "someone who assists in a crime",
+        "to stick out of something, to be exposed"
+      ],
+      "answer": 1,
+      "word": "monument"
+    },
+    {
+      "q": "What does \"imposing\" mean?",
+      "opts": [
+        "looking very important and impressive",
+        "hoping that something beneficial will happen",
+        "the responsibility of caring for something",
+        "hard to move due to something being closed or fixed firmly"
+      ],
+      "answer": 0,
+      "word": "imposing"
+    },
+    {
+      "q": "What does \"accomplice\" mean?",
+      "opts": [
+        "someone who assists in a crime",
+        "to quickly take something or remove something",
+        "to limit the movement of something, usually by wrapping around it",
+        "hard to move due to something being closed or fixed firmly"
+      ],
+      "answer": 0,
+      "word": "accomplice"
+    },
+    {
+      "q": "What does \"tight\" mean?",
+      "opts": [
+        "to quickly take something or remove something",
+        "hard to move due to something being closed or fixed firmly",
+        "to stick out of something, to be exposed",
+        "to move or separate something with force"
+      ],
+      "answer": 1,
+      "word": "tight"
+    },
+    {
+      "q": "What does \"wishful\" mean?",
+      "opts": [
+        "fear or worry that something bad will happen",
+        "to stick out of something, to be exposed",
+        "hoping that something beneficial will happen",
+        "a building or structure built to honor someone or something"
+      ],
+      "answer": 2,
+      "word": "wishful"
+    },
+    {
+      "q": "What does \"pluck\" mean?",
+      "opts": [
+        "the responsibility of caring for something",
+        "to stick out of something, to be exposed",
+        "to quickly take something or remove something",
+        "fear or worry that something bad will happen"
+      ],
+      "answer": 2,
+      "word": "pluck"
+    },
+    {
+      "q": "What does \"rigid\" mean?",
+      "opts": [
+        "to quickly take something or remove something",
+        "unmoving and stiff; hard to bend",
+        "hard to move due to something being closed or fixed firmly",
+        "a building or structure built to honor someone or something"
+      ],
+      "answer": 1,
+      "word": "rigid"
+    }
+  ],
+  "dict": [
+    {
+      "text": "He came up to the barred door of her cell and looked in.",
+      "word": "barred"
+    },
+    {
+      "text": "At once he began to bark, his eyes bright.",
+      "word": "bark"
+    },
+    {
+      "text": "First of all, the toad appeared out of the weeds, on her side of the road this time.",
+      "word": "weeds"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "weekId": "week18",
+  "match": [
+    {
+      "word": "sear",
+      "def": "to burn the surface of with a very strong heat or flame"
+    },
+    {
+      "word": "assure",
+      "def": "to tell someone something so they will not worry"
+    },
+    {
+      "word": "blush",
+      "def": "to have one's face become red out of embarrassment"
+    },
+    {
+      "word": "brief",
+      "def": "for a short time, not taking a long time"
+    },
+    {
+      "word": "devote",
+      "def": "to dedicate oneself to something or someone"
+    },
+    {
+      "word": "tension",
+      "def": "a feeling of fear and anxiety, especially in a stressful situation"
+    },
+    {
+      "word": "advertise",
+      "def": "to try to spread information about a product to the public in order to sell it"
+    },
+    {
+      "word": "scarcely",
+      "def": "just a little, almost not at all"
+    },
+    {
+      "word": "magnificent",
+      "def": "very wonderful and beautiful"
+    },
+    {
+      "word": "exhaustion",
+      "def": "A feeling of extreme tiredness or fatigue"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "sear",
+      "sentence": "The chef seared the steak quickly to lock in its juices.",
+      "ja": "シェフはステーキの肉汁を閉じ込めるため、手早く表面を焼いた。"
+    },
+    {
+      "answer": "assure",
+      "sentence": "The doctor assured her that the surgery would be safe.",
+      "ja": "医師は彼女に、その手術は安全だと安心させた。"
+    },
+    {
+      "answer": "blush",
+      "sentence": "She blushed deeply when the teacher praised her in front of the whole class.",
+      "ja": "先生がクラス全員の前で彼女を褒めたとき、彼女は真っ赤になった。"
+    },
+    {
+      "answer": "brief",
+      "sentence": "He gave a brief summary of the meeting before everyone went home.",
+      "ja": "彼はみんなが帰る前に、会議の簡単な要約をした。"
+    },
+    {
+      "answer": "devote",
+      "sentence": "She devoted every weekend to practicing the piano.",
+      "ja": "彼女は毎週末をピアノの練習に捧げた。"
+    }
+  ],
+  "bank": [
+    "sear",
+    "assure",
+    "blush",
+    "brief",
+    "devote",
+    "tension",
+    "advertise",
+    "scarcely",
+    "magnificent",
+    "exhaustion"
+  ],
+  "mc": [
+    {
+      "q": "What does \"tension\" mean?",
+      "opts": [
+        "to tell someone something so they will not worry",
+        "A feeling of extreme tiredness or fatigue",
+        "a feeling of fear and anxiety, especially in a stressful situation",
+        "deadly, causing death"
+      ],
+      "answer": 2,
+      "word": "tension"
+    },
+    {
+      "q": "What does \"advertise\" mean?",
+      "opts": [
+        "A feeling of extreme tiredness or fatigue",
+        "to have one's face become red out of embarrassment",
+        "to try to spread information about a product to the public in order to sell it",
+        "to dedicate oneself to something or someone"
+      ],
+      "answer": 2,
+      "word": "advertise"
+    },
+    {
+      "q": "What does \"scarcely\" mean?",
+      "opts": [
+        "just a little, almost not at all",
+        "to try to spread information about a product to the public in order to sell it",
+        "not allowed; against the rules",
+        "to dedicate oneself to something or someone"
+      ],
+      "answer": 0,
+      "word": "scarcely"
+    },
+    {
+      "q": "What does \"magnificent\" mean?",
+      "opts": [
+        "for a short time, not taking a long time",
+        "not one or the other",
+        "to tell someone something so they will not worry",
+        "very wonderful and beautiful"
+      ],
+      "answer": 3,
+      "word": "magnificent"
+    },
+    {
+      "q": "What does \"exhaustion\" mean?",
+      "opts": [
+        "for a short time, not taking a long time",
+        "very wonderful and beautiful",
+        "A feeling of extreme tiredness or fatigue",
+        "twelve o'clock at night"
+      ],
+      "answer": 2,
+      "word": "exhaustion"
+    },
+    {
+      "q": "What does \"midnight\" mean?",
+      "opts": [
+        "to burn the surface of with a very strong heat or flame",
+        "to move about or cause a small disturbance",
+        "twelve o'clock at night",
+        "not allowed; against the rules"
+      ],
+      "answer": 2,
+      "word": "midnight"
+    },
+    {
+      "q": "What does \"stir\" mean?",
+      "opts": [
+        "to move about or cause a small disturbance",
+        "a feeling of fear and anxiety, especially in a stressful situation",
+        "to tell someone something so they will not worry",
+        "deadly, causing death"
+      ],
+      "answer": 0,
+      "word": "stir"
+    },
+    {
+      "q": "What does \"forbidden\" mean?",
+      "opts": [
+        "very wonderful and beautiful",
+        "for a short time, not taking a long time",
+        "not allowed; against the rules",
+        "to have one's face become red out of embarrassment"
+      ],
+      "answer": 2,
+      "word": "forbidden"
+    },
+    {
+      "q": "What does \"neither\" mean?",
+      "opts": [
+        "to try to spread information about a product to the public in order to sell it",
+        "not allowed; against the rules",
+        "for a short time, not taking a long time",
+        "not one or the other"
+      ],
+      "answer": 3,
+      "word": "neither"
+    },
+    {
+      "q": "What does \"fatal\" mean?",
+      "opts": [
+        "a feeling of fear and anxiety, especially in a stressful situation",
+        "deadly, causing death",
+        "to try to spread information about a product to the public in order to sell it",
+        "not allowed; against the rules"
+      ],
+      "answer": 1,
+      "word": "fatal"
+    }
+  ],
+  "dict": [
+    {
+      "text": "The toad did not so much as flick a muscle or blink an eye.",
+      "word": "blink"
+    },
+    {
+      "text": "Everyone went to bed early, closing windows firmly on their way.",
+      "word": "firmly"
+    },
+    {
+      "text": "She opened the door and slipped out into the heavy August night.",
+      "word": "slipped"
+    }
+  ]
+}

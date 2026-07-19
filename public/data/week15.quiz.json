@@ -1,0 +1,210 @@
+{
+  "weekId": "week15",
+  "match": [
+    {
+      "word": "recede",
+      "def": "to back away, to pull back"
+    },
+    {
+      "word": "vanity",
+      "def": "having too much pride in oneself or one's own appearance"
+    },
+    {
+      "word": "doze",
+      "def": "to sleep lightly, to take a nap"
+    },
+    {
+      "word": "vigorous",
+      "def": "with great energy, health, and power"
+    },
+    {
+      "word": "penetrate",
+      "def": "to go through something that has resistance"
+    },
+    {
+      "word": "homely",
+      "def": "comfortable and cozy"
+    },
+    {
+      "word": "crease",
+      "def": "a line where something has been folded or wrinkled"
+    },
+    {
+      "word": "envelop",
+      "def": "to wrap around or surround entirely"
+    },
+    {
+      "word": "assault",
+      "def": "an attack, an offense"
+    },
+    {
+      "word": "peril",
+      "def": "danger, a risk of damage or harm"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "recede",
+      "sentence": "The flood waters slowly receded after the storm passed.",
+      "ja": "嵐が過ぎた後、洪水の水はゆっくりと引いていった。"
+    },
+    {
+      "answer": "vanity",
+      "sentence": "His vanity made him check his reflection in every window he passed.",
+      "ja": "彼の虚栄心のせいで、通り過ぎるすべての窓に映る自分を確認してしまう。"
+    },
+    {
+      "answer": "doze",
+      "sentence": "Grandpa often dozes off in his favorite armchair after lunch.",
+      "ja": "おじいちゃんは昼食後、お気に入りの肘掛け椅子でよくうたた寝する。"
+    },
+    {
+      "answer": "vigorous",
+      "sentence": "She gave the floor a vigorous scrub until it sparkled.",
+      "ja": "彼女は床がピカピカになるまで力強くこすった。"
+    },
+    {
+      "answer": "penetrate",
+      "sentence": "The arrow penetrated deep into the wooden target.",
+      "ja": "矢は木製の的に深く突き刺さった。"
+    }
+  ],
+  "bank": [
+    "recede",
+    "vanity",
+    "doze",
+    "vigorous",
+    "penetrate",
+    "homely",
+    "crease",
+    "envelop",
+    "assault",
+    "peril"
+  ],
+  "mc": [
+    {
+      "q": "What does \"homely\" mean?",
+      "opts": [
+        "empty on the inside; not full",
+        "to back away, to pull back",
+        "comfortable and cozy",
+        "having too much pride in oneself or one's own appearance"
+      ],
+      "answer": 2,
+      "word": "homely"
+    },
+    {
+      "q": "What does \"crease\" mean?",
+      "opts": [
+        "having too much pride in oneself or one's own appearance",
+        "to sleep lightly, to take a nap",
+        "a pole-like object used to push a small boat or canoe through water",
+        "a line where something has been folded or wrinkled"
+      ],
+      "answer": 3,
+      "word": "crease"
+    },
+    {
+      "q": "What does \"envelop\" mean?",
+      "opts": [
+        "having too much pride in oneself or one's own appearance",
+        "a group of something, such as plants or dirt, that is pressed together",
+        "to wrap around or surround entirely",
+        "to back away, to pull back"
+      ],
+      "answer": 2,
+      "word": "envelop"
+    },
+    {
+      "q": "What does \"assault\" mean?",
+      "opts": [
+        "with great energy, health, and power",
+        "danger, a risk of damage or harm",
+        "an attack, an offense",
+        "a pole-like object used to push a small boat or canoe through water"
+      ],
+      "answer": 2,
+      "word": "assault"
+    },
+    {
+      "q": "What does \"peril\" mean?",
+      "opts": [
+        "danger, a risk of damage or harm",
+        "to back away, to pull back",
+        "to go through something that has resistance",
+        "a person who saves someone or a group of people; a hero"
+      ],
+      "answer": 0,
+      "word": "peril"
+    },
+    {
+      "q": "What does \"savior\" mean?",
+      "opts": [
+        "to go through something that has resistance",
+        "a person who saves someone or a group of people; a hero",
+        "to sleep lightly, to take a nap",
+        "comfortable and cozy"
+      ],
+      "answer": 1,
+      "word": "savior"
+    },
+    {
+      "q": "What does \"hollow\" mean?",
+      "opts": [
+        "empty on the inside; not full",
+        "a group of something, such as plants or dirt, that is pressed together",
+        "having too much pride in oneself or one's own appearance",
+        "a line where something has been folded or wrinkled"
+      ],
+      "answer": 0,
+      "word": "hollow"
+    },
+    {
+      "q": "What does \"oar\" mean?",
+      "opts": [
+        "to be carried casually by air or water",
+        "a pole-like object used to push a small boat or canoe through water",
+        "to back away, to pull back",
+        "empty on the inside; not full"
+      ],
+      "answer": 1,
+      "word": "oar"
+    },
+    {
+      "q": "What does \"drift\" mean?",
+      "opts": [
+        "to be carried casually by air or water",
+        "a line where something has been folded or wrinkled",
+        "an attack, an offense",
+        "having too much pride in oneself or one's own appearance"
+      ],
+      "answer": 0,
+      "word": "drift"
+    },
+    {
+      "q": "What does \"clump\" mean?",
+      "opts": [
+        "danger, a risk of damage or harm",
+        "with great energy, health, and power",
+        "empty on the inside; not full",
+        "a group of something, such as plants or dirt, that is pressed together"
+      ],
+      "answer": 3,
+      "word": "clump"
+    }
+  ],
+  "dict": [
+    {
+      "text": "I got a feeling this whole thing is going to come apart like wet bread.",
+      "word": "apart"
+    },
+    {
+      "text": "Tuck said life was like a wheel because it never stops turning.",
+      "word": "turning"
+    },
+    {
+      "text": "There was a long, long moment of silence.",
+      "word": "silence"
+    }
+  ]
+}

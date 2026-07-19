@@ -1,0 +1,334 @@
+{
+  "weekId": "week19",
+  "weekNumber": 19,
+  "label": "Term B - Week 9",
+  "sentencesToRemember": [
+    {
+      "text": "However, since it's already too late to keep you out, you may as well join me in what I'm going to do.",
+      "ja": "でも、もうあなたを締め出すには遅すぎるから、私がこれからすることに一緒に加わってもいいわよ。"
+    },
+    {
+      "text": "And then, down the length of the pond, a voice rang out.",
+      "ja": "そして、池の向こうから、ある声が響き渡った。"
+    },
+    {
+      "text": "It would be a great relief to see her safely home again, wouldn't it?",
+      "ja": "彼女が無事に家に帰るのを見られたら、どんなにほっとするだろうか。"
+    },
+    {
+      "text": "Miles believed that the world would become too crowded.",
+      "ja": "マイルズは、世界はやがて混み合いすぎるようになると信じていた。"
+    },
+    {
+      "text": "She was going home, but the thought of that was far from her mind.",
+      "ja": "彼女は家に帰るところだったが、そのことは頭の中からかけ離れていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w19_001",
+      "english": "skull",
+      "japanese": "頭蓋骨",
+      "englishDef": "the large head bone that protects the brain",
+      "partOfSpeech": "n",
+      "ipa": "/skʌl/",
+      "katakana": "SKUL",
+      "emoji": "💀",
+      "exampleEn": "The museum displayed an ancient human skull found at the excavation site.",
+      "exampleJa": "博物館では発掘現場で見つかった古代人の頭蓋骨が展示されていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "skull", "type": "root", "meaning": "頭蓋骨（中英語 skulle、起源は不明瞭）" }
+        ],
+        "imageDescription": "白く硬い骨が脳を守るように頭を覆っている様子",
+        "relatedWords": ["skeleton", "cranium", "skullcap"],
+        "memoryTip": "「スカル」→ 頭を守る硬い骨 → 頭蓋骨"
+      }
+    },
+    {
+      "id": "w19_002",
+      "english": "murmur",
+      "japanese": "つぶやく、ささやく",
+      "englishDef": "to say very quietly in order to not be heard",
+      "partOfSpeech": "v",
+      "ipa": "/ˈmɜːr.mər/",
+      "katakana": "MUR-mər",
+      "emoji": "🤫",
+      "exampleEn": "She murmured a quiet apology so no one else could hear.",
+      "exampleJa": "彼女は他の誰にも聞こえないよう、小さな声で謝罪をつぶやいた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "murmur", "type": "root", "meaning": "つぶやく（ラテン語 murmurare、擬音語由来）" }
+        ],
+        "imageDescription": "口元に手を添えて小さな声でこっそり話している様子",
+        "relatedWords": ["murmuring", "mutter", "whisper"],
+        "memoryTip": "「マーマー」と繰り返す擬音語 → 低くつぶやく声 → つぶやく・ささやく"
+      }
+    },
+    {
+      "id": "w19_003",
+      "english": "cradle",
+      "japanese": "そっと抱く、揺りかごに入れる",
+      "englishDef": "to hold gently and carefully",
+      "partOfSpeech": "v",
+      "ipa": "/ˈkreɪ.dəl/",
+      "katakana": "KRAY-dəl",
+      "emoji": "👶",
+      "exampleEn": "She gently cradled the newborn kitten in her hands.",
+      "exampleJa": "彼女は生まれたばかりの子猫をそっと両手で抱いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cradle", "type": "root", "meaning": "揺りかご（古英語 cradol）" }
+        ],
+        "imageDescription": "赤ちゃんを両腕で優しく包み込むように抱いている様子",
+        "relatedWords": ["cradle (n.)", "cradled", "cradling"],
+        "memoryTip": "cradle（揺りかご）で赤ちゃんを扱うように優しく抱く → そっと抱く"
+      }
+    },
+    {
+      "id": "w19_004",
+      "english": "pulse",
+      "japanese": "脈打つ、鼓動する",
+      "englishDef": "to throb rhythmically",
+      "partOfSpeech": "v",
+      "ipa": "/pʌls/",
+      "katakana": "PULS",
+      "emoji": "💓",
+      "exampleEn": "The music pulsed through the speakers, making the whole room vibrate.",
+      "exampleJa": "音楽がスピーカーから脈打つように響き、部屋全体が振動した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "puls", "type": "root", "meaning": "打つ（ラテン語 pellere「押す・打つ」）" }
+        ],
+        "imageDescription": "心臓が規則正しくドクンドクンと脈打っている様子",
+        "relatedWords": ["pulse (n.)", "pulsate", "pulsing"],
+        "memoryTip": "「パルス」→ 電気の「パルス信号」のように規則正しく打つ → 脈打つ"
+      }
+    },
+    {
+      "id": "w19_005",
+      "english": "hiss",
+      "japanese": "シューという音を出す",
+      "englishDef": "to make a noise like an \"s\" sound",
+      "partOfSpeech": "v",
+      "ipa": "/hɪs/",
+      "katakana": "HIS",
+      "emoji": "🐍",
+      "exampleEn": "The snake hissed loudly when it felt threatened.",
+      "exampleJa": "そのヘビは脅威を感じたとき、大きな音でシューッと鳴いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "hiss", "type": "root", "meaning": "シューという音を模した擬音語" }
+        ],
+        "imageDescription": "ヘビが舌を出して威嚇するようにシューッと音を立てている様子",
+        "relatedWords": ["hissing", "hiss (n.)"],
+        "memoryTip": "「ヒス」→ そのまま「シュー」という擬音そのもの！"
+      }
+    },
+    {
+      "id": "w19_006",
+      "english": "remorse",
+      "japanese": "自責の念、後悔",
+      "englishDef": "a feeling of regret for something that one has done wrong",
+      "partOfSpeech": "n",
+      "ipa": "/rɪˈmɔːrs/",
+      "katakana": "ri-MORS",
+      "emoji": "😔",
+      "exampleEn": "He felt deep remorse for the harsh words he had said to his friend.",
+      "exampleJa": "彼は友人に言ったひどい言葉に対して深い自責の念を感じた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "再び" },
+          { "part": "mors", "type": "root", "meaning": "噛む（ラテン語 mordere「噛む」）" }
+        ],
+        "imageDescription": "過去の過ちを思い出し、胸が痛むように後悔している人の様子",
+        "relatedWords": ["remorseful", "remorseless", "remorsefully"],
+        "memoryTip": "re（再び）＋ mors（噛む）＝ 心を何度も噛み続ける痛み → 自責の念・後悔"
+      }
+    },
+    {
+      "id": "w19_007",
+      "english": "lapse",
+      "japanese": "一時的な失敗、うっかりミス",
+      "englishDef": "a temporary failure",
+      "partOfSpeech": "n",
+      "ipa": "/læps/",
+      "katakana": "LAPS",
+      "emoji": "📉",
+      "exampleEn": "A momentary lapse in concentration caused him to miss the exit.",
+      "exampleJa": "一瞬の集中力の低下により、彼は出口を見逃してしまった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "lapse", "type": "root", "meaning": "滑り落ちる（ラテン語 labi「滑る」）" }
+        ],
+        "imageDescription": "集中していた人がふと気を抜いて、うっかりミスをしてしまう様子",
+        "relatedWords": ["lapsed", "relapse", "collapse"],
+        "memoryTip": "ラテン語「滑り落ちる」が語源 → 注意がすべり落ちる → 一時的な失敗"
+      }
+    },
+    {
+      "id": "w19_008",
+      "english": "deliberate",
+      "japanese": "意図的な、故意の",
+      "englishDef": "on purpose, done intentionally",
+      "partOfSpeech": "adj",
+      "ipa": "/dɪˈlɪb.ər.ət/",
+      "katakana": "di-LIB-ər-ət",
+      "emoji": "🎯",
+      "exampleEn": "It was a deliberate choice to leave her name off the guest list.",
+      "exampleJa": "彼女の名前をゲストリストから外したのは、意図的な選択だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de-", "type": "prefix", "meaning": "完全に" },
+          { "part": "liber", "type": "root", "meaning": "天秤にかける（ラテン語 libra）" },
+          { "part": "-ate", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "天秤で慎重に重さを量るように、じっくり考えてから行動する様子",
+        "relatedWords": ["deliberately", "deliberation", "deliberative"],
+        "memoryTip": "de（完全に）＋ liber（秤にかける）＝ よく考えて決めた → 意図的な・故意の"
+      }
+    },
+    {
+      "id": "w19_009",
+      "english": "gratitude",
+      "japanese": "感謝の気持ち",
+      "englishDef": "the feeling of being thankful",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɡræt.ɪ.tuːd/",
+      "katakana": "GRAT-i-tood",
+      "emoji": "🙏",
+      "exampleEn": "She wrote a letter to express her gratitude for their kindness.",
+      "exampleJa": "彼女は彼らの親切に対する感謝の気持ちを伝える手紙を書いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "grat", "type": "root", "meaning": "喜ばしい・感謝の（ラテン語 gratus）" },
+          { "part": "-itude", "type": "suffix", "meaning": "状態・性質" }
+        ],
+        "imageDescription": "両手を合わせて心から感謝の気持ちを表している人の様子",
+        "relatedWords": ["grateful", "gratify", "congratulate"],
+        "memoryTip": "grat（感謝の）＋ -itude（状態）＝ 感謝している状態 → 感謝の気持ち"
+      }
+    },
+    {
+      "id": "w19_010",
+      "english": "trust",
+      "japanese": "信頼",
+      "englishDef": "the belief or idea that you can rely on or believe in someone or something else",
+      "partOfSpeech": "n",
+      "ipa": "/trʌst/",
+      "katakana": "TRUST",
+      "emoji": "🤝",
+      "exampleEn": "It takes years to build trust, but only a moment to break it.",
+      "exampleJa": "信頼を築くには何年もかかるが、壊すのは一瞬だ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "trust", "type": "root", "meaning": "信頼（古ノルド語 traust「安心・支え」）" }
+        ],
+        "imageDescription": "二人がしっかりと手を握り合い、互いに信頼し合っている様子",
+        "relatedWords": ["trustworthy", "trusting", "distrust"],
+        "memoryTip": "「トラスト」→ そのままカタカナ語としても使われる「信頼」"
+      }
+    },
+    {
+      "id": "w19_011",
+      "english": "trembled",
+      "japanese": "震えた",
+      "englishDef": "to shake involuntarily, usually because of anxiety, excitement, or fear",
+      "partOfSpeech": "v",
+      "ipa": "/ˈtrem.bəld/",
+      "katakana": "TREM-bəld",
+      "emoji": "😨",
+      "exampleEn": "Her hands trembled as she opened the letter with the exam results.",
+      "exampleJa": "試験結果の入った手紙を開けるとき、彼女の手は震えていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "trembl", "type": "root", "meaning": "震える（古フランス語 trembler、ラテン語 tremulus「震える」から）" }
+        ],
+        "imageDescription": "恐怖や緊張で手が小刻みに震えている様子",
+        "relatedWords": ["tremble", "trembling", "tremor"],
+        "memoryTip": "tremor（震え）と同語源 → 小刻みに震える → 震えた"
+      }
+    },
+    {
+      "id": "w19_012",
+      "english": "church",
+      "japanese": "教会",
+      "englishDef": "a building used for religious gatherings related to Christianity",
+      "partOfSpeech": "n",
+      "ipa": "/tʃɜːrtʃ/",
+      "katakana": "CHURCH",
+      "emoji": "⛪",
+      "exampleEn": "The whole town gathered at the church for the wedding ceremony.",
+      "exampleJa": "町中の人々が結婚式のために教会に集まった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "church", "type": "root", "meaning": "教会（古英語 cirice、ギリシャ語 kyriakon「主の家」から）" }
+        ],
+        "imageDescription": "高い尖塔のある教会に、人々が礼拝のために集まっている様子",
+        "relatedWords": ["churchyard", "churchgoer", "chapel"],
+        "memoryTip": "ギリシャ語で「主（神）の家」が語源 → 教会"
+      }
+    },
+    {
+      "id": "w19_013",
+      "english": "screech",
+      "japanese": "甲高い叫び声を上げる",
+      "englishDef": "to give a very loud, piercing, scream or cry; to shout or make a squealing noise",
+      "partOfSpeech": "v",
+      "ipa": "/skriːtʃ/",
+      "katakana": "SKREECH",
+      "emoji": "🦉",
+      "exampleEn": "The car tires screeched loudly as the driver hit the brakes suddenly.",
+      "exampleJa": "運転手が急ブレーキをかけると、タイヤが大きな音でキーッと鳴った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "screech", "type": "root", "meaning": "甲高い音を模した擬音語" }
+        ],
+        "imageDescription": "フクロウが夜中に甲高い声で鳴いている様子",
+        "relatedWords": ["screeching", "screech owl", "shriek"],
+        "memoryTip": "「スクリーチ」→ 「キーッ」という甲高い音そのもの！"
+      }
+    },
+    {
+      "id": "w19_014",
+      "english": "nostrils",
+      "japanese": "鼻の穴、鼻孔",
+      "englishDef": "the two openings on our nose that allow air to go in and out",
+      "partOfSpeech": "n",
+      "ipa": "/ˈnɒs.trəlz/",
+      "katakana": "NOS-trəlz",
+      "emoji": "👃",
+      "exampleEn": "The horse's nostrils flared as it breathed heavily after the race.",
+      "exampleJa": "レースの後、馬は激しく呼吸して鼻の穴を大きく広げていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "nos", "type": "root", "meaning": "鼻（古英語 nosu）" },
+          { "part": "thirl", "type": "root", "meaning": "穴（古英語 þyrel「穴」）" }
+        ],
+        "imageDescription": "馬が興奮して鼻の穴を大きく膨らませている様子",
+        "relatedWords": ["nose", "nasal", "nostril"],
+        "memoryTip": "nose（鼻）＋ thirl（穴）＝ 鼻の穴 → 鼻孔"
+      }
+    },
+    {
+      "id": "w19_015",
+      "english": "gust",
+      "japanese": "突風",
+      "englishDef": "a strong, sudden wind",
+      "partOfSpeech": "n",
+      "ipa": "/ɡʌst/",
+      "katakana": "GUST",
+      "emoji": "🌬️",
+      "exampleEn": "A sudden gust of wind blew her umbrella inside out.",
+      "exampleJa": "突然の突風が彼女の傘をひっくり返した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "gust", "type": "root", "meaning": "突風（古ノルド語 gustr「吹き出し」）" }
+        ],
+        "imageDescription": "強い風が急に吹きつけ、木の葉や傘が舞い上がる様子",
+        "relatedWords": ["gusty", "gusting", "wind gust"],
+        "memoryTip": "「ガスト」→ ガスがブワッと吹き出すイメージ → 突風"
+      }
+    }
+  ]
+}

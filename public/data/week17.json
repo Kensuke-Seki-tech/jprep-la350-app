@@ -1,0 +1,339 @@
+{
+  "weekId": "week17",
+  "weekNumber": 17,
+  "label": "Term B - Week 7",
+  "sentencesToRemember": [
+    {
+      "text": "They sat about in the parlor, as they had the night before.",
+      "ja": "彼らは前の晩と同じように、客間に座っていた。"
+    },
+    {
+      "text": "Her fears at last night's supper seemed silly to her now.",
+      "ja": "昨夜の夕食での恐れは、今となってはばかばかしく思えた。"
+    },
+    {
+      "text": "It was after the children were born that she began to see that the family was odd.",
+      "ja": "子どもたちが生まれてから、彼女はその家族が奇妙だと気づき始めた。"
+    },
+    {
+      "text": "The man in the yellow suit was planning on selling the water to the public.",
+      "ja": "黄色いスーツを着た男は、その水を一般の人々に売ろうと計画していた。"
+    },
+    {
+      "text": "She swung the shotgun at his head and knocked him out.",
+      "ja": "彼女は散弾銃を彼の頭に振り下ろし、彼を気絶させた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w17_001",
+      "english": "nonsense",
+      "japanese": "無意味なこと、たわごと",
+      "englishDef": "words that do not have any meaning or do not make sense",
+      "partOfSpeech": "n",
+      "ipa": "/ˈnɒn.sens/",
+      "katakana": "NON-sens",
+      "emoji": "🤪",
+      "exampleEn": "Stop talking nonsense and tell me what really happened.",
+      "exampleJa": "たわごとを言うのはやめて、本当に何が起きたのか教えて。",
+      "etymology": {
+        "morphemes": [
+          { "part": "non-", "type": "prefix", "meaning": "否定" },
+          { "part": "sense", "type": "root", "meaning": "意味・感覚" }
+        ],
+        "imageDescription": "頭の中で言葉がぐちゃぐちゃに混ざり、意味をなさない様子",
+        "relatedWords": ["senseless", "sensible", "nonsensical"],
+        "memoryTip": "non（ない）＋ sense（意味）＝ 意味がない → たわごと"
+      }
+    },
+    {
+      "id": "w17_002",
+      "english": "linger",
+      "japanese": "居残る、長引く",
+      "englishDef": "to continue to stay longer than expected",
+      "partOfSpeech": "v",
+      "ipa": "/ˈlɪŋ.ɡər/",
+      "katakana": "LING-gər",
+      "emoji": "🕰️",
+      "exampleEn": "The smell of fresh bread lingered in the kitchen long after baking.",
+      "exampleJa": "焼きたてのパンの香りは、焼き終わった後もずっとキッチンに残っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ling", "type": "root", "meaning": "長い（古英語 lengan「長くする」から）" }
+        ],
+        "imageDescription": "客がパーティーの後もなかなか帰らずに居残っている様子",
+        "relatedWords": ["lingering", "long", "prolong"],
+        "memoryTip": "long（長い）と同語源 → 長く居残る → 居残る・長引く"
+      }
+    },
+    {
+      "id": "w17_003",
+      "english": "jiggle",
+      "japanese": "小刻みに揺する",
+      "englishDef": "to shake quickly",
+      "partOfSpeech": "v",
+      "ipa": "/ˈdʒɪɡ.əl/",
+      "katakana": "JIG-əl",
+      "emoji": "🔑",
+      "exampleEn": "He jiggled the key in the lock, trying to get the old door open.",
+      "exampleJa": "彼は古いドアを開けようと、鍵を鍵穴の中で小刻みに揺すった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "jig", "type": "root", "meaning": "跳ねる踊り" },
+          { "part": "-le", "type": "suffix", "meaning": "反復動作を表す" }
+        ],
+        "imageDescription": "固い鍵穴の中で鍵を小刻みにガチャガチャ揺らしている手の様子",
+        "relatedWords": ["jig", "wiggle", "jiggling"],
+        "memoryTip": "jig（跳ねる踊り）＋ -le（繰り返し）＝ 小刻みに揺する"
+      }
+    },
+    {
+      "id": "w17_004",
+      "english": "barbarian",
+      "japanese": "野蛮人、未開人",
+      "englishDef": "an uncivilized person, a savage",
+      "partOfSpeech": "n",
+      "ipa": "/bɑːrˈber.i.ən/",
+      "katakana": "bar-BER-ee-ən",
+      "emoji": "🪓",
+      "exampleEn": "The ancient Romans called any foreign tribe outside their empire a barbarian.",
+      "exampleJa": "古代ローマ人は、帝国の外にいる異民族をみな「野蛮人」と呼んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "barbar", "type": "root", "meaning": "わけのわからない言葉を話す人（ギリシャ語 barbaros「異国人」）" }
+        ],
+        "imageDescription": "毛皮を着た荒々しい戦士が斧を振り回している様子",
+        "relatedWords": ["barbaric", "barbarism", "barbarous"],
+        "memoryTip": "ギリシャ語で「バルバル（わけのわからない言葉）」を話す人 → 野蛮人"
+      }
+    },
+    {
+      "id": "w17_005",
+      "english": "intelligent",
+      "japanese": "知的な、賢い",
+      "englishDef": "very smart, brilliant",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈtel.ɪ.dʒənt/",
+      "katakana": "in-TEL-i-jənt",
+      "emoji": "🧠",
+      "exampleEn": "The intelligent student solved the puzzle faster than anyone else in the class.",
+      "exampleJa": "その知的な生徒は、クラスの誰よりも早くパズルを解いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "inter-", "type": "prefix", "meaning": "間で" },
+          { "part": "leg", "type": "root", "meaning": "選ぶ・読む（ラテン語 legere）" },
+          { "part": "-ent", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "電球が光る頭で、難しい問題をすらすらと解いている生徒の様子",
+        "relatedWords": ["intelligence", "intellectual", "intelligently"],
+        "memoryTip": "inter（間で）＋ leg（選ぶ）＝ 物事の間から正しく選び取る力 → 知的な"
+      }
+    },
+    {
+      "id": "w17_006",
+      "english": "ordeal",
+      "japanese": "試練、苦難",
+      "englishDef": "a difficult and unpleasant experience",
+      "partOfSpeech": "n",
+      "ipa": "/ɔːrˈdiːl/",
+      "katakana": "or-DEEL",
+      "emoji": "😖",
+      "exampleEn": "Waiting for the test results was an emotional ordeal for the whole family.",
+      "exampleJa": "検査結果を待つことは、家族全員にとって精神的な試練だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "or-", "type": "prefix", "meaning": "完全に" },
+          { "part": "deal", "type": "root", "meaning": "裁く・分ける（古英語 dǣlan）" }
+        ],
+        "imageDescription": "長い待合室で不安げに座り、結果を待ち続けている家族の様子",
+        "relatedWords": ["trial", "hardship", "ordeal by fire"],
+        "memoryTip": "古英語で「神による裁き」が語源 → 耐え難く辛い経験 → 試練"
+      }
+    },
+    {
+      "id": "w17_007",
+      "english": "courteous",
+      "japanese": "礼儀正しい、丁寧な",
+      "englishDef": "friendly, done in consideration of others",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈkɜːr.ti.əs/",
+      "katakana": "KUR-tee-əs",
+      "emoji": "🎩",
+      "exampleEn": "The courteous waiter pulled out her chair before she sat down.",
+      "exampleJa": "礼儀正しいウェイターは、彼女が座る前に椅子を引いてあげた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "court", "type": "root", "meaning": "宮廷（ラテン語 cohors）" },
+          { "part": "-eous", "type": "suffix", "meaning": "性質を表す形容詞化" }
+        ],
+        "imageDescription": "帽子を取って丁寧にお辞儀をしている紳士の様子",
+        "relatedWords": ["courtesy", "court", "discourteous"],
+        "memoryTip": "court（宮廷）で身につける立ち居振る舞い → 礼儀正しい"
+      }
+    },
+    {
+      "id": "w17_008",
+      "english": "fond",
+      "japanese": "好んでいる、愛情を持つ",
+      "englishDef": "liking something or someone, thinking well of something or someone",
+      "partOfSpeech": "adj",
+      "ipa": "/fɒnd/",
+      "katakana": "FOND",
+      "emoji": "🥰",
+      "exampleEn": "She has always been fond of animals, especially cats and dogs.",
+      "exampleJa": "彼女は昔から動物、特に猫と犬が大好きだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fond", "type": "root", "meaning": "愚かなほど熱中した（中英語 fonned「愚かな」から）" }
+        ],
+        "imageDescription": "子猫を優しく抱きしめて微笑んでいる人の様子",
+        "relatedWords": ["fondness", "fondly", "be fond of"],
+        "memoryTip": "「フォンド」→ チョコレートフォンデュのように「とろけるほど」好き → 好んでいる"
+      }
+    },
+    {
+      "id": "w17_009",
+      "english": "bait",
+      "japanese": "餌",
+      "englishDef": "food put on a hook when fishing",
+      "partOfSpeech": "n",
+      "ipa": "/beɪt/",
+      "katakana": "BAYT",
+      "emoji": "🪱",
+      "exampleEn": "He put a worm on the hook as bait to catch fish.",
+      "exampleJa": "彼は魚を釣るための餌として、釣り針にミミズをつけた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "bait", "type": "root", "meaning": "餌（古ノルド語 beita「噛ませる」）" }
+        ],
+        "imageDescription": "釣り針にミミズをつけて水に垂らしている様子",
+        "relatedWords": ["baited", "fishing", "lure"],
+        "memoryTip": "「ベイト」→ 釣りの「エサ（ベイト）」そのまま！"
+      }
+    },
+    {
+      "id": "w17_010",
+      "english": "reflection",
+      "japanese": "反射、映った像",
+      "englishDef": "an image that is thrown back by a body or surface of light such as the image in a mirror",
+      "partOfSpeech": "n",
+      "ipa": "/rɪˈflek.ʃən/",
+      "katakana": "ri-FLEK-shən",
+      "emoji": "🪞",
+      "exampleEn": "She caught her reflection in the store window and stopped to fix her hair.",
+      "exampleJa": "彼女はお店の窓に映った自分の姿に気づき、立ち止まって髪を直した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "後ろへ" },
+          { "part": "flect", "type": "root", "meaning": "曲げる（ラテン語 flectere）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "静かな湖の水面に山や空が鏡のように映っている様子",
+        "relatedWords": ["reflect", "reflective", "reflector"],
+        "memoryTip": "re（戻す）＋ flect（曲げる）＝ 光を跳ね返す → 反射・映った像"
+      }
+    },
+    {
+      "id": "w17_011",
+      "english": "parlor",
+      "japanese": "客間、応接間",
+      "englishDef": "a sitting room in a house",
+      "partOfSpeech": "n",
+      "ipa": "/ˈpɑːr.lər/",
+      "katakana": "PAR-lər",
+      "emoji": "🛋️",
+      "exampleEn": "The guests were invited to sit and chat in the parlor after dinner.",
+      "exampleJa": "夕食の後、客たちは客間に座っておしゃべりするよう招かれた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "parl", "type": "root", "meaning": "話す（古フランス語 parler）" }
+        ],
+        "imageDescription": "ソファが置かれた上品な部屋で、人々がお茶を飲みながら話している様子",
+        "relatedWords": ["parley", "parlance", "ice cream parlor"],
+        "memoryTip": "parl（話す）＝ 会話をするための部屋 → 客間・応接間"
+      }
+    },
+    {
+      "id": "w17_012",
+      "english": "mantel",
+      "japanese": "マントルピース（暖炉の上の棚）",
+      "englishDef": "a shelf that usually goes over a fireplace",
+      "partOfSpeech": "n",
+      "ipa": "/ˈmæn.təl/",
+      "katakana": "MAN-təl",
+      "emoji": "🕰️",
+      "exampleEn": "Family photos were lined up neatly along the mantel above the fireplace.",
+      "exampleJa": "暖炉の上のマントルピースには、家族写真がきちんと並べられていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mantel", "type": "root", "meaning": "マント・覆い（mantle「外套」と同語源）" }
+        ],
+        "imageDescription": "暖炉の上の棚に時計や写真立てが飾られている様子",
+        "relatedWords": ["mantelpiece", "mantle", "fireplace"],
+        "memoryTip": "mantle（外套・覆い）と同語源 → 暖炉を覆うように張り出した棚 → マントルピース"
+      }
+    },
+    {
+      "id": "w17_013",
+      "english": "edge",
+      "japanese": "端、縁",
+      "englishDef": "an area next to a drop, such as the end of a table, or a cliff",
+      "partOfSpeech": "n",
+      "ipa": "/edʒ/",
+      "katakana": "EJ",
+      "emoji": "🏔️",
+      "exampleEn": "Be careful not to stand too close to the edge of the cliff.",
+      "exampleJa": "崖の端にあまり近づかないように気をつけて。",
+      "etymology": {
+        "morphemes": [
+          { "part": "edge", "type": "root", "meaning": "刃・端（古英語 ecg「刃」）" }
+        ],
+        "imageDescription": "崖の端ぎりぎりに立って下を覗き込んでいる人の様子",
+        "relatedWords": ["edgy", "on edge", "edging"],
+        "memoryTip": "元々「刃」の意味 → 刃のように鋭く尖った境界線 → 端・縁"
+      }
+    },
+    {
+      "id": "w17_014",
+      "english": "ghastly",
+      "japanese": "恐ろしい、ぞっとする",
+      "englishDef": "causing great fear, terror, or horror",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈɡæst.li/",
+      "katakana": "GAST-lee",
+      "emoji": "👻",
+      "exampleEn": "A ghastly scream echoed through the abandoned house at midnight.",
+      "exampleJa": "真夜中、廃屋にぞっとするような悲鳴が響き渡った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "gast", "type": "root", "meaning": "恐怖・幽霊（古英語 gæstan「怖がらせる」）" },
+          { "part": "-ly", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "廃墟の中で青白い幽霊のような姿が現れ、恐怖に襲われている様子",
+        "relatedWords": ["ghost", "aghast", "ghastliness"],
+        "memoryTip": "ghost（幽霊）と同語源 → 幽霊のようにぞっとする → 恐ろしい"
+      }
+    },
+    {
+      "id": "w17_015",
+      "english": "sparkle",
+      "japanese": "きらめく、輝く",
+      "englishDef": "to shine brightly",
+      "partOfSpeech": "v",
+      "ipa": "/ˈspɑːr.kəl/",
+      "katakana": "SPAR-kəl",
+      "emoji": "✨",
+      "exampleEn": "The diamond ring sparkled brilliantly under the bright lights.",
+      "exampleJa": "ダイヤモンドの指輪は明るい光の下で美しくきらめいた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "spark", "type": "root", "meaning": "火花" },
+          { "part": "-le", "type": "suffix", "meaning": "反復動作を表す" }
+        ],
+        "imageDescription": "宝石が光を反射して小さな火花のようにきらきら輝いている様子",
+        "relatedWords": ["spark", "sparkling", "sparkler"],
+        "memoryTip": "spark（火花）＋ -le（繰り返し）＝ 何度も火花のように輝く → きらめく"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "weekId": "week16",
+  "match": [
+    {
+      "word": "dimension",
+      "def": "a measurement of something in a direction, such as its length, width, or height"
+    },
+    {
+      "word": "vast",
+      "def": "wide, a great amount"
+    },
+    {
+      "word": "waver",
+      "def": "to shake or wave, to not remain steady"
+    },
+    {
+      "word": "disarray",
+      "def": "disorganized or messy"
+    },
+    {
+      "word": "revolutionary",
+      "def": "involving a great change to something new"
+    },
+    {
+      "word": "sympathy",
+      "def": "a feeling of understanding and pity for someone else"
+    },
+    {
+      "word": "blurt",
+      "def": "to say something quickly without thinking about it"
+    },
+    {
+      "word": "rigid",
+      "def": "unbending and stiff, unable to move"
+    },
+    {
+      "word": "rumpled",
+      "def": "crumpled, creased, or wrinkled"
+    },
+    {
+      "word": "sudden",
+      "def": "happening quickly or unexpectedly"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "dimension",
+      "sentence": "The architect carefully measured every dimension of the room before designing the furniture.",
+      "ja": "建築家は家具を設計する前に、部屋のあらゆる寸法を注意深く測った。"
+    },
+    {
+      "answer": "vast",
+      "sentence": "The desert stretched out in a vast, empty expanse as far as the eye could see.",
+      "ja": "砂漠は見渡す限り、広大でからっぽの広がりとして続いていた。"
+    },
+    {
+      "answer": "waver",
+      "sentence": "The candle flame wavered in the draft from the open window.",
+      "ja": "開いた窓からの隙間風で、ろうそくの炎が揺らめいた。"
+    },
+    {
+      "answer": "disarray",
+      "sentence": "After the storm, the garden was left in complete disarray.",
+      "ja": "嵐の後、庭は完全に散らかった状態になっていた。"
+    },
+    {
+      "answer": "revolutionary",
+      "sentence": "The new invention was so revolutionary that it changed the entire industry.",
+      "ja": "その新しい発明はとても革命的で、業界全体を変えてしまった。"
+    }
+  ],
+  "bank": [
+    "dimension",
+    "vast",
+    "waver",
+    "disarray",
+    "revolutionary",
+    "sympathy",
+    "blurt",
+    "rigid",
+    "rumpled",
+    "sudden"
+  ],
+  "mc": [
+    {
+      "q": "What does \"sympathy\" mean?",
+      "opts": [
+        "involving a great change to something new",
+        "wide, a great amount",
+        "a feeling of understanding and pity for someone else",
+        "unable to feel"
+      ],
+      "answer": 2,
+      "word": "sympathy"
+    },
+    {
+      "q": "What does \"blurt\" mean?",
+      "opts": [
+        "a usually negative experience or event",
+        "involving a great change to something new",
+        "to say something quickly without thinking about it",
+        "crumpled, creased, or wrinkled"
+      ],
+      "answer": 2,
+      "word": "blurt"
+    },
+    {
+      "q": "What does \"rigid\" mean?",
+      "opts": [
+        "a feeling of understanding and pity for someone else",
+        "unbending and stiff, unable to move",
+        "a usually negative experience or event",
+        "disorganized or messy"
+      ],
+      "answer": 1,
+      "word": "rigid"
+    },
+    {
+      "q": "What does \"rumpled\" mean?",
+      "opts": [
+        "a usually negative experience or event",
+        "to shake or wave, to not remain steady",
+        "crumpled, creased, or wrinkled",
+        "occurring regularly or frequently; pulsing"
+      ],
+      "answer": 2,
+      "word": "rumpled"
+    },
+    {
+      "q": "What does \"sudden\" mean?",
+      "opts": [
+        "happening quickly or unexpectedly",
+        "a usually negative experience or event",
+        "involving a great change to something new",
+        "to say something quickly without thinking about it"
+      ],
+      "answer": 0,
+      "word": "sudden"
+    },
+    {
+      "q": "What does \"rhythmic\" mean?",
+      "opts": [
+        "unable to feel",
+        "a measurement of something in a direction, such as its length, width, or height",
+        "occurring regularly or frequently; pulsing",
+        "a small insect that looks like a grasshopper but with shorter legs"
+      ],
+      "answer": 2,
+      "word": "rhythmic"
+    },
+    {
+      "q": "What does \"ordeal\" mean?",
+      "opts": [
+        "a usually negative experience or event",
+        "wide, a great amount",
+        "involving a great change to something new",
+        "to say something quickly without thinking about it"
+      ],
+      "answer": 0,
+      "word": "ordeal"
+    },
+    {
+      "q": "What does \"trample\" mean?",
+      "opts": [
+        "to step hard on something and cause damage to it",
+        "disorganized or messy",
+        "occurring regularly or frequently; pulsing",
+        "unbending and stiff, unable to move"
+      ],
+      "answer": 0,
+      "word": "trample"
+    },
+    {
+      "q": "What does \"numb\" mean?",
+      "opts": [
+        "unable to feel",
+        "a small insect that looks like a grasshopper but with shorter legs",
+        "involving a great change to something new",
+        "to shake or wave, to not remain steady"
+      ],
+      "answer": 0,
+      "word": "numb"
+    },
+    {
+      "q": "What does \"cricket\" mean?",
+      "opts": [
+        "happening quickly or unexpectedly",
+        "a small insect that looks like a grasshopper but with shorter legs",
+        "a usually negative experience or event",
+        "to say something quickly without thinking about it"
+      ],
+      "answer": 1,
+      "word": "cricket"
+    }
+  ],
+  "dict": [
+    {
+      "text": "The man in the yellow suit took off his hat and smoothed his hair with long white fingers.",
+      "word": "smoothed"
+    },
+    {
+      "text": "He hung his hat on his knee and smiled, his eyes nearly closed.",
+      "word": "closed"
+    },
+    {
+      "text": "He dropped the fish over the edge of the boat.",
+      "word": "boat"
+    }
+  ]
+}

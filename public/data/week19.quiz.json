@@ -1,0 +1,210 @@
+{
+  "weekId": "week19",
+  "match": [
+    {
+      "word": "skull",
+      "def": "the large head bone that protects the brain"
+    },
+    {
+      "word": "murmur",
+      "def": "to say very quietly in order to not be heard"
+    },
+    {
+      "word": "cradle",
+      "def": "to hold gently and carefully"
+    },
+    {
+      "word": "pulse",
+      "def": "to throb rhythmically"
+    },
+    {
+      "word": "hiss",
+      "def": "to make a noise like an \"s\" sound"
+    },
+    {
+      "word": "remorse",
+      "def": "a feeling of regret for something that one has done wrong"
+    },
+    {
+      "word": "lapse",
+      "def": "a temporary failure"
+    },
+    {
+      "word": "deliberate",
+      "def": "on purpose, done intentionally"
+    },
+    {
+      "word": "gratitude",
+      "def": "the feeling of being thankful"
+    },
+    {
+      "word": "trust",
+      "def": "the belief or idea that you can rely on or believe in someone or something else"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "skull",
+      "sentence": "The museum displayed an ancient human skull found at the excavation site.",
+      "ja": "博物館では発掘現場で見つかった古代人の頭蓋骨が展示されていた。"
+    },
+    {
+      "answer": "murmur",
+      "sentence": "She murmured a quiet apology so no one else could hear.",
+      "ja": "彼女は他の誰にも聞こえないよう、小さな声で謝罪をつぶやいた。"
+    },
+    {
+      "answer": "cradle",
+      "sentence": "She gently cradled the newborn kitten in her hands.",
+      "ja": "彼女は生まれたばかりの子猫をそっと両手で抱いた。"
+    },
+    {
+      "answer": "pulse",
+      "sentence": "The music pulsed through the speakers, making the whole room vibrate.",
+      "ja": "音楽がスピーカーから脈打つように響き、部屋全体が振動した。"
+    },
+    {
+      "answer": "hiss",
+      "sentence": "The snake hissed loudly when it felt threatened.",
+      "ja": "そのヘビは脅威を感じたとき、大きな音でシューッと鳴いた。"
+    }
+  ],
+  "bank": [
+    "skull",
+    "murmur",
+    "cradle",
+    "pulse",
+    "hiss",
+    "remorse",
+    "lapse",
+    "deliberate",
+    "gratitude",
+    "trust"
+  ],
+  "mc": [
+    {
+      "q": "What does \"remorse\" mean?",
+      "opts": [
+        "a strong, sudden wind",
+        "a building used for religious gatherings related to Christianity",
+        "the two openings on our nose that allow air to go in and out",
+        "a feeling of regret for something that one has done wrong"
+      ],
+      "answer": 3,
+      "word": "remorse"
+    },
+    {
+      "q": "What does \"lapse\" mean?",
+      "opts": [
+        "to say very quietly in order to not be heard",
+        "a feeling of regret for something that one has done wrong",
+        "a temporary failure",
+        "to give a very loud, piercing, scream or cry; to shout or make a squealing noise"
+      ],
+      "answer": 2,
+      "word": "lapse"
+    },
+    {
+      "q": "What does \"deliberate\" mean?",
+      "opts": [
+        "the feeling of being thankful",
+        "the belief or idea that you can rely on or believe in someone or something else",
+        "on purpose, done intentionally",
+        "to hold gently and carefully"
+      ],
+      "answer": 2,
+      "word": "deliberate"
+    },
+    {
+      "q": "What does \"gratitude\" mean?",
+      "opts": [
+        "on purpose, done intentionally",
+        "the feeling of being thankful",
+        "to throb rhythmically",
+        "to say very quietly in order to not be heard"
+      ],
+      "answer": 1,
+      "word": "gratitude"
+    },
+    {
+      "q": "What does \"trust\" mean?",
+      "opts": [
+        "the large head bone that protects the brain",
+        "a building used for religious gatherings related to Christianity",
+        "the feeling of being thankful",
+        "the belief or idea that you can rely on or believe in someone or something else"
+      ],
+      "answer": 3,
+      "word": "trust"
+    },
+    {
+      "q": "What does \"trembled\" mean?",
+      "opts": [
+        "a temporary failure",
+        "to hold gently and carefully",
+        "to shake involuntarily, usually because of anxiety, excitement, or fear",
+        "on purpose, done intentionally"
+      ],
+      "answer": 2,
+      "word": "trembled"
+    },
+    {
+      "q": "What does \"church\" mean?",
+      "opts": [
+        "a temporary failure",
+        "to hold gently and carefully",
+        "the large head bone that protects the brain",
+        "a building used for religious gatherings related to Christianity"
+      ],
+      "answer": 3,
+      "word": "church"
+    },
+    {
+      "q": "What does \"screech\" mean?",
+      "opts": [
+        "to give a very loud, piercing, scream or cry; to shout or make a squealing noise",
+        "on purpose, done intentionally",
+        "the two openings on our nose that allow air to go in and out",
+        "a strong, sudden wind"
+      ],
+      "answer": 0,
+      "word": "screech"
+    },
+    {
+      "q": "What does \"nostrils\" mean?",
+      "opts": [
+        "to make a noise like an \"s\" sound",
+        "to throb rhythmically",
+        "the two openings on our nose that allow air to go in and out",
+        "to hold gently and carefully"
+      ],
+      "answer": 2,
+      "word": "nostrils"
+    },
+    {
+      "q": "What does \"gust\" mean?",
+      "opts": [
+        "the large head bone that protects the brain",
+        "a building used for religious gatherings related to Christianity",
+        "a feeling of regret for something that one has done wrong",
+        "a strong, sudden wind"
+      ],
+      "answer": 3,
+      "word": "gust"
+    }
+  ],
+  "dict": [
+    {
+      "text": "However, since it's already too late to keep you out, you may as well join me in what I'm going to do.",
+      "word": "join"
+    },
+    {
+      "text": "It would be a great relief to see her safely home again, wouldn't it?",
+      "word": "relief"
+    },
+    {
+      "text": "She was going home, but the thought of that was far from her mind.",
+      "word": "thought"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "weekId": "week18",
+  "weekNumber": 18,
+  "label": "Term B - Week 8",
+  "sentencesToRemember": [
+    {
+      "text": "The toad did not so much as flick a muscle or blink an eye.",
+      "ja": "そのヒキガエルは筋肉ひとつ動かすことも、瞬きすることもしなかった。"
+    },
+    {
+      "text": "Her eyes flew open and she reached through the fence to grasp his hand.",
+      "ja": "彼女の目がぱっと開き、彼女はフェンス越しに手を伸ばして彼の手をつかんだ。"
+    },
+    {
+      "text": "Everyone went to bed early, closing windows firmly on their way.",
+      "ja": "みんな早めに寝床につき、途中でしっかりと窓を閉めていった。"
+    },
+    {
+      "text": "Well, she would have to make them understand, somehow, without explaining.",
+      "ja": "さて、彼女は説明することなく、どうにかして彼らに理解させなければならなかった。"
+    },
+    {
+      "text": "She opened the door and slipped out into the heavy August night.",
+      "ja": "彼女はドアを開け、重苦しい8月の夜へとそっと抜け出した。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w18_001",
+      "english": "sear",
+      "japanese": "焼き焦がす、焼く",
+      "englishDef": "to burn the surface of with a very strong heat or flame",
+      "partOfSpeech": "v",
+      "ipa": "/sɪr/",
+      "katakana": "SEER",
+      "emoji": "🔥",
+      "exampleEn": "The chef seared the steak quickly to lock in its juices.",
+      "exampleJa": "シェフはステーキの肉汁を閉じ込めるため、手早く表面を焼いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sear", "type": "root", "meaning": "焦がす（古英語 sēarian「乾かす・枯らす」）" }
+        ],
+        "imageDescription": "フライパンの上で肉の表面がジュージューと焼け焦げていく様子",
+        "relatedWords": ["seared", "searing", "scorch"],
+        "memoryTip": "「シアー」→ 熱でジュッと焼き付ける → 焼き焦がす"
+      }
+    },
+    {
+      "id": "w18_002",
+      "english": "assure",
+      "japanese": "安心させる、保証する",
+      "englishDef": "to tell someone something so they will not worry",
+      "partOfSpeech": "v",
+      "ipa": "/əˈʃʊr/",
+      "katakana": "ə-SHOOR",
+      "emoji": "🤝",
+      "exampleEn": "The doctor assured her that the surgery would be safe.",
+      "exampleJa": "医師は彼女に、その手術は安全だと安心させた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "as-", "type": "prefix", "meaning": "～へ" },
+          { "part": "sure", "type": "root", "meaning": "確かな（ラテン語 securus）" }
+        ],
+        "imageDescription": "不安そうな人に医師が優しく肩に手を置いて安心させている様子",
+        "relatedWords": ["assurance", "sure", "ensure", "insurance"],
+        "memoryTip": "as（～へ）＋ sure（確かな）＝ 確かにする → 安心させる・保証する"
+      }
+    },
+    {
+      "id": "w18_003",
+      "english": "blush",
+      "japanese": "顔を赤らめる",
+      "englishDef": "to have one's face become red out of embarrassment",
+      "partOfSpeech": "v",
+      "ipa": "/blʌʃ/",
+      "katakana": "BLUSH",
+      "emoji": "😳",
+      "exampleEn": "She blushed deeply when the teacher praised her in front of the whole class.",
+      "exampleJa": "先生がクラス全員の前で彼女を褒めたとき、彼女は真っ赤になった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "blush", "type": "root", "meaning": "赤面する（古英語 blyscan「輝く・赤らむ」）" }
+        ],
+        "imageDescription": "恥ずかしさで顔が真っ赤になっている人の様子",
+        "relatedWords": ["blushing", "flush", "embarrassed"],
+        "memoryTip": "「ブラッシュ」→ 頬に頬紅（ブラッシュ）を塗ったように赤くなる → 顔を赤らめる"
+      }
+    },
+    {
+      "id": "w18_004",
+      "english": "brief",
+      "japanese": "短時間の、簡潔な",
+      "englishDef": "for a short time, not taking a long time",
+      "partOfSpeech": "adj",
+      "ipa": "/briːf/",
+      "katakana": "BREEF",
+      "emoji": "⏱️",
+      "exampleEn": "He gave a brief summary of the meeting before everyone went home.",
+      "exampleJa": "彼はみんなが帰る前に、会議の簡単な要約をした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "brief", "type": "root", "meaning": "短い（ラテン語 brevis「短い」）" }
+        ],
+        "imageDescription": "時計を見ながら手短に要点だけを話している人の様子",
+        "relatedWords": ["briefly", "briefing", "abbreviate"],
+        "memoryTip": "brevis（短い）が語源 → 下着の「ブリーフ」も短いパンツから！→ 短時間の"
+      }
+    },
+    {
+      "id": "w18_005",
+      "english": "devote",
+      "japanese": "捧げる、専念する",
+      "englishDef": "to dedicate oneself to something or someone",
+      "partOfSpeech": "v",
+      "ipa": "/dɪˈvoʊt/",
+      "katakana": "di-VOHT",
+      "emoji": "📚",
+      "exampleEn": "She devoted every weekend to practicing the piano.",
+      "exampleJa": "彼女は毎週末をピアノの練習に捧げた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de-", "type": "prefix", "meaning": "完全に" },
+          { "part": "vote", "type": "root", "meaning": "誓う（ラテン語 vovere「誓う」）" }
+        ],
+        "imageDescription": "他のことを一切せず、一心不乱に楽器の練習に打ち込んでいる様子",
+        "relatedWords": ["devoted", "devotion", "devotee"],
+        "memoryTip": "de（完全に）＋ vote（誓う）＝ 完全に誓いを立てる → 捧げる・専念する"
+      }
+    },
+    {
+      "id": "w18_006",
+      "english": "tension",
+      "japanese": "緊張、不安",
+      "englishDef": "a feeling of fear and anxiety, especially in a stressful situation",
+      "partOfSpeech": "n",
+      "ipa": "/ˈten.ʃən/",
+      "katakana": "TEN-shən",
+      "emoji": "😰",
+      "exampleEn": "You could feel the tension in the room before the exam results were announced.",
+      "exampleJa": "試験結果が発表される前、部屋には緊張感が漂っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tens", "type": "root", "meaning": "張る（ラテン語 tendere）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "ピンと張り詰めたロープのように、緊張した空気が漂う部屋の様子",
+        "relatedWords": ["tense", "tensile", "extension"],
+        "memoryTip": "tend（張る）＋ -ion（状態）＝ ピンと張った状態 → 緊張・不安"
+      }
+    },
+    {
+      "id": "w18_007",
+      "english": "advertise",
+      "japanese": "宣伝する、広告する",
+      "englishDef": "to try to spread information about a product to the public in order to sell it",
+      "partOfSpeech": "v",
+      "ipa": "/ˈæd.vər.taɪz/",
+      "katakana": "AD-vər-tyz",
+      "emoji": "📢",
+      "exampleEn": "The company advertised its new product on TV and social media.",
+      "exampleJa": "その会社はテレビとSNSで新製品を宣伝した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ad-", "type": "prefix", "meaning": "～へ向けて" },
+          { "part": "vert", "type": "root", "meaning": "向ける（ラテン語 vertere）" },
+          { "part": "-ise", "type": "suffix", "meaning": "動詞化" }
+        ],
+        "imageDescription": "大きな看板やテレビ画面で新商品を人々に呼びかけている様子",
+        "relatedWords": ["advertisement", "advertising", "advertiser"],
+        "memoryTip": "ad（～へ）＋ vert（向ける）＝ 人々の注意を向けさせる → 宣伝する"
+      }
+    },
+    {
+      "id": "w18_008",
+      "english": "scarcely",
+      "japanese": "ほとんど～ない",
+      "englishDef": "just a little, almost not at all",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈsker.sli/",
+      "katakana": "SKER-slee",
+      "emoji": "🤏",
+      "exampleEn": "I was so tired that I could scarcely keep my eyes open.",
+      "exampleJa": "私はとても疲れていて、目を開けていることさえほとんどできなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "scarce", "type": "root", "meaning": "乏しい（古フランス語 escars「乏しい」）" },
+          { "part": "-ly", "type": "suffix", "meaning": "副詞化" }
+        ],
+        "imageDescription": "ほんの少ししか残っていない食べ物を見て困っている様子",
+        "relatedWords": ["scarce", "scarcity", "hardly"],
+        "memoryTip": "scarce（乏しい）＋ -ly（副詞）＝ わずかしかない → ほとんど～ない"
+      }
+    },
+    {
+      "id": "w18_009",
+      "english": "magnificent",
+      "japanese": "壮大な、素晴らしい",
+      "englishDef": "very wonderful and beautiful",
+      "partOfSpeech": "adj",
+      "ipa": "/mæɡˈnɪf.ɪ.sənt/",
+      "katakana": "mag-NIF-i-sənt",
+      "emoji": "🏰",
+      "exampleEn": "The view from the mountain top was absolutely magnificent.",
+      "exampleJa": "山頂からの眺めはまさに壮大だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "magn", "type": "root", "meaning": "大きい（ラテン語 magnus）" },
+          { "part": "fic", "type": "root", "meaning": "作る（ラテン語 facere）" },
+          { "part": "-ent", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "そびえ立つ壮大な城や山の景色に圧倒されている人の様子",
+        "relatedWords": ["magnify", "magnitude", "magnificence"],
+        "memoryTip": "magn（大きい）＋ fic（作る）＝ 大きく作られた → 壮大な・素晴らしい"
+      }
+    },
+    {
+      "id": "w18_010",
+      "english": "exhaustion",
+      "japanese": "疲労困憊",
+      "englishDef": "A feeling of extreme tiredness or fatigue",
+      "partOfSpeech": "n",
+      "ipa": "/ɪɡˈzɔːs.tʃən/",
+      "katakana": "ig-ZAWS-chən",
+      "emoji": "😫",
+      "exampleEn": "After running the marathon, he collapsed on the ground from exhaustion.",
+      "exampleJa": "マラソンを走り終えた後、彼は疲労困憊で地面に倒れ込んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ex-", "type": "prefix", "meaning": "完全に" },
+          { "part": "haust", "type": "root", "meaning": "汲み出す（ラテン語 haurire）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "マラソンを走り終えた選手が地面に倒れ込んでいる様子",
+        "relatedWords": ["exhaust", "exhausted", "exhausting"],
+        "memoryTip": "ex（完全に）＋ haust（汲み出す）＝ 力を完全に汲み出し尽くす → 疲労困憊"
+      }
+    },
+    {
+      "id": "w18_011",
+      "english": "midnight",
+      "japanese": "真夜中",
+      "englishDef": "twelve o'clock at night",
+      "partOfSpeech": "n",
+      "ipa": "/ˈmɪd.naɪt/",
+      "katakana": "MID-nyt",
+      "emoji": "🌙",
+      "exampleEn": "The clock struck midnight, and the party finally came to an end.",
+      "exampleJa": "時計が真夜中を告げ、パーティーはついに終わりを迎えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mid", "type": "root", "meaning": "真ん中" },
+          { "part": "night", "type": "root", "meaning": "夜" }
+        ],
+        "imageDescription": "時計の針がちょうど12時を指し、静かな夜が続いている様子",
+        "relatedWords": ["midday", "midweek", "nightfall"],
+        "memoryTip": "mid（真ん中）＋ night（夜）＝ 夜の真ん中 → 真夜中"
+      }
+    },
+    {
+      "id": "w18_012",
+      "english": "stir",
+      "japanese": "かき混ぜる、動かす",
+      "englishDef": "to move about or cause a small disturbance",
+      "partOfSpeech": "v",
+      "ipa": "/stɜːr/",
+      "katakana": "STUR",
+      "emoji": "🥄",
+      "exampleEn": "She stirred the soup slowly with a wooden spoon.",
+      "exampleJa": "彼女は木製のスプーンでスープをゆっくりとかき混ぜた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stir", "type": "root", "meaning": "動かす（古英語 styrian「動かす・かき乱す」）" }
+        ],
+        "imageDescription": "鍋の中身を木のスプーンでぐるぐるとかき混ぜている様子",
+        "relatedWords": ["stirring", "unstirred", "stir up"],
+        "memoryTip": "「スター」→ スプーンをぐるっと動かす → かき混ぜる・動かす"
+      }
+    },
+    {
+      "id": "w18_013",
+      "english": "forbidden",
+      "japanese": "禁じられた",
+      "englishDef": "not allowed; against the rules",
+      "partOfSpeech": "adj",
+      "ipa": "/fərˈbɪd.ən/",
+      "katakana": "fər-BID-ən",
+      "emoji": "🚫",
+      "exampleEn": "Smoking is strictly forbidden inside the hospital building.",
+      "exampleJa": "病院の建物内では喫煙が厳しく禁じられている。",
+      "etymology": {
+        "morphemes": [
+          { "part": "for-", "type": "prefix", "meaning": "反対に" },
+          { "part": "bid", "type": "root", "meaning": "命じる（古英語 beodan）" },
+          { "part": "-en", "type": "suffix", "meaning": "過去分詞化" }
+        ],
+        "imageDescription": "大きな赤い禁止マークの看板が立っている様子",
+        "relatedWords": ["forbid", "forbidding", "prohibited"],
+        "memoryTip": "forbid（禁じる）の過去分詞形 → 禁じられた"
+      }
+    },
+    {
+      "id": "w18_014",
+      "english": "neither",
+      "japanese": "どちらも～ない",
+      "englishDef": "not one or the other",
+      "partOfSpeech": "other",
+      "ipa": "/ˈniː.ðər/",
+      "katakana": "NEE-dhər",
+      "emoji": "❌",
+      "exampleEn": "Neither of the two answers was correct.",
+      "exampleJa": "その二つの答えのどちらも正しくなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ne", "type": "prefix", "meaning": "否定" },
+          { "part": "either", "type": "root", "meaning": "どちらか一方" }
+        ],
+        "imageDescription": "二つの選択肢の両方に大きなバツ印がついている様子",
+        "relatedWords": ["either", "nor", "none"],
+        "memoryTip": "ne（否定）＋ either（どちらか）＝ どちらでもない → どちらも～ない"
+      }
+    },
+    {
+      "id": "w18_015",
+      "english": "fatal",
+      "japanese": "致命的な、命取りの",
+      "englishDef": "deadly, causing death",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈfeɪ.təl/",
+      "katakana": "FAY-təl",
+      "emoji": "☠️",
+      "exampleEn": "The car accident turned out to be fatal for the driver.",
+      "exampleJa": "その自動車事故は運転手にとって命取りとなった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fat", "type": "root", "meaning": "運命（ラテン語 fatum「運命・宿命」）" },
+          { "part": "-al", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "避けられない運命のように、命に関わる重大な結果が訪れる様子",
+        "relatedWords": ["fate", "fatality", "fatally"],
+        "memoryTip": "fate（運命）と同語源 → 運命を決定づけるほど深刻 → 致命的な"
+      }
+    }
+  ]
+}

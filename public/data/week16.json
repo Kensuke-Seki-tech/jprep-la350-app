@@ -1,0 +1,343 @@
+{
+  "weekId": "week16",
+  "weekNumber": 16,
+  "label": "Term B - Week 6",
+  "sentencesToRemember": [
+    {
+      "text": "The man in the yellow suit took off his hat and smoothed his hair with long white fingers.",
+      "ja": "黄色いスーツを着た男は帽子を脱ぎ、長く白い指で髪を撫でつけた。"
+    },
+    {
+      "text": "She began to relax, listening to the sound-filled silence.",
+      "ja": "彼女は音に満ちた静寂に耳を傾けながら、次第にくつろぎ始めた。"
+    },
+    {
+      "text": "He hung his hat on his knee and smiled, his eyes nearly closed.",
+      "ja": "彼は帽子を膝にかけ、目をほとんど閉じたまま微笑んだ。"
+    },
+    {
+      "text": "Miles had been searching for something to give his life purpose.",
+      "ja": "マイルズは自分の人生に目的を与えてくれる何かを探し続けていた。"
+    },
+    {
+      "text": "He dropped the fish over the edge of the boat.",
+      "ja": "彼はボートの縁から魚を落とした。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w16_001",
+      "english": "dimension",
+      "japanese": "次元、寸法",
+      "englishDef": "a measurement of something in a direction, such as its length, width, or height",
+      "partOfSpeech": "n",
+      "ipa": "/daɪˈmen.ʃən/",
+      "katakana": "dai-MEN-shən",
+      "emoji": "📏",
+      "exampleEn": "The architect carefully measured every dimension of the room before designing the furniture.",
+      "exampleJa": "建築家は家具を設計する前に、部屋のあらゆる寸法を注意深く測った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "di-", "type": "prefix", "meaning": "離れて・分けて" },
+          { "part": "mens", "type": "root", "meaning": "測る（ラテン語 metiri）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "定規で箱の縦・横・高さを測っている様子",
+        "relatedWords": ["dimensional", "three-dimensional", "immense"],
+        "memoryTip": "di（分けて）＋ mens（測る）＝ 分けて測る → 寸法・次元"
+      }
+    },
+    {
+      "id": "w16_002",
+      "english": "vast",
+      "japanese": "広大な、莫大な",
+      "englishDef": "wide, a great amount",
+      "partOfSpeech": "adj",
+      "ipa": "/væst/",
+      "katakana": "VAST",
+      "emoji": "🏜️",
+      "exampleEn": "The desert stretched out in a vast, empty expanse as far as the eye could see.",
+      "exampleJa": "砂漠は見渡す限り、広大でからっぽの広がりとして続いていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "vast", "type": "root", "meaning": "からっぽの・広大な（ラテン語 vastus）" }
+        ],
+        "imageDescription": "地平線まで続く広大な砂漠や平原の様子",
+        "relatedWords": ["vastly", "vastness", "devastate"],
+        "memoryTip": "vastus（からっぽで広い）が語源 → どこまでも広がる → 広大な"
+      }
+    },
+    {
+      "id": "w16_003",
+      "english": "waver",
+      "japanese": "揺れる、動揺する",
+      "englishDef": "to shake or wave, to not remain steady",
+      "partOfSpeech": "v",
+      "ipa": "/ˈweɪ.vər/",
+      "katakana": "WAY-vər",
+      "emoji": "🕯️",
+      "exampleEn": "The candle flame wavered in the draft from the open window.",
+      "exampleJa": "開いた窓からの隙間風で、ろうそくの炎が揺らめいた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "wave", "type": "root", "meaning": "波・揺れる" },
+          { "part": "-er", "type": "suffix", "meaning": "反復的な動作" }
+        ],
+        "imageDescription": "ろうそくの炎が風で揺らめいている様子",
+        "relatedWords": ["wave", "wavering", "unwavering"],
+        "memoryTip": "wave（波）のように揺れ動く → 揺れる・動揺する"
+      }
+    },
+    {
+      "id": "w16_004",
+      "english": "disarray",
+      "japanese": "混乱、乱雑",
+      "englishDef": "disorganized or messy",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌdɪs.əˈreɪ/",
+      "katakana": "dis-ə-RAY",
+      "emoji": "🌪️",
+      "exampleEn": "After the storm, the garden was left in complete disarray.",
+      "exampleJa": "嵐の後、庭は完全に散らかった状態になっていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dis-", "type": "prefix", "meaning": "反対・崩す" },
+          { "part": "array", "type": "root", "meaning": "整列・配置（古フランス語 arayer）" }
+        ],
+        "imageDescription": "服や物が部屋中に散らばって乱雑になっている様子",
+        "relatedWords": ["array", "arrayed", "disorder"],
+        "memoryTip": "dis（崩す）＋ array（整列）＝ 整列を崩す → 混乱・乱雑"
+      }
+    },
+    {
+      "id": "w16_005",
+      "english": "revolutionary",
+      "japanese": "革命的な",
+      "englishDef": "involving a great change to something new",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌrev.əˈluː.ʃən.er.i/",
+      "katakana": "rev-ə-LOO-shə-ner-ee",
+      "emoji": "🚀",
+      "exampleEn": "The new invention was so revolutionary that it changed the entire industry.",
+      "exampleJa": "その新しい発明はとても革命的で、業界全体を変えてしまった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "再び" },
+          { "part": "volut", "type": "root", "meaning": "回転する（ラテン語 volvere）" },
+          { "part": "-ionary", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "世界がぐるりと大きく回転して新しく生まれ変わる様子",
+        "relatedWords": ["revolution", "revolve", "evolve"],
+        "memoryTip": "revolve（回転する）から → 世の中をひっくり返すほどの大転換 → 革命的な"
+      }
+    },
+    {
+      "id": "w16_006",
+      "english": "sympathy",
+      "japanese": "同情、共感",
+      "englishDef": "a feeling of understanding and pity for someone else",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsɪm.pə.θi/",
+      "katakana": "SIM-pə-thee",
+      "emoji": "🤝",
+      "exampleEn": "Everyone offered their sympathy after hearing about the family's loss.",
+      "exampleJa": "その家族の不幸を聞いて、皆が同情の気持ちを伝えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sym-", "type": "prefix", "meaning": "共に" },
+          { "part": "path", "type": "root", "meaning": "感情・苦しみ（ギリシャ語 pathos）" },
+          { "part": "-y", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "悲しんでいる人にそっと寄り添い、手を差し伸べている様子",
+        "relatedWords": ["sympathetic", "empathy", "apathy"],
+        "memoryTip": "sym（共に）＋ path（感情）＝ 感情を共にする → 同情・共感"
+      }
+    },
+    {
+      "id": "w16_007",
+      "english": "blurt",
+      "japanese": "口走る、うっかり言う",
+      "englishDef": "to say something quickly without thinking about it",
+      "partOfSpeech": "v",
+      "ipa": "/blɜːrt/",
+      "katakana": "BLURT",
+      "emoji": "💬",
+      "exampleEn": "She blurted out the secret before she could stop herself.",
+      "exampleJa": "彼女は止める間もなく、秘密を口走ってしまった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "blurt", "type": "root", "meaning": "突発的に発する音を表す擬音語的表現" }
+        ],
+        "imageDescription": "驚いた表情で思わず口から言葉が飛び出している様子",
+        "relatedWords": ["blurt out", "outburst"],
+        "memoryTip": "「ブラート」→ 「ブラッ」と勢いよく言葉が飛び出す → 口走る"
+      }
+    },
+    {
+      "id": "w16_008",
+      "english": "rigid",
+      "japanese": "硬直した、厳格な",
+      "englishDef": "unbending and stiff, unable to move",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrɪdʒ.ɪd/",
+      "katakana": "RIJ-id",
+      "emoji": "🪵",
+      "exampleEn": "The old wooden board was too rigid to bend without cracking.",
+      "exampleJa": "その古い木の板はあまりに硬くて、割れずに曲げることはできなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rig", "type": "root", "meaning": "硬い（ラテン語 rigere「硬直する」）" },
+          { "part": "-id", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "全く曲がらない硬い金属の棒が真っ直ぐ立っている様子",
+        "relatedWords": ["rigidity", "rigidly", "rigor"],
+        "memoryTip": "「リジッド」→ 工学用語の「リジッド構造」と同じ → 硬直した・厳格な"
+      }
+    },
+    {
+      "id": "w16_009",
+      "english": "rumpled",
+      "japanese": "しわくちゃの",
+      "englishDef": "crumpled, creased, or wrinkled",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrʌm.pəld/",
+      "katakana": "RUM-pəld",
+      "emoji": "👕",
+      "exampleEn": "He pulled a rumpled shirt out of his suitcase and tried to smooth it with his hands.",
+      "exampleJa": "彼はスーツケースからしわくちゃのシャツを取り出し、手で伸ばそうとした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rumple", "type": "root", "meaning": "しわにする（中期オランダ語 rompelen）" },
+          { "part": "-ed", "type": "suffix", "meaning": "過去分詞化" }
+        ],
+        "imageDescription": "くしゃくしゃに丸められたシャツが床に転がっている様子",
+        "relatedWords": ["rumple", "crumple", "wrinkled"],
+        "memoryTip": "「ランプル」→ 布を「ランプ（塊）」のように丸めてしわくちゃに！"
+      }
+    },
+    {
+      "id": "w16_010",
+      "english": "sudden",
+      "japanese": "突然の",
+      "englishDef": "happening quickly or unexpectedly",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsʌd.ən/",
+      "katakana": "SUD-ən",
+      "emoji": "⚡",
+      "exampleEn": "A sudden clap of thunder made everyone jump in surprise.",
+      "exampleJa": "突然の雷鳴に、皆驚いて飛び上がった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sub-", "type": "prefix", "meaning": "下から・こっそり" },
+          { "part": "it", "type": "root", "meaning": "行く（ラテン語 ire）" }
+        ],
+        "imageDescription": "晴れていた空に突然稲妻が走る様子",
+        "relatedWords": ["suddenly", "suddenness"],
+        "memoryTip": "「サドゥン」→ 「さっ、ドン！」と突然起こる → 突然の"
+      }
+    },
+    {
+      "id": "w16_011",
+      "english": "rhythmic",
+      "japanese": "リズミカルな、律動的な",
+      "englishDef": "occurring regularly or frequently; pulsing",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrɪð.mɪk/",
+      "katakana": "RITH-mik",
+      "emoji": "🥁",
+      "exampleEn": "The dancers moved in perfect time to the rhythmic beat of the drums.",
+      "exampleJa": "ダンサーたちは太鼓のリズミカルな拍子に完璧に合わせて動いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rhythm", "type": "root", "meaning": "律動・流れ（ギリシャ語 rhythmos）" },
+          { "part": "-ic", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "太鼓の音に合わせて規則正しく体を揺らして踊る人々の様子",
+        "relatedWords": ["rhythm", "rhythmically", "arrhythmia"],
+        "memoryTip": "rhythm（リズム）＋ -ic（～の）＝ リズムのある → リズミカルな"
+      }
+    },
+    {
+      "id": "w16_012",
+      "english": "ordeal",
+      "japanese": "試練、苦難",
+      "englishDef": "a usually negative experience or event",
+      "partOfSpeech": "n",
+      "ipa": "/ɔːrˈdiːl/",
+      "katakana": "or-DEEL",
+      "emoji": "🔥",
+      "exampleEn": "Surviving the earthquake was a terrifying ordeal for the entire village.",
+      "exampleJa": "地震を生き延びることは、村全体にとって恐ろしい試練だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "or-", "type": "prefix", "meaning": "完全に" },
+          { "part": "deal", "type": "root", "meaning": "裁く・分ける（古英語 dǣlan）" }
+        ],
+        "imageDescription": "燃える炭の上を歩かされるような、耐え難い試練を受けている人の様子",
+        "relatedWords": ["trial", "tribulation", "hardship"],
+        "memoryTip": "古英語で「神による裁き（火や水の試練）」が語源 → 過酷な試練"
+      }
+    },
+    {
+      "id": "w16_013",
+      "english": "trample",
+      "japanese": "踏みつける",
+      "englishDef": "to step hard on something and cause damage to it",
+      "partOfSpeech": "v",
+      "ipa": "/ˈtræm.pəl/",
+      "katakana": "TRAM-pəl",
+      "emoji": "🐘",
+      "exampleEn": "The herd of elephants trampled the tall grass as they moved through the field.",
+      "exampleJa": "ゾウの群れは野原を移動しながら、背の高い草を踏みつぶしていった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tramp", "type": "root", "meaning": "踏む・歩く" },
+          { "part": "-le", "type": "suffix", "meaning": "反復動作を表す" }
+        ],
+        "imageDescription": "大きな動物の群れが草原を踏みつぶしながら歩いていく様子",
+        "relatedWords": ["tramp", "trampoline", "trampling"],
+        "memoryTip": "tramp（踏み歩く）＋ -le（繰り返し）＝ 何度も踏みつける → 踏みつける"
+      }
+    },
+    {
+      "id": "w16_014",
+      "english": "numb",
+      "japanese": "感覚がない、麻痺した",
+      "englishDef": "unable to feel",
+      "partOfSpeech": "adj",
+      "ipa": "/nʌm/",
+      "katakana": "NUM",
+      "emoji": "🥶",
+      "exampleEn": "Her fingers went numb from the freezing cold wind.",
+      "exampleJa": "凍えるような冷たい風で、彼女の指の感覚がなくなった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "numb", "type": "root", "meaning": "麻痺した（古英語 numen「奪われた」の過去分詞）" }
+        ],
+        "imageDescription": "極寒の中で指先の感覚を失い、動かせなくなっている様子",
+        "relatedWords": ["numbness", "numbly", "numbed"],
+        "memoryTip": "「ナム」→ 感覚を「奪われた（numen）」→ 麻痺した・感覚がない"
+      }
+    },
+    {
+      "id": "w16_015",
+      "english": "cricket",
+      "japanese": "コオロギ",
+      "englishDef": "a small insect that looks like a grasshopper but with shorter legs",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkrɪk.ɪt/",
+      "katakana": "KRIK-it",
+      "emoji": "🦗",
+      "exampleEn": "On summer nights, the sound of crickets chirping fills the air.",
+      "exampleJa": "夏の夜には、コオロギの鳴き声があたりに満ちる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cricket", "type": "root", "meaning": "鳴く虫を表す擬音語（古フランス語 criquet）" }
+        ],
+        "imageDescription": "夏の草むらで羽をこすり合わせて鳴いているコオロギの様子",
+        "relatedWords": ["chirp", "grasshopper", "insect"],
+        "memoryTip": "「クリケット」→ スポーツとは別物！鳴き声「クリクリ」からきた虫の名前"
+      }
+    }
+  ]
+}

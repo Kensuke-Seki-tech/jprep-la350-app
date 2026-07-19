@@ -10,6 +10,12 @@
     { "weekId": "week11", "weekNumber": 11, "label": "Term B - Week 1", "status": "available", "dataUrl": "/data/week11.json", "wordCount": 15 },
     { "weekId": "week12", "weekNumber": 12, "label": "Term B - Week 2", "status": "available", "dataUrl": "/data/week12.json", "wordCount": 15 },
     { "weekId": "week13", "weekNumber": 13, "label": "Term B - Week 3", "status": "available", "dataUrl": "/data/week13.json", "wordCount": 15 },
-    { "weekId": "week14", "weekNumber": 14, "label": "Term B - Week 4", "status": "available", "dataUrl": "/data/week14.json", "wordCount": 15 }
+    { "weekId": "week14", "weekNumber": 14, "label": "Term B - Week 4", "status": "available", "dataUrl": "/data/week14.json", "wordCount": 15 },
+    { "weekId": "week15", "weekNumber": 15, "label": "Term B - Week 5", "status": "available", "dataUrl": "/data/week15.json", "wordCount": 15 },
+    { "weekId": "week16", "weekNumber": 16, "label": "Term B - Week 6", "status": "available", "dataUrl": "/data/week16.json", "wordCount": 15 },
+    { "weekId": "week17", "weekNumber": 17, "label": "Term B - Week 7", "status": "available", "dataUrl": "/data/week17.json", "wordCount": 15 },
+    { "weekId": "week18", "weekNumber": 18, "label": "Term B - Week 8", "status": "available", "dataUrl": "/data/week18.json", "wordCount": 15 },
+    { "weekId": "week19", "weekNumber": 19, "label": "Term B - Week 9", "status": "available", "dataUrl": "/data/week19.json", "wordCount": 15 },
+    { "weekId": "week20", "weekNumber": 20, "label": "Term B - Week 10", "status": "available", "dataUrl": "/data/week20.json", "wordCount": 15 }
   ]
 }

@@ -1,0 +1,337 @@
+{
+  "weekId": "week15",
+  "weekNumber": 15,
+  "label": "Term B - Week 5",
+  "sentencesToRemember": [
+    {
+      "text": "I got a feeling this whole thing is going to come apart like wet bread.",
+      "ja": "この一件全体が、濡れたパンのようにボロボロと崩れてしまう気がする。"
+    },
+    {
+      "text": "Across the pond a bullfrog spoke a deep note of warning.",
+      "ja": "池の向こうで、ウシガエルが低い声で警告するように鳴いた。"
+    },
+    {
+      "text": "Tuck said life was like a wheel because it never stops turning.",
+      "ja": "タックは、人生は車輪のようなものだと言った。なぜならそれは決して回転を止めないからだ。"
+    },
+    {
+      "text": "No one had ever talked to her of things like this before.",
+      "ja": "これまで誰も、彼女にこのようなことを話したことはなかった。"
+    },
+    {
+      "text": "There was a long, long moment of silence.",
+      "ja": "長い、長い沈黙のひとときがあった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w15_001",
+      "english": "recede",
+      "japanese": "後退する、退く",
+      "englishDef": "to back away, to pull back",
+      "partOfSpeech": "v",
+      "ipa": "/rɪˈsiːd/",
+      "katakana": "ri-SEED",
+      "emoji": "🌊",
+      "exampleEn": "The flood waters slowly receded after the storm passed.",
+      "exampleJa": "嵐が過ぎた後、洪水の水はゆっくりと引いていった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re-", "type": "prefix", "meaning": "後ろへ・戻って" },
+          { "part": "ced", "type": "root", "meaning": "行く・進む（ラテン語 cedere）" }
+        ],
+        "imageDescription": "波が浜辺からゆっくりと後ろに引いていく様子",
+        "relatedWords": ["recession", "precede", "proceed", "exceed"],
+        "memoryTip": "re（後ろへ）＋ ced（行く）＝ 後ろに行く → 後退する・退く"
+      }
+    },
+    {
+      "id": "w15_002",
+      "english": "vanity",
+      "japanese": "虚栄心、うぬぼれ",
+      "englishDef": "having too much pride in oneself or one's own appearance",
+      "partOfSpeech": "n",
+      "ipa": "/ˈvæn.ə.ti/",
+      "katakana": "VAN-ə-tee",
+      "emoji": "🪞",
+      "exampleEn": "His vanity made him check his reflection in every window he passed.",
+      "exampleJa": "彼の虚栄心のせいで、通り過ぎるすべての窓に映る自分を確認してしまう。",
+      "etymology": {
+        "morphemes": [
+          { "part": "van", "type": "root", "meaning": "空っぽの・むなしい（ラテン語 vanus）" },
+          { "part": "-ity", "type": "suffix", "meaning": "名詞化（性質・状態）" }
+        ],
+        "imageDescription": "鏡の前で自分の姿にうっとりと見とれている人の様子",
+        "relatedWords": ["vain", "vanish", "vanquish", "in vain"],
+        "memoryTip": "van（空っぽ）＋ -ity（性質）＝ 中身のない見せかけの誇り → 虚栄心"
+      }
+    },
+    {
+      "id": "w15_003",
+      "english": "doze",
+      "japanese": "うたた寝する、まどろむ",
+      "englishDef": "to sleep lightly, to take a nap",
+      "partOfSpeech": "v",
+      "ipa": "/doʊz/",
+      "katakana": "DOHZ",
+      "emoji": "😴",
+      "exampleEn": "Grandpa often dozes off in his favorite armchair after lunch.",
+      "exampleJa": "おじいちゃんは昼食後、お気に入りの肘掛け椅子でよくうたた寝する。",
+      "etymology": {
+        "morphemes": [
+          { "part": "doze", "type": "root", "meaning": "うとうとする（中世スカンジナビア語 dusa「まどろむ」から）" }
+        ],
+        "imageDescription": "椅子に座ったまま頭がこっくりと揺れている人の様子",
+        "relatedWords": ["dozy", "doze off", "drowsy"],
+        "memoryTip": "「ドーズ」→ 頭が「ドーン」と落ちてうたた寝！"
+      }
+    },
+    {
+      "id": "w15_004",
+      "english": "vigorous",
+      "japanese": "精力的な、活力に満ちた",
+      "englishDef": "with great energy, health, and power",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈvɪɡ.ər.əs/",
+      "katakana": "VIG-ər-əs",
+      "emoji": "💪",
+      "exampleEn": "She gave the floor a vigorous scrub until it sparkled.",
+      "exampleJa": "彼女は床がピカピカになるまで力強くこすった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "vig", "type": "root", "meaning": "生命力・活気（ラテン語 vigere「元気である」）" },
+          { "part": "-orous", "type": "suffix", "meaning": "～に満ちた（形容詞化）" }
+        ],
+        "imageDescription": "汗を流しながら力強く体を動かしているアスリートの様子",
+        "relatedWords": ["vigor", "invigorate", "vigorously"],
+        "memoryTip": "vig（活力）＋ -orous（満ちた）＝ 活力に満ちた → 精力的な！"
+      }
+    },
+    {
+      "id": "w15_005",
+      "english": "penetrate",
+      "japanese": "貫通する、突き通す",
+      "englishDef": "to go through something that has resistance",
+      "partOfSpeech": "v",
+      "ipa": "/ˈpen.ə.treɪt/",
+      "katakana": "PEN-ə-trayt",
+      "emoji": "🎯",
+      "exampleEn": "The arrow penetrated deep into the wooden target.",
+      "exampleJa": "矢は木製の的に深く突き刺さった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "penetr", "type": "root", "meaning": "内部へ入る（ラテン語 penitus「内部深く」）" },
+          { "part": "-ate", "type": "suffix", "meaning": "動詞化" }
+        ],
+        "imageDescription": "矢が的の中心を貫いて突き刺さっている様子",
+        "relatedWords": ["penetration", "impenetrable", "penetrating"],
+        "memoryTip": "「ペネトレイト」→ ペンで紙を「突き通す」イメージ → 貫通する！"
+      }
+    },
+    {
+      "id": "w15_006",
+      "english": "homely",
+      "japanese": "家庭的な、居心地の良い",
+      "englishDef": "comfortable and cozy",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈhoʊm.li/",
+      "katakana": "HOHM-lee",
+      "emoji": "🏡",
+      "exampleEn": "The cabin had a homely feel with its warm fireplace and soft blankets.",
+      "exampleJa": "その小屋は暖かい暖炉と柔らかい毛布があり、家庭的な雰囲気だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "home", "type": "root", "meaning": "家" },
+          { "part": "-ly", "type": "suffix", "meaning": "～のような（形容詞化）" }
+        ],
+        "imageDescription": "暖炉のそばで毛布にくるまり、くつろいでいる様子",
+        "relatedWords": ["home", "homey", "homeliness"],
+        "memoryTip": "home（家）＋ -ly（～のような）＝ 家のような → 居心地の良い！"
+      }
+    },
+    {
+      "id": "w15_007",
+      "english": "crease",
+      "japanese": "折り目、しわ",
+      "englishDef": "a line where something has been folded or wrinkled",
+      "partOfSpeech": "n",
+      "ipa": "/kriːs/",
+      "katakana": "KREES",
+      "emoji": "📄",
+      "exampleEn": "He carefully ironed out every crease in his shirt before the interview.",
+      "exampleJa": "彼は面接の前に、シャツのしわを一つ残らず丁寧にアイロンで伸ばした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "crease", "type": "root", "meaning": "折り目（crest「稜線」に由来する変化形）" }
+        ],
+        "imageDescription": "紙や布に、折りたたんでできた線がくっきり残っている様子",
+        "relatedWords": ["crease-free", "creased", "crinkle"],
+        "memoryTip": "「クリース」→ 紙を折ると「クリッ」と折り目がつく → 折り目・しわ！"
+      }
+    },
+    {
+      "id": "w15_008",
+      "english": "envelop",
+      "japanese": "包み込む、覆う",
+      "englishDef": "to wrap around or surround entirely",
+      "partOfSpeech": "v",
+      "ipa": "/ɪnˈvel.əp/",
+      "katakana": "in-VEL-əp",
+      "emoji": "🌫️",
+      "exampleEn": "A thick fog began to envelop the entire valley.",
+      "exampleJa": "濃い霧が谷全体を包み込み始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "en-", "type": "prefix", "meaning": "～の中に入れる" },
+          { "part": "velop", "type": "root", "meaning": "包む（古フランス語 voloper）" }
+        ],
+        "imageDescription": "霧が谷全体をすっぽりと覆い隠している様子",
+        "relatedWords": ["envelope", "enveloping", "development"],
+        "memoryTip": "en（中に）＋ velop（包む）＝ すっぽり包み込む！封筒（envelope）も手紙を包むもの"
+      }
+    },
+    {
+      "id": "w15_009",
+      "english": "assault",
+      "japanese": "襲撃、攻撃",
+      "englishDef": "an attack, an offense",
+      "partOfSpeech": "n",
+      "ipa": "/əˈsɔːlt/",
+      "katakana": "ə-SAWLT",
+      "emoji": "⚔️",
+      "exampleEn": "The castle withstood a fierce assault from enemy forces.",
+      "exampleJa": "その城は敵軍の激しい攻撃に持ちこたえた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "as-", "type": "prefix", "meaning": "～へ向かって" },
+          { "part": "sault", "type": "root", "meaning": "跳ぶ（ラテン語 salire「跳ねる」）" }
+        ],
+        "imageDescription": "兵士たちが城壁に向かって一斉に飛びかかっていく様子",
+        "relatedWords": ["assailant", "salient", "somersault"],
+        "memoryTip": "as（向かって）＋ sault（跳ぶ）＝ 飛びかかって攻める → 襲撃！"
+      }
+    },
+    {
+      "id": "w15_010",
+      "english": "peril",
+      "japanese": "危険、危機",
+      "englishDef": "danger, a risk of damage or harm",
+      "partOfSpeech": "n",
+      "ipa": "/ˈper.əl/",
+      "katakana": "PER-əl",
+      "emoji": "⚠️",
+      "exampleEn": "The sailors faced great peril when the storm hit their small boat.",
+      "exampleJa": "嵐が小さな船を襲ったとき、船員たちは大きな危険に直面した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "peril", "type": "root", "meaning": "危険（ラテン語 periculum「試み・危険」）" }
+        ],
+        "imageDescription": "荒れる海の中、小さな船が今にも転覆しそうになっている様子",
+        "relatedWords": ["perilous", "imperil", "perilously"],
+        "memoryTip": "「ペリル」→ ラテン語で「試練」→ 命がけの試練 → 危険！"
+      }
+    },
+    {
+      "id": "w15_011",
+      "english": "savior",
+      "japanese": "救世主、救い主",
+      "englishDef": "a person who saves someone or a group of people; a hero",
+      "partOfSpeech": "n",
+      "ipa": "/ˈseɪv.jər/",
+      "katakana": "SAYV-yər",
+      "emoji": "🦸",
+      "exampleEn": "The firefighter was hailed as a savior for rescuing the trapped family.",
+      "exampleJa": "その消防士は閉じ込められた家族を救い、救世主として称賛された。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sav", "type": "root", "meaning": "救う（ラテン語 salvare）" },
+          { "part": "-ior", "type": "suffix", "meaning": "人を表す名詞化" }
+        ],
+        "imageDescription": "燃える建物から人を抱きかかえて救出するヒーローの様子",
+        "relatedWords": ["save", "salvation", "safe"],
+        "memoryTip": "save（救う）＋ -ior（人）＝ 救う人 → 救世主！"
+      }
+    },
+    {
+      "id": "w15_012",
+      "english": "hollow",
+      "japanese": "空洞の、うつろな",
+      "englishDef": "empty on the inside; not full",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈhɒl.oʊ/",
+      "katakana": "HOL-oh",
+      "emoji": "🕳️",
+      "exampleEn": "The old tree trunk was hollow inside, perfect for hiding small treasures.",
+      "exampleJa": "古い木の幹は中が空洞になっていて、小さな宝物を隠すのに最適だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "hollow", "type": "root", "meaning": "くぼんだ・穴の（古英語 holh「穴・くぼみ」）" }
+        ],
+        "imageDescription": "木の幹の中が空っぽになっていて、動物が住んでいる様子",
+        "relatedWords": ["hollowed", "hollowness", "hole"],
+        "memoryTip": "「ホロウ」→ 「穴（hole）」がたくさん → 空洞の・中身がない！"
+      }
+    },
+    {
+      "id": "w15_013",
+      "english": "oar",
+      "japanese": "オール、櫂（かい）",
+      "englishDef": "a pole-like object used to push a small boat or canoe through water",
+      "partOfSpeech": "n",
+      "ipa": "/ɔːr/",
+      "katakana": "OR",
+      "emoji": "🚣",
+      "exampleEn": "He gripped the oar tightly and rowed against the strong current.",
+      "exampleJa": "彼はオールをしっかり握り、強い流れに逆らって漕いだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "oar", "type": "root", "meaning": "櫂（古英語 ār）" }
+        ],
+        "imageDescription": "小さなボートの両側で、木製の櫂を漕いでいる人の様子",
+        "relatedWords": ["rowing", "oarsman", "paddle"],
+        "memoryTip": "「オア」→ ボートを漕ぐ「オール」そのまま！"
+      }
+    },
+    {
+      "id": "w15_014",
+      "english": "drift",
+      "japanese": "漂う、流される",
+      "englishDef": "to be carried casually by air or water",
+      "partOfSpeech": "v",
+      "ipa": "/drɪft/",
+      "katakana": "DRIFT",
+      "emoji": "🍂",
+      "exampleEn": "The empty canoe drifted slowly down the river without anyone in it.",
+      "exampleJa": "誰も乗っていない空のカヌーが、川をゆっくりと漂い流れていった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "drift", "type": "root", "meaning": "漂う（古ノルド語 drifa「吹き寄せる・押し流す」）" }
+        ],
+        "imageDescription": "小さな葉っぱが川の流れに乗ってゆらゆらと漂っている様子",
+        "relatedWords": ["driftwood", "drifter", "snowdrift"],
+        "memoryTip": "「ドリフト」→ 車の「ドリフト走行」のように滑るように流れる → 漂う！"
+      }
+    },
+    {
+      "id": "w15_015",
+      "english": "clump",
+      "japanese": "塊、茂み",
+      "englishDef": "a group of something, such as plants or dirt, that is pressed together",
+      "partOfSpeech": "n",
+      "ipa": "/klʌmp/",
+      "katakana": "KLUMP",
+      "emoji": "🌿",
+      "exampleEn": "A clump of wildflowers grew beside the old stone wall.",
+      "exampleJa": "古い石垣のそばに野花の茂みが生えていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "clump", "type": "root", "meaning": "塊（中低地ドイツ語 klumpe「塊・かたまり」）" }
+        ],
+        "imageDescription": "草花がひとまとまりになって密集して生えている様子",
+        "relatedWords": ["lump", "clumped", "clumping"],
+        "memoryTip": "「クランプ」→ 機械の「クランプ（締め付け具）」のようにギュッとまとまった塊！"
+      }
+    }
+  ]
+}

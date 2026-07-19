@@ -1,0 +1,342 @@
+{
+  "weekId": "week20",
+  "weekNumber": 20,
+  "label": "Term B - Week 10",
+  "sentencesToRemember": [
+    {
+      "text": "He came up to the barred door of her cell and looked in.",
+      "ja": "彼は格子のついた彼女の独房の扉に近づき、中をのぞき込んだ。"
+    },
+    {
+      "text": "In fact, she thought as her spirits lifted, this year it might be rather nice.",
+      "ja": "実際、気分が晴れていくのを感じながら、彼女は今年はむしろ素敵かもしれないと思った。"
+    },
+    {
+      "text": "At once he began to bark, his eyes bright.",
+      "ja": "彼はすぐに吠え始め、その目は輝いていた。"
+    },
+    {
+      "text": "Then he straightened his jacket again and drew up his hand in a brief salute.",
+      "ja": "それから彼は再び上着を整え、手を上げて短い敬礼をした。"
+    },
+    {
+      "text": "First of all, the toad appeared out of the weeds, on her side of the road this time.",
+      "ja": "まず最初に、ヒキガエルが雑草の中から現れた、今回は彼女側の道路だった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w20_001",
+      "english": "pry",
+      "japanese": "こじ開ける、力ずくで開ける",
+      "englishDef": "to move or separate something with force",
+      "partOfSpeech": "v",
+      "ipa": "/praɪ/",
+      "katakana": "PRY",
+      "emoji": "🔧",
+      "exampleEn": "He used a crowbar to pry the lid off the old wooden crate.",
+      "exampleJa": "彼はバールを使って、古い木箱のふたをこじ開けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pry", "type": "root", "meaning": "こじ開ける（中英語 prien「のぞき見る」から発展）" }
+        ],
+        "imageDescription": "金属の棒を使って、木箱のふたを力ずくでこじ開けている様子",
+        "relatedWords": ["prying", "pry open", "pry bar"],
+        "memoryTip": "「プライ」→ 道具の「てこ」で無理やり開ける → こじ開ける"
+      }
+    },
+    {
+      "id": "w20_002",
+      "english": "protrude",
+      "japanese": "突き出る、突出する",
+      "englishDef": "to stick out of something, to be exposed",
+      "partOfSpeech": "v",
+      "ipa": "/prəˈtruːd/",
+      "katakana": "prə-TROOD",
+      "emoji": "📌",
+      "exampleEn": "A sharp nail protruded from the old fence, so we had to be careful.",
+      "exampleJa": "古い柵から鋭い釘が突き出ていたので、私たちは注意しなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pro-", "type": "prefix", "meaning": "前へ" },
+          { "part": "trud", "type": "root", "meaning": "押す（ラテン語 trudere「押す」）" }
+        ],
+        "imageDescription": "壁から釘が飛び出し、危険な状態になっている様子",
+        "relatedWords": ["protrusion", "protruding", "intrude"],
+        "memoryTip": "pro（前へ）＋ trud（押す）＝ 前に押し出される → 突き出る・突出する"
+      }
+    },
+    {
+      "id": "w20_003",
+      "english": "constrict",
+      "japanese": "締め付ける、収縮させる",
+      "englishDef": "to limit the movement of something, usually by wrapping around it",
+      "partOfSpeech": "v",
+      "ipa": "/kənˈstrɪkt/",
+      "katakana": "kən-STRIKT",
+      "emoji": "🐍",
+      "exampleEn": "The snake constricted its body tightly around the branch.",
+      "exampleJa": "そのヘビは枝にしっかりと体を巻きつけて締め付けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con-", "type": "prefix", "meaning": "共に・完全に" },
+          { "part": "strict", "type": "root", "meaning": "締める（ラテン語 stringere「締め付ける」）" }
+        ],
+        "imageDescription": "ヘビが獲物の体にきつく巻きついて締め付けている様子",
+        "relatedWords": ["constriction", "constrictor", "strict"],
+        "memoryTip": "con（完全に）＋ strict（締める）＝ しっかり締め付ける → 収縮させる"
+      }
+    },
+    {
+      "id": "w20_004",
+      "english": "apprehension",
+      "japanese": "不安、懸念",
+      "englishDef": "fear or worry that something bad will happen",
+      "partOfSpeech": "n",
+      "ipa": "/ˌæp.rɪˈhen.ʃən/",
+      "katakana": "ap-ri-HEN-shən",
+      "emoji": "😟",
+      "exampleEn": "She felt a growing sense of apprehension as the exam date approached.",
+      "exampleJa": "試験の日が近づくにつれ、彼女は募る不安を感じた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ap-", "type": "prefix", "meaning": "～へ向けて" },
+          { "part": "prehend", "type": "root", "meaning": "つかむ（ラテン語 prehendere「つかむ」）" },
+          { "part": "-ion", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "悪いことが起きるのではないかと、胸を締め付けられるように不安がっている様子",
+        "relatedWords": ["apprehensive", "comprehend", "apprehend"],
+        "memoryTip": "ap（～へ）＋ prehend（つかむ）＝ 不安な思いに心をつかまれる → 不安・懸念"
+      }
+    },
+    {
+      "id": "w20_005",
+      "english": "comical",
+      "japanese": "こっけいな、おかしな",
+      "englishDef": "silly in a strange way",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈkɒm.ɪ.kəl/",
+      "katakana": "KOM-i-kəl",
+      "emoji": "🤡",
+      "exampleEn": "The puppy made a comical attempt to catch its own tail.",
+      "exampleJa": "その子犬は自分のしっぽを捕まえようと、こっけいな試みをした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "comic", "type": "root", "meaning": "喜劇の（ギリシャ語 komikos）" },
+          { "part": "-al", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "変な帽子をかぶった道化師が観客を笑わせている様子",
+        "relatedWords": ["comic", "comedy", "comically"],
+        "memoryTip": "comic（喜劇の）＋ -al（～な）＝ 喜劇のような → こっけいな・おかしな"
+      }
+    },
+    {
+      "id": "w20_006",
+      "english": "custody",
+      "japanese": "保護、監護",
+      "englishDef": "the responsibility of caring for something",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkʌs.tə.di/",
+      "katakana": "KUS-tə-dee",
+      "emoji": "🔐",
+      "exampleEn": "After the divorce, the parents shared custody of their two children.",
+      "exampleJa": "離婚後、両親は二人の子どもの監護権を分け合った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cust", "type": "root", "meaning": "見張る（ラテン語 custos「見張り人」）" },
+          { "part": "-ody", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "大切な子どもや宝物をしっかりと守り、見守っている様子",
+        "relatedWords": ["custodian", "custodial", "in custody"],
+        "memoryTip": "cust（見張り人）＋ -ody（状態）＝ 見張って守ること → 保護・監護"
+      }
+    },
+    {
+      "id": "w20_007",
+      "english": "pharmacy",
+      "japanese": "薬局",
+      "englishDef": "a place where medicine is stored, prepared, and sold",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfɑːr.mə.si/",
+      "katakana": "FAR-mə-see",
+      "emoji": "💊",
+      "exampleEn": "I stopped by the pharmacy to pick up my prescription medicine.",
+      "exampleJa": "私は処方された薬を受け取るために薬局に立ち寄った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pharm", "type": "root", "meaning": "薬（ギリシャ語 pharmakon「薬・毒」）" },
+          { "part": "-acy", "type": "suffix", "meaning": "場所・状態" }
+        ],
+        "imageDescription": "棚にたくさんの薬瓶が並んだ薬局で、薬剤師が薬を用意している様子",
+        "relatedWords": ["pharmacist", "pharmaceutical", "pharmacology"],
+        "memoryTip": "pharm（薬）＋ -acy（場所）＝ 薬を扱う場所 → 薬局"
+      }
+    },
+    {
+      "id": "w20_008",
+      "english": "queer",
+      "japanese": "奇妙な、変な",
+      "englishDef": "weird, strange",
+      "partOfSpeech": "adj",
+      "ipa": "/kwɪr/",
+      "katakana": "KWEER",
+      "emoji": "🌀",
+      "exampleEn": "There was something queer about the way the old house creaked at night.",
+      "exampleJa": "その古い家が夜にきしむ様子には、何か奇妙なところがあった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "queer", "type": "root", "meaning": "奇妙な（低地ドイツ語 quer「斜めの・横切った」）" }
+        ],
+        "imageDescription": "首をかしげて不思議そうに何かを見つめている人の様子",
+        "relatedWords": ["queerness", "queerly"],
+        "memoryTip": "「クィア」→ 「横道にそれた」ような普通でない感じ → 奇妙な・変な"
+      }
+    },
+    {
+      "id": "w20_009",
+      "english": "monument",
+      "japanese": "記念碑、記念建造物",
+      "englishDef": "a building or structure built to honor someone or something",
+      "partOfSpeech": "n",
+      "ipa": "/ˈmɒn.jə.mənt/",
+      "katakana": "MON-yə-mənt",
+      "emoji": "🗿",
+      "exampleEn": "The tall stone monument was built to honor the soldiers who died in the war.",
+      "exampleJa": "その高い石の記念碑は、戦争で亡くなった兵士たちをたたえるために建てられた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mon", "type": "root", "meaning": "思い出させる（ラテン語 monere「警告する・思い出させる」）" },
+          { "part": "-ment", "type": "suffix", "meaning": "名詞化" }
+        ],
+        "imageDescription": "広場に高くそびえ立つ石の記念碑に人々が花を捧げている様子",
+        "relatedWords": ["monumental", "monumentally", "memorial"],
+        "memoryTip": "mon（思い出させる）＋ -ment（もの）＝ 人々に思い出させるもの → 記念碑"
+      }
+    },
+    {
+      "id": "w20_010",
+      "english": "imposing",
+      "japanese": "威圧的な、堂々とした",
+      "englishDef": "looking very important and impressive",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪmˈpoʊ.zɪŋ/",
+      "katakana": "im-POH-zing",
+      "emoji": "🏛️",
+      "exampleEn": "The imposing castle stood high on the hill, visible from miles away.",
+      "exampleJa": "その堂々とした城は丘の上に高くそびえ立ち、何マイルも離れた場所から見えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "im-", "type": "prefix", "meaning": "上に" },
+          { "part": "pos", "type": "root", "meaning": "置く（ラテン語 ponere）" },
+          { "part": "-ing", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "巨大で威厳のある建物が周囲を見下ろすように立っている様子",
+        "relatedWords": ["impose", "imposition", "imposingly"],
+        "memoryTip": "impose（押し付ける）と同語源 → 存在感を押し付けるほど堂々とした → 威圧的な"
+      }
+    },
+    {
+      "id": "w20_011",
+      "english": "accomplice",
+      "japanese": "共犯者",
+      "englishDef": "someone who assists in a crime",
+      "partOfSpeech": "n",
+      "ipa": "/əˈkɒm.plɪs/",
+      "katakana": "ə-KOM-plis",
+      "emoji": "🕵️",
+      "exampleEn": "The police believed the getaway driver was an accomplice in the robbery.",
+      "exampleJa": "警察は逃走用の車の運転手が強盗の共犯者だと考えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "com-", "type": "prefix", "meaning": "共に" },
+          { "part": "plic", "type": "root", "meaning": "結びつく・折り重ねる（ラテン語 plicare）" }
+        ],
+        "imageDescription": "二人の人物がこっそりと計画を練り、悪事に手を貸している様子",
+        "relatedWords": ["complicit", "complicity"],
+        "memoryTip": "com（共に）＋ plic（結びつく）＝ 共に結びついた仲間 → 共犯者"
+      }
+    },
+    {
+      "id": "w20_012",
+      "english": "tight",
+      "japanese": "きつい、固く締まった",
+      "englishDef": "hard to move due to something being closed or fixed firmly",
+      "partOfSpeech": "adj",
+      "ipa": "/taɪt/",
+      "katakana": "TYT",
+      "emoji": "🔩",
+      "exampleEn": "The lid was screwed on so tight that she couldn't open the jar.",
+      "exampleJa": "ふたがとてもきつく締められていて、彼女は瓶を開けることができなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tight", "type": "root", "meaning": "張った（古ノルド語 þéttr「水密の・密な」）" }
+        ],
+        "imageDescription": "ねじがぎゅっと固く締められて、びくともしない様子",
+        "relatedWords": ["tighten", "tightly", "tightness"],
+        "memoryTip": "「タイト」→ タイトスカートのようにぴったり締まった → きつい・固く締まった"
+      }
+    },
+    {
+      "id": "w20_013",
+      "english": "wishful",
+      "japanese": "願望を抱く、希望的な",
+      "englishDef": "hoping that something beneficial will happen",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈwɪʃ.fəl/",
+      "katakana": "WISH-fəl",
+      "emoji": "🌠",
+      "exampleEn": "Hoping to win the lottery without buying a ticket is just wishful thinking.",
+      "exampleJa": "宝くじを買わずに当たることを望むのは、単なる希望的観測にすぎない。",
+      "etymology": {
+        "morphemes": [
+          { "part": "wish", "type": "root", "meaning": "願う" },
+          { "part": "-ful", "type": "suffix", "meaning": "満ちた" }
+        ],
+        "imageDescription": "流れ星に向かって手を合わせ、願い事をしている人の様子",
+        "relatedWords": ["wish", "wishfully", "wishful thinking"],
+        "memoryTip": "wish（願う）＋ -ful（満ちた）＝ 願いに満ちた → 願望を抱く・希望的な"
+      }
+    },
+    {
+      "id": "w20_014",
+      "english": "pluck",
+      "japanese": "引き抜く、摘み取る",
+      "englishDef": "to quickly take something or remove something",
+      "partOfSpeech": "v",
+      "ipa": "/plʌk/",
+      "katakana": "PLUK",
+      "emoji": "🌸",
+      "exampleEn": "She plucked a fresh flower from the garden to put in a vase.",
+      "exampleJa": "彼女は花瓶に生けるため、庭から新鮮な花を摘み取った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pluck", "type": "root", "meaning": "引き抜く（古英語 pluccian「むしり取る」）" }
+        ],
+        "imageDescription": "花びらや果実を指でつまんで、さっと引き抜いている様子",
+        "relatedWords": ["plucked", "plucking", "pluck up"],
+        "memoryTip": "ギターの弦を「プラッ」と弾く（pluck the strings）→ 引き抜く・摘み取る"
+      }
+    },
+    {
+      "id": "w20_015",
+      "english": "rigid",
+      "japanese": "動かない、硬い",
+      "englishDef": "unmoving and stiff; hard to bend",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrɪdʒ.ɪd/",
+      "katakana": "RIJ-id",
+      "emoji": "🦴",
+      "exampleEn": "His body went rigid with fear when he heard the strange noise.",
+      "exampleJa": "奇妙な物音を聞いたとき、彼の体は恐怖で硬直した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rig", "type": "root", "meaning": "硬い（ラテン語 rigere「硬直する」）" },
+          { "part": "-id", "type": "suffix", "meaning": "形容詞化" }
+        ],
+        "imageDescription": "恐怖のあまり体がこわばって、まったく動けなくなっている様子",
+        "relatedWords": ["rigidity", "rigidly", "rigor mortis"],
+        "memoryTip": "rigere（硬直する）が語源 → まったく曲がらない → 動かない・硬い"
+      }
+    }
+  ]
+}

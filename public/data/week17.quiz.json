@@ -1,0 +1,210 @@
+{
+  "weekId": "week17",
+  "match": [
+    {
+      "word": "nonsense",
+      "def": "words that do not have any meaning or do not make sense"
+    },
+    {
+      "word": "linger",
+      "def": "to continue to stay longer than expected"
+    },
+    {
+      "word": "jiggle",
+      "def": "to shake quickly"
+    },
+    {
+      "word": "barbarian",
+      "def": "an uncivilized person, a savage"
+    },
+    {
+      "word": "intelligent",
+      "def": "very smart, brilliant"
+    },
+    {
+      "word": "ordeal",
+      "def": "a difficult and unpleasant experience"
+    },
+    {
+      "word": "courteous",
+      "def": "friendly, done in consideration of others"
+    },
+    {
+      "word": "fond",
+      "def": "liking something or someone, thinking well of something or someone"
+    },
+    {
+      "word": "bait",
+      "def": "food put on a hook when fishing"
+    },
+    {
+      "word": "reflection",
+      "def": "an image that is thrown back by a body or surface of light such as the image in a mirror"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "nonsense",
+      "sentence": "Stop talking nonsense and tell me what really happened.",
+      "ja": "たわごとを言うのはやめて、本当に何が起きたのか教えて。"
+    },
+    {
+      "answer": "linger",
+      "sentence": "The smell of fresh bread lingered in the kitchen long after baking.",
+      "ja": "焼きたてのパンの香りは、焼き終わった後もずっとキッチンに残っていた。"
+    },
+    {
+      "answer": "jiggle",
+      "sentence": "He jiggled the key in the lock, trying to get the old door open.",
+      "ja": "彼は古いドアを開けようと、鍵を鍵穴の中で小刻みに揺すった。"
+    },
+    {
+      "answer": "barbarian",
+      "sentence": "The ancient Romans called any foreign tribe outside their empire a barbarian.",
+      "ja": "古代ローマ人は、帝国の外にいる異民族をみな「野蛮人」と呼んだ。"
+    },
+    {
+      "answer": "intelligent",
+      "sentence": "The intelligent student solved the puzzle faster than anyone else in the class.",
+      "ja": "その知的な生徒は、クラスの誰よりも早くパズルを解いた。"
+    }
+  ],
+  "bank": [
+    "nonsense",
+    "linger",
+    "jiggle",
+    "barbarian",
+    "intelligent",
+    "ordeal",
+    "courteous",
+    "fond",
+    "bait",
+    "reflection"
+  ],
+  "mc": [
+    {
+      "q": "What does \"ordeal\" mean?",
+      "opts": [
+        "to shake quickly",
+        "an image that is thrown back by a body or surface of light such as the image in a mirror",
+        "food put on a hook when fishing",
+        "a difficult and unpleasant experience"
+      ],
+      "answer": 3,
+      "word": "ordeal"
+    },
+    {
+      "q": "What does \"courteous\" mean?",
+      "opts": [
+        "to shake quickly",
+        "friendly, done in consideration of others",
+        "a shelf that usually goes over a fireplace",
+        "to shine brightly"
+      ],
+      "answer": 1,
+      "word": "courteous"
+    },
+    {
+      "q": "What does \"fond\" mean?",
+      "opts": [
+        "liking something or someone, thinking well of something or someone",
+        "friendly, done in consideration of others",
+        "to shine brightly",
+        "a sitting room in a house"
+      ],
+      "answer": 0,
+      "word": "fond"
+    },
+    {
+      "q": "What does \"bait\" mean?",
+      "opts": [
+        "a shelf that usually goes over a fireplace",
+        "an image that is thrown back by a body or surface of light such as the image in a mirror",
+        "words that do not have any meaning or do not make sense",
+        "food put on a hook when fishing"
+      ],
+      "answer": 3,
+      "word": "bait"
+    },
+    {
+      "q": "What does \"reflection\" mean?",
+      "opts": [
+        "a difficult and unpleasant experience",
+        "a shelf that usually goes over a fireplace",
+        "causing great fear, terror, or horror",
+        "an image that is thrown back by a body or surface of light such as the image in a mirror"
+      ],
+      "answer": 3,
+      "word": "reflection"
+    },
+    {
+      "q": "What does \"parlor\" mean?",
+      "opts": [
+        "to shake quickly",
+        "a sitting room in a house",
+        "words that do not have any meaning or do not make sense",
+        "liking something or someone, thinking well of something or someone"
+      ],
+      "answer": 1,
+      "word": "parlor"
+    },
+    {
+      "q": "What does \"mantel\" mean?",
+      "opts": [
+        "food put on a hook when fishing",
+        "a shelf that usually goes over a fireplace",
+        "a sitting room in a house",
+        "to continue to stay longer than expected"
+      ],
+      "answer": 1,
+      "word": "mantel"
+    },
+    {
+      "q": "What does \"edge\" mean?",
+      "opts": [
+        "to shine brightly",
+        "to shake quickly",
+        "a difficult and unpleasant experience",
+        "an area next to a drop, such as the end of a table, or a cliff"
+      ],
+      "answer": 3,
+      "word": "edge"
+    },
+    {
+      "q": "What does \"ghastly\" mean?",
+      "opts": [
+        "to continue to stay longer than expected",
+        "causing great fear, terror, or horror",
+        "liking something or someone, thinking well of something or someone",
+        "words that do not have any meaning or do not make sense"
+      ],
+      "answer": 1,
+      "word": "ghastly"
+    },
+    {
+      "q": "What does \"sparkle\" mean?",
+      "opts": [
+        "an uncivilized person, a savage",
+        "words that do not have any meaning or do not make sense",
+        "an image that is thrown back by a body or surface of light such as the image in a mirror",
+        "to shine brightly"
+      ],
+      "answer": 3,
+      "word": "sparkle"
+    }
+  ],
+  "dict": [
+    {
+      "text": "They sat about in the parlor, as they had the night before.",
+      "word": "parlor"
+    },
+    {
+      "text": "It was after the children were born that she began to see that the family was odd.",
+      "word": "odd"
+    },
+    {
+      "text": "She swung the shotgun at his head and knocked him out.",
+      "word": "shotgun"
+    }
+  ]
+}
