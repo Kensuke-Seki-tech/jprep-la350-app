@@ -1,0 +1,338 @@
+{
+  "weekId": "week24",
+  "weekNumber": 24,
+  "label": "Term C - Week 4",
+  "sentencesToRemember": [
+    {
+      "text": "She taught classes in the evening for adults, and many of the adults loved her as well.",
+      "ja": "彼女は夜に大人向けの授業も教えており、多くの大人たちもまた彼女を慕っていた。"
+    },
+    {
+      "text": "He agreed to fix the leaky roof in exchange for six jars of spiced peaches.",
+      "ja": "彼は、スパイス漬けの桃の瓶6個と引き換えに、雨漏りする屋根を直すことに同意した。"
+    },
+    {
+      "text": "Someone made a grab for her, tearing her dress, but she managed to get out of the building.",
+      "ja": "誰かが彼女をつかもうとしてドレスを引き裂いたが、彼女はどうにか建物から逃げ出した。"
+    },
+    {
+      "text": "Its white tongue lapped up the droplets of blood that leaked out of the wound.",
+      "ja": "その白い舌が、傷口からしみ出した血のしずくをなめ取った。"
+    },
+    {
+      "text": "The horizon lit up with a huge web of lightning.",
+      "ja": "地平線が巨大な稲妻の網に照らし出された。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w24_001",
+      "english": "bloom",
+      "japanese": "花が咲く、開花する",
+      "englishDef": "to produce flowers and develop",
+      "partOfSpeech": "v",
+      "ipa": "/bluːm/",
+      "katakana": "BLOOM",
+      "emoji": "🌸",
+      "exampleEn": "The cherry trees along the river bloom for only a week each spring.",
+      "exampleJa": "川沿いの桜の木は、毎年春にたった一週間だけ花を咲かせる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "bloom", "type": "root", "meaning": "花（古ノルド語 blóm）" }
+        ],
+        "imageDescription": "川沿いに満開になった桜並木",
+        "relatedWords": ["blooming", "blossom", "flourish"],
+        "memoryTip": "「ブルーム」= 花。動詞なら「花を咲かせる」"
+      }
+    },
+    {
+      "id": "w24_002",
+      "english": "jagged",
+      "japanese": "ぎざぎざの、とがった",
+      "englishDef": "having sharp or rough edges",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈdʒæɡɪd/",
+      "katakana": "JAG-id",
+      "emoji": "🪨",
+      "exampleEn": "He cut his finger on the jagged edge of the broken glass.",
+      "exampleJa": "彼は割れたガラスのぎざぎざの縁で指を切った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "jag", "type": "root", "meaning": "とがった突起（中英語 jaggen「切り込む」）" },
+          { "part": "ged", "type": "suffix", "meaning": "〜を持った（形容詞）" }
+        ],
+        "imageDescription": "鋭くとがった縁が並ぶ、割れたガラスの断面",
+        "relatedWords": ["jag", "jaggedly", "serrated"],
+        "memoryTip": "jag（とがった突起）+ ged → 突起だらけ → ぎざぎざの"
+      }
+    },
+    {
+      "id": "w24_003",
+      "english": "parched",
+      "japanese": "からからに乾いた",
+      "englishDef": "very dry due to heat",
+      "partOfSpeech": "adj",
+      "ipa": "/pɑːrtʃt/",
+      "katakana": "PARCHT",
+      "emoji": "🏜️",
+      "exampleEn": "After hours in the sun, the parched ground had cracked into hard gray plates.",
+      "exampleJa": "何時間も日にさらされ、からからに乾いた地面は硬い灰色の板状にひび割れていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "parch", "type": "root", "meaning": "焼いて乾かす（中英語 parchen）" },
+          { "part": "ed", "type": "suffix", "meaning": "〜された（形容詞）" }
+        ],
+        "imageDescription": "日照りでひび割れ、板のように固まった灰色の地面",
+        "relatedWords": ["parch", "parching", "arid"],
+        "memoryTip": "parch（焼いて乾かす）→ 焼かれて乾ききった → からからの"
+      }
+    },
+    {
+      "id": "w24_004",
+      "english": "baldness",
+      "japanese": "はげ、毛がないこと",
+      "englishDef": "the condition of not having any hair",
+      "partOfSpeech": "n",
+      "ipa": "/ˈbɔːldnəs/",
+      "katakana": "BAWLD-nəs",
+      "emoji": "🧑‍🦲",
+      "exampleEn": "He wore a hat every day to hide his baldness from his classmates.",
+      "exampleJa": "彼は同級生に自分の頭のはげを隠すため、毎日帽子をかぶっていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "bald", "type": "root", "meaning": "はげた（中英語 balled「白い斑のある」）" },
+          { "part": "ness", "type": "suffix", "meaning": "〜であること（名詞）" }
+        ],
+        "imageDescription": "教室で帽子を目深にかぶり、頭を隠している生徒",
+        "relatedWords": ["bald", "balding", "hairless"],
+        "memoryTip": "bald（はげた）+ ness（こと）→ はげていること"
+      }
+    },
+    {
+      "id": "w24_005",
+      "english": "declare",
+      "japanese": "はっきり言う、宣言する",
+      "englishDef": "to say clearly and confidently",
+      "partOfSpeech": "v",
+      "ipa": "/dɪˈkler/",
+      "katakana": "di-KLAIR",
+      "emoji": "📢",
+      "exampleEn": "She stood up to declare that she would finish the race no matter what.",
+      "exampleJa": "彼女は立ち上がり、何があってもレースを走りきるとはっきり宣言した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de", "type": "prefix", "meaning": "完全に（強調）" },
+          { "part": "clare", "type": "root", "meaning": "明らかな（ラテン語 clarus）" }
+        ],
+        "imageDescription": "みんなの前で立ち上がり、はっきりと決意を述べる人",
+        "relatedWords": ["declaration", "clear", "clarify"],
+        "memoryTip": "de（完全に）+ clar（明らか）→ 完全に明らかにする → 宣言する"
+      }
+    },
+    {
+      "id": "w24_006",
+      "english": "wade",
+      "japanese": "浅い水の中を歩く",
+      "englishDef": "to walk through shallow water",
+      "partOfSpeech": "v",
+      "ipa": "/weɪd/",
+      "katakana": "WAYD",
+      "emoji": "🌊",
+      "exampleEn": "They had to wade across the stream because the bridge had washed away.",
+      "exampleJa": "橋が流されてしまったので、彼らは小川を歩いて渡らなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "wade", "type": "root", "meaning": "進む（古英語 wadan「歩いて進む」）" }
+        ],
+        "imageDescription": "流された橋のかわりに、ひざまで水に浸かって小川を渡る人たち",
+        "relatedWords": ["wading", "waders", "shallow"],
+        "memoryTip": "古英語 wadan（歩いて進む）→ 水の中を歩いて進む"
+      }
+    },
+    {
+      "id": "w24_007",
+      "english": "grunt",
+      "japanese": "うなり声を出す",
+      "englishDef": "to make a low sound in your throat, usually when doing physical work",
+      "partOfSpeech": "v",
+      "ipa": "/ɡrʌnt/",
+      "katakana": "GRUNT",
+      "emoji": "😤",
+      "exampleEn": "He began to grunt as he lifted the heavy box onto his shoulder.",
+      "exampleJa": "彼は重い箱を肩に担ぎ上げながら、うなり声を上げ始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "grunt", "type": "root", "meaning": "低くうなる（古英語 grunnettan、擬音語）" }
+        ],
+        "imageDescription": "重い箱を肩まで持ち上げ、歯を食いしばってうなる人",
+        "relatedWords": ["grunting", "groan", "grumble"],
+        "memoryTip": "「グッ」というのどの音そのもの → うなり声を出す"
+      }
+    },
+    {
+      "id": "w24_008",
+      "english": "rob",
+      "japanese": "奪う、強盗する",
+      "englishDef": "to steal something from someone",
+      "partOfSpeech": "v",
+      "ipa": "/rɑːb/",
+      "katakana": "RAHB",
+      "emoji": "🦹",
+      "exampleEn": "Two men tried to rob the small shop just before it closed for the night.",
+      "exampleJa": "二人の男が、夜の閉店直前にその小さな店から金品を奪おうとした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rob", "type": "root", "meaning": "略奪する（古フランス語 rober、ゲルマン語起源）" }
+        ],
+        "imageDescription": "閉店間際の小さな店に押し入ろうとする二人の男",
+        "relatedWords": ["robber", "robbery", "steal"],
+        "memoryTip": "「ロバー」= 強盗。rob はその動詞形 → 奪う"
+      }
+    },
+    {
+      "id": "w24_009",
+      "english": "unbearably",
+      "japanese": "耐えられないほど",
+      "englishDef": "unable to be withstood",
+      "partOfSpeech": "adv",
+      "ipa": "/ʌnˈberəbli/",
+      "katakana": "un-BAIR-ə-blee",
+      "emoji": "🥵",
+      "exampleEn": "By noon the tent had become unbearably hot, so everyone moved outside.",
+      "exampleJa": "正午までにテントの中は耐えられないほど暑くなり、全員が外へ移動した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "un", "type": "prefix", "meaning": "〜でない（否定）" },
+          { "part": "bear", "type": "root", "meaning": "耐える、運ぶ（古英語 beran）" },
+          { "part": "ably", "type": "suffix", "meaning": "〜できるほどに（副詞）" }
+        ],
+        "imageDescription": "熱がこもったテントから、全員が外へ逃げ出す様子",
+        "relatedWords": ["bear", "unbearable", "intolerable"],
+        "memoryTip": "un（否定）+ bear（耐える）→ 耐えられないほど"
+      }
+    },
+    {
+      "id": "w24_010",
+      "english": "emerald",
+      "japanese": "エメラルド（緑の宝石）",
+      "englishDef": "an expensive green jewel",
+      "partOfSpeech": "n",
+      "ipa": "/ˈemərəld/",
+      "katakana": "EM-ər-əld",
+      "emoji": "💚",
+      "exampleEn": "The ring held a single emerald that glowed deep green in the lamplight.",
+      "exampleJa": "その指輪には、ランプの光の下で深い緑に輝くエメラルドが一粒はめ込まれていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "emerald", "type": "root", "meaning": "緑の宝石（ギリシャ語 smaragdos）" }
+        ],
+        "imageDescription": "ランプの光を受けて深い緑に輝く、指輪のエメラルド",
+        "relatedWords": ["jewel", "gem", "emeralds"],
+        "memoryTip": "「エメラルドグリーン」の色そのもの → 緑の宝石"
+      }
+    },
+    {
+      "id": "w24_011",
+      "english": "spew",
+      "japanese": "勢いよく吐き出す、噴き出す",
+      "englishDef": "to expel something quickly",
+      "partOfSpeech": "v",
+      "ipa": "/spjuː/",
+      "katakana": "SPYOO",
+      "emoji": "🌋",
+      "exampleEn": "The old engine began to spew thick black smoke across the parking lot.",
+      "exampleJa": "その古いエンジンは、駐車場一面に濃い黒煙を噴き出し始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "spew", "type": "root", "meaning": "吐き出す（古英語 spīwan）" }
+        ],
+        "imageDescription": "駐車場で黒い煙を勢いよく噴き出している古い車のエンジン",
+        "relatedWords": ["spewing", "spit", "emit"],
+        "memoryTip": "spit（つばを吐く）と同語源 → もっと勢いよく吐き出す"
+      }
+    },
+    {
+      "id": "w24_012",
+      "english": "grotesque",
+      "japanese": "ぞっとするほど醜い、異様な",
+      "englishDef": "disgustingly ugly and contorted",
+      "partOfSpeech": "adj",
+      "ipa": "/ɡroʊˈtesk/",
+      "katakana": "groh-TESK",
+      "emoji": "👹",
+      "exampleEn": "A grotesque stone face stared down at them from above the church door.",
+      "exampleJa": "教会の扉の上から、異様に醜い石の顔が彼らを見下ろしていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "grott", "type": "root", "meaning": "洞窟（イタリア語 grotta）→ 洞窟壁画の奇怪な装飾" },
+          { "part": "esque", "type": "suffix", "meaning": "〜風の（形容詞）" }
+        ],
+        "imageDescription": "教会の扉の上から見下ろす、ゆがんだ表情の石像",
+        "relatedWords": ["grotesquely", "grotto", "hideous"],
+        "memoryTip": "grotta（洞窟）の奇怪な装飾模様 → 異様に醜い"
+      }
+    },
+    {
+      "id": "w24_013",
+      "english": "gasp",
+      "japanese": "はっと息をのむ",
+      "englishDef": "to breathe in quickly through the mouth, usually out of surprise",
+      "partOfSpeech": "v",
+      "ipa": "/ɡæsp/",
+      "katakana": "GASP",
+      "emoji": "😱",
+      "exampleEn": "The crowd began to gasp as the acrobat slipped from the rope.",
+      "exampleJa": "曲芸師がロープから滑り落ちると、観衆は息をのんだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "gasp", "type": "root", "meaning": "あえぐ（古ノルド語 geispa「あくびをする」）" }
+        ],
+        "imageDescription": "綱から滑り落ちる曲芸師を見上げ、口を押さえる観衆",
+        "relatedWords": ["gasping", "gasped", "pant"],
+        "memoryTip": "「ガスッ」と息を吸い込む音 → はっと息をのむ"
+      }
+    },
+    {
+      "id": "w24_014",
+      "english": "freshly",
+      "japanese": "〜したての、新しく",
+      "englishDef": "recent in time",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈfreʃli/",
+      "katakana": "FRESH-lee",
+      "emoji": "🍞",
+      "exampleEn": "The smell of freshly baked bread filled the whole street every morning.",
+      "exampleJa": "毎朝、焼きたてのパンの匂いが通り中に広がった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fresh", "type": "root", "meaning": "新鮮な（古英語 fersc）" },
+          { "part": "ly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "通りいっぱいに広がる、焼きたてのパンの湯気と匂い",
+        "relatedWords": ["fresh", "freshness", "newly"],
+        "memoryTip": "fresh（新鮮な）+ ly → できたて・したて"
+      }
+    },
+    {
+      "id": "w24_015",
+      "english": "blurry",
+      "japanese": "ぼやけた、はっきり見えない",
+      "englishDef": "not clearly seen",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈblɜːri/",
+      "katakana": "BLUR-ee",
+      "emoji": "🌫️",
+      "exampleEn": "Without his glasses, every word on the board looked blurry to him.",
+      "exampleJa": "眼鏡がないと、黒板の文字はどれも彼にはぼやけて見えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "blur", "type": "root", "meaning": "にじませる（語源不詳、16世紀の英語）" },
+          { "part": "ry", "type": "suffix", "meaning": "〜のような（形容詞）" }
+        ],
+        "imageDescription": "眼鏡を外したときのように、輪郭がにじんで見える黒板の文字",
+        "relatedWords": ["blur", "blurred", "unclear"],
+        "memoryTip": "blur（にじむ）+ ry → にじんだような → ぼやけた"
+      }
+    }
+  ]
+}

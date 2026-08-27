@@ -1,0 +1,344 @@
+{
+  "weekId": "week28",
+  "weekNumber": 28,
+  "label": "Term C - Week 8",
+  "sentencesToRemember": [
+    {
+      "text": "He filled the bottom with rocks to help separate the water from the dirt.",
+      "ja": "彼は水と土を分けやすくするため、底に石を詰めた。"
+    },
+    {
+      "text": "He knew it was too crazy to even consider it.",
+      "ja": "それを考えてみることさえばかげていると、彼には分かっていた。"
+    },
+    {
+      "text": "Once again he tried pulling it out, but it was firmly in the ground.",
+      "ja": "彼はもう一度それを引き抜こうとしたが、それは地面にしっかりと刺さっていた。"
+    },
+    {
+      "text": "Each beat told him he was still alive, at least for one more second.",
+      "ja": "鼓動のひとつひとつが、少なくともあと一秒は自分がまだ生きていることを彼に告げていた。"
+    },
+    {
+      "text": "He remembered that when they left the boat, they were headed toward the setting sun.",
+      "ja": "ボートを離れたとき、自分たちが沈む夕日のほうへ向かっていたことを彼は思い出した。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w28_001",
+      "english": "surround",
+      "japanese": "取り囲む",
+      "englishDef": "to be around something",
+      "partOfSpeech": "v",
+      "ipa": "/səˈraʊnd/",
+      "katakana": "sə-ROWND",
+      "emoji": "⭕",
+      "exampleEn": "Tall trees surround the small pond on every side.",
+      "exampleJa": "高い木々がその小さな池を四方から取り囲んでいる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sur", "type": "prefix", "meaning": "上に、越えて（ラテン語 super）" },
+          { "part": "round", "type": "root", "meaning": "波打つ、あふれる（ラテン語 unda「波」）" }
+        ],
+        "imageDescription": "四方を高い木々に囲まれた小さな池",
+        "relatedWords": ["surrounding", "surroundings", "encircle"],
+        "memoryTip": "「サラウンド」音響は音が周りを囲む → 取り囲む"
+      }
+    },
+    {
+      "id": "w28_002",
+      "english": "bitter",
+      "japanese": "苦い、辛辣な",
+      "englishDef": "having a strong taste or smell that is not sweet",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈbɪtər/",
+      "katakana": "BIT-ər",
+      "emoji": "☕",
+      "exampleEn": "The coffee was so bitter that he added three spoons of sugar.",
+      "exampleJa": "そのコーヒーはあまりに苦かったので、彼は砂糖を三杯入れた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "bit", "type": "root", "meaning": "噛む（古英語 bitan）→ 舌を刺す味" },
+          { "part": "er", "type": "suffix", "meaning": "形容詞をつくる" }
+        ],
+        "imageDescription": "苦いコーヒーに砂糖を何杯も入れている人",
+        "relatedWords": ["bitterly", "bitterness", "bite"],
+        "memoryTip": "bite（噛む）と同語源 → 舌を噛むような味 → 苦い"
+      }
+    },
+    {
+      "id": "w28_003",
+      "english": "miserable",
+      "japanese": "みじめな、ひどく不幸な",
+      "englishDef": "very unhappy",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈmɪzərəbəl/",
+      "katakana": "MIZ-ər-ə-bəl",
+      "emoji": "😢",
+      "exampleEn": "He looked miserable after losing the match he had trained so long for.",
+      "exampleJa": "長いあいだ練習してきた試合に負けたあと、彼はみじめな様子だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "miser", "type": "root", "meaning": "哀れな（ラテン語 miser）" },
+          { "part": "able", "type": "suffix", "meaning": "〜な（形容詞）" }
+        ],
+        "imageDescription": "長く練習した試合に敗れ、うつむいて座り込む選手",
+        "relatedWords": ["misery", "miserably", "wretched"],
+        "memoryTip": "miser（哀れな）+ able → 哀れな状態の → みじめな"
+      }
+    },
+    {
+      "id": "w28_004",
+      "english": "overpass",
+      "japanese": "陸橋、高架",
+      "englishDef": "a bridge where a road passes over another",
+      "partOfSpeech": "n",
+      "ipa": "/ˈoʊvərpæs/",
+      "katakana": "OH-vər-pas",
+      "emoji": "🛣️",
+      "exampleEn": "They waited under the overpass until the rain finally stopped.",
+      "exampleJa": "彼らは雨がやむまで、その陸橋の下で待った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "over", "type": "prefix", "meaning": "上を越えて" },
+          { "part": "pass", "type": "root", "meaning": "通る（ラテン語 passus「歩み」）" }
+        ],
+        "imageDescription": "雨宿りのために陸橋の下に立つ人たち",
+        "relatedWords": ["underpass", "pass", "bridge"],
+        "memoryTip": "over（上を）+ pass（通る）→ 上を通る道 → 陸橋"
+      }
+    },
+    {
+      "id": "w28_005",
+      "english": "destiny",
+      "japanese": "運命、宿命",
+      "englishDef": "things that are sure to happen to someone in the future",
+      "partOfSpeech": "n",
+      "ipa": "/ˈdestəni/",
+      "katakana": "DES-tə-nee",
+      "emoji": "🔮",
+      "exampleEn": "He believed it was his destiny to find the treasure his grandfather had lost.",
+      "exampleJa": "祖父が失った宝を見つけることが自分の運命だと、彼は信じていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de", "type": "prefix", "meaning": "完全に（強調）" },
+          { "part": "stin", "type": "root", "meaning": "定める、立てる（ラテン語 destinare）" },
+          { "part": "y", "type": "suffix", "meaning": "〜であること（名詞）" }
+        ],
+        "imageDescription": "祖父の古い地図を手に、宝探しへ出発する若者",
+        "relatedWords": ["destined", "destination", "fate"],
+        "memoryTip": "destination（目的地）と同語源 → あらかじめ定められた行き先 → 運命"
+      }
+    },
+    {
+      "id": "w28_006",
+      "english": "squeak",
+      "japanese": "きしむ音を立てる、キーッと鳴る",
+      "englishDef": "to make a short, high-pitched noise",
+      "partOfSpeech": "v",
+      "ipa": "/skwiːk/",
+      "katakana": "SKWEEK",
+      "emoji": "🐭",
+      "exampleEn": "The old door began to squeak every time someone opened it.",
+      "exampleJa": "その古いドアは、誰かが開けるたびにきしむ音を立てるようになった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "squeak", "type": "root", "meaning": "キーッと鳴く（中英語 squeken、擬音語）" }
+        ],
+        "imageDescription": "開けるたびに甲高い音を立てる、蝶番のさびた古いドア",
+        "relatedWords": ["squeaky", "squeal", "creak"],
+        "memoryTip": "「スクィーク」という甲高い音そのもの → きしむ音を立てる"
+      }
+    },
+    {
+      "id": "w28_007",
+      "english": "retrieve",
+      "japanese": "取ってくる、回収する",
+      "englishDef": "to go and get something from somewhere",
+      "partOfSpeech": "v",
+      "ipa": "/rɪˈtriːv/",
+      "katakana": "ri-TREEV",
+      "emoji": "🐕",
+      "exampleEn": "He ran back to retrieve the hat that had blown off his head.",
+      "exampleJa": "彼は飛ばされた帽子を取り戻すために走って引き返した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re", "type": "prefix", "meaning": "再び" },
+          { "part": "trieve", "type": "root", "meaning": "見つける（古フランス語 trover）" }
+        ],
+        "imageDescription": "風で飛ばされた帽子を追って走って戻る人",
+        "relatedWords": ["retriever", "retrieval", "recover"],
+        "memoryTip": "re（再び）+ trieve（見つける）→ 再び見つけて持ち帰る → 取ってくる"
+      }
+    },
+    {
+      "id": "w28_008",
+      "english": "shady",
+      "japanese": "日陰の、木陰の",
+      "englishDef": "sheltered from the sun",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈʃeɪdi/",
+      "katakana": "SHAY-dee",
+      "emoji": "🌳",
+      "exampleEn": "They ate lunch in a shady spot behind the school building.",
+      "exampleJa": "彼らは校舎の裏の日陰になった場所で昼食を食べた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "shade", "type": "root", "meaning": "陰（古英語 sceadu）" },
+          { "part": "y", "type": "suffix", "meaning": "〜の多い（形容詞）" }
+        ],
+        "imageDescription": "校舎の裏の木陰で昼食をとる生徒たち",
+        "relatedWords": ["shade", "shadow", "shaded"],
+        "memoryTip": "shade（陰）+ y → 陰の多い → 日陰の"
+      }
+    },
+    {
+      "id": "w28_009",
+      "english": "hollow",
+      "japanese": "中が空の、うつろな",
+      "englishDef": "empty, not having anything inside",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈhɑːloʊ/",
+      "katakana": "HAH-loh",
+      "emoji": "🪵",
+      "exampleEn": "The tree looked strong, but its trunk was completely hollow inside.",
+      "exampleJa": "その木は丈夫そうに見えたが、幹の中はすっかり空洞だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "hollow", "type": "root", "meaning": "くぼみ、うつろ（古英語 holh）" }
+        ],
+        "imageDescription": "外は丈夫そうなのに、中が空洞になっている木の幹",
+        "relatedWords": ["hole", "hollowed", "empty"],
+        "memoryTip": "hole（穴）と同語源 → 中に穴がある → 中が空の"
+      }
+    },
+    {
+      "id": "w28_010",
+      "english": "abruptly",
+      "japanese": "突然に、だしぬけに",
+      "englishDef": "quickly and suddenly",
+      "partOfSpeech": "adv",
+      "ipa": "/əˈbrʌptli/",
+      "katakana": "ə-BRUPT-lee",
+      "emoji": "🛑",
+      "exampleEn": "The music stopped abruptly, leaving the room in complete silence.",
+      "exampleJa": "音楽が突然止まり、部屋は完全な静けさに包まれた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab", "type": "prefix", "meaning": "〜から離れて" },
+          { "part": "rupt", "type": "root", "meaning": "破る（ラテン語 rumpere）" },
+          { "part": "ly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "音楽が急に止まり、しんと静まり返った部屋",
+        "relatedWords": ["abrupt", "interrupt", "suddenly"],
+        "memoryTip": "ab（離れて）+ rupt（破る）→ ぶつりと切れる → 突然に"
+      }
+    },
+    {
+      "id": "w28_011",
+      "english": "contaminate",
+      "japanese": "汚染する、汚す",
+      "englishDef": "to make something dirty or impure",
+      "partOfSpeech": "v",
+      "ipa": "/kənˈtæməneɪt/",
+      "katakana": "kən-TAM-ə-nayt",
+      "emoji": "☣️",
+      "exampleEn": "A single leak was enough to contaminate the whole village's water supply.",
+      "exampleJa": "たった一か所の漏れが、村全体の水道を汚染するのに十分だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con", "type": "prefix", "meaning": "一緒に" },
+          { "part": "tamin", "type": "root", "meaning": "触れる（ラテン語 tangere）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "配管の漏れから、村の貯水槽へ広がっていく汚れ",
+        "relatedWords": ["contamination", "contact", "pollute"],
+        "memoryTip": "con（一緒に）+ tangere（触れる）→ 触れて混ざる → 汚染する"
+      }
+    },
+    {
+      "id": "w28_012",
+      "english": "sprout",
+      "japanese": "芽が出る、生え始める",
+      "englishDef": "to start to grow",
+      "partOfSpeech": "v",
+      "ipa": "/spraʊt/",
+      "katakana": "SPROWT",
+      "emoji": "🌱",
+      "exampleEn": "The seeds began to sprout only three days after the rain.",
+      "exampleJa": "その種は雨のわずか三日後に芽を出し始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sprout", "type": "root", "meaning": "芽を出す（古英語 sprūtan）" }
+        ],
+        "imageDescription": "雨のあと、土から顔を出したばかりの小さな芽",
+        "relatedWords": ["sprouting", "spurt", "germinate"],
+        "memoryTip": "「スプラウト」= もやし・新芽 → 芽が出る"
+      }
+    },
+    {
+      "id": "w28_013",
+      "english": "fugitive",
+      "japanese": "逃亡者",
+      "englishDef": "someone who escaped from captivity and is hiding or running away",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfjuːdʒətɪv/",
+      "katakana": "FYOO-jə-tiv",
+      "emoji": "🏃",
+      "exampleEn": "The fugitive had been hiding in the forest for nearly two weeks.",
+      "exampleJa": "その逃亡者は二週間近く森の中に隠れていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fug", "type": "root", "meaning": "逃げる（ラテン語 fugere）" },
+          { "part": "itive", "type": "suffix", "meaning": "〜する人（名詞）" }
+        ],
+        "imageDescription": "森の奥の茂みに身を潜めている逃亡者",
+        "relatedWords": ["refuge", "refugee", "fugitives"],
+        "memoryTip": "fug（逃げる）+ itive（人）→ 逃げる人 → 逃亡者"
+      }
+    },
+    {
+      "id": "w28_014",
+      "english": "absolutely",
+      "japanese": "まったく、完全に",
+      "englishDef": "with no doubt or limit",
+      "partOfSpeech": "adv",
+      "ipa": "/ˌæbsəˈluːtli/",
+      "katakana": "ab-sə-LOOT-lee",
+      "emoji": "💯",
+      "exampleEn": "There was absolutely nothing left in the box when they opened it.",
+      "exampleJa": "彼らが箱を開けたとき、中にはまったく何も残っていなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab", "type": "prefix", "meaning": "〜から離れて" },
+          { "part": "solut", "type": "root", "meaning": "ほどく、解き放つ（ラテン語 solvere）" },
+          { "part": "ely", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "開けてみるとまったく空だった箱",
+        "relatedWords": ["absolute", "solve", "completely"],
+        "memoryTip": "ab（離れて）+ solut（ほどく）→ 制限から解き放たれた → まったく"
+      }
+    },
+    {
+      "id": "w28_015",
+      "english": "flake",
+      "japanese": "薄くはがれ落ちる",
+      "englishDef": "to fall apart in small, thin pieces",
+      "partOfSpeech": "v",
+      "ipa": "/fleɪk/",
+      "katakana": "FLAYK",
+      "emoji": "❄️",
+      "exampleEn": "The old paint had begun to flake off the wooden fence.",
+      "exampleJa": "木の柵から古いペンキが薄くはがれ落ち始めていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "flake", "type": "root", "meaning": "薄片（古ノルド語 flakna「はがれる」）" }
+        ],
+        "imageDescription": "木の柵の表面から薄く浮き上がって剥がれるペンキ",
+        "relatedWords": ["flaky", "snowflake", "peel"],
+        "memoryTip": "snowflake（雪片）の flake → 薄い片になって落ちる"
+      }
+    }
+  ]
+}

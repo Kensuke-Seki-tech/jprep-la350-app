@@ -1,0 +1,342 @@
+{
+  "weekId": "week26",
+  "weekNumber": 26,
+  "label": "Term C - Week 6",
+  "sentencesToRemember": [
+    {
+      "text": "His body had adjusted somewhat to the heat and harsh conditions.",
+      "ja": "彼の体は、暑さと厳しい環境にいくらか順応していた。"
+    },
+    {
+      "text": "A short time later the mountains were no longer visible, hidden behind the glare of the sun, reflecting off the dirty air.",
+      "ja": "しばらくすると山々はもう見えなくなり、汚れた空気に反射する太陽のまぶしさの向こうに隠れてしまった。"
+    },
+    {
+      "text": "\"Teach the bully a lesson,\" said Mr. Pendanski.",
+      "ja": "「いじめっ子に思い知らせてやれ」とペンダンスキーさんは言った。"
+    },
+    {
+      "text": "Back at the compound, they had dug in a systematic order, row upon row, allowing space for the water truck.",
+      "ja": "敷地に戻ると、彼らは給水トラックのための場所を空けながら、列また列と整然とした順序で掘っていた。"
+    },
+    {
+      "text": "It struck him as funny to see a boat in the middle of this dry and barren wasteland.",
+      "ja": "この乾いた不毛の荒れ地の真ん中にボートがあるのを見て、彼はおかしく感じた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w26_001",
+      "english": "adjust",
+      "japanese": "順応する、調整する",
+      "englishDef": "to change to fit an environment or situation",
+      "partOfSpeech": "v",
+      "ipa": "/əˈdʒʌst/",
+      "katakana": "ə-JUST",
+      "emoji": "🔧",
+      "exampleEn": "It took his eyes a full minute to adjust to the darkness of the cave.",
+      "exampleJa": "彼の目が洞窟の暗さに順応するまで、まるまる一分かかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ad", "type": "prefix", "meaning": "〜へ" },
+          { "part": "just", "type": "root", "meaning": "正しい、ぴったりの（ラテン語 justus）" }
+        ],
+        "imageDescription": "暗い洞窟に入り、目が慣れるのを待って立ち止まる人",
+        "relatedWords": ["adjustment", "just", "adjustable"],
+        "memoryTip": "ad（〜へ）+ just（ぴったり）→ ぴったり合わせる → 順応する"
+      }
+    },
+    {
+      "id": "w26_002",
+      "english": "awkward",
+      "japanese": "気まずい、ぎこちない",
+      "englishDef": "uncomfortable, not natural",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈɔːkwərd/",
+      "katakana": "AWK-wərd",
+      "emoji": "😬",
+      "exampleEn": "There was an awkward silence after he asked the wrong question.",
+      "exampleJa": "彼が的外れな質問をしたあと、気まずい沈黙が流れた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "awk", "type": "root", "meaning": "逆向きの（古ノルド語 afugr）" },
+          { "part": "ward", "type": "suffix", "meaning": "〜の方向へ" }
+        ],
+        "imageDescription": "誰も口を開かず、視線を合わせられない気まずい会議室",
+        "relatedWords": ["awkwardly", "awkwardness", "clumsy"],
+        "memoryTip": "awk（逆向き）+ ward（方向）→ 向きが逆でぎこちない → 気まずい"
+      }
+    },
+    {
+      "id": "w26_003",
+      "english": "strangle",
+      "japanese": "首を絞める",
+      "englishDef": "to squeeze someone's neck to cut off their breath",
+      "partOfSpeech": "v",
+      "ipa": "/ˈstræŋɡəl/",
+      "katakana": "STRANG-gəl",
+      "emoji": "😵",
+      "exampleEn": "The tight collar felt as if it were trying to strangle him.",
+      "exampleJa": "きつい襟は、まるで彼の首を絞めようとしているかのように感じられた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "strang", "type": "root", "meaning": "締めつける（ギリシャ語 strangalan）" },
+          { "part": "le", "type": "suffix", "meaning": "動詞をつくる" }
+        ],
+        "imageDescription": "首まわりがきつすぎて苦しそうにシャツの襟を引っぱる人",
+        "relatedWords": ["strangling", "strangled", "choke"],
+        "memoryTip": "strang（締めつける）→ 首を締めつける → 首を絞める"
+      }
+    },
+    {
+      "id": "w26_004",
+      "english": "logical",
+      "japanese": "論理的な、筋の通った",
+      "englishDef": "making sense, reasonable",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈlɑːdʒɪkəl/",
+      "katakana": "LAH-ji-kəl",
+      "emoji": "🧠",
+      "exampleEn": "Checking the batteries first was the most logical way to fix the flashlight.",
+      "exampleJa": "まず電池を確認するのが、その懐中電灯を直す最も論理的な方法だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "log", "type": "root", "meaning": "言葉、理性（ギリシャ語 logos）" },
+          { "part": "ical", "type": "suffix", "meaning": "〜に関する（形容詞）" }
+        ],
+        "imageDescription": "つかない懐中電灯のふたを開け、まず電池を確かめている人",
+        "relatedWords": ["logic", "logically", "dialogue"],
+        "memoryTip": "logos（理性）+ ical → 理にかなった → 論理的な"
+      }
+    },
+    {
+      "id": "w26_005",
+      "english": "unconscious",
+      "japanese": "意識のない",
+      "englishDef": "not being awake",
+      "partOfSpeech": "adj",
+      "ipa": "/ʌnˈkɑːnʃəs/",
+      "katakana": "un-KAHN-shəs",
+      "emoji": "😵‍💫",
+      "exampleEn": "The player lay unconscious on the field until the doctors arrived.",
+      "exampleJa": "その選手は医師が到着するまで、意識のないままフィールドに横たわっていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "un", "type": "prefix", "meaning": "〜でない（否定）" },
+          { "part": "conscious", "type": "root", "meaning": "気づいている（ラテン語 conscius）" }
+        ],
+        "imageDescription": "グラウンドに倒れたまま動かない選手と、駆け寄る医師",
+        "relatedWords": ["conscious", "consciousness", "unconsciously"],
+        "memoryTip": "un（否定）+ conscious（意識のある）→ 意識のない"
+      }
+    },
+    {
+      "id": "w26_006",
+      "english": "investigation",
+      "japanese": "調査、捜査",
+      "englishDef": "a careful examination of something",
+      "partOfSpeech": "n",
+      "ipa": "/ɪnˌvestɪˈɡeɪʃən/",
+      "katakana": "in-ves-ti-GAY-shən",
+      "emoji": "🔎",
+      "exampleEn": "The investigation showed that the fire had started in the kitchen.",
+      "exampleJa": "その調査によって、火事は台所から始まったことが分かった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "中へ" },
+          { "part": "vestig", "type": "root", "meaning": "足跡（ラテン語 vestigium）" },
+          { "part": "ation", "type": "suffix", "meaning": "〜すること（名詞）" }
+        ],
+        "imageDescription": "焼け跡を調べ、出火元を確かめている調査員",
+        "relatedWords": ["investigate", "vestige", "inquiry"],
+        "memoryTip": "in（中へ）+ vestig（足跡）→ 足跡をたどって中へ入る → 調査"
+      }
+    },
+    {
+      "id": "w26_007",
+      "english": "remaining",
+      "japanese": "残っている",
+      "englishDef": "still existing or surviving after a situation",
+      "partOfSpeech": "adj",
+      "ipa": "/rɪˈmeɪnɪŋ/",
+      "katakana": "ri-MAY-ning",
+      "emoji": "🍪",
+      "exampleEn": "They shared the remaining bread among the four of them.",
+      "exampleJa": "彼らは残っていたパンを四人で分け合った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re", "type": "prefix", "meaning": "後ろに" },
+          { "part": "main", "type": "root", "meaning": "とどまる（ラテン語 manere）" },
+          { "part": "ing", "type": "suffix", "meaning": "〜している（形容詞）" }
+        ],
+        "imageDescription": "最後に残った一切れのパンを四人で分け合う様子",
+        "relatedWords": ["remain", "remains", "remainder"],
+        "memoryTip": "re（後ろに）+ main（とどまる）→ 後にとどまっている → 残っている"
+      }
+    },
+    {
+      "id": "w26_008",
+      "english": "eventually",
+      "japanese": "最終的に、やがて",
+      "englishDef": "in the end, after a long time",
+      "partOfSpeech": "adv",
+      "ipa": "/ɪˈventʃuəli/",
+      "katakana": "i-VEN-choo-ə-lee",
+      "emoji": "⏳",
+      "exampleEn": "After many failed attempts, he eventually managed to start the engine.",
+      "exampleJa": "何度も失敗したのち、彼はやがてエンジンをかけることに成功した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "e", "type": "prefix", "meaning": "外へ（ex-）" },
+          { "part": "vent", "type": "root", "meaning": "来る（ラテン語 venire）" },
+          { "part": "ually", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "何度も失敗した末、ようやくエンジンがかかった瞬間",
+        "relatedWords": ["event", "eventual", "finally"],
+        "memoryTip": "e（外へ）+ vent（来る）→ 結果として出てくる → 最終的に"
+      }
+    },
+    {
+      "id": "w26_009",
+      "english": "vacancy",
+      "japanese": "空き、空室",
+      "englishDef": "an empty space, a position not filled",
+      "partOfSpeech": "n",
+      "ipa": "/ˈveɪkənsi/",
+      "katakana": "VAY-kən-see",
+      "emoji": "🏨",
+      "exampleEn": "The hotel had one vacancy left, so they took it right away.",
+      "exampleJa": "そのホテルには空室が一つだけ残っていたので、彼らはすぐにそれを取った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "vac", "type": "root", "meaning": "空の（ラテン語 vacare「空である」）" },
+          { "part": "ancy", "type": "suffix", "meaning": "〜であること（名詞）" }
+        ],
+        "imageDescription": "「空室あり」と表示されたホテルのフロント",
+        "relatedWords": ["vacant", "vacate", "vacuum"],
+        "memoryTip": "vac（空）+ ancy（こと）→ 空いていること → 空室"
+      }
+    },
+    {
+      "id": "w26_010",
+      "english": "barren",
+      "japanese": "不毛の、何も育たない",
+      "englishDef": "cannot support life",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈbærən/",
+      "katakana": "BAR-ən",
+      "emoji": "🌵",
+      "exampleEn": "Nothing but dust and stones covered the barren land around the camp.",
+      "exampleJa": "キャンプの周りの不毛な土地は、砂ぼこりと石以外に何もなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "barren", "type": "root", "meaning": "実らない（古フランス語 baraine）" }
+        ],
+        "imageDescription": "砂ぼこりと石だけが広がる、草一本ない土地",
+        "relatedWords": ["barrenness", "sterile", "desolate"],
+        "memoryTip": "実を「バレン（払われた）」土地 → 何も育たない → 不毛の"
+      }
+    },
+    {
+      "id": "w26_011",
+      "english": "twitch",
+      "japanese": "ぴくりと動く",
+      "englishDef": "to have a short and sudden movement",
+      "partOfSpeech": "v",
+      "ipa": "/twɪtʃ/",
+      "katakana": "TWICH",
+      "emoji": "👁️",
+      "exampleEn": "His left eye began to twitch whenever he became nervous.",
+      "exampleJa": "緊張すると、彼の左目はぴくぴくと動き始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "twitch", "type": "root", "meaning": "急に引く（中英語 twicchen）" }
+        ],
+        "imageDescription": "緊張したときに小さく震えるまぶた",
+        "relatedWords": ["twitching", "twitched", "jerk"],
+        "memoryTip": "「ピクッ」と一瞬引かれる動き → ぴくりと動く"
+      }
+    },
+    {
+      "id": "w26_012",
+      "english": "refuge",
+      "japanese": "避難所、逃げ場",
+      "englishDef": "a place that provides safety and shelter",
+      "partOfSpeech": "n",
+      "ipa": "/ˈrefjuːdʒ/",
+      "katakana": "REF-yooj",
+      "emoji": "🏕️",
+      "exampleEn": "They found refuge from the storm inside an abandoned barn.",
+      "exampleJa": "彼らは打ち捨てられた納屋の中に、嵐からの避難所を見つけた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re", "type": "prefix", "meaning": "後ろへ" },
+          { "part": "fuge", "type": "root", "meaning": "逃げる（ラテン語 fugere）" }
+        ],
+        "imageDescription": "嵐の中、古い納屋に駆け込んで雨をしのぐ人たち",
+        "relatedWords": ["refugee", "fugitive", "shelter"],
+        "memoryTip": "re（後ろへ）+ fuge（逃げる）→ 逃げ込む場所 → 避難所"
+      }
+    },
+    {
+      "id": "w26_013",
+      "english": "feeble",
+      "japanese": "弱々しい、か弱い",
+      "englishDef": "with little to no strength or effort",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈfiːbəl/",
+      "katakana": "FEE-bəl",
+      "emoji": "🕯️",
+      "exampleEn": "A feeble light came from the candle at the far end of the hall.",
+      "exampleJa": "廊下の奥にあるろうそくから、弱々しい光が届いていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "feeble", "type": "root", "meaning": "嘆かわしい、弱い（ラテン語 flebilis「泣くべき」）" }
+        ],
+        "imageDescription": "長い廊下の奥で、今にも消えそうに揺れるろうそくの炎",
+        "relatedWords": ["feebly", "feebleness", "weak"],
+        "memoryTip": "flebilis（泣きたくなるほど）→ 弱々しい"
+      }
+    },
+    {
+      "id": "w26_014",
+      "english": "holster",
+      "japanese": "（銃を）ホルスターに収める",
+      "englishDef": "to put a weapon into its holder",
+      "partOfSpeech": "v",
+      "ipa": "/ˈhoʊlstər/",
+      "katakana": "HOHL-stər",
+      "emoji": "🔫",
+      "exampleEn": "The guard began to holster his weapon once he saw there was no danger.",
+      "exampleJa": "危険がないと分かると、その警備員は武器をホルスターに収め始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "holster", "type": "root", "meaning": "覆い、さや（オランダ語 holster「覆うもの」）" }
+        ],
+        "imageDescription": "危険がないと確認し、腰の革ケースに銃を戻す警備員",
+        "relatedWords": ["holstered", "holdall", "sheathe"],
+        "memoryTip": "hold（保持する）に通じる形 → 武器を保持する入れ物に収める"
+      }
+    },
+    {
+      "id": "w26_015",
+      "english": "slit",
+      "japanese": "細長い切れ目、隙間",
+      "englishDef": "a long, narrow opening",
+      "partOfSpeech": "n",
+      "ipa": "/slɪt/",
+      "katakana": "SLIT",
+      "emoji": "✉️",
+      "exampleEn": "He pushed the letter through the narrow slit in the door.",
+      "exampleJa": "彼はドアの細長い隙間から手紙を押し込んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "slit", "type": "root", "meaning": "切り裂く（古英語 slītan）" }
+        ],
+        "imageDescription": "ドアに開いた細長い郵便受けの口に差し込まれる手紙",
+        "relatedWords": ["slitting", "slice", "slot"],
+        "memoryTip": "slice（薄く切る）と同語源 → 切って開いた細長い口"
+      }
+    }
+  ]
+}

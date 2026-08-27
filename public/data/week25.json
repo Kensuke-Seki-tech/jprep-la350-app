@@ -1,0 +1,341 @@
+{
+  "weekId": "week25",
+  "weekNumber": 25,
+  "label": "Term C - Week 5",
+  "sentencesToRemember": [
+    {
+      "text": "At first he thought it might have been some kind of animal, and it frightened him.",
+      "ja": "はじめ彼はそれが何かの動物ではないかと思い、恐ろしくなった。"
+    },
+    {
+      "text": "His muscles and hands weren't the only parts of his body that had toughened over the past several weeks.",
+      "ja": "この数週間でたくましくなったのは、彼の筋肉と手だけではなかった。"
+    },
+    {
+      "text": "He barely had enough moisture in his mouth to seal and stamp the envelope.",
+      "ja": "彼の口の中には、封筒を閉じて切手を貼るだけの湿り気がかろうじてあるだけだった。"
+    },
+    {
+      "text": "She was a wonderful teacher, full of knowledge and full of life.",
+      "ja": "彼女は知識にあふれ、生気にあふれた、すばらしい先生だった。"
+    },
+    {
+      "text": "Stanley looked up at the approaching dust cloud, then back down at the spilled seeds.",
+      "ja": "スタンリーは近づいてくる砂ぼこりの雲を見上げ、それからこぼれた種に目を落とした。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w25_001",
+      "english": "trail",
+      "japanese": "後をつける、追跡する",
+      "englishDef": "to follow behind something",
+      "partOfSpeech": "v",
+      "ipa": "/treɪl/",
+      "katakana": "TRAYL",
+      "emoji": "🐾",
+      "exampleEn": "The dog began to trail the hikers, staying just a few steps behind them.",
+      "exampleJa": "その犬は数歩後ろを保ちながら、登山者たちの後をついていき始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "trail", "type": "root", "meaning": "引きずる（古フランス語 trailler「引く」）" }
+        ],
+        "imageDescription": "登山者の数歩後ろを、距離を保ちながらついていく犬",
+        "relatedWords": ["trailer", "trailing", "track"],
+        "memoryTip": "「トレイル」= 通った跡 → 跡をたどる → 後をつける"
+      }
+    },
+    {
+      "id": "w25_002",
+      "english": "fume",
+      "japanese": "（強いにおいの）煙、ガス",
+      "englishDef": "a gas that has a strong smell, such as smoke",
+      "partOfSpeech": "n",
+      "ipa": "/fjuːm/",
+      "katakana": "FYOOM",
+      "emoji": "💨",
+      "exampleEn": "A thick fume from the burning tires drifted over the highway.",
+      "exampleJa": "燃えるタイヤから出た濃い煙が、高速道路の上に漂った。",
+      "etymology": {
+        "morphemes": [
+          { "part": "fum", "type": "root", "meaning": "煙（ラテン語 fumus）" },
+          { "part": "e", "type": "suffix", "meaning": "名詞をつくる" }
+        ],
+        "imageDescription": "高速道路の上に低く漂う、タイヤが燃えた濃い煙",
+        "relatedWords": ["fumes", "perfume", "fumigate"],
+        "memoryTip": "perfume（香水）と同じ fum（煙）→ においのある煙"
+      }
+    },
+    {
+      "id": "w25_003",
+      "english": "mutter",
+      "japanese": "ぶつぶつつぶやく",
+      "englishDef": "to quietly say something negative",
+      "partOfSpeech": "v",
+      "ipa": "/ˈmʌtər/",
+      "katakana": "MUT-ər",
+      "emoji": "🤫",
+      "exampleEn": "He began to mutter under his breath about how unfair the rules were.",
+      "exampleJa": "彼は規則がどれほど不公平かについて、小声でぶつぶつ言い始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mutter", "type": "root", "meaning": "低くつぶやく（中英語 moteren、擬音語）" }
+        ],
+        "imageDescription": "うつむいて小声で不満をつぶやいている人",
+        "relatedWords": ["muttering", "mumble", "grumble"],
+        "memoryTip": "「ムッ」とした声で口を閉じたまま話す → ぶつぶつつぶやく"
+      }
+    },
+    {
+      "id": "w25_004",
+      "english": "appreciate",
+      "japanese": "価値を理解する、ありがたく思う",
+      "englishDef": "to understand the value of something",
+      "partOfSpeech": "v",
+      "ipa": "/əˈpriːʃieɪt/",
+      "katakana": "ə-PREE-shee-ayt",
+      "emoji": "🙏",
+      "exampleEn": "Only after moving away did he appreciate how kind his neighbors had been.",
+      "exampleJa": "引っ越して初めて、彼は隣人たちがどれほど親切だったかを理解した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ap", "type": "prefix", "meaning": "〜へ（ad-）" },
+          { "part": "preci", "type": "root", "meaning": "値段、価値（ラテン語 pretium）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "引っ越し先で、以前の隣人たちの親切さを思い返している人",
+        "relatedWords": ["appreciation", "price", "precious"],
+        "memoryTip": "ap（〜へ）+ preci（価値）→ 価値をきちんと見積もる → 価値を理解する"
+      }
+    },
+    {
+      "id": "w25_005",
+      "english": "dread",
+      "japanese": "恐れ、不安",
+      "englishDef": "a fear for something that will happen in the future",
+      "partOfSpeech": "n",
+      "ipa": "/dred/",
+      "katakana": "DRED",
+      "emoji": "😖",
+      "exampleEn": "A cold dread filled him whenever he thought about the coming test.",
+      "exampleJa": "近づく試験のことを考えるたび、冷たい恐れが彼を満たした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dread", "type": "root", "meaning": "ひどく恐れる（古英語 ondrǣdan）" }
+        ],
+        "imageDescription": "机の上のカレンダーの試験日を見つめ、暗い表情になる生徒",
+        "relatedWords": ["dreadful", "dreading", "fear"],
+        "memoryTip": "これから来ることへの恐れ → 未来に向いた fear が dread"
+      }
+    },
+    {
+      "id": "w25_006",
+      "english": "ingredient",
+      "japanese": "材料、（料理の）具材",
+      "englishDef": "a part of a recipe",
+      "partOfSpeech": "n",
+      "ipa": "/ɪnˈɡriːdiənt/",
+      "katakana": "in-GREE-dee-ənt",
+      "emoji": "🥕",
+      "exampleEn": "The only ingredient she was missing was a single lemon.",
+      "exampleJa": "彼女に足りない材料は、レモン一個だけだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "中へ" },
+          { "part": "gredi", "type": "root", "meaning": "歩く、進む（ラテン語 gradi）" },
+          { "part": "ent", "type": "suffix", "meaning": "〜するもの（名詞）" }
+        ],
+        "imageDescription": "調理台に並んだ材料の中に、レモンだけがない様子",
+        "relatedWords": ["ingredients", "grade", "progress"],
+        "memoryTip": "in（中へ）+ gradi（進む）→ 料理の中に入っていくもの → 材料"
+      }
+    },
+    {
+      "id": "w25_007",
+      "english": "jerk",
+      "japanese": "急に動く、ぐいと動かす",
+      "englishDef": "to move quickly and suddenly",
+      "partOfSpeech": "v",
+      "ipa": "/dʒɜːrk/",
+      "katakana": "JURK",
+      "emoji": "⚡",
+      "exampleEn": "The train stopped so suddenly that the passengers began to jerk forward.",
+      "exampleJa": "列車があまりに急に止まったので、乗客たちは前へがくんと投げ出された。",
+      "etymology": {
+        "morphemes": [
+          { "part": "jerk", "type": "root", "meaning": "ぐいと引く（16世紀英語 yerk「鞭を打つ」）" }
+        ],
+        "imageDescription": "急停車した列車の中で、乗客が一斉に前へ倒れかかる様子",
+        "relatedWords": ["jerky", "jerked", "twitch"],
+        "memoryTip": "「ジャーク」と鞭を打つような急な動き → 急に動く"
+      }
+    },
+    {
+      "id": "w25_008",
+      "english": "haze",
+      "japanese": "かすみ、もや",
+      "englishDef": "a cloud that is difficult to see through",
+      "partOfSpeech": "n",
+      "ipa": "/heɪz/",
+      "katakana": "HAYZ",
+      "emoji": "🌁",
+      "exampleEn": "A gray haze hung over the city and hid the tops of the tallest buildings.",
+      "exampleJa": "灰色のもやが街の上に垂れこめ、最も高いビルの頂上を隠していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "haze", "type": "root", "meaning": "かすみ（17世紀英語、語源不詳）" }
+        ],
+        "imageDescription": "高層ビルの上部を隠して垂れこめる灰色のもや",
+        "relatedWords": ["hazy", "hazily", "mist"],
+        "memoryTip": "hazy（かすんだ）の名詞形 → かすみ・もや"
+      }
+    },
+    {
+      "id": "w25_009",
+      "english": "desolate",
+      "japanese": "荒涼とした、人けのない",
+      "englishDef": "empty and without life",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈdesələt/",
+      "katakana": "DES-ə-lət",
+      "emoji": "🏚️",
+      "exampleEn": "They drove for an hour through a desolate valley without seeing a single house.",
+      "exampleJa": "彼らは一軒の家も見ないまま、荒涼とした谷を一時間走り続けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de", "type": "prefix", "meaning": "完全に（強調）" },
+          { "part": "sol", "type": "root", "meaning": "ひとりの（ラテン語 solus）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜な状態の（形容詞）" }
+        ],
+        "imageDescription": "家一軒も見えない、乾いた岩ばかりの谷を走る車",
+        "relatedWords": ["desolation", "sole", "solitary"],
+        "memoryTip": "de（完全に）+ sol（ひとり）→ 完全に何もない → 荒涼とした"
+      }
+    },
+    {
+      "id": "w25_010",
+      "english": "recite",
+      "japanese": "暗唱する、そらで言う",
+      "englishDef": "to repeat something that has been memorized",
+      "partOfSpeech": "v",
+      "ipa": "/rɪˈsaɪt/",
+      "katakana": "ri-SYT",
+      "emoji": "🎤",
+      "exampleEn": "Each student had to recite the poem in front of the whole class.",
+      "exampleJa": "生徒はそれぞれ、クラス全員の前でその詩を暗唱しなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re", "type": "prefix", "meaning": "再び" },
+          { "part": "cite", "type": "root", "meaning": "呼び出す（ラテン語 citare）" }
+        ],
+        "imageDescription": "教室の前に立ち、何も見ずに詩を暗唱している生徒",
+        "relatedWords": ["recital", "cite", "recitation"],
+        "memoryTip": "re（再び）+ cite（呼び出す）→ 覚えたものを呼び出す → 暗唱する"
+      }
+    },
+    {
+      "id": "w25_011",
+      "english": "ointment",
+      "japanese": "軟膏、塗り薬",
+      "englishDef": "medicine that you rub on your skin",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɔɪntmənt/",
+      "katakana": "OYNT-mənt",
+      "emoji": "🧴",
+      "exampleEn": "The doctor gave him an ointment to put on the burn twice a day.",
+      "exampleJa": "医者は彼に、やけどに一日二回塗る軟膏を渡した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "oint", "type": "root", "meaning": "油を塗る（ラテン語 unguere）" },
+          { "part": "ment", "type": "suffix", "meaning": "〜するもの（名詞）" }
+        ],
+        "imageDescription": "やけどの上に指で塗り広げられている白い軟膏",
+        "relatedWords": ["anoint", "unguent", "cream"],
+        "memoryTip": "oint（油を塗る）+ ment（もの）→ 塗るためのもの → 軟膏"
+      }
+    },
+    {
+      "id": "w25_012",
+      "english": "wobble",
+      "japanese": "ぐらぐら揺れる",
+      "englishDef": "to shake or sway unsteadily",
+      "partOfSpeech": "v",
+      "ipa": "/ˈwɑːbəl/",
+      "katakana": "WAH-bəl",
+      "emoji": "🪑",
+      "exampleEn": "The old table began to wobble whenever someone leaned on it.",
+      "exampleJa": "その古いテーブルは、誰かが寄りかかるたびにぐらぐら揺れた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "wobble", "type": "root", "meaning": "ぐらつく（低地ドイツ語 wabbeln）" }
+        ],
+        "imageDescription": "脚の長さが合わず、寄りかかるたびに傾く古いテーブル",
+        "relatedWords": ["wobbly", "wobbling", "sway"],
+        "memoryTip": "「ワブワブ」と左右に揺れる音 → ぐらぐら揺れる"
+      }
+    },
+    {
+      "id": "w25_013",
+      "english": "deftly",
+      "japanese": "器用に、手際よく",
+      "englishDef": "with skill and speed",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈdeftli/",
+      "katakana": "DEFT-lee",
+      "emoji": "🤹",
+      "exampleEn": "She deftly tied the rope into a knot without even looking at her hands.",
+      "exampleJa": "彼女は手元を見もせずに、器用にロープを結び目にした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "deft", "type": "root", "meaning": "巧みな（中英語 defte「穏やかで巧みな」）" },
+          { "part": "ly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "手元を見ずにロープを素早く結んでいる手",
+        "relatedWords": ["deft", "deftness", "skillfully"],
+        "memoryTip": "deft（巧みな）+ ly → 巧みに → 器用に"
+      }
+    },
+    {
+      "id": "w25_014",
+      "english": "worthless",
+      "japanese": "価値のない、役に立たない",
+      "englishDef": "having no value or use",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈwɜːrθləs/",
+      "katakana": "WURTH-ləs",
+      "emoji": "🗑️",
+      "exampleEn": "The old coins turned out to be worthless copies rather than real treasure.",
+      "exampleJa": "その古い硬貨は、本物の財宝ではなく価値のない複製だと判明した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "worth", "type": "root", "meaning": "価値（古英語 weorth）" },
+          { "part": "less", "type": "suffix", "meaning": "〜がない（形容詞）" }
+        ],
+        "imageDescription": "本物と思われたが複製だと分かり、脇に置かれた古い硬貨",
+        "relatedWords": ["worth", "worthy", "valueless"],
+        "memoryTip": "worth（価値）+ less（ない）→ 価値がない"
+      }
+    },
+    {
+      "id": "w25_015",
+      "english": "upholstery",
+      "japanese": "（家具の）張り布、内張り",
+      "englishDef": "the fabric that is fixed to furniture such as armchairs and sofas",
+      "partOfSpeech": "n",
+      "ipa": "/ʌpˈhoʊlstəri/",
+      "katakana": "up-HOHL-stə-ree",
+      "emoji": "🛋️",
+      "exampleEn": "The upholstery on the old sofa had faded from red to a dusty pink.",
+      "exampleJa": "その古いソファの張り布は、赤からくすんだピンクに色あせていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "uphold", "type": "root", "meaning": "支える、修繕する（up + hold）" },
+          { "part": "stery", "type": "suffix", "meaning": "〜の仕事・品（名詞）" }
+        ],
+        "imageDescription": "赤からくすんだピンクへ色あせた、古いソファの布地",
+        "relatedWords": ["upholster", "uphold", "fabric"],
+        "memoryTip": "uphold（支える）→ 家具を覆って支える布 → 張り布"
+      }
+    }
+  ]
+}

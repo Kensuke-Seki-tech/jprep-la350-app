@@ -1,0 +1,210 @@
+{
+  "weekId": "week23",
+  "match": [
+    {
+      "word": "excavate",
+      "def": "to take out of the earth"
+    },
+    {
+      "word": "intently",
+      "def": "with one's careful attention and concentration"
+    },
+    {
+      "word": "afford",
+      "def": "to have enough time or money to be able to do something"
+    },
+    {
+      "word": "breakthrough",
+      "def": "an important new development or discovery"
+    },
+    {
+      "word": "threaten",
+      "def": "to say that one will try to hurt another"
+    },
+    {
+      "word": "supposedly",
+      "def": "with some doubt, not definitely true"
+    },
+    {
+      "word": "wound",
+      "def": "an injury to one's body such as a cut, bruise, or burn"
+    },
+    {
+      "word": "considerably",
+      "def": "with a fair or substantial amount"
+    },
+    {
+      "word": "penetrating",
+      "def": "piercing through, going through"
+    },
+    {
+      "word": "racial",
+      "def": "related to a person's race or ethnicity"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "excavate",
+      "sentence": "The team worked for months to excavate the bones buried under the field.",
+      "ja": "そのチームは、野原の下に埋まった骨を掘り出すのに何か月も作業した。"
+    },
+    {
+      "answer": "intently",
+      "sentence": "She listened intently, afraid of missing even a single word of the instructions.",
+      "ja": "彼女は指示の一語も聞き逃すまいと、じっと熱心に耳を傾けた。"
+    },
+    {
+      "answer": "afford",
+      "sentence": "They could not afford a new car, so they repaired the old one instead.",
+      "ja": "彼らには新しい車を買う余裕がなかったので、代わりに古い車を修理した。"
+    },
+    {
+      "answer": "breakthrough",
+      "sentence": "The new medicine was a major breakthrough in the treatment of the disease.",
+      "ja": "その新薬は、その病気の治療における大きな飛躍的進歩だった。"
+    },
+    {
+      "answer": "threaten",
+      "sentence": "He tried to threaten the younger boys so they would give him their lunch.",
+      "ja": "彼は年下の少年たちを脅して、昼食を渡させようとした。"
+    }
+  ],
+  "bank": [
+    "excavate",
+    "intently",
+    "afford",
+    "breakthrough",
+    "threaten",
+    "supposedly",
+    "wound",
+    "considerably",
+    "penetrating",
+    "racial"
+  ],
+  "mc": [
+    {
+      "q": "What does \"supposedly\" mean?",
+      "opts": [
+        "with some doubt, not definitely true",
+        "to take out of the earth",
+        "with one's careful attention and concentration",
+        "to have enough time or money to be able to do something"
+      ],
+      "answer": 0,
+      "word": "supposedly"
+    },
+    {
+      "q": "What does \"wound\" mean?",
+      "opts": [
+        "an important new development or discovery",
+        "an injury to one's body such as a cut, bruise, or burn",
+        "to say that one will try to hurt another",
+        "with some doubt, not definitely true"
+      ],
+      "answer": 1,
+      "word": "wound"
+    },
+    {
+      "q": "What does \"considerably\" mean?",
+      "opts": [
+        "an injury to one's body such as a cut, bruise, or burn",
+        "piercing through, going through",
+        "with a fair or substantial amount",
+        "related to a person's race or ethnicity"
+      ],
+      "answer": 2,
+      "word": "considerably"
+    },
+    {
+      "q": "What does \"penetrating\" mean?",
+      "opts": [
+        "to be unreasonably afraid",
+        "very likely, but not known for certain",
+        "broken or cracked",
+        "piercing through, going through"
+      ],
+      "answer": 3,
+      "word": "penetrating"
+    },
+    {
+      "q": "What does \"racial\" mean?",
+      "opts": [
+        "related to a person's race or ethnicity",
+        "intended for children or infants",
+        "a tool used for lifting and carrying hay",
+        "to take out of the earth"
+      ],
+      "answer": 0,
+      "word": "racial"
+    },
+    {
+      "q": "What does \"paranoid\" mean?",
+      "opts": [
+        "with one's careful attention and concentration",
+        "to be unreasonably afraid",
+        "to have enough time or money to be able to do something",
+        "an important new development or discovery"
+      ],
+      "answer": 1,
+      "word": "paranoid"
+    },
+    {
+      "q": "What does \"presumably\" mean?",
+      "opts": [
+        "to say that one will try to hurt another",
+        "with some doubt, not definitely true",
+        "very likely, but not known for certain",
+        "an injury to one's body such as a cut, bruise, or burn"
+      ],
+      "answer": 2,
+      "word": "presumably"
+    },
+    {
+      "q": "What does \"busted\" mean?",
+      "opts": [
+        "with a fair or substantial amount",
+        "piercing through, going through",
+        "related to a person's race or ethnicity",
+        "broken or cracked"
+      ],
+      "answer": 3,
+      "word": "busted"
+    },
+    {
+      "q": "What does \"nursery\" mean?",
+      "opts": [
+        "intended for children or infants",
+        "to be unreasonably afraid",
+        "very likely, but not known for certain",
+        "broken or cracked"
+      ],
+      "answer": 0,
+      "word": "nursery"
+    },
+    {
+      "q": "What does \"pitchfork\" mean?",
+      "opts": [
+        "intended for children or infants",
+        "a tool used for lifting and carrying hay",
+        "to take out of the earth",
+        "with one's careful attention and concentration"
+      ],
+      "answer": 1,
+      "word": "pitchfork"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Stanley gazed out across the lake, toward the spot where he had been digging yesterday when he found the gold tube.",
+      "word": "yesterday"
+    },
+    {
+      "text": "It seemed that no matter how much water he drank, he was always thirsty.",
+      "word": "thirsty"
+    },
+    {
+      "text": "That part of his head, between his neck and ear, was considerably swollen.",
+      "word": "considerably"
+    }
+  ]
+}

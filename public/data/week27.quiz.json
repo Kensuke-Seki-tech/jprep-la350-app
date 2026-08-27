@@ -1,0 +1,199 @@
+{
+  "weekId": "week27",
+  "match": [
+    {
+      "word": "tangy",
+      "def": "having a strong taste"
+    },
+    {
+      "word": "groan",
+      "def": "to make a deep sound made from the throat, usually out of pain or dissatisfaction"
+    },
+    {
+      "word": "situated",
+      "def": "located, set in a certain way"
+    },
+    {
+      "word": "cliff",
+      "def": "the side of a tall and steep rock"
+    },
+    {
+      "word": "thumb",
+      "def": "the short and large first finger on the human hand"
+    },
+    {
+      "word": "upright",
+      "def": "sitting or standing with one's back straight"
+    },
+    {
+      "word": "absorb",
+      "def": "to take in, to draw in"
+    },
+    {
+      "word": "comprehend",
+      "def": "to understand"
+    },
+    {
+      "word": "confession",
+      "def": "a statement admitting that one is guilty or at fault"
+    },
+    {
+      "word": "protrude",
+      "def": "to stick out of something"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "tangy",
+      "sentence": "The sauce was so tangy that it made her eyes water.",
+      "ja": "そのソースはあまりに味が強く、彼女の目に涙がにじんだ。"
+    },
+    {
+      "answer": "groan",
+      "sentence": "The whole class began to groan when the teacher announced another test.",
+      "ja": "先生がまた試験があると告げると、クラス全体がうめき声をあげ始めた。"
+    },
+    {
+      "answer": "situated",
+      "sentence": "The cabin was situated at the very top of the hill, far from the road.",
+      "ja": "その小屋は道路から遠く離れた、丘のいちばん上に位置していた。"
+    },
+    {
+      "answer": "cliff",
+      "sentence": "They stood at the edge of the cliff and looked down at the waves below.",
+      "ja": "彼らは崖の縁に立ち、下の波を見下ろした。"
+    },
+    {
+      "answer": "thumb",
+      "sentence": "He hit his thumb with the hammer and dropped the nail.",
+      "ja": "彼はハンマーで親指を打ってしまい、釘を落とした。"
+    }
+  ],
+  "bank": [
+    "tangy",
+    "groan",
+    "situated",
+    "cliff",
+    "thumb",
+    "upright",
+    "absorb",
+    "comprehend",
+    "confession",
+    "protrude"
+  ],
+  "mc": [
+    {
+      "q": "What does \"upright\" mean?",
+      "opts": [
+        "sitting or standing with one's back straight",
+        "having a strong taste",
+        "to make a deep sound made from the throat, usually out of pain or dissatisfaction",
+        "located, set in a certain way"
+      ],
+      "answer": 0,
+      "word": "upright"
+    },
+    {
+      "q": "What does \"absorb\" mean?",
+      "opts": [
+        "the side of a tall and steep rock",
+        "to take in, to draw in",
+        "the short and large first finger on the human hand",
+        "sitting or standing with one's back straight"
+      ],
+      "answer": 1,
+      "word": "absorb"
+    },
+    {
+      "q": "What does \"comprehend\" mean?",
+      "opts": [
+        "to take in, to draw in",
+        "a statement admitting that one is guilty or at fault",
+        "to understand",
+        "to stick out of something"
+      ],
+      "answer": 2,
+      "word": "comprehend"
+    },
+    {
+      "q": "What does \"confession\" mean?",
+      "opts": [
+        "an increase, especially one that is fixed in size",
+        "to spin around",
+        "how high an object is relative to sea level or the ground",
+        "a statement admitting that one is guilty or at fault"
+      ],
+      "answer": 3,
+      "word": "confession"
+    },
+    {
+      "q": "What does \"protrude\" mean?",
+      "opts": [
+        "to stick out of something",
+        "a very steep rock face or cliff.",
+        "having a strong taste",
+        "to make a deep sound made from the throat, usually out of pain or dissatisfaction"
+      ],
+      "answer": 0,
+      "word": "protrude"
+    },
+    {
+      "q": "What does \"increment\" mean?",
+      "opts": [
+        "located, set in a certain way",
+        "an increase, especially one that is fixed in size",
+        "the side of a tall and steep rock",
+        "the short and large first finger on the human hand"
+      ],
+      "answer": 1,
+      "word": "increment"
+    },
+    {
+      "q": "What does \"twirl\" mean?",
+      "opts": [
+        "sitting or standing with one's back straight",
+        "to take in, to draw in",
+        "to spin around",
+        "to understand"
+      ],
+      "answer": 2,
+      "word": "twirl"
+    },
+    {
+      "q": "What does \"altitude\" mean?",
+      "opts": [
+        "a statement admitting that one is guilty or at fault",
+        "to stick out of something",
+        "an increase, especially one that is fixed in size",
+        "how high an object is relative to sea level or the ground"
+      ],
+      "answer": 3,
+      "word": "altitude"
+    },
+    {
+      "q": "What does \"precipice\" mean?",
+      "opts": [
+        "a very steep rock face or cliff.",
+        "to spin around",
+        "how high an object is relative to sea level or the ground",
+        "having a strong taste"
+      ],
+      "answer": 0,
+      "word": "precipice"
+    }
+  ],
+  "dict": [
+    {
+      "text": "He thought only about each step, and not the impossible task that lay before him.",
+      "word": "impossible"
+    },
+    {
+      "text": "He clutched his stomach as he let himself fall to the ground.",
+      "word": "clutched"
+    },
+    {
+      "text": "It was fairly easy to follow the trail he had made two days earlier.",
+      "word": "earlier"
+    }
+  ]
+}

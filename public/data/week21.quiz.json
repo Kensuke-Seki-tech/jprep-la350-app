@@ -1,0 +1,210 @@
+{
+  "weekId": "week21",
+  "match": [
+    {
+      "word": "forbidden",
+      "def": "not allowed; banned"
+    },
+    {
+      "word": "tease",
+      "def": "to make fun of someone"
+    },
+    {
+      "word": "innocent",
+      "def": "not guilty; did not do anything wrong"
+    },
+    {
+      "word": "vast",
+      "def": "a great amount; massive"
+    },
+    {
+      "word": "neglect",
+      "def": "to not properly care for or look after"
+    },
+    {
+      "word": "society",
+      "def": "a community of people who share similar values"
+    },
+    {
+      "word": "spit",
+      "def": "to expel saliva from one's mouth"
+    },
+    {
+      "word": "desperate",
+      "def": "feeling helpless or hopeless"
+    },
+    {
+      "word": "reluctantly",
+      "def": "with hesitation because one is unsure"
+    },
+    {
+      "word": "slope",
+      "def": "to be at an angle going up or down"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "forbidden",
+      "sentence": "Entering the old mine was strictly forbidden because the tunnels could collapse.",
+      "ja": "トンネルが崩れる恐れがあるため、その古い鉱山に入ることは固く禁じられていた。"
+    },
+    {
+      "answer": "tease",
+      "sentence": "His older brother liked to tease him about his messy hair every morning.",
+      "ja": "彼の兄は毎朝、彼のぼさぼさの髪のことをからかうのが好きだった。"
+    },
+    {
+      "answer": "innocent",
+      "sentence": "The judge decided the boy was innocent because no one had actually seen him take the money.",
+      "ja": "実際に彼がお金を取るのを見た者はいなかったので、裁判官はその少年は無実だと判断した。"
+    },
+    {
+      "answer": "vast",
+      "sentence": "From the top of the hill they looked out over a vast desert that seemed to have no end.",
+      "ja": "丘の頂上から、彼らは果てがないように見える広大な砂漠を見渡した。"
+    },
+    {
+      "answer": "neglect",
+      "sentence": "If you neglect the plants for even a week, the leaves will turn brown and drop off.",
+      "ja": "たった一週間でも植物の世話を怠れば、葉は茶色くなって落ちてしまう。"
+    }
+  ],
+  "bank": [
+    "forbidden",
+    "tease",
+    "innocent",
+    "vast",
+    "neglect",
+    "society",
+    "spit",
+    "desperate",
+    "reluctantly",
+    "slope"
+  ],
+  "mc": [
+    {
+      "q": "What does \"society\" mean?",
+      "opts": [
+        "a community of people who share similar values",
+        "not allowed; banned",
+        "to make fun of someone",
+        "not guilty; did not do anything wrong"
+      ],
+      "answer": 0,
+      "word": "society"
+    },
+    {
+      "q": "What does \"spit\" mean?",
+      "opts": [
+        "a great amount; massive",
+        "to expel saliva from one's mouth",
+        "to not properly care for or look after",
+        "a community of people who share similar values"
+      ],
+      "answer": 1,
+      "word": "spit"
+    },
+    {
+      "q": "What does \"desperate\" mean?",
+      "opts": [
+        "to expel saliva from one's mouth",
+        "with hesitation because one is unsure",
+        "feeling helpless or hopeless",
+        "to be at an angle going up or down"
+      ],
+      "answer": 2,
+      "word": "desperate"
+    },
+    {
+      "q": "What does \"reluctantly\" mean?",
+      "opts": [
+        "very hot",
+        "a small supply that is not enough",
+        "extremely embarrassing",
+        "with hesitation because one is unsure"
+      ],
+      "answer": 3,
+      "word": "reluctantly"
+    },
+    {
+      "q": "What does \"slope\" mean?",
+      "opts": [
+        "to be at an angle going up or down",
+        "an expression of dissatisfaction or unhappiness about something",
+        "the ability to keep doing something although it may be difficult",
+        "not allowed; banned"
+      ],
+      "answer": 0,
+      "word": "slope"
+    },
+    {
+      "q": "What does \"blazing\" mean?",
+      "opts": [
+        "to make fun of someone",
+        "very hot",
+        "not guilty; did not do anything wrong",
+        "a great amount; massive"
+      ],
+      "answer": 1,
+      "word": "blazing"
+    },
+    {
+      "q": "What does \"scarcity\" mean?",
+      "opts": [
+        "to not properly care for or look after",
+        "a community of people who share similar values",
+        "a small supply that is not enough",
+        "to expel saliva from one's mouth"
+      ],
+      "answer": 2,
+      "word": "scarcity"
+    },
+    {
+      "q": "What does \"humiliating\" mean?",
+      "opts": [
+        "feeling helpless or hopeless",
+        "with hesitation because one is unsure",
+        "to be at an angle going up or down",
+        "extremely embarrassing"
+      ],
+      "answer": 3,
+      "word": "humiliating"
+    },
+    {
+      "q": "What does \"complaint\" mean?",
+      "opts": [
+        "an expression of dissatisfaction or unhappiness about something",
+        "very hot",
+        "a small supply that is not enough",
+        "extremely embarrassing"
+      ],
+      "answer": 0,
+      "word": "complaint"
+    },
+    {
+      "q": "What does \"perseverance\" mean?",
+      "opts": [
+        "an expression of dissatisfaction or unhappiness about something",
+        "the ability to keep doing something although it may be difficult",
+        "not allowed; banned",
+        "to make fun of someone"
+      ],
+      "answer": 1,
+      "word": "perseverance"
+    }
+  ],
+  "dict": [
+    {
+      "text": "He was overweight and the kids at his middle school often teased him about his size.",
+      "word": "overweight"
+    },
+    {
+      "text": "The sun had only just come up over the horizon, but he already could feel its hot rays against his face.",
+      "word": "horizon"
+    },
+    {
+      "text": "He grimaced as he sliced off a chunk of dirt, then raised it up and flung it onto a pile.",
+      "word": "grimaced"
+    }
+  ]
+}

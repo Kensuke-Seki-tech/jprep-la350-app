@@ -1,0 +1,342 @@
+{
+  "weekId": "week22",
+  "weekNumber": 22,
+  "label": "Term C - Week 2",
+  "sentencesToRemember": [
+    {
+      "text": "Actually, it is kind of odd that scientists named the lizard after its yellow spots.",
+      "ja": "実のところ、科学者たちがそのトカゲを黄色い斑点にちなんで名づけたのは少し奇妙だ。"
+    },
+    {
+      "text": "It all seemed like one big hole and it would take a year and a half to dig it.",
+      "ja": "それはすべてがひとつの大きな穴のように見え、掘るには1年半かかりそうだった。"
+    },
+    {
+      "text": "It was late afternoon when he dragged himself back to the compound.",
+      "ja": "彼が体を引きずるようにして敷地へ戻ってきたのは、夕方近くだった。"
+    },
+    {
+      "text": "Stanley watched the cloud of dust move across the lake to the cabin beneath the trees.",
+      "ja": "スタンリーは、砂ぼこりの雲が湖を横切って木々の下の小屋へと動いていくのを見ていた。"
+    },
+    {
+      "text": "There was no roof over the shower building, and the walls were raised up six inches off the ground except in the corners",
+      "ja": "シャワー小屋には屋根がなく、壁は四隅を除いて地面から6インチ持ち上げられていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w22_001",
+      "english": "caveman",
+      "japanese": "洞窟に住む原始人",
+      "englishDef": "a prehistoric human who lived in a cave",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkeɪvmæn/",
+      "katakana": "KAYV-man",
+      "emoji": "🦴",
+      "exampleEn": "The museum showed how a caveman made tools out of sharp pieces of stone.",
+      "exampleJa": "その博物館は、原始人がとがった石のかけらから道具を作る様子を展示していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cave", "type": "root", "meaning": "洞窟（ラテン語 cavus「うつろな」）" },
+          { "part": "man", "type": "root", "meaning": "人間" }
+        ],
+        "imageDescription": "洞窟の入口で石を打ち欠いて道具を作っている原始人",
+        "relatedWords": ["cave", "cavity", "prehistoric"],
+        "memoryTip": "cave（洞窟）+ man（人）→ そのまま「洞窟の人」= 原始人"
+      }
+    },
+    {
+      "id": "w22_002",
+      "english": "radiate",
+      "japanese": "放射する、発する",
+      "englishDef": "to emit from something, usually light or heat",
+      "partOfSpeech": "v",
+      "ipa": "/ˈreɪdieɪt/",
+      "katakana": "RAY-dee-ayt",
+      "emoji": "🔥",
+      "exampleEn": "Even after sunset, the stones continued to radiate heat into the cool night air.",
+      "exampleJa": "日が沈んだあとも、その石は冷たい夜の空気の中へ熱を放ち続けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "radi", "type": "root", "meaning": "光線、車輪の輻（ラテン語 radius）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "日没後も熱を放ち続ける、赤みを帯びた岩",
+        "relatedWords": ["radiation", "radius", "radiant"],
+        "memoryTip": "radius（光線）→ 光線を出す → 放射する"
+      }
+    },
+    {
+      "id": "w22_003",
+      "english": "horizon",
+      "japanese": "地平線、水平線",
+      "englishDef": "the line in the distance where the sky and earth meet",
+      "partOfSpeech": "n",
+      "ipa": "/həˈraɪzən/",
+      "katakana": "hə-RY-zən",
+      "emoji": "🌅",
+      "exampleEn": "A single ship appeared on the horizon just as the sky began to turn orange.",
+      "exampleJa": "空がオレンジ色に変わり始めたちょうどそのとき、一隻の船が水平線に現れた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "horiz", "type": "root", "meaning": "境をつける（ギリシャ語 horizein「区切る」）" },
+          { "part": "on", "type": "suffix", "meaning": "〜するもの（名詞）" }
+        ],
+        "imageDescription": "オレンジ色の空と海が接する線の上に、小さく浮かぶ船",
+        "relatedWords": ["horizontal", "horizons", "skyline"],
+        "memoryTip": "horizein（区切る）→ 空と地を区切る線 → 地平線"
+      }
+    },
+    {
+      "id": "w22_004",
+      "english": "belong",
+      "japanese": "（〜の）所有物である、属する",
+      "englishDef": "to be owned by someone",
+      "partOfSpeech": "v",
+      "ipa": "/bɪˈlɔːŋ/",
+      "katakana": "bi-LAWNG",
+      "emoji": "🔑",
+      "exampleEn": "The keys on the table belong to my sister, so please do not move them.",
+      "exampleJa": "テーブルの上の鍵は姉のものなので、動かさないでください。",
+      "etymology": {
+        "morphemes": [
+          { "part": "be", "type": "prefix", "meaning": "完全に（強調）" },
+          { "part": "long", "type": "root", "meaning": "属する（中英語 langen「〜に沿う」）" }
+        ],
+        "imageDescription": "テーブルの上に置かれた、持ち主が決まっている一組の鍵",
+        "relatedWords": ["belongings", "belonging", "own"],
+        "memoryTip": "be（完全に）+ long（属する）→ 完全に誰かのもの → 所有物である"
+      }
+    },
+    {
+      "id": "w22_005",
+      "english": "appropriate",
+      "japanese": "適切な、ふさわしい",
+      "englishDef": "acceptable in a situation",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈproʊpriət/",
+      "katakana": "ə-PROH-pree-ət",
+      "emoji": "👔",
+      "exampleEn": "Wearing a T-shirt to the ceremony did not seem appropriate to the other guests.",
+      "exampleJa": "式典にTシャツを着ていくのは、ほかの招待客には適切に思えなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ap", "type": "prefix", "meaning": "〜へ（ad-）" },
+          { "part": "propri", "type": "root", "meaning": "自分自身の（ラテン語 proprius）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜な（形容詞）" }
+        ],
+        "imageDescription": "正装した客の中に一人だけTシャツ姿で立っている人",
+        "relatedWords": ["appropriately", "proper", "property"],
+        "memoryTip": "ap（〜へ）+ propri（自分のもの）→ その場にぴたりと合う → 適切な"
+      }
+    },
+    {
+      "id": "w22_006",
+      "english": "appear",
+      "japanese": "現れる、見えるようになる",
+      "englishDef": "to become visible or unhidden",
+      "partOfSpeech": "v",
+      "ipa": "/əˈpɪr/",
+      "katakana": "ə-PEER",
+      "emoji": "👀",
+      "exampleEn": "A pair of yellow eyes began to appear at the edge of the firelight.",
+      "exampleJa": "たき火の明かりの端に、一対の黄色い目が現れ始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ap", "type": "prefix", "meaning": "〜へ（ad-）" },
+          { "part": "pear", "type": "root", "meaning": "見える（ラテン語 parere）" }
+        ],
+        "imageDescription": "たき火の明かりが届く境目に浮かび上がる、黄色く光る二つの目",
+        "relatedWords": ["appearance", "apparent", "disappear"],
+        "memoryTip": "ap（〜へ）+ pear（見える）→ こちらに見えてくる → 現れる"
+      }
+    },
+    {
+      "id": "w22_007",
+      "english": "occasionally",
+      "japanese": "ときどき、たまに",
+      "englishDef": "with a moderate frequency",
+      "partOfSpeech": "adv",
+      "ipa": "/əˈkeɪʒənəli/",
+      "katakana": "ə-KAY-zhə-nə-lee",
+      "emoji": "🗓️",
+      "exampleEn": "He occasionally visits his grandparents, usually once or twice a month.",
+      "exampleJa": "彼はときどき祖父母を訪ねる。だいたい月に一、二回だ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "oc", "type": "prefix", "meaning": "〜に向かって（ob-）" },
+          { "part": "cas", "type": "root", "meaning": "落ちる（ラテン語 cadere）" },
+          { "part": "ionally", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "カレンダーに月に一、二回だけ丸がついている様子",
+        "relatedWords": ["occasion", "occasional", "sometimes"],
+        "memoryTip": "occasion（機会）→ 機会があるときだけ → ときどき"
+      }
+    },
+    {
+      "id": "w22_008",
+      "english": "excuse",
+      "japanese": "言い訳、口実",
+      "englishDef": "a reason that tries to validate a mistake one made",
+      "partOfSpeech": "n",
+      "ipa": "/ɪkˈskjuːs/",
+      "katakana": "ik-SKYOOS",
+      "emoji": "🤥",
+      "exampleEn": "He gave the same excuse for being late three days in a row.",
+      "exampleJa": "彼は三日続けて、遅刻の理由に同じ言い訳をした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ex", "type": "prefix", "meaning": "外へ" },
+          { "part": "cuse", "type": "root", "meaning": "訴え、罪（ラテン語 causa）" }
+        ],
+        "imageDescription": "教室の入口で、遅刻の理由を先生に説明している生徒",
+        "relatedWords": ["excuse (v)", "accuse", "cause"],
+        "memoryTip": "ex（外へ）+ cause（罪）→ 罪から自分を外に出す → 言い訳"
+      }
+    },
+    {
+      "id": "w22_009",
+      "english": "doubt",
+      "japanese": "疑う、信じない",
+      "englishDef": "to not believe something to be true",
+      "partOfSpeech": "v",
+      "ipa": "/daʊt/",
+      "katakana": "DOWT",
+      "emoji": "🤨",
+      "exampleEn": "I doubt that he finished the whole book in a single night.",
+      "exampleJa": "彼が一晩でその本を全部読み終えたなんて、私は疑わしいと思う。",
+      "etymology": {
+        "morphemes": [
+          { "part": "doub", "type": "root", "meaning": "二つ（ラテン語 dubitare < duo「2」）" },
+          { "part": "t", "type": "suffix", "meaning": "動詞をつくる" }
+        ],
+        "imageDescription": "話を聞きながら眉をひそめ、信じていない表情の人",
+        "relatedWords": ["doubtful", "undoubtedly", "dubious"],
+        "memoryTip": "duo（二つ）→ 心が二つに割れる → 疑う"
+      }
+    },
+    {
+      "id": "w22_010",
+      "english": "grumble",
+      "japanese": "ぶつぶつ不平を言う",
+      "englishDef": "to complain about something quietly",
+      "partOfSpeech": "v",
+      "ipa": "/ˈɡrʌmbəl/",
+      "katakana": "GRUM-bəl",
+      "emoji": "😒",
+      "exampleEn": "The workers began to grumble about the heat, but no one dared to stop digging.",
+      "exampleJa": "作業員たちは暑さについてぶつぶつ言い始めたが、誰も掘るのをやめようとはしなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "grumble", "type": "root", "meaning": "低くうなる（擬音語 grum「うなり声」から）" }
+        ],
+        "imageDescription": "汗をかきながら小声で文句を言い合う作業員たち",
+        "relatedWords": ["grumpy", "mumble", "complain"],
+        "memoryTip": "「グルグル」と低くうなる音 → 小声でぶつぶつ言う"
+      }
+    },
+    {
+      "id": "w22_011",
+      "english": "fossil",
+      "japanese": "化石",
+      "englishDef": "the remains of an animal that lived a long time ago",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfɑːsəl/",
+      "katakana": "FAH-səl",
+      "emoji": "🦕",
+      "exampleEn": "She found a fossil of a small fish pressed into a flat gray rock.",
+      "exampleJa": "彼女は平たい灰色の岩に押しつけられた小さな魚の化石を見つけた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "foss", "type": "root", "meaning": "掘る（ラテン語 fodere）" },
+          { "part": "il", "type": "suffix", "meaning": "〜されたもの（名詞）" }
+        ],
+        "imageDescription": "灰色の平たい岩の表面に浮かび上がった小さな魚の形",
+        "relatedWords": ["fossilize", "fossilized", "excavate"],
+        "memoryTip": "foss（掘る）→ 地面から掘り出されるもの → 化石"
+      }
+    },
+    {
+      "id": "w22_012",
+      "english": "vinyl",
+      "japanese": "ビニール（合成樹脂）",
+      "englishDef": "a synthetic plastic used to make things like records or accessories",
+      "partOfSpeech": "n",
+      "ipa": "/ˈvaɪnəl/",
+      "katakana": "VY-nəl",
+      "emoji": "💿",
+      "exampleEn": "His father still keeps a box of old vinyl records under the stairs.",
+      "exampleJa": "彼の父は今でも階段の下に古いレコードの箱をしまっている。",
+      "etymology": {
+        "morphemes": [
+          { "part": "vin", "type": "root", "meaning": "ぶどう酒、エチル（ラテン語 vinum）" },
+          { "part": "yl", "type": "suffix", "meaning": "化学物質を表す（名詞）" }
+        ],
+        "imageDescription": "階段下にしまわれた、古いレコード盤の入った箱",
+        "relatedWords": ["plastic", "record", "synthetic"],
+        "memoryTip": "日本語の「ビニール」と同じ語 → 合成樹脂"
+      }
+    },
+    {
+      "id": "w22_013",
+      "english": "blister",
+      "japanese": "水ぶくれができる",
+      "englishDef": "to develop a bubble on the skin, caused by burning or rubbing",
+      "partOfSpeech": "v",
+      "ipa": "/ˈblɪstər/",
+      "katakana": "BLIS-tər",
+      "emoji": "🩹",
+      "exampleEn": "His hands began to blister after only two hours of shoveling.",
+      "exampleJa": "たった二時間シャベルを使っただけで、彼の手には水ぶくれができ始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "blister", "type": "root", "meaning": "ふくらみ（古フランス語 blestre「はれもの」）" }
+        ],
+        "imageDescription": "シャベルを握り続けたせいで手のひらにできた水ぶくれ",
+        "relatedWords": ["blistering", "blistered", "bubble"],
+        "memoryTip": "「ブリスターパック」= ふくらんだ包装 → 皮膚のふくらみ → 水ぶくれ"
+      }
+    },
+    {
+      "id": "w22_014",
+      "english": "carve",
+      "japanese": "彫る、刻む",
+      "englishDef": "to cut into a hard material to make something",
+      "partOfSpeech": "v",
+      "ipa": "/kɑːrv/",
+      "katakana": "KAHRV",
+      "emoji": "🗿",
+      "exampleEn": "It took him three weeks to carve a small bird out of a block of wood.",
+      "exampleJa": "彼が木の塊から小さな鳥を彫り出すのに三週間かかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "carve", "type": "root", "meaning": "切る、刻む（古英語 ceorfan）" }
+        ],
+        "imageDescription": "木の塊を小刀で削り、鳥の形を彫り出している手元",
+        "relatedWords": ["carving", "carved", "engrave"],
+        "memoryTip": "肉を切り分ける「カーヴィング」と同じ語 → 硬いものを刻む → 彫る"
+      }
+    },
+    {
+      "id": "w22_015",
+      "english": "smug",
+      "japanese": "独りよがりの、得意げな",
+      "englishDef": "having too much pride in oneself",
+      "partOfSpeech": "adj",
+      "ipa": "/smʌɡ/",
+      "katakana": "SMUG",
+      "emoji": "😏",
+      "exampleEn": "He wore a smug smile after telling everyone he had guessed the answer first.",
+      "exampleJa": "自分が最初に答えを当てたとみんなに話したあと、彼は得意げな笑みを浮かべていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "smug", "type": "root", "meaning": "こぎれいな（低地ドイツ語 smuk「小ぎれいな」）→ 自分に満足した" }
+        ],
+        "imageDescription": "自分の答えが当たったことを自慢し、口の端を上げて笑う人",
+        "relatedWords": ["smugly", "smugness", "arrogant"],
+        "memoryTip": "「小ぎれいに整った自分」に満足しきっている → 独りよがりの"
+      }
+    }
+  ]
+}

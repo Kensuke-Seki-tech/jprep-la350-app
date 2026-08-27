@@ -1,0 +1,322 @@
+{
+  "weekId": "week27",
+  "weekNumber": 27,
+  "label": "Term C - Week 7",
+  "sentencesToRemember": [
+    {
+      "text": "He thought only about each step, and not the impossible task that lay before him.",
+      "ja": "彼は一歩一歩のことだけを考え、目の前に横たわる不可能な仕事のことは考えなかった。"
+    },
+    {
+      "text": "His hands and fingers were sore from digging, especially under his fingernails.",
+      "ja": "掘り続けたせいで彼の手と指は痛み、とくに爪の下がひどかった。"
+    },
+    {
+      "text": "He clutched his stomach as he let himself fall to the ground.",
+      "ja": "彼は腹を押さえながら、その場に崩れ落ちるように倒れた。"
+    },
+    {
+      "text": "What scared Stanley the most about dying wasn't his actual death.",
+      "ja": "死ぬことについてスタンリーが最も恐れていたのは、実際に死ぬことそのものではなかった。"
+    },
+    {
+      "text": "It was fairly easy to follow the trail he had made two days earlier.",
+      "ja": "二日前に彼がつけた跡をたどるのは、かなり簡単だった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w27_001",
+      "english": "tangy",
+      "japanese": "（酸味などが）強い味の、ぴりっとした",
+      "englishDef": "having a strong taste",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈtæŋi/",
+      "katakana": "TANG-ee",
+      "emoji": "🍋",
+      "exampleEn": "The sauce was so tangy that it made her eyes water.",
+      "exampleJa": "そのソースはあまりに味が強く、彼女の目に涙がにじんだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tang", "type": "root", "meaning": "刺すような味（古ノルド語 tangi「とがった先」）" },
+          { "part": "y", "type": "suffix", "meaning": "〜のような（形容詞）" }
+        ],
+        "imageDescription": "レモンの効いたソースを口にして目を細める人",
+        "relatedWords": ["tang", "tangier", "zesty"],
+        "memoryTip": "tang（とがった先）→ 舌を刺すような味 → ぴりっとした"
+      }
+    },
+    {
+      "id": "w27_002",
+      "english": "groan",
+      "japanese": "うめく、うなる",
+      "englishDef": "to make a deep sound made from the throat, usually out of pain or dissatisfaction",
+      "partOfSpeech": "v",
+      "ipa": "/ɡroʊn/",
+      "katakana": "GROHN",
+      "emoji": "😩",
+      "exampleEn": "The whole class began to groan when the teacher announced another test.",
+      "exampleJa": "先生がまた試験があると告げると、クラス全体がうめき声をあげ始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "groan", "type": "root", "meaning": "うめく（古英語 grānian）" }
+        ],
+        "imageDescription": "追加の試験を告げられ、一斉に机に突っ伏す生徒たち",
+        "relatedWords": ["groaning", "grumble", "moan"],
+        "memoryTip": "「グローン」と低く長く響く声 → うめく"
+      }
+    },
+    {
+      "id": "w27_003",
+      "english": "situated",
+      "japanese": "位置している、置かれた",
+      "englishDef": "located, set in a certain way",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsɪtʃueɪtɪd/",
+      "katakana": "SICH-oo-ay-tid",
+      "emoji": "📍",
+      "exampleEn": "The cabin was situated at the very top of the hill, far from the road.",
+      "exampleJa": "その小屋は道路から遠く離れた、丘のいちばん上に位置していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "situ", "type": "root", "meaning": "場所（ラテン語 situs）" },
+          { "part": "ated", "type": "suffix", "meaning": "〜された（形容詞）" }
+        ],
+        "imageDescription": "道路から遠く離れた丘の頂上に建つ一軒の小屋",
+        "relatedWords": ["situation", "site", "located"],
+        "memoryTip": "situs（場所）→ ある場所に置かれた → 位置している"
+      }
+    },
+    {
+      "id": "w27_004",
+      "english": "cliff",
+      "japanese": "崖、絶壁",
+      "englishDef": "the side of a tall and steep rock",
+      "partOfSpeech": "n",
+      "ipa": "/klɪf/",
+      "katakana": "KLIF",
+      "emoji": "🧗",
+      "exampleEn": "They stood at the edge of the cliff and looked down at the waves below.",
+      "exampleJa": "彼らは崖の縁に立ち、下の波を見下ろした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cliff", "type": "root", "meaning": "険しい岩壁（古英語 clif）" }
+        ],
+        "imageDescription": "海に面した崖の縁に立ち、下の波を見下ろす人たち",
+        "relatedWords": ["cliffs", "clifftop", "precipice"],
+        "memoryTip": "「クリフ」= 崖。cliffhanger（崖にぶら下がる場面）で覚える"
+      }
+    },
+    {
+      "id": "w27_005",
+      "english": "thumb",
+      "japanese": "親指",
+      "englishDef": "the short and large first finger on the human hand",
+      "partOfSpeech": "n",
+      "ipa": "/θʌm/",
+      "katakana": "THUM",
+      "emoji": "👍",
+      "exampleEn": "He hit his thumb with the hammer and dropped the nail.",
+      "exampleJa": "彼はハンマーで親指を打ってしまい、釘を落とした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "thumb", "type": "root", "meaning": "太い指（古英語 þūma < 印欧語根「膨らむ」）" }
+        ],
+        "imageDescription": "ハンマーで親指を打ってしまい、釘を取り落とす手",
+        "relatedWords": ["thumbnail", "thumbs", "finger"],
+        "memoryTip": "b は発音しない。「サム」= 太く膨らんだ指 → 親指"
+      }
+    },
+    {
+      "id": "w27_006",
+      "english": "upright",
+      "japanese": "背筋を伸ばした、直立した",
+      "englishDef": "sitting or standing with one's back straight",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈʌpraɪt/",
+      "katakana": "UP-ryt",
+      "emoji": "🧍",
+      "exampleEn": "She sat upright in the chair, waiting for her name to be called.",
+      "exampleJa": "彼女は名前が呼ばれるのを待ちながら、椅子に背筋を伸ばして座っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "up", "type": "prefix", "meaning": "上に" },
+          { "part": "right", "type": "root", "meaning": "まっすぐな（古英語 riht）" }
+        ],
+        "imageDescription": "待合室の椅子に背筋を伸ばして座っている人",
+        "relatedWords": ["uprightly", "erect", "straight"],
+        "memoryTip": "up（上に）+ right（まっすぐ）→ まっすぐ上に → 直立した"
+      }
+    },
+    {
+      "id": "w27_007",
+      "english": "absorb",
+      "japanese": "吸収する、取り込む",
+      "englishDef": "to take in, to draw in",
+      "partOfSpeech": "v",
+      "ipa": "/əbˈzɔːrb/",
+      "katakana": "əb-ZORB",
+      "emoji": "🧽",
+      "exampleEn": "A dry towel will absorb the water much faster than a wet one.",
+      "exampleJa": "乾いたタオルは、濡れたタオルよりずっと速く水を吸収する。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab", "type": "prefix", "meaning": "〜から離れて" },
+          { "part": "sorb", "type": "root", "meaning": "吸い込む（ラテン語 sorbere）" }
+        ],
+        "imageDescription": "こぼれた水を乾いたタオルが一気に吸い取る様子",
+        "relatedWords": ["absorption", "absorbent", "soak"],
+        "memoryTip": "ab（離れて）+ sorb（吸う）→ 吸い取って離す → 吸収する"
+      }
+    },
+    {
+      "id": "w27_008",
+      "english": "comprehend",
+      "japanese": "理解する",
+      "englishDef": "to understand",
+      "partOfSpeech": "v",
+      "ipa": "/ˌkɑːmprɪˈhend/",
+      "katakana": "kahm-pri-HEND",
+      "emoji": "💭",
+      "exampleEn": "It took him a moment to comprehend what the message actually meant.",
+      "exampleJa": "そのメッセージが実際に何を意味するのか、彼が理解するには少し時間がかかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "com", "type": "prefix", "meaning": "一緒に、すべて" },
+          { "part": "prehend", "type": "root", "meaning": "つかむ（ラテン語 prehendere）" }
+        ],
+        "imageDescription": "短いメッセージを読み返し、意味に気づく瞬間の表情",
+        "relatedWords": ["comprehension", "apprehend", "grasp"],
+        "memoryTip": "com（すべて）+ prehend（つかむ）→ 全体をつかむ → 理解する"
+      }
+    },
+    {
+      "id": "w27_009",
+      "english": "confession",
+      "japanese": "告白、自白",
+      "englishDef": "a statement admitting that one is guilty or at fault",
+      "partOfSpeech": "n",
+      "ipa": "/kənˈfeʃən/",
+      "katakana": "kən-FESH-ən",
+      "emoji": "🗣️",
+      "exampleEn": "His confession surprised everyone, since no one had suspected him.",
+      "exampleJa": "誰も彼を疑っていなかったので、その告白はみんなを驚かせた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con", "type": "prefix", "meaning": "完全に（強調）" },
+          { "part": "fess", "type": "root", "meaning": "認める、話す（ラテン語 fateri）" },
+          { "part": "ion", "type": "suffix", "meaning": "〜すること（名詞）" }
+        ],
+        "imageDescription": "誰にも疑われていなかった人が、自分から名乗り出る場面",
+        "relatedWords": ["confess", "profess", "admission"],
+        "memoryTip": "con（完全に）+ fess（認める）→ すべて認める → 告白"
+      }
+    },
+    {
+      "id": "w27_010",
+      "english": "protrude",
+      "japanese": "突き出る",
+      "englishDef": "to stick out of something",
+      "partOfSpeech": "v",
+      "ipa": "/proʊˈtruːd/",
+      "katakana": "proh-TROOD",
+      "emoji": "📌",
+      "exampleEn": "A single root began to protrude from the dry soil beside the path.",
+      "exampleJa": "小道のわきの乾いた土から、一本の根が突き出ていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pro", "type": "prefix", "meaning": "前へ" },
+          { "part": "trude", "type": "root", "meaning": "押す（ラテン語 trudere）" }
+        ],
+        "imageDescription": "小道のわきの乾いた土から前へ突き出ている木の根",
+        "relatedWords": ["protrusion", "intrude", "extrude"],
+        "memoryTip": "pro（前へ）+ trude（押す）→ 前へ押し出される → 突き出る"
+      }
+    },
+    {
+      "id": "w27_011",
+      "english": "increment",
+      "japanese": "増加分、（一定の）刻み",
+      "englishDef": "an increase, especially one that is fixed in size",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɪŋkrəmənt/",
+      "katakana": "ING-krə-mənt",
+      "emoji": "📊",
+      "exampleEn": "The volume rose in a small increment each time he pressed the button.",
+      "exampleJa": "彼がボタンを押すたびに、音量は少しずつ一定の幅で上がった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "中へ、上へ" },
+          { "part": "cre", "type": "root", "meaning": "育つ（ラテン語 crescere）" },
+          { "part": "ment", "type": "suffix", "meaning": "〜すること（名詞）" }
+        ],
+        "imageDescription": "ボタンを押すたびに一目盛りずつ上がる音量バー",
+        "relatedWords": ["increase", "incremental", "crescent"],
+        "memoryTip": "in（上へ）+ cre（育つ）→ 一定量ずつ育つ → 増加分"
+      }
+    },
+    {
+      "id": "w27_012",
+      "english": "twirl",
+      "japanese": "くるくる回る、回す",
+      "englishDef": "to spin around",
+      "partOfSpeech": "v",
+      "ipa": "/twɜːrl/",
+      "katakana": "TWURL",
+      "emoji": "🌀",
+      "exampleEn": "She liked to twirl the pencil between her fingers while thinking.",
+      "exampleJa": "彼女は考えごとをしながら、指の間で鉛筆をくるくる回すのが好きだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "twirl", "type": "root", "meaning": "回す（twist と whirl が混ざった語）" }
+        ],
+        "imageDescription": "考えごとをしながら指の間で鉛筆を回している手",
+        "relatedWords": ["twirling", "whirl", "twist"],
+        "memoryTip": "twist（ねじる）+ whirl（渦を巻く）→ くるくる回る"
+      }
+    },
+    {
+      "id": "w27_013",
+      "english": "altitude",
+      "japanese": "高度、標高",
+      "englishDef": "how high an object is relative to sea level or the ground",
+      "partOfSpeech": "n",
+      "ipa": "/ˈæltɪtuːd/",
+      "katakana": "AL-ti-tood",
+      "emoji": "✈️",
+      "exampleEn": "At this altitude the air becomes so thin that breathing feels difficult.",
+      "exampleJa": "この高度では空気が非常に薄くなり、呼吸が苦しく感じられる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "alt", "type": "root", "meaning": "高い（ラテン語 altus）" },
+          { "part": "itude", "type": "suffix", "meaning": "〜の状態（名詞）" }
+        ],
+        "imageDescription": "空気の薄い高所で息を切らしている登山者",
+        "relatedWords": ["altimeter", "alto", "elevation"],
+        "memoryTip": "alt（高い）+ itude（状態）→ 高さの状態 → 高度"
+      }
+    },
+    {
+      "id": "w27_014",
+      "english": "precipice",
+      "japanese": "断崖、絶壁",
+      "englishDef": "a very steep rock face or cliff.",
+      "partOfSpeech": "n",
+      "ipa": "/ˈpresəpɪs/",
+      "katakana": "PRES-ə-pis",
+      "emoji": "⛰️",
+      "exampleEn": "One wrong step near the precipice could send a climber falling.",
+      "exampleJa": "断崖のそばで一歩踏み外せば、登山者は転落しかねない。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pre", "type": "prefix", "meaning": "前へ" },
+          { "part": "cip", "type": "root", "meaning": "頭（ラテン語 caput）→ 真っ逆さま" },
+          { "part": "ice", "type": "suffix", "meaning": "名詞をつくる" }
+        ],
+        "imageDescription": "足元がまっすぐ切れ落ちた断崖のふちを歩く登山者",
+        "relatedWords": ["precipitate", "capital", "cliff"],
+        "memoryTip": "pre（前へ）+ cip（頭）→ 頭から真っ逆さまに落ちる場所 → 断崖"
+      }
+    }
+  ]
+}

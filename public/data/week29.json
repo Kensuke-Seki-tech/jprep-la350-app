@@ -1,0 +1,342 @@
+{
+  "weekId": "week29",
+  "weekNumber": 29,
+  "label": "Term C - Week 9",
+  "sentencesToRemember": [
+    {
+      "text": "Stanley noticed Zero's canteen lying on the ground near his hole.",
+      "ja": "スタンリーは、ゼロの水筒が彼の穴の近くの地面に転がっているのに気づいた。"
+    },
+    {
+      "text": "Not when an entire lake had gone dry.",
+      "ja": "湖がまるごと干上がってしまったのなら、なおさらだ。"
+    },
+    {
+      "text": "It was a mirage caused by the shimmering waves of heat rising off the dry ground.",
+      "ja": "それは乾いた地面から立ちのぼる、ゆらめく熱の波が引き起こした蜃気楼だった。"
+    },
+    {
+      "text": "As the sky darkened, bugs began appearing above the weed patches.",
+      "ja": "空が暗くなるにつれ、雑草の茂みの上に虫が現れ始めた。"
+    },
+    {
+      "text": "All their clothes were very dirty, but their socks were definitely the worst.",
+      "ja": "彼らの服はどれもひどく汚れていたが、靴下は間違いなく最悪だった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w29_001",
+      "english": "drift",
+      "japanese": "漂う、流される",
+      "englishDef": "to be moved slowly by wind or water",
+      "partOfSpeech": "v",
+      "ipa": "/drɪft/",
+      "katakana": "DRIFT",
+      "emoji": "🍃",
+      "exampleEn": "The small boat began to drift away from the shore while they slept.",
+      "exampleJa": "彼らが眠っている間に、その小さなボートは岸から漂い出し始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "drift", "type": "root", "meaning": "流される（古ノルド語 drift < drive「駆り立てる」）" }
+        ],
+        "imageDescription": "誰も乗っていないまま、岸から静かに離れていく小舟",
+        "relatedWords": ["drifting", "drive", "adrift"],
+        "memoryTip": "drive（押し流す）と同語源 → 風や水に押し流される → 漂う"
+      }
+    },
+    {
+      "id": "w29_002",
+      "english": "indistinct",
+      "japanese": "はっきりしない、不明瞭な",
+      "englishDef": "unable to see the details of",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌɪndɪˈstɪŋkt/",
+      "katakana": "in-di-STINGKT",
+      "emoji": "🌁",
+      "exampleEn": "In the fog the houses looked indistinct, like gray shapes without windows.",
+      "exampleJa": "霧の中では家々ははっきりせず、窓のない灰色の影のように見えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "〜でない（否定）" },
+          { "part": "distinct", "type": "root", "meaning": "はっきり区別された（ラテン語 distinguere）" }
+        ],
+        "imageDescription": "霧の中で灰色の影のようにしか見えない家並み",
+        "relatedWords": ["distinct", "distinguish", "vague"],
+        "memoryTip": "in（否定）+ distinct（はっきりした）→ はっきりしない"
+      }
+    },
+    {
+      "id": "w29_003",
+      "english": "cluster",
+      "japanese": "集まり、かたまり",
+      "englishDef": "a group of things that are close together",
+      "partOfSpeech": "n",
+      "ipa": "/ˈklʌstər/",
+      "katakana": "KLUS-tər",
+      "emoji": "🍇",
+      "exampleEn": "A cluster of small houses stood at the bottom of the valley.",
+      "exampleJa": "谷の底に、小さな家々のかたまりが立っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cluster", "type": "root", "meaning": "かたまり（古英語 clyster「房」）" }
+        ],
+        "imageDescription": "谷底に寄り集まって建つ小さな家々",
+        "relatedWords": ["clustered", "clot", "group"],
+        "memoryTip": "ぶどうの「房」のように寄り集まったもの → 集まり"
+      }
+    },
+    {
+      "id": "w29_004",
+      "english": "courage",
+      "japanese": "勇気",
+      "englishDef": "the ability to do something that one is scared of",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkɜːrɪdʒ/",
+      "katakana": "KUR-ij",
+      "emoji": "🦁",
+      "exampleEn": "It took real courage for him to speak in front of the whole school.",
+      "exampleJa": "全校生徒の前で話すには、彼には本物の勇気が必要だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cour", "type": "root", "meaning": "心臓（ラテン語 cor）" },
+          { "part": "age", "type": "suffix", "meaning": "〜であること（名詞）" }
+        ],
+        "imageDescription": "全校生徒の前で、震えながらもマイクの前に立つ生徒",
+        "relatedWords": ["courageous", "encourage", "cordial"],
+        "memoryTip": "cor（心臓）+ age → 心臓の強さ → 勇気"
+      }
+    },
+    {
+      "id": "w29_005",
+      "english": "stumble",
+      "japanese": "つまずく",
+      "englishDef": "to trip and almost fall",
+      "partOfSpeech": "v",
+      "ipa": "/ˈstʌmbəl/",
+      "katakana": "STUM-bəl",
+      "emoji": "🪨",
+      "exampleEn": "He began to stumble over the loose stones in the dark path.",
+      "exampleJa": "彼は暗い小道のゆるんだ石につまずき始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stumble", "type": "root", "meaning": "よろめく（古ノルド語 stumra）" }
+        ],
+        "imageDescription": "暗い道でゆるんだ石に足を取られてよろめく人",
+        "relatedWords": ["stumbling", "tumble", "trip"],
+        "memoryTip": "tumble（転ぶ）に似た形 → 転びかける → つまずく"
+      }
+    },
+    {
+      "id": "w29_006",
+      "english": "certain",
+      "japanese": "確かな、確信している",
+      "englishDef": "sure, definite",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsɜːrtən/",
+      "katakana": "SUR-tən",
+      "emoji": "✅",
+      "exampleEn": "She was certain that she had locked the door before leaving.",
+      "exampleJa": "彼女は出かける前に鍵をかけたと確信していた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "cert", "type": "root", "meaning": "決まった、ふるい分けた（ラテン語 cernere）" },
+          { "part": "ain", "type": "suffix", "meaning": "〜な（形容詞）" }
+        ],
+        "imageDescription": "出かける前に鍵をかけた場面を思い出し、うなずく人",
+        "relatedWords": ["certainly", "certainty", "certificate"],
+        "memoryTip": "certificate（証明書）と同じ cert → 確かな"
+      }
+    },
+    {
+      "id": "w29_007",
+      "english": "stoop",
+      "japanese": "前かがみになる",
+      "englishDef": "to bend forward and downward",
+      "partOfSpeech": "v",
+      "ipa": "/stuːp/",
+      "katakana": "STOOP",
+      "emoji": "🙇",
+      "exampleEn": "He had to stoop to pass through the low doorway of the hut.",
+      "exampleJa": "彼は小屋の低い戸口を通るために、前かがみにならなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stoop", "type": "root", "meaning": "かがむ（古英語 stūpian）" }
+        ],
+        "imageDescription": "頭をぶつけないよう、低い戸口で身をかがめる人",
+        "relatedWords": ["stooping", "stooped", "bend"],
+        "memoryTip": "steep（急な）に似た形 → 体を急な角度に曲げる → 前かがみになる"
+      }
+    },
+    {
+      "id": "w29_008",
+      "english": "firmly",
+      "japanese": "しっかりと、固く",
+      "englishDef": "without being able to move, securely",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈfɜːrmli/",
+      "katakana": "FURM-lee",
+      "emoji": "🔩",
+      "exampleEn": "The post was set firmly in concrete so the wind could not move it.",
+      "exampleJa": "風で動かないよう、その柱はコンクリートにしっかりと固定されていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "firm", "type": "root", "meaning": "固い（ラテン語 firmus）" },
+          { "part": "ly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "コンクリートで根元を固められ、びくともしない柱",
+        "relatedWords": ["firm", "confirm", "securely"],
+        "memoryTip": "firm（固い）+ ly → 固く → しっかりと"
+      }
+    },
+    {
+      "id": "w29_009",
+      "english": "commotion",
+      "japanese": "騒ぎ、動揺",
+      "englishDef": "disorderly conversation among people",
+      "partOfSpeech": "n",
+      "ipa": "/kəˈmoʊʃən/",
+      "katakana": "kə-MOH-shən",
+      "emoji": "🗣️",
+      "exampleEn": "A sudden commotion broke out in the hallway during the test.",
+      "exampleJa": "試験の最中、廊下で突然の騒ぎが起こった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "com", "type": "prefix", "meaning": "一緒に" },
+          { "part": "mot", "type": "root", "meaning": "動く（ラテン語 movere）" },
+          { "part": "ion", "type": "suffix", "meaning": "〜すること（名詞）" }
+        ],
+        "imageDescription": "試験中の静かな教室の外、廊下で人が騒いでいる様子",
+        "relatedWords": ["motion", "emotion", "uproar"],
+        "memoryTip": "com（一緒に）+ mot（動く）→ みんなが一斉に動く → 騒ぎ"
+      }
+    },
+    {
+      "id": "w29_010",
+      "english": "suppress",
+      "japanese": "抑える、押しとどめる",
+      "englishDef": "to force something not to come out",
+      "partOfSpeech": "v",
+      "ipa": "/səˈpres/",
+      "katakana": "sə-PRES",
+      "emoji": "🤐",
+      "exampleEn": "She tried to suppress a laugh during the serious meeting.",
+      "exampleJa": "彼女は真剣な会議の最中、笑いを抑えようとした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sup", "type": "prefix", "meaning": "下に（sub-）" },
+          { "part": "press", "type": "root", "meaning": "押す（ラテン語 premere）" }
+        ],
+        "imageDescription": "真剣な会議中、口を押さえて笑いをこらえる人",
+        "relatedWords": ["suppression", "press", "repress"],
+        "memoryTip": "sup（下に）+ press（押す）→ 下へ押さえ込む → 抑える"
+      }
+    },
+    {
+      "id": "w29_011",
+      "english": "consider",
+      "japanese": "よく考える、検討する",
+      "englishDef": "to think about something before deciding",
+      "partOfSpeech": "v",
+      "ipa": "/kənˈsɪdər/",
+      "katakana": "kən-SID-ər",
+      "emoji": "🤔",
+      "exampleEn": "You should consider all the risks before you agree to go.",
+      "exampleJa": "行くことに同意する前に、あらゆる危険をよく考えるべきだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con", "type": "prefix", "meaning": "共に、よく" },
+          { "part": "sider", "type": "root", "meaning": "星（ラテン語 sidus）→ よく観察する" }
+        ],
+        "imageDescription": "地図を広げ、危険をひとつずつ確かめてから決めようとする人",
+        "relatedWords": ["consideration", "considerably", "desire"],
+        "memoryTip": "もとは「星をよく見る」→ じっくり観察する → よく考える"
+      }
+    },
+    {
+      "id": "w29_012",
+      "english": "soggy",
+      "japanese": "びしょびしょの、水を含んだ",
+      "englishDef": "wet and soft",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈsɑːɡi/",
+      "katakana": "SAH-gee",
+      "emoji": "🥣",
+      "exampleEn": "His shoes were still soggy from walking through the rain.",
+      "exampleJa": "雨の中を歩いたせいで、彼の靴はまだびしょびしょだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sog", "type": "root", "meaning": "湿地、ぬかるみ（方言 sog「沼地」）" },
+          { "part": "gy", "type": "suffix", "meaning": "〜のような（形容詞）" }
+        ],
+        "imageDescription": "雨の中を歩いたあと、水を含んで重くなった靴",
+        "relatedWords": ["sog", "soggier", "soaked"],
+        "memoryTip": "sog（ぬかるみ）+ gy → ぬかるみのような → びしょびしょの"
+      }
+    },
+    {
+      "id": "w29_013",
+      "english": "violently",
+      "japanese": "激しく、荒々しく",
+      "englishDef": "in a very strong and vigorous way",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈvaɪələntli/",
+      "katakana": "VY-ə-lənt-lee",
+      "emoji": "🌪️",
+      "exampleEn": "The wind shook the windows violently throughout the night.",
+      "exampleJa": "風は一晩じゅう窓を激しく揺さぶった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "viol", "type": "root", "meaning": "力（ラテン語 vis「力」）" },
+          { "part": "ently", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "夜通し強風にがたがたと揺さぶられる窓",
+        "relatedWords": ["violent", "violence", "vigor"],
+        "memoryTip": "vis（力）→ 力ずくで → 激しく"
+      }
+    },
+    {
+      "id": "w29_014",
+      "english": "murky",
+      "japanese": "濁った、暗く不透明な",
+      "englishDef": "dark and dirty; not clear",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈmɜːrki/",
+      "katakana": "MUR-kee",
+      "emoji": "🌊",
+      "exampleEn": "They could not see the bottom of the murky pond at all.",
+      "exampleJa": "彼らには濁った池の底がまったく見えなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "murk", "type": "root", "meaning": "暗闇（古ノルド語 myrkr）" },
+          { "part": "y", "type": "suffix", "meaning": "〜のような（形容詞）" }
+        ],
+        "imageDescription": "底がまったく見えない、茶色く濁った池の水面",
+        "relatedWords": ["murk", "murkiness", "cloudy"],
+        "memoryTip": "murk（暗闇）+ y → 暗くて見通せない → 濁った"
+      }
+    },
+    {
+      "id": "w29_015",
+      "english": "indentation",
+      "japanese": "くぼみ、へこみ",
+      "englishDef": "a dip in the surface of something",
+      "partOfSpeech": "n",
+      "ipa": "/ˌɪndenˈteɪʃən/",
+      "katakana": "in-den-TAY-shən",
+      "emoji": "🕳️",
+      "exampleEn": "The heavy box left a deep indentation in the soft carpet.",
+      "exampleJa": "その重い箱は、柔らかいカーペットに深いくぼみを残した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "中へ" },
+          { "part": "dent", "type": "root", "meaning": "歯（ラテン語 dens）→ 歯形をつける" },
+          { "part": "ation", "type": "suffix", "meaning": "〜すること（名詞）" }
+        ],
+        "imageDescription": "重い箱をどけたあと、カーペットに残った四角いくぼみ",
+        "relatedWords": ["indent", "dentist", "dent"],
+        "memoryTip": "dent（歯）→ 歯を押しつけたようなへこみ → くぼみ"
+      }
+    }
+  ]
+}

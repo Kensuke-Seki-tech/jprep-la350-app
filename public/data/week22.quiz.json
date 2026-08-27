@@ -1,0 +1,210 @@
+{
+  "weekId": "week22",
+  "match": [
+    {
+      "word": "caveman",
+      "def": "a prehistoric human who lived in a cave"
+    },
+    {
+      "word": "radiate",
+      "def": "to emit from something, usually light or heat"
+    },
+    {
+      "word": "horizon",
+      "def": "the line in the distance where the sky and earth meet"
+    },
+    {
+      "word": "belong",
+      "def": "to be owned by someone"
+    },
+    {
+      "word": "appropriate",
+      "def": "acceptable in a situation"
+    },
+    {
+      "word": "appear",
+      "def": "to become visible or unhidden"
+    },
+    {
+      "word": "occasionally",
+      "def": "with a moderate frequency"
+    },
+    {
+      "word": "excuse",
+      "def": "a reason that tries to validate a mistake one made"
+    },
+    {
+      "word": "doubt",
+      "def": "to not believe something to be true"
+    },
+    {
+      "word": "grumble",
+      "def": "to complain about something quietly"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "caveman",
+      "sentence": "The museum showed how a caveman made tools out of sharp pieces of stone.",
+      "ja": "その博物館は、原始人がとがった石のかけらから道具を作る様子を展示していた。"
+    },
+    {
+      "answer": "radiate",
+      "sentence": "Even after sunset, the stones continued to radiate heat into the cool night air.",
+      "ja": "日が沈んだあとも、その石は冷たい夜の空気の中へ熱を放ち続けた。"
+    },
+    {
+      "answer": "horizon",
+      "sentence": "A single ship appeared on the horizon just as the sky began to turn orange.",
+      "ja": "空がオレンジ色に変わり始めたちょうどそのとき、一隻の船が水平線に現れた。"
+    },
+    {
+      "answer": "belong",
+      "sentence": "The keys on the table belong to my sister, so please do not move them.",
+      "ja": "テーブルの上の鍵は姉のものなので、動かさないでください。"
+    },
+    {
+      "answer": "appropriate",
+      "sentence": "Wearing a T-shirt to the ceremony did not seem appropriate to the other guests.",
+      "ja": "式典にTシャツを着ていくのは、ほかの招待客には適切に思えなかった。"
+    }
+  ],
+  "bank": [
+    "caveman",
+    "radiate",
+    "horizon",
+    "belong",
+    "appropriate",
+    "appear",
+    "occasionally",
+    "excuse",
+    "doubt",
+    "grumble"
+  ],
+  "mc": [
+    {
+      "q": "What does \"appear\" mean?",
+      "opts": [
+        "to become visible or unhidden",
+        "a prehistoric human who lived in a cave",
+        "to emit from something, usually light or heat",
+        "the line in the distance where the sky and earth meet"
+      ],
+      "answer": 0,
+      "word": "appear"
+    },
+    {
+      "q": "What does \"occasionally\" mean?",
+      "opts": [
+        "to be owned by someone",
+        "with a moderate frequency",
+        "acceptable in a situation",
+        "to become visible or unhidden"
+      ],
+      "answer": 1,
+      "word": "occasionally"
+    },
+    {
+      "q": "What does \"excuse\" mean?",
+      "opts": [
+        "with a moderate frequency",
+        "to not believe something to be true",
+        "a reason that tries to validate a mistake one made",
+        "to complain about something quietly"
+      ],
+      "answer": 2,
+      "word": "excuse"
+    },
+    {
+      "q": "What does \"doubt\" mean?",
+      "opts": [
+        "the remains of an animal that lived a long time ago",
+        "a synthetic plastic used to make things like records or accessories",
+        "to develop a bubble on the skin, caused by burning or rubbing",
+        "to not believe something to be true"
+      ],
+      "answer": 3,
+      "word": "doubt"
+    },
+    {
+      "q": "What does \"grumble\" mean?",
+      "opts": [
+        "to complain about something quietly",
+        "to cut into a hard material to make something",
+        "having too much pride in oneself",
+        "a prehistoric human who lived in a cave"
+      ],
+      "answer": 0,
+      "word": "grumble"
+    },
+    {
+      "q": "What does \"fossil\" mean?",
+      "opts": [
+        "to emit from something, usually light or heat",
+        "the remains of an animal that lived a long time ago",
+        "the line in the distance where the sky and earth meet",
+        "to be owned by someone"
+      ],
+      "answer": 1,
+      "word": "fossil"
+    },
+    {
+      "q": "What does \"vinyl\" mean?",
+      "opts": [
+        "acceptable in a situation",
+        "to become visible or unhidden",
+        "a synthetic plastic used to make things like records or accessories",
+        "with a moderate frequency"
+      ],
+      "answer": 2,
+      "word": "vinyl"
+    },
+    {
+      "q": "What does \"blister\" mean?",
+      "opts": [
+        "a reason that tries to validate a mistake one made",
+        "to not believe something to be true",
+        "to complain about something quietly",
+        "to develop a bubble on the skin, caused by burning or rubbing"
+      ],
+      "answer": 3,
+      "word": "blister"
+    },
+    {
+      "q": "What does \"carve\" mean?",
+      "opts": [
+        "to cut into a hard material to make something",
+        "the remains of an animal that lived a long time ago",
+        "a synthetic plastic used to make things like records or accessories",
+        "to develop a bubble on the skin, caused by burning or rubbing"
+      ],
+      "answer": 0,
+      "word": "carve"
+    },
+    {
+      "q": "What does \"smug\" mean?",
+      "opts": [
+        "to cut into a hard material to make something",
+        "having too much pride in oneself",
+        "a prehistoric human who lived in a cave",
+        "to emit from something, usually light or heat"
+      ],
+      "answer": 1,
+      "word": "smug"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Actually, it is kind of odd that scientists named the lizard after its yellow spots.",
+      "word": "scientists"
+    },
+    {
+      "text": "It was late afternoon when he dragged himself back to the compound.",
+      "word": "afternoon"
+    },
+    {
+      "text": "There was no roof over the shower building, and the walls were raised up six inches off the ground except in the corners",
+      "word": "building"
+    }
+  ]
+}

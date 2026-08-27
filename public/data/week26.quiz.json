@@ -1,0 +1,210 @@
+{
+  "weekId": "week26",
+  "match": [
+    {
+      "word": "adjust",
+      "def": "to change to fit an environment or situation"
+    },
+    {
+      "word": "awkward",
+      "def": "uncomfortable, not natural"
+    },
+    {
+      "word": "strangle",
+      "def": "to squeeze someone's neck to cut off their breath"
+    },
+    {
+      "word": "logical",
+      "def": "making sense, reasonable"
+    },
+    {
+      "word": "unconscious",
+      "def": "not being awake"
+    },
+    {
+      "word": "investigation",
+      "def": "a careful examination of something"
+    },
+    {
+      "word": "remaining",
+      "def": "still existing or surviving after a situation"
+    },
+    {
+      "word": "eventually",
+      "def": "in the end, after a long time"
+    },
+    {
+      "word": "vacancy",
+      "def": "an empty space, a position not filled"
+    },
+    {
+      "word": "barren",
+      "def": "cannot support life"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "adjust",
+      "sentence": "It took his eyes a full minute to adjust to the darkness of the cave.",
+      "ja": "彼の目が洞窟の暗さに順応するまで、まるまる一分かかった。"
+    },
+    {
+      "answer": "awkward",
+      "sentence": "There was an awkward silence after he asked the wrong question.",
+      "ja": "彼が的外れな質問をしたあと、気まずい沈黙が流れた。"
+    },
+    {
+      "answer": "strangle",
+      "sentence": "The tight collar felt as if it were trying to strangle him.",
+      "ja": "きつい襟は、まるで彼の首を絞めようとしているかのように感じられた。"
+    },
+    {
+      "answer": "logical",
+      "sentence": "Checking the batteries first was the most logical way to fix the flashlight.",
+      "ja": "まず電池を確認するのが、その懐中電灯を直す最も論理的な方法だった。"
+    },
+    {
+      "answer": "unconscious",
+      "sentence": "The player lay unconscious on the field until the doctors arrived.",
+      "ja": "その選手は医師が到着するまで、意識のないままフィールドに横たわっていた。"
+    }
+  ],
+  "bank": [
+    "adjust",
+    "awkward",
+    "strangle",
+    "logical",
+    "unconscious",
+    "investigation",
+    "remaining",
+    "eventually",
+    "vacancy",
+    "barren"
+  ],
+  "mc": [
+    {
+      "q": "What does \"investigation\" mean?",
+      "opts": [
+        "a careful examination of something",
+        "to change to fit an environment or situation",
+        "uncomfortable, not natural",
+        "to squeeze someone's neck to cut off their breath"
+      ],
+      "answer": 0,
+      "word": "investigation"
+    },
+    {
+      "q": "What does \"remaining\" mean?",
+      "opts": [
+        "making sense, reasonable",
+        "still existing or surviving after a situation",
+        "not being awake",
+        "a careful examination of something"
+      ],
+      "answer": 1,
+      "word": "remaining"
+    },
+    {
+      "q": "What does \"eventually\" mean?",
+      "opts": [
+        "still existing or surviving after a situation",
+        "an empty space, a position not filled",
+        "in the end, after a long time",
+        "cannot support life"
+      ],
+      "answer": 2,
+      "word": "eventually"
+    },
+    {
+      "q": "What does \"vacancy\" mean?",
+      "opts": [
+        "to have a short and sudden movement",
+        "a place that provides safety and shelter",
+        "with little to no strength or effort",
+        "an empty space, a position not filled"
+      ],
+      "answer": 3,
+      "word": "vacancy"
+    },
+    {
+      "q": "What does \"barren\" mean?",
+      "opts": [
+        "cannot support life",
+        "to put a weapon into its holder",
+        "a long, narrow opening",
+        "to change to fit an environment or situation"
+      ],
+      "answer": 0,
+      "word": "barren"
+    },
+    {
+      "q": "What does \"twitch\" mean?",
+      "opts": [
+        "uncomfortable, not natural",
+        "to have a short and sudden movement",
+        "to squeeze someone's neck to cut off their breath",
+        "making sense, reasonable"
+      ],
+      "answer": 1,
+      "word": "twitch"
+    },
+    {
+      "q": "What does \"refuge\" mean?",
+      "opts": [
+        "not being awake",
+        "a careful examination of something",
+        "a place that provides safety and shelter",
+        "still existing or surviving after a situation"
+      ],
+      "answer": 2,
+      "word": "refuge"
+    },
+    {
+      "q": "What does \"feeble\" mean?",
+      "opts": [
+        "in the end, after a long time",
+        "an empty space, a position not filled",
+        "cannot support life",
+        "with little to no strength or effort"
+      ],
+      "answer": 3,
+      "word": "feeble"
+    },
+    {
+      "q": "What does \"holster\" mean?",
+      "opts": [
+        "to put a weapon into its holder",
+        "to have a short and sudden movement",
+        "a place that provides safety and shelter",
+        "with little to no strength or effort"
+      ],
+      "answer": 0,
+      "word": "holster"
+    },
+    {
+      "q": "What does \"slit\" mean?",
+      "opts": [
+        "to put a weapon into its holder",
+        "a long, narrow opening",
+        "to change to fit an environment or situation",
+        "uncomfortable, not natural"
+      ],
+      "answer": 1,
+      "word": "slit"
+    }
+  ],
+  "dict": [
+    {
+      "text": "His body had adjusted somewhat to the heat and harsh conditions.",
+      "word": "conditions"
+    },
+    {
+      "text": "\"Teach the bully a lesson,\" said Mr. Pendanski.",
+      "word": "bully"
+    },
+    {
+      "text": "It struck him as funny to see a boat in the middle of this dry and barren wasteland.",
+      "word": "barren"
+    }
+  ]
+}

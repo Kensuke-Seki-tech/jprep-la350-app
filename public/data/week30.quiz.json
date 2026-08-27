@@ -1,0 +1,210 @@
+{
+  "weekId": "week30",
+  "match": [
+    {
+      "word": "spring",
+      "def": "to jump or bounce quickly"
+    },
+    {
+      "word": "neutralize",
+      "def": "to get rid of something by applying an opposite force or effect"
+    },
+    {
+      "word": "mid-air",
+      "def": "an area above the ground"
+    },
+    {
+      "word": "grimly",
+      "def": "in a hopeless way"
+    },
+    {
+      "word": "initiate",
+      "def": "to cause something to begin"
+    },
+    {
+      "word": "etch",
+      "def": "to carve words or a design into something"
+    },
+    {
+      "word": "severely",
+      "def": "to a great or large degree"
+    },
+    {
+      "word": "abuse",
+      "def": "cruel treatment toward someone or something"
+    },
+    {
+      "word": "authenticate",
+      "def": "to prove to be true or valid"
+    },
+    {
+      "word": "rant",
+      "def": "to talk or yell for a long time angrily"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "spring",
+      "sentence": "The cat would spring onto the shelf whenever the door opened.",
+      "ja": "その猫はドアが開くたびに棚の上へ跳び上がった。"
+    },
+    {
+      "answer": "neutralize",
+      "sentence": "Baking soda can neutralize the acid if you spill it on the table.",
+      "ja": "テーブルに酸をこぼしてしまっても、重曹がそれを中和してくれる。"
+    },
+    {
+      "answer": "mid-air",
+      "sentence": "He caught the ball in mid-air just before it hit the ground.",
+      "ja": "彼はボールが地面に落ちる直前、空中でそれをつかんだ。"
+    },
+    {
+      "answer": "grimly",
+      "sentence": "He grimly counted the last few coins in his pocket.",
+      "ja": "彼は険しい表情で、ポケットに残った最後の数枚の硬貨を数えた。"
+    },
+    {
+      "answer": "initiate",
+      "sentence": "The school decided to initiate a new program for younger students.",
+      "ja": "その学校は、下級生向けの新しいプログラムを開始することにした。"
+    }
+  ],
+  "bank": [
+    "spring",
+    "neutralize",
+    "mid-air",
+    "grimly",
+    "initiate",
+    "etch",
+    "severely",
+    "abuse",
+    "authenticate",
+    "rant"
+  ],
+  "mc": [
+    {
+      "q": "What does \"etch\" mean?",
+      "opts": [
+        "to carve words or a design into something",
+        "to jump or bounce quickly",
+        "to get rid of something by applying an opposite force or effect",
+        "an area above the ground"
+      ],
+      "answer": 0,
+      "word": "etch"
+    },
+    {
+      "q": "What does \"severely\" mean?",
+      "opts": [
+        "in a hopeless way",
+        "to a great or large degree",
+        "to cause something to begin",
+        "to carve words or a design into something"
+      ],
+      "answer": 1,
+      "word": "severely"
+    },
+    {
+      "q": "What does \"abuse\" mean?",
+      "opts": [
+        "to a great or large degree",
+        "to prove to be true or valid",
+        "cruel treatment toward someone or something",
+        "to talk or yell for a long time angrily"
+      ],
+      "answer": 2,
+      "word": "abuse"
+    },
+    {
+      "q": "What does \"authenticate\" mean?",
+      "opts": [
+        "to look at something for a long time",
+        "having the sensation of spinning and losing one's balance",
+        "not able to be bent out of shape",
+        "to prove to be true or valid"
+      ],
+      "answer": 3,
+      "word": "authenticate"
+    },
+    {
+      "q": "What does \"rant\" mean?",
+      "opts": [
+        "to talk or yell for a long time angrily",
+        "a smell, usually a bad one",
+        "too long, slow, or dull",
+        "to jump or bounce quickly"
+      ],
+      "answer": 0,
+      "word": "rant"
+    },
+    {
+      "q": "What does \"stare\" mean?",
+      "opts": [
+        "to get rid of something by applying an opposite force or effect",
+        "to look at something for a long time",
+        "an area above the ground",
+        "in a hopeless way"
+      ],
+      "answer": 1,
+      "word": "stare"
+    },
+    {
+      "q": "What does \"dizzy\" mean?",
+      "opts": [
+        "to cause something to begin",
+        "to carve words or a design into something",
+        "having the sensation of spinning and losing one's balance",
+        "to a great or large degree"
+      ],
+      "answer": 2,
+      "word": "dizzy"
+    },
+    {
+      "q": "What does \"rigid\" mean?",
+      "opts": [
+        "cruel treatment toward someone or something",
+        "to prove to be true or valid",
+        "to talk or yell for a long time angrily",
+        "not able to be bent out of shape"
+      ],
+      "answer": 3,
+      "word": "rigid"
+    },
+    {
+      "q": "What does \"odor\" mean?",
+      "opts": [
+        "a smell, usually a bad one",
+        "to look at something for a long time",
+        "having the sensation of spinning and losing one's balance",
+        "not able to be bent out of shape"
+      ],
+      "answer": 0,
+      "word": "odor"
+    },
+    {
+      "q": "What does \"tedious\" mean?",
+      "opts": [
+        "a smell, usually a bad one",
+        "too long, slow, or dull",
+        "to jump or bounce quickly",
+        "to get rid of something by applying an opposite force or effect"
+      ],
+      "answer": 1,
+      "word": "tedious"
+    }
+  ],
+  "dict": [
+    {
+      "text": "His legs were sore from remaining rigid for so long.",
+      "word": "rigid"
+    },
+    {
+      "text": "They didn't come to the area until after the lake dried up.",
+      "word": "dried"
+    },
+    {
+      "text": "Stanley raised and lowered his left shoulder.",
+      "word": "shoulder"
+    }
+  ]
+}

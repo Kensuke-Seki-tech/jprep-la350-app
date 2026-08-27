@@ -1,0 +1,340 @@
+{
+  "weekId": "week30",
+  "weekNumber": 30,
+  "label": "Term C - Week 10",
+  "sentencesToRemember": [
+    {
+      "text": "His legs were sore from remaining rigid for so long.",
+      "ja": "長いあいだ体を硬直させたままでいたので、彼の脚は痛んでいた。"
+    },
+    {
+      "text": "One was a tall man in a business suit and cowboy hat.",
+      "ja": "一人はビジネススーツにカウボーイハットをかぶった背の高い男だった。"
+    },
+    {
+      "text": "They didn't come to the area until after the lake dried up.",
+      "ja": "彼らがその地域に来たのは、湖が干上がったあとになってからだった。"
+    },
+    {
+      "text": "He happened to mention your situation, so I did a little investigating.",
+      "ja": "彼がたまたまあなたの状況を口にしたので、私は少し調べてみたのです。"
+    },
+    {
+      "text": "Stanley raised and lowered his left shoulder.",
+      "ja": "スタンリーは左肩を上げ下げした。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w30_001",
+      "english": "spring",
+      "japanese": "跳ねる、跳び上がる",
+      "englishDef": "to jump or bounce quickly",
+      "partOfSpeech": "v",
+      "ipa": "/sprɪŋ/",
+      "katakana": "SPRING",
+      "emoji": "🦘",
+      "exampleEn": "The cat would spring onto the shelf whenever the door opened.",
+      "exampleJa": "その猫はドアが開くたびに棚の上へ跳び上がった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "spring", "type": "root", "meaning": "跳ねる、湧き出る（古英語 springan）" }
+        ],
+        "imageDescription": "ドアが開いた瞬間、棚の上へ一気に跳び上がる猫",
+        "relatedWords": ["springy", "sprang", "leap"],
+        "memoryTip": "「バネ（spring）」が跳ねる動き → 跳び上がる"
+      }
+    },
+    {
+      "id": "w30_002",
+      "english": "neutralize",
+      "japanese": "無効にする、中和する",
+      "englishDef": "to get rid of something by applying an opposite force or effect",
+      "partOfSpeech": "v",
+      "ipa": "/ˈnuːtrəlaɪz/",
+      "katakana": "NOO-trə-lyz",
+      "emoji": "⚗️",
+      "exampleEn": "Baking soda can neutralize the acid if you spill it on the table.",
+      "exampleJa": "テーブルに酸をこぼしてしまっても、重曹がそれを中和してくれる。",
+      "etymology": {
+        "morphemes": [
+          { "part": "neutr", "type": "root", "meaning": "どちらでもない（ラテン語 neuter）" },
+          { "part": "alize", "type": "suffix", "meaning": "〜にする（動詞）" }
+        ],
+        "imageDescription": "こぼれた酸に重曹をかけ、泡が収まっていく様子",
+        "relatedWords": ["neutral", "neutrality", "counteract"],
+        "memoryTip": "neutral（中立）にする → 中和する・無効にする"
+      }
+    },
+    {
+      "id": "w30_003",
+      "english": "mid-air",
+      "japanese": "空中、宙",
+      "englishDef": "an area above the ground",
+      "partOfSpeech": "n",
+      "ipa": "/ˌmɪdˈer/",
+      "katakana": "mid-AIR",
+      "emoji": "🤸",
+      "exampleEn": "He caught the ball in mid-air just before it hit the ground.",
+      "exampleJa": "彼はボールが地面に落ちる直前、空中でそれをつかんだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "mid", "type": "prefix", "meaning": "真ん中の（古英語 midd）" },
+          { "part": "air", "type": "root", "meaning": "空気、空（ラテン語 aer）" }
+        ],
+        "imageDescription": "地面に落ちる寸前のボールを、跳びついてつかむ選手",
+        "relatedWords": ["midway", "midnight", "airborne"],
+        "memoryTip": "mid（真ん中）+ air（空）→ 空の途中 → 空中"
+      }
+    },
+    {
+      "id": "w30_004",
+      "english": "grimly",
+      "japanese": "険しい表情で、暗い気持ちで",
+      "englishDef": "in a hopeless way",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈɡrɪmli/",
+      "katakana": "GRIM-lee",
+      "emoji": "😑",
+      "exampleEn": "He grimly counted the last few coins in his pocket.",
+      "exampleJa": "彼は険しい表情で、ポケットに残った最後の数枚の硬貨を数えた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "grim", "type": "root", "meaning": "厳しい、恐ろしい（古英語 grimm）" },
+          { "part": "ly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "ポケットの最後の硬貨を数えながら顔をこわばらせる人",
+        "relatedWords": ["grim", "grimness", "bleakly"],
+        "memoryTip": "grim（厳しい）+ ly → 厳しい顔つきで → 険しい表情で"
+      }
+    },
+    {
+      "id": "w30_005",
+      "english": "initiate",
+      "japanese": "開始させる、始める",
+      "englishDef": "to cause something to begin",
+      "partOfSpeech": "v",
+      "ipa": "/ɪˈnɪʃieɪt/",
+      "katakana": "i-NISH-ee-ayt",
+      "emoji": "🚀",
+      "exampleEn": "The school decided to initiate a new program for younger students.",
+      "exampleJa": "その学校は、下級生向けの新しいプログラムを開始することにした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "中へ" },
+          { "part": "it", "type": "root", "meaning": "行く（ラテン語 ire）" },
+          { "part": "iate", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "新しいプログラムの開始を全校に発表する場面",
+        "relatedWords": ["initial", "initiative", "transit"],
+        "memoryTip": "in（中へ）+ it（行く）→ 中へ踏み出す → 開始させる"
+      }
+    },
+    {
+      "id": "w30_006",
+      "english": "etch",
+      "japanese": "刻み込む、彫り込む",
+      "englishDef": "to carve words or a design into something",
+      "partOfSpeech": "v",
+      "ipa": "/etʃ/",
+      "katakana": "ECH",
+      "emoji": "🪧",
+      "exampleEn": "They asked the shop to etch their names into the back of the watch.",
+      "exampleJa": "彼らはその店に、時計の裏に自分たちの名前を彫り込むよう頼んだ。",
+      "etymology": {
+        "morphemes": [
+          { "part": "etch", "type": "root", "meaning": "食い込ませる（オランダ語 etsen「腐食させる」）" }
+        ],
+        "imageDescription": "時計の裏ぶたに細い文字が彫り込まれていく様子",
+        "relatedWords": ["etching", "etched", "engrave"],
+        "memoryTip": "薬品で表面を「食わせて」跡を残す → 刻み込む"
+      }
+    },
+    {
+      "id": "w30_007",
+      "english": "severely",
+      "japanese": "ひどく、厳しく",
+      "englishDef": "to a great or large degree",
+      "partOfSpeech": "adv",
+      "ipa": "/səˈvɪrli/",
+      "katakana": "sə-VEER-lee",
+      "emoji": "🤕",
+      "exampleEn": "The roof was severely damaged by the storm last night.",
+      "exampleJa": "その屋根は昨夜の嵐でひどく損傷した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sever", "type": "root", "meaning": "厳しい（ラテン語 severus）" },
+          { "part": "ely", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "嵐のあと、大きく穴があいて傾いた屋根",
+        "relatedWords": ["severe", "severity", "persevere"],
+        "memoryTip": "severe（厳しい）+ ly → 厳しい程度で → ひどく"
+      }
+    },
+    {
+      "id": "w30_008",
+      "english": "abuse",
+      "japanese": "虐待、乱用",
+      "englishDef": "cruel treatment toward someone or something",
+      "partOfSpeech": "n",
+      "ipa": "/əˈbjuːs/",
+      "katakana": "ə-BYOOS",
+      "emoji": "🚨",
+      "exampleEn": "The old machine finally broke after years of abuse.",
+      "exampleJa": "その古い機械は、何年もの乱暴な扱いの末についに壊れた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ab", "type": "prefix", "meaning": "〜から離れて" },
+          { "part": "use", "type": "root", "meaning": "使う（ラテン語 uti）" }
+        ],
+        "imageDescription": "何年も乱暴に扱われ、へこんで壊れた古い機械",
+        "relatedWords": ["abusive", "use", "misuse"],
+        "memoryTip": "ab（離れて）+ use（使う）→ 正しい使い方から離れる → 乱用・虐待"
+      }
+    },
+    {
+      "id": "w30_009",
+      "english": "authenticate",
+      "japanese": "本物だと証明する、認証する",
+      "englishDef": "to prove to be true or valid",
+      "partOfSpeech": "v",
+      "ipa": "/ɔːˈθentɪkeɪt/",
+      "katakana": "aw-THEN-ti-kayt",
+      "emoji": "🔐",
+      "exampleEn": "An expert was called in to authenticate the old painting.",
+      "exampleJa": "その古い絵が本物だと証明するために、専門家が呼ばれた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "authent", "type": "root", "meaning": "本物の（ギリシャ語 authentikos）" },
+          { "part": "icate", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "ルーペで古い絵の署名を確かめている鑑定士",
+        "relatedWords": ["authentic", "authentication", "author"],
+        "memoryTip": "authentic（本物の）にする → 本物だと証明する"
+      }
+    },
+    {
+      "id": "w30_010",
+      "english": "rant",
+      "japanese": "わめき散らす、怒鳴り続ける",
+      "englishDef": "to talk or yell for a long time angrily",
+      "partOfSpeech": "v",
+      "ipa": "/rænt/",
+      "katakana": "RANT",
+      "emoji": "😡",
+      "exampleEn": "He began to rant about the traffic for nearly ten minutes.",
+      "exampleJa": "彼は渋滞について十分近くもわめき散らし始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rant", "type": "root", "meaning": "騒ぎ立てる（オランダ語 ranten「大声で騒ぐ」）" }
+        ],
+        "imageDescription": "渋滞の車内で延々と大声で文句を言い続ける人",
+        "relatedWords": ["ranting", "rave", "rage"],
+        "memoryTip": "「ランランと騒ぐ」→ 長々とわめき散らす"
+      }
+    },
+    {
+      "id": "w30_011",
+      "english": "stare",
+      "japanese": "じっと見つめる",
+      "englishDef": "to look at something for a long time",
+      "partOfSpeech": "v",
+      "ipa": "/ster/",
+      "katakana": "STAIR",
+      "emoji": "👁️",
+      "exampleEn": "The children began to stare at the strange bird on the fence.",
+      "exampleJa": "子どもたちは柵の上の見慣れない鳥をじっと見つめ始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "stare", "type": "root", "meaning": "じっと見る（古英語 starian「見開く」）" }
+        ],
+        "imageDescription": "柵にとまった珍しい鳥を、まばたきもせず見つめる子どもたち",
+        "relatedWords": ["staring", "stared", "gaze"],
+        "memoryTip": "目を「見開いた（starian）」まま動かさない → じっと見つめる"
+      }
+    },
+    {
+      "id": "w30_012",
+      "english": "dizzy",
+      "japanese": "めまいがする、ふらふらする",
+      "englishDef": "having the sensation of spinning and losing one's balance",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈdɪzi/",
+      "katakana": "DIZ-ee",
+      "emoji": "😵‍💫",
+      "exampleEn": "He felt dizzy after standing up too quickly from his chair.",
+      "exampleJa": "彼は椅子から急に立ち上がったあと、めまいを感じた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "dizzy", "type": "root", "meaning": "愚かな、ふらつく（古英語 dysig）" }
+        ],
+        "imageDescription": "急に立ち上がり、こめかみを押さえてよろめく人",
+        "relatedWords": ["dizziness", "dizzily", "giddy"],
+        "memoryTip": "頭がぼんやりして定まらない状態 → めまいがする"
+      }
+    },
+    {
+      "id": "w30_013",
+      "english": "rigid",
+      "japanese": "硬直した、曲がらない",
+      "englishDef": "not able to be bent out of shape",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrɪdʒɪd/",
+      "katakana": "RIJ-id",
+      "emoji": "📏",
+      "exampleEn": "The frame is rigid enough to hold the whole tent in strong wind.",
+      "exampleJa": "その骨組みは、強風の中でもテント全体を支えられるほど硬い。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rig", "type": "root", "meaning": "硬い（ラテン語 rigere「こわばる」）" },
+          { "part": "id", "type": "suffix", "meaning": "〜の状態の（形容詞）" }
+        ],
+        "imageDescription": "強風の中でもたわまない、テントの硬い骨組み",
+        "relatedWords": ["rigidly", "rigidity", "rigor"],
+        "memoryTip": "rigere（こわばる）→ 曲がらない → 硬直した"
+      }
+    },
+    {
+      "id": "w30_014",
+      "english": "odor",
+      "japanese": "におい、悪臭",
+      "englishDef": "a smell, usually a bad one",
+      "partOfSpeech": "n",
+      "ipa": "/ˈoʊdər/",
+      "katakana": "OH-dər",
+      "emoji": "🦨",
+      "exampleEn": "A strange odor came from the back of the refrigerator.",
+      "exampleJa": "冷蔵庫の奥から奇妙なにおいがしてきた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "od", "type": "root", "meaning": "におい（ラテン語 odor）" },
+          { "part": "or", "type": "suffix", "meaning": "〜であること（名詞）" }
+        ],
+        "imageDescription": "冷蔵庫の奥から漂ってくる、正体不明のにおい",
+        "relatedWords": ["odorless", "deodorant", "scent"],
+        "memoryTip": "「デオドラント（deodorant）」は odor を消すもの → におい"
+      }
+    },
+    {
+      "id": "w30_015",
+      "english": "tedious",
+      "japanese": "退屈な、うんざりするほど長い",
+      "englishDef": "too long, slow, or dull",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈtiːdiəs/",
+      "katakana": "TEE-dee-əs",
+      "emoji": "🥱",
+      "exampleEn": "Copying the whole list by hand was a tedious job that took all afternoon.",
+      "exampleJa": "そのリスト全部を手で書き写すのは、午後じゅうかかる退屈な作業だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tedi", "type": "root", "meaning": "うんざり（ラテン語 taedium「飽き」）" },
+          { "part": "ous", "type": "suffix", "meaning": "〜に満ちた（形容詞）" }
+        ],
+        "imageDescription": "長いリストを延々と書き写し、あくびをしている人",
+        "relatedWords": ["tedium", "tediously", "boring"],
+        "memoryTip": "taedium（飽き）+ ous → 飽きに満ちた → 退屈な"
+      }
+    }
+  ]
+}

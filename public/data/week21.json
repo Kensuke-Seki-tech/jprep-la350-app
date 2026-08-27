@@ -1,0 +1,345 @@
+{
+  "weekId": "week21",
+  "weekNumber": 21,
+  "label": "Term C - Week 1",
+  "sentencesToRemember": [
+    {
+      "text": "He was overweight and the kids at his middle school often teased him about his size.",
+      "ja": "彼は太りすぎていて、中学校の子どもたちはよく彼の体格のことでからかった。"
+    },
+    {
+      "text": "The top of his head was shaved so close it was almost bald, but his face was covered in a thick curly black beard.",
+      "ja": "彼の頭頂部はほとんど禿げているほど短く剃られていたが、顔は分厚い巻き毛の黒いひげで覆われていた。"
+    },
+    {
+      "text": "The sun had only just come up over the horizon, but he already could feel its hot rays against his face.",
+      "ja": "太陽は地平線の上にのぼったばかりだったが、彼はすでにその熱い光線を顔に感じることができた。"
+    },
+    {
+      "text": "The shovels were five feet long, from the tip of the steel blade to the end of the wooden staff.",
+      "ja": "そのシャベルは、鋼鉄の刃の先から木の柄の端まで、5フィートの長さがあった。"
+    },
+    {
+      "text": "He grimaced as he sliced off a chunk of dirt, then raised it up and flung it onto a pile.",
+      "ja": "彼は顔をしかめながら土のかたまりを削り取り、それを持ち上げて山の上に放り投げた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w21_001",
+      "english": "forbidden",
+      "japanese": "禁じられた、禁止された",
+      "englishDef": "not allowed; banned",
+      "partOfSpeech": "adj",
+      "ipa": "/fərˈbɪdən/",
+      "katakana": "fər-BID-ən",
+      "emoji": "🚫",
+      "exampleEn": "Entering the old mine was strictly forbidden because the tunnels could collapse.",
+      "exampleJa": "トンネルが崩れる恐れがあるため、その古い鉱山に入ることは固く禁じられていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "for", "type": "prefix", "meaning": "否定・禁止（古英語 for-「〜に反して」）" },
+          { "part": "bid", "type": "root", "meaning": "命じる（古英語 biddan）" },
+          { "part": "den", "type": "suffix", "meaning": "過去分詞をつくる" }
+        ],
+        "imageDescription": "立ち入り禁止の看板が掛かった、鎖で閉ざされた古い鉱山の入口",
+        "relatedWords": ["forbid", "forbidding", "prohibited"],
+        "memoryTip": "for（〜するな）+ bid（命じる）→「するなと命じられた」→ 禁じられた"
+      }
+    },
+    {
+      "id": "w21_002",
+      "english": "tease",
+      "japanese": "からかう、いじる",
+      "englishDef": "to make fun of someone",
+      "partOfSpeech": "v",
+      "ipa": "/tiːz/",
+      "katakana": "TEEZ",
+      "emoji": "😜",
+      "exampleEn": "His older brother liked to tease him about his messy hair every morning.",
+      "exampleJa": "彼の兄は毎朝、彼のぼさぼさの髪のことをからかうのが好きだった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "tease", "type": "root", "meaning": "毛をむしる、ほぐす（古英語 tǣsan）→ しつこくつつく" }
+        ],
+        "imageDescription": "友だちの髪をつついて笑いながらからかっている子ども",
+        "relatedWords": ["teasing", "teaser", "mock"],
+        "memoryTip": "毛を「ほぐす」ようにしつこくつつく → 相手をからかう"
+      }
+    },
+    {
+      "id": "w21_003",
+      "english": "innocent",
+      "japanese": "無実の、罪のない",
+      "englishDef": "not guilty; did not do anything wrong",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈɪnəsənt/",
+      "katakana": "IN-ə-sənt",
+      "emoji": "😇",
+      "exampleEn": "The judge decided the boy was innocent because no one had actually seen him take the money.",
+      "exampleJa": "実際に彼がお金を取るのを見た者はいなかったので、裁判官はその少年は無実だと判断した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "〜でない（否定）" },
+          { "part": "noc", "type": "root", "meaning": "害する（ラテン語 nocere）" },
+          { "part": "ent", "type": "suffix", "meaning": "〜な性質の（形容詞）" }
+        ],
+        "imageDescription": "法廷で無罪を言い渡され、ほっと胸をなでおろす少年",
+        "relatedWords": ["innocence", "noxious", "innocuous"],
+        "memoryTip": "in（〜でない）+ noc（害する）→ 害を与えていない → 無実の"
+      }
+    },
+    {
+      "id": "w21_004",
+      "english": "vast",
+      "japanese": "広大な、莫大な",
+      "englishDef": "a great amount; massive",
+      "partOfSpeech": "adj",
+      "ipa": "/væst/",
+      "katakana": "VAST",
+      "emoji": "🏜️",
+      "exampleEn": "From the top of the hill they looked out over a vast desert that seemed to have no end.",
+      "exampleJa": "丘の頂上から、彼らは果てがないように見える広大な砂漠を見渡した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "vast", "type": "root", "meaning": "がらんとした、広い（ラテン語 vastus）" }
+        ],
+        "imageDescription": "地平線まで何もない、どこまでも広がる砂漠を見渡す人",
+        "relatedWords": ["vastly", "vastness", "devastate"],
+        "memoryTip": "「バスト」ではなく「ヴァスト」→ がらんと広い → 広大な"
+      }
+    },
+    {
+      "id": "w21_005",
+      "english": "neglect",
+      "japanese": "怠る、放っておく",
+      "englishDef": "to not properly care for or look after",
+      "partOfSpeech": "v",
+      "ipa": "/nɪˈɡlekt/",
+      "katakana": "ni-GLEKT",
+      "emoji": "🥀",
+      "exampleEn": "If you neglect the plants for even a week, the leaves will turn brown and drop off.",
+      "exampleJa": "たった一週間でも植物の世話を怠れば、葉は茶色くなって落ちてしまう。",
+      "etymology": {
+        "morphemes": [
+          { "part": "neg", "type": "prefix", "meaning": "〜しない（ラテン語 nec）" },
+          { "part": "lect", "type": "root", "meaning": "選ぶ、拾い上げる（ラテン語 legere）" }
+        ],
+        "imageDescription": "水をもらえず枯れかけた鉢植えが窓辺に放置されている様子",
+        "relatedWords": ["neglectful", "negligence", "select"],
+        "memoryTip": "neg（〜しない）+ lect（拾い上げる）→ 拾い上げない → 放っておく"
+      }
+    },
+    {
+      "id": "w21_006",
+      "english": "society",
+      "japanese": "社会、共同体",
+      "englishDef": "a community of people who share similar values",
+      "partOfSpeech": "n",
+      "ipa": "/səˈsaɪəti/",
+      "katakana": "sə-SAI-ə-tee",
+      "emoji": "🏘️",
+      "exampleEn": "In their society, everyone was expected to help a neighbor who was in trouble.",
+      "exampleJa": "彼らの社会では、困っている隣人を助けることが誰にとっても当然のこととされていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "soci", "type": "root", "meaning": "仲間（ラテン語 socius）" },
+          { "part": "ety", "type": "suffix", "meaning": "〜の状態・集まり（名詞）" }
+        ],
+        "imageDescription": "同じ町の人々が集まって助け合っている様子",
+        "relatedWords": ["social", "associate", "sociable"],
+        "memoryTip": "soci（仲間）+ ety（集まり）→ 仲間の集まり → 社会"
+      }
+    },
+    {
+      "id": "w21_007",
+      "english": "spit",
+      "japanese": "つばを吐く",
+      "englishDef": "to expel saliva from one's mouth",
+      "partOfSpeech": "v",
+      "ipa": "/spɪt/",
+      "katakana": "SPIT",
+      "emoji": "💦",
+      "exampleEn": "The runner stopped to spit out the dust that had blown into his mouth.",
+      "exampleJa": "そのランナーは立ち止まり、口に入ってきた砂ぼこりを吐き出した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "spit", "type": "root", "meaning": "吐く（古英語 spittan、口から出す音を表す語）" }
+        ],
+        "imageDescription": "口に入った砂ぼこりを地面に吐き出しているランナー",
+        "relatedWords": ["spitting", "spat", "spittle"],
+        "memoryTip": "「スピッ」という音そのもの → つばを吐く"
+      }
+    },
+    {
+      "id": "w21_008",
+      "english": "desperate",
+      "japanese": "絶望的な、必死の",
+      "englishDef": "feeling helpless or hopeless",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈdespərət/",
+      "katakana": "DES-pər-ət",
+      "emoji": "😰",
+      "exampleEn": "After three days without water, the lost hikers grew desperate and began shouting for help.",
+      "exampleJa": "水なしで三日過ごしたあと、道に迷った登山者たちは絶望的になり、助けを求めて叫び始めた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "de", "type": "prefix", "meaning": "離れて、失って" },
+          { "part": "sper", "type": "root", "meaning": "希望（ラテン語 sperare「望む」）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜の状態の（形容詞）" }
+        ],
+        "imageDescription": "水も食料もなく、荒れ地で助けを求めて叫ぶ登山者",
+        "relatedWords": ["desperately", "despair", "desperation"],
+        "memoryTip": "de（失う）+ sper（希望）→ 希望を失った → 絶望的な"
+      }
+    },
+    {
+      "id": "w21_009",
+      "english": "reluctantly",
+      "japanese": "しぶしぶ、いやいや",
+      "englishDef": "with hesitation because one is unsure",
+      "partOfSpeech": "adv",
+      "ipa": "/rɪˈlʌktəntli/",
+      "katakana": "ri-LUK-tənt-lee",
+      "emoji": "😕",
+      "exampleEn": "She reluctantly handed over her ticket, still unsure whether she wanted to go.",
+      "exampleJa": "彼女はまだ行きたいかどうか決めきれないまま、しぶしぶチケットを手渡した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "re", "type": "prefix", "meaning": "反対に、後ろへ" },
+          { "part": "luct", "type": "root", "meaning": "戦う、もがく（ラテン語 luctari）" },
+          { "part": "antly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "行くかどうか迷いながら、しぶしぶチケットを差し出す人",
+        "relatedWords": ["reluctant", "reluctance", "unwillingly"],
+        "memoryTip": "re（反対に）+ luct（もがく）→ 心が抵抗している → しぶしぶ"
+      }
+    },
+    {
+      "id": "w21_010",
+      "english": "slope",
+      "japanese": "傾斜する、坂になっている",
+      "englishDef": "to be at an angle going up or down",
+      "partOfSpeech": "v",
+      "ipa": "/sloʊp/",
+      "katakana": "SLOHP",
+      "emoji": "⛰️",
+      "exampleEn": "The road began to slope downward so steeply that we had to walk very carefully.",
+      "exampleJa": "その道は非常に急に下り坂になり始めたので、私たちはとても慎重に歩かなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "slope", "type": "root", "meaning": "斜めになる（中英語 aslope「斜めに」から）" }
+        ],
+        "imageDescription": "手前から奥へ急に下っていく坂道を慎重に下りる人",
+        "relatedWords": ["sloping", "slippery", "slant"],
+        "memoryTip": "「スロープ」= 坂 → 動詞なら「坂になっている」"
+      }
+    },
+    {
+      "id": "w21_011",
+      "english": "blazing",
+      "japanese": "焼けつくように暑い、燃えるような",
+      "englishDef": "very hot",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈbleɪzɪŋ/",
+      "katakana": "BLAY-zing",
+      "emoji": "☀️",
+      "exampleEn": "They worked all afternoon under a blazing sun without a single patch of shade.",
+      "exampleJa": "彼らは日陰ひとつない焼けつくような日差しの下で、午後じゅう作業した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "blaze", "type": "root", "meaning": "炎、燃え立つ（古英語 blæse「たいまつ」）" },
+          { "part": "ing", "type": "suffix", "meaning": "〜している（形容詞）" }
+        ],
+        "imageDescription": "日陰のない乾いた土地を照りつける、燃えるような太陽",
+        "relatedWords": ["blaze", "ablaze", "scorching"],
+        "memoryTip": "blaze（炎）+ ing → 炎のように燃えている → 焼けつくように暑い"
+      }
+    },
+    {
+      "id": "w21_012",
+      "english": "scarcity",
+      "japanese": "不足、欠乏",
+      "englishDef": "a small supply that is not enough",
+      "partOfSpeech": "n",
+      "ipa": "/ˈskersəti/",
+      "katakana": "SKER-sə-tee",
+      "emoji": "🚰",
+      "exampleEn": "The scarcity of clean water forced the villagers to walk several kilometers each day.",
+      "exampleJa": "きれいな水の不足のせいで、村人たちは毎日数キロ歩かなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "scarce", "type": "root", "meaning": "乏しい（古フランス語 escars）" },
+          { "part": "ity", "type": "suffix", "meaning": "〜であること（名詞）" }
+        ],
+        "imageDescription": "水を求めて遠くまで容器を運ぶ村人たちの列",
+        "relatedWords": ["scarce", "scarcely", "shortage"],
+        "memoryTip": "scarce（乏しい）+ ity（こと）→ 乏しいこと → 不足"
+      }
+    },
+    {
+      "id": "w21_013",
+      "english": "humiliating",
+      "japanese": "屈辱的な、ひどく恥ずかしい",
+      "englishDef": "extremely embarrassing",
+      "partOfSpeech": "adj",
+      "ipa": "/hjuːˈmɪlieɪtɪŋ/",
+      "katakana": "hyoo-MIL-ee-ay-ting",
+      "emoji": "😳",
+      "exampleEn": "Losing the race in front of the whole school was a humiliating experience for him.",
+      "exampleJa": "全校生徒の前でレースに負けたことは、彼にとって屈辱的な経験だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "humili", "type": "root", "meaning": "低い、地面（ラテン語 humilis < humus「土」）" },
+          { "part": "ating", "type": "suffix", "meaning": "〜させるような（形容詞）" }
+        ],
+        "imageDescription": "全校生徒が見つめるなか、レースで最下位になり顔を赤らめる生徒",
+        "relatedWords": ["humiliate", "humiliation", "humble"],
+        "memoryTip": "humus（土）→ 地面まで下げられる → 屈辱的な"
+      }
+    },
+    {
+      "id": "w21_014",
+      "english": "complaint",
+      "japanese": "不平、苦情",
+      "englishDef": "an expression of dissatisfaction or unhappiness about something",
+      "partOfSpeech": "n",
+      "ipa": "/kəmˈpleɪnt/",
+      "katakana": "kəm-PLAYNT",
+      "emoji": "📣",
+      "exampleEn": "The restaurant received a complaint about the noise coming from the kitchen.",
+      "exampleJa": "そのレストランは、厨房から聞こえる騒音についての苦情を受けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "com", "type": "prefix", "meaning": "強調（一緒に）" },
+          { "part": "plaint", "type": "root", "meaning": "嘆く、胸を打つ（ラテン語 plangere）" }
+        ],
+        "imageDescription": "レストランのカウンターで店員に苦情を伝えている客",
+        "relatedWords": ["complain", "plaintive", "grievance"],
+        "memoryTip": "com（強調）+ plaint（嘆く）→ 強く嘆く → 苦情"
+      }
+    },
+    {
+      "id": "w21_015",
+      "english": "perseverance",
+      "japanese": "忍耐、粘り強さ",
+      "englishDef": "the ability to keep doing something although it may be difficult",
+      "partOfSpeech": "n",
+      "ipa": "/ˌpɜːrsəˈvɪrəns/",
+      "katakana": "pur-sə-VEER-əns",
+      "emoji": "🧗",
+      "exampleEn": "It took years of perseverance before she finally finished writing her first novel.",
+      "exampleJa": "彼女がついに最初の小説を書き上げるまでには、何年もの粘り強い努力が必要だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "per", "type": "prefix", "meaning": "最後まで、ずっと" },
+          { "part": "sever", "type": "root", "meaning": "厳しい（ラテン語 severus）" },
+          { "part": "ance", "type": "suffix", "meaning": "〜すること（名詞）" }
+        ],
+        "imageDescription": "何度も落ちながら、あきらめずに岩壁を登り続けるクライマー",
+        "relatedWords": ["persevere", "persistent", "endurance"],
+        "memoryTip": "per（最後まで）+ severe（厳しい）→ 厳しさに最後まで耐える → 忍耐"
+      }
+    }
+  ]
+}

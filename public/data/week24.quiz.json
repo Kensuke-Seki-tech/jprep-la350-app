@@ -1,0 +1,210 @@
+{
+  "weekId": "week24",
+  "match": [
+    {
+      "word": "bloom",
+      "def": "to produce flowers and develop"
+    },
+    {
+      "word": "jagged",
+      "def": "having sharp or rough edges"
+    },
+    {
+      "word": "parched",
+      "def": "very dry due to heat"
+    },
+    {
+      "word": "baldness",
+      "def": "the condition of not having any hair"
+    },
+    {
+      "word": "declare",
+      "def": "to say clearly and confidently"
+    },
+    {
+      "word": "wade",
+      "def": "to walk through shallow water"
+    },
+    {
+      "word": "grunt",
+      "def": "to make a low sound in your throat, usually when doing physical work"
+    },
+    {
+      "word": "rob",
+      "def": "to steal something from someone"
+    },
+    {
+      "word": "unbearably",
+      "def": "unable to be withstood"
+    },
+    {
+      "word": "emerald",
+      "def": "an expensive green jewel"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "bloom",
+      "sentence": "The cherry trees along the river bloom for only a week each spring.",
+      "ja": "川沿いの桜の木は、毎年春にたった一週間だけ花を咲かせる。"
+    },
+    {
+      "answer": "jagged",
+      "sentence": "He cut his finger on the jagged edge of the broken glass.",
+      "ja": "彼は割れたガラスのぎざぎざの縁で指を切った。"
+    },
+    {
+      "answer": "parched",
+      "sentence": "After hours in the sun, the parched ground had cracked into hard gray plates.",
+      "ja": "何時間も日にさらされ、からからに乾いた地面は硬い灰色の板状にひび割れていた。"
+    },
+    {
+      "answer": "baldness",
+      "sentence": "He wore a hat every day to hide his baldness from his classmates.",
+      "ja": "彼は同級生に自分の頭のはげを隠すため、毎日帽子をかぶっていた。"
+    },
+    {
+      "answer": "declare",
+      "sentence": "She stood up to declare that she would finish the race no matter what.",
+      "ja": "彼女は立ち上がり、何があってもレースを走りきるとはっきり宣言した。"
+    }
+  ],
+  "bank": [
+    "bloom",
+    "jagged",
+    "parched",
+    "baldness",
+    "declare",
+    "wade",
+    "grunt",
+    "rob",
+    "unbearably",
+    "emerald"
+  ],
+  "mc": [
+    {
+      "q": "What does \"wade\" mean?",
+      "opts": [
+        "to walk through shallow water",
+        "to produce flowers and develop",
+        "having sharp or rough edges",
+        "very dry due to heat"
+      ],
+      "answer": 0,
+      "word": "wade"
+    },
+    {
+      "q": "What does \"grunt\" mean?",
+      "opts": [
+        "the condition of not having any hair",
+        "to make a low sound in your throat, usually when doing physical work",
+        "to say clearly and confidently",
+        "to walk through shallow water"
+      ],
+      "answer": 1,
+      "word": "grunt"
+    },
+    {
+      "q": "What does \"rob\" mean?",
+      "opts": [
+        "to make a low sound in your throat, usually when doing physical work",
+        "unable to be withstood",
+        "to steal something from someone",
+        "an expensive green jewel"
+      ],
+      "answer": 2,
+      "word": "rob"
+    },
+    {
+      "q": "What does \"unbearably\" mean?",
+      "opts": [
+        "to expel something quickly",
+        "disgustingly ugly and contorted",
+        "to breathe in quickly through the mouth, usually out of surprise",
+        "unable to be withstood"
+      ],
+      "answer": 3,
+      "word": "unbearably"
+    },
+    {
+      "q": "What does \"emerald\" mean?",
+      "opts": [
+        "an expensive green jewel",
+        "recent in time",
+        "not clearly seen",
+        "to produce flowers and develop"
+      ],
+      "answer": 0,
+      "word": "emerald"
+    },
+    {
+      "q": "What does \"spew\" mean?",
+      "opts": [
+        "having sharp or rough edges",
+        "to expel something quickly",
+        "very dry due to heat",
+        "the condition of not having any hair"
+      ],
+      "answer": 1,
+      "word": "spew"
+    },
+    {
+      "q": "What does \"grotesque\" mean?",
+      "opts": [
+        "to say clearly and confidently",
+        "to walk through shallow water",
+        "disgustingly ugly and contorted",
+        "to make a low sound in your throat, usually when doing physical work"
+      ],
+      "answer": 2,
+      "word": "grotesque"
+    },
+    {
+      "q": "What does \"gasp\" mean?",
+      "opts": [
+        "to steal something from someone",
+        "unable to be withstood",
+        "an expensive green jewel",
+        "to breathe in quickly through the mouth, usually out of surprise"
+      ],
+      "answer": 3,
+      "word": "gasp"
+    },
+    {
+      "q": "What does \"freshly\" mean?",
+      "opts": [
+        "recent in time",
+        "to expel something quickly",
+        "disgustingly ugly and contorted",
+        "to breathe in quickly through the mouth, usually out of surprise"
+      ],
+      "answer": 0,
+      "word": "freshly"
+    },
+    {
+      "q": "What does \"blurry\" mean?",
+      "opts": [
+        "recent in time",
+        "not clearly seen",
+        "to produce flowers and develop",
+        "having sharp or rough edges"
+      ],
+      "answer": 1,
+      "word": "blurry"
+    }
+  ],
+  "dict": [
+    {
+      "text": "She taught classes in the evening for adults, and many of the adults loved her as well.",
+      "word": "classes"
+    },
+    {
+      "text": "Someone made a grab for her, tearing her dress, but she managed to get out of the building.",
+      "word": "building"
+    },
+    {
+      "text": "The horizon lit up with a huge web of lightning.",
+      "word": "lightning"
+    }
+  ]
+}

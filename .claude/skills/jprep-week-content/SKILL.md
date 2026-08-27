@@ -58,16 +58,26 @@ Week 番号・label とあわせてユーザーに確認する。ここで綴り
 - `emoji` は語のイメージに合うものを 1 つ。`katakana` は発音のカタカナ表記（例 `prə-TROOD`）。
 - `partOfSpeech` は `n` / `adj` / `v` / `adv` / `phrase` / `other` のみ。
 
-### 3. `public/data/weekNN.quiz.json` を書く
+### 3. `public/data/weekNN.quiz.json` を生成する
 
-出題範囲は week13 以降で固定パターンになっている。**必ずこの割り当てを守る**:
+`weekNN.json` さえ正しく書けていれば、生成スクリプトが規約どおりに作る:
+
+```bash
+node .claude/skills/jprep-week-content/scripts/gen-quiz.mjs week21 [week22 ...]
+```
+
+生成後、**`dict[].word`（ディクテーションのキーワード）だけは目で確認する**。
+自動選択なので、固有名詞（`Pendanski`）や短縮形（`didn't`）が選ばれることがある。
+その場合はその Week の単語か、文中の重要な内容語に手で直す。
+
+以下が生成スクリプトが守っている規約。手で書く場合も同じ:
 
 | パート | キー | 件数 | 対象語（`words` 配列の順） |
 |---|---|---|---|
 | Part1 語義マッチ | `match` | 10 | 1〜10 番目の語 |
 | Part2 空所補充 | `gap` | 5 | 1〜5 番目の語 |
 | （Part2 の語群） | `bank` | 10 | 1〜10 番目の語（`match` と同じ並び） |
-| Part3 4択 | `mc` | 10 | 6〜15 番目の語 |
+| Part3 4択 | `mc` | 10 | 6 番目以降の語すべて |
 | Part4 ディクテーション | `dict` | 3 | Sentences to Remember の 1・3・5 番目 |
 
 - `match[].def` と `mc[].opts` の正解選択肢は、`weekNN.json` の `englishDef` と**完全一致**させる。
@@ -116,5 +126,7 @@ npm run build && npm run test:run
 - `match`/`mc` の定義文を `weekNN.json` の `englishDef` から微妙に変えてしまう → 検証スクリプトで落ちる。
 - `mc` の `answer` が全部 0 や 3 に偏る → 出題として不自然。
 - `gap` の例文が `exampleEn` と一致しない。
-- `weeks.config.json` の `wordCount` が実際の語数とずれる。
+- `weeks.config.json` の `wordCount` が実際の語数とずれる（語数が 15 とは限らない。
+  Term C Week 7 のように 14 語の回もある）。
+- `dict[].word` に固有名詞や短縮形が入ったまま（生成スクリプトの自動選択を直し忘れ）。
 - 単語の並び順をキャプチャから変えてしまう → 出題範囲（1〜10 / 6〜15）がずれる。

@@ -1,0 +1,210 @@
+{
+  "weekId": "week25",
+  "match": [
+    {
+      "word": "trail",
+      "def": "to follow behind something"
+    },
+    {
+      "word": "fume",
+      "def": "a gas that has a strong smell, such as smoke"
+    },
+    {
+      "word": "mutter",
+      "def": "to quietly say something negative"
+    },
+    {
+      "word": "appreciate",
+      "def": "to understand the value of something"
+    },
+    {
+      "word": "dread",
+      "def": "a fear for something that will happen in the future"
+    },
+    {
+      "word": "ingredient",
+      "def": "a part of a recipe"
+    },
+    {
+      "word": "jerk",
+      "def": "to move quickly and suddenly"
+    },
+    {
+      "word": "haze",
+      "def": "a cloud that is difficult to see through"
+    },
+    {
+      "word": "desolate",
+      "def": "empty and without life"
+    },
+    {
+      "word": "recite",
+      "def": "to repeat something that has been memorized"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "trail",
+      "sentence": "The dog began to trail the hikers, staying just a few steps behind them.",
+      "ja": "その犬は数歩後ろを保ちながら、登山者たちの後をついていき始めた。"
+    },
+    {
+      "answer": "fume",
+      "sentence": "A thick fume from the burning tires drifted over the highway.",
+      "ja": "燃えるタイヤから出た濃い煙が、高速道路の上に漂った。"
+    },
+    {
+      "answer": "mutter",
+      "sentence": "He began to mutter under his breath about how unfair the rules were.",
+      "ja": "彼は規則がどれほど不公平かについて、小声でぶつぶつ言い始めた。"
+    },
+    {
+      "answer": "appreciate",
+      "sentence": "Only after moving away did he appreciate how kind his neighbors had been.",
+      "ja": "引っ越して初めて、彼は隣人たちがどれほど親切だったかを理解した。"
+    },
+    {
+      "answer": "dread",
+      "sentence": "A cold dread filled him whenever he thought about the coming test.",
+      "ja": "近づく試験のことを考えるたび、冷たい恐れが彼を満たした。"
+    }
+  ],
+  "bank": [
+    "trail",
+    "fume",
+    "mutter",
+    "appreciate",
+    "dread",
+    "ingredient",
+    "jerk",
+    "haze",
+    "desolate",
+    "recite"
+  ],
+  "mc": [
+    {
+      "q": "What does \"ingredient\" mean?",
+      "opts": [
+        "a part of a recipe",
+        "to follow behind something",
+        "a gas that has a strong smell, such as smoke",
+        "to quietly say something negative"
+      ],
+      "answer": 0,
+      "word": "ingredient"
+    },
+    {
+      "q": "What does \"jerk\" mean?",
+      "opts": [
+        "to understand the value of something",
+        "to move quickly and suddenly",
+        "a fear for something that will happen in the future",
+        "a part of a recipe"
+      ],
+      "answer": 1,
+      "word": "jerk"
+    },
+    {
+      "q": "What does \"haze\" mean?",
+      "opts": [
+        "to move quickly and suddenly",
+        "empty and without life",
+        "a cloud that is difficult to see through",
+        "to repeat something that has been memorized"
+      ],
+      "answer": 2,
+      "word": "haze"
+    },
+    {
+      "q": "What does \"desolate\" mean?",
+      "opts": [
+        "medicine that you rub on your skin",
+        "to shake or sway unsteadily",
+        "with skill and speed",
+        "empty and without life"
+      ],
+      "answer": 3,
+      "word": "desolate"
+    },
+    {
+      "q": "What does \"recite\" mean?",
+      "opts": [
+        "to repeat something that has been memorized",
+        "having no value or use",
+        "the fabric that is fixed to furniture such as armchairs and sofas",
+        "to follow behind something"
+      ],
+      "answer": 0,
+      "word": "recite"
+    },
+    {
+      "q": "What does \"ointment\" mean?",
+      "opts": [
+        "a gas that has a strong smell, such as smoke",
+        "medicine that you rub on your skin",
+        "to quietly say something negative",
+        "to understand the value of something"
+      ],
+      "answer": 1,
+      "word": "ointment"
+    },
+    {
+      "q": "What does \"wobble\" mean?",
+      "opts": [
+        "a fear for something that will happen in the future",
+        "a part of a recipe",
+        "to shake or sway unsteadily",
+        "to move quickly and suddenly"
+      ],
+      "answer": 2,
+      "word": "wobble"
+    },
+    {
+      "q": "What does \"deftly\" mean?",
+      "opts": [
+        "a cloud that is difficult to see through",
+        "empty and without life",
+        "to repeat something that has been memorized",
+        "with skill and speed"
+      ],
+      "answer": 3,
+      "word": "deftly"
+    },
+    {
+      "q": "What does \"worthless\" mean?",
+      "opts": [
+        "having no value or use",
+        "medicine that you rub on your skin",
+        "to shake or sway unsteadily",
+        "with skill and speed"
+      ],
+      "answer": 0,
+      "word": "worthless"
+    },
+    {
+      "q": "What does \"upholstery\" mean?",
+      "opts": [
+        "having no value or use",
+        "the fabric that is fixed to furniture such as armchairs and sofas",
+        "to follow behind something",
+        "a gas that has a strong smell, such as smoke"
+      ],
+      "answer": 1,
+      "word": "upholstery"
+    }
+  ],
+  "dict": [
+    {
+      "text": "At first he thought it might have been some kind of animal, and it frightened him.",
+      "word": "frightened"
+    },
+    {
+      "text": "He barely had enough moisture in his mouth to seal and stamp the envelope.",
+      "word": "moisture"
+    },
+    {
+      "text": "Stanley looked up at the approaching dust cloud, then back down at the spilled seeds.",
+      "word": "approaching"
+    }
+  ]
+}

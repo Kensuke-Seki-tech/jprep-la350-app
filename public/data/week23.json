@@ -1,0 +1,348 @@
+{
+  "weekId": "week23",
+  "weekNumber": 23,
+  "label": "Term C - Week 3",
+  "sentencesToRemember": [
+    {
+      "text": "Stanley gazed out across the lake, toward the spot where he had been digging yesterday when he found the gold tube.",
+      "ja": "スタンリーは湖の向こう、昨日金の筒を見つけたときに掘っていた場所のほうを見つめた。"
+    },
+    {
+      "text": "The other bodies in the room were little more than bags of flesh and bones, dumped across broken chairs and couches.",
+      "ja": "その部屋にあったほかの遺体は、壊れた椅子やソファの上に投げ出された、肉と骨の袋のようなものにすぎなかった。"
+    },
+    {
+      "text": "It seemed that no matter how much water he drank, he was always thirsty.",
+      "ja": "どれだけ水を飲んでも、彼はいつものどが渇いているようだった。"
+    },
+    {
+      "text": "The pitchfork left three holes in the front of his shirt, and three tiny spots of blood.",
+      "ja": "その熊手はシャツの前に三つの穴と、三つの小さな血の点を残した。"
+    },
+    {
+      "text": "That part of his head, between his neck and ear, was considerably swollen.",
+      "ja": "首と耳の間の、その頭の部分はかなり腫れ上がっていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w23_001",
+      "english": "excavate",
+      "japanese": "掘り出す、発掘する",
+      "englishDef": "to take out of the earth",
+      "partOfSpeech": "v",
+      "ipa": "/ˈekskəveɪt/",
+      "katakana": "EKS-kə-vayt",
+      "emoji": "⛏️",
+      "exampleEn": "The team worked for months to excavate the bones buried under the field.",
+      "exampleJa": "そのチームは、野原の下に埋まった骨を掘り出すのに何か月も作業した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "ex", "type": "prefix", "meaning": "外へ" },
+          { "part": "cav", "type": "root", "meaning": "うつろ、穴（ラテン語 cavus）" },
+          { "part": "ate", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "野原に掘られた穴から、刷毛で骨を掘り出している発掘チーム",
+        "relatedWords": ["excavation", "cave", "cavity"],
+        "memoryTip": "ex（外へ）+ cav（穴）→ 穴から外へ出す → 掘り出す"
+      }
+    },
+    {
+      "id": "w23_002",
+      "english": "intently",
+      "japanese": "熱心に、じっと",
+      "englishDef": "with one's careful attention and concentration",
+      "partOfSpeech": "adv",
+      "ipa": "/ɪnˈtentli/",
+      "katakana": "in-TENT-lee",
+      "emoji": "🔍",
+      "exampleEn": "She listened intently, afraid of missing even a single word of the instructions.",
+      "exampleJa": "彼女は指示の一語も聞き逃すまいと、じっと熱心に耳を傾けた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "in", "type": "prefix", "meaning": "〜の中へ" },
+          { "part": "tent", "type": "root", "meaning": "張る、伸ばす（ラテン語 tendere）" },
+          { "part": "ly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "身を乗り出して一言も聞き逃すまいと耳を傾ける人",
+        "relatedWords": ["intent", "intense", "attentively"],
+        "memoryTip": "in（中へ）+ tend（張る）→ 心を対象へ張りつめる → 熱心に"
+      }
+    },
+    {
+      "id": "w23_003",
+      "english": "afford",
+      "japanese": "（金銭的・時間的に）〜する余裕がある",
+      "englishDef": "to have enough time or money to be able to do something",
+      "partOfSpeech": "v",
+      "ipa": "/əˈfɔːrd/",
+      "katakana": "ə-FORD",
+      "emoji": "💰",
+      "exampleEn": "They could not afford a new car, so they repaired the old one instead.",
+      "exampleJa": "彼らには新しい車を買う余裕がなかったので、代わりに古い車を修理した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "a", "type": "prefix", "meaning": "〜へ（古英語 ge-）" },
+          { "part": "ford", "type": "root", "meaning": "前へ進める（古英語 forthian「成し遂げる」）" }
+        ],
+        "imageDescription": "新車をあきらめ、自分たちで古い車を修理している家族",
+        "relatedWords": ["affordable", "afforded", "forth"],
+        "memoryTip": "forth（前へ進める）→ 実行にこぎつけられる → 余裕がある"
+      }
+    },
+    {
+      "id": "w23_004",
+      "english": "breakthrough",
+      "japanese": "大発見、飛躍的進歩",
+      "englishDef": "an important new development or discovery",
+      "partOfSpeech": "n",
+      "ipa": "/ˈbreɪkθruː/",
+      "katakana": "BRAYK-throo",
+      "emoji": "💡",
+      "exampleEn": "The new medicine was a major breakthrough in the treatment of the disease.",
+      "exampleJa": "その新薬は、その病気の治療における大きな飛躍的進歩だった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "break", "type": "root", "meaning": "壊す、破る" },
+          { "part": "through", "type": "root", "meaning": "〜を突き抜けて" }
+        ],
+        "imageDescription": "研究室で新薬の実験に成功し、歓声を上げる科学者たち",
+        "relatedWords": ["break", "breakthroughs", "discovery"],
+        "memoryTip": "break（破る）+ through（突き抜けて）→ 壁を突き破る → 大発見"
+      }
+    },
+    {
+      "id": "w23_005",
+      "english": "threaten",
+      "japanese": "脅す、おびやかす",
+      "englishDef": "to say that one will try to hurt another",
+      "partOfSpeech": "v",
+      "ipa": "/ˈθretən/",
+      "katakana": "THRET-ən",
+      "emoji": "😠",
+      "exampleEn": "He tried to threaten the younger boys so they would give him their lunch.",
+      "exampleJa": "彼は年下の少年たちを脅して、昼食を渡させようとした。",
+      "etymology": {
+        "morphemes": [
+          { "part": "threat", "type": "root", "meaning": "脅し、圧迫（古英語 þrēat「押しつけ」）" },
+          { "part": "en", "type": "suffix", "meaning": "〜する（動詞）" }
+        ],
+        "imageDescription": "拳を振り上げて年下の子どもたちに詰め寄る少年",
+        "relatedWords": ["threat", "threatening", "intimidate"],
+        "memoryTip": "threat（脅し）+ en（〜する）→ 脅しをかける → 脅す"
+      }
+    },
+    {
+      "id": "w23_006",
+      "english": "supposedly",
+      "japanese": "たぶん、〜という話では",
+      "englishDef": "with some doubt, not definitely true",
+      "partOfSpeech": "adv",
+      "ipa": "/səˈpoʊzɪdli/",
+      "katakana": "sə-POH-zid-lee",
+      "emoji": "🤷",
+      "exampleEn": "The old house is supposedly haunted, but no one has ever seen anything there.",
+      "exampleJa": "その古い家には幽霊が出るという話だが、そこで何かを見た者はこれまで誰もいない。",
+      "etymology": {
+        "morphemes": [
+          { "part": "sup", "type": "prefix", "meaning": "下に（sub-）" },
+          { "part": "pos", "type": "root", "meaning": "置く（ラテン語 ponere）" },
+          { "part": "edly", "type": "suffix", "meaning": "〜のように（副詞）" }
+        ],
+        "imageDescription": "幽霊が出るとうわさされる、誰も住んでいない古い家",
+        "relatedWords": ["suppose", "supposed", "presumably"],
+        "memoryTip": "sup（下に）+ pos（置く）→ 仮に置いた話 → 〜という話では"
+      }
+    },
+    {
+      "id": "w23_007",
+      "english": "wound",
+      "japanese": "傷、けが",
+      "englishDef": "an injury to one's body such as a cut, bruise, or burn",
+      "partOfSpeech": "n",
+      "ipa": "/wuːnd/",
+      "katakana": "WOOND",
+      "emoji": "🩸",
+      "exampleEn": "The nurse cleaned the wound carefully before wrapping it in a bandage.",
+      "exampleJa": "看護師は包帯を巻く前に、その傷を丁寧に洗浄した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "wound", "type": "root", "meaning": "傷（古英語 wund）" }
+        ],
+        "imageDescription": "看護師が消毒してから包帯を巻こうとしている腕の傷",
+        "relatedWords": ["wounded", "wounding", "injury"],
+        "memoryTip": "発音は「ウーンド」。巻く wind の過去形「ワウンド」とは別語"
+      }
+    },
+    {
+      "id": "w23_008",
+      "english": "considerably",
+      "japanese": "かなり、相当に",
+      "englishDef": "with a fair or substantial amount",
+      "partOfSpeech": "adv",
+      "ipa": "/kənˈsɪdərəbli/",
+      "katakana": "kən-SID-ər-ə-blee",
+      "emoji": "📈",
+      "exampleEn": "The temperature dropped considerably once the sun went behind the mountains.",
+      "exampleJa": "太陽が山の陰に入ると、気温はかなり下がった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "con", "type": "prefix", "meaning": "共に、よく" },
+          { "part": "sider", "type": "root", "meaning": "星（ラテン語 sidus）→ よく観察する" },
+          { "part": "ably", "type": "suffix", "meaning": "〜できるほどに（副詞）" }
+        ],
+        "imageDescription": "日が山に隠れた直後、急に下がっていく温度計の目盛り",
+        "relatedWords": ["consider", "considerable", "substantially"],
+        "memoryTip": "consider（じっくり考える）に値するほどの量 → かなり"
+      }
+    },
+    {
+      "id": "w23_009",
+      "english": "penetrating",
+      "japanese": "貫くような、突き刺さる",
+      "englishDef": "piercing through, going through",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈpenətreɪtɪŋ/",
+      "katakana": "PEN-ə-tray-ting",
+      "emoji": "🗡️",
+      "exampleEn": "A penetrating wind cut through his thin jacket as he crossed the bridge.",
+      "exampleJa": "橋を渡るとき、突き刺さるような風が彼の薄い上着を貫いた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "penetr", "type": "root", "meaning": "奥深く入る（ラテン語 penetrare）" },
+          { "part": "ating", "type": "suffix", "meaning": "〜するような（形容詞）" }
+        ],
+        "imageDescription": "橋の上で薄着の体に吹きつける、突き刺すような冷たい風",
+        "relatedWords": ["penetrate", "penetration", "piercing"],
+        "memoryTip": "penetrare（奥深く入る）→ 突き抜ける → 貫くような"
+      }
+    },
+    {
+      "id": "w23_010",
+      "english": "racial",
+      "japanese": "人種の、民族の",
+      "englishDef": "related to a person's race or ethnicity",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈreɪʃəl/",
+      "katakana": "RAY-shəl",
+      "emoji": "🤝",
+      "exampleEn": "The museum has an exhibit about the racial history of the town.",
+      "exampleJa": "その博物館には、町の人種をめぐる歴史についての展示がある。",
+      "etymology": {
+        "morphemes": [
+          { "part": "rac", "type": "root", "meaning": "人種、血統（イタリア語 razza）" },
+          { "part": "ial", "type": "suffix", "meaning": "〜に関する（形容詞）" }
+        ],
+        "imageDescription": "町の人種をめぐる歴史を写真で紹介する博物館の展示",
+        "relatedWords": ["race", "racially", "ethnic"],
+        "memoryTip": "race（人種）+ ial（〜の）→ 人種の"
+      }
+    },
+    {
+      "id": "w23_011",
+      "english": "paranoid",
+      "japanese": "被害妄想的な、過度に疑い深い",
+      "englishDef": "to be unreasonably afraid",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈpærənɔɪd/",
+      "katakana": "PAR-ə-noyd",
+      "emoji": "😨",
+      "exampleEn": "He became paranoid and checked the locks on the door five times before bed.",
+      "exampleJa": "彼は過度に疑い深くなり、寝る前にドアの鍵を五回も確認した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "para", "type": "prefix", "meaning": "そばに、外れて（ギリシャ語）" },
+          { "part": "noid", "type": "root", "meaning": "心（ギリシャ語 nous）" }
+        ],
+        "imageDescription": "寝る前に何度も玄関の鍵を確かめている人",
+        "relatedWords": ["paranoia", "paranoidly", "suspicious"],
+        "memoryTip": "para（外れて）+ nous（心）→ 心が正常から外れる → 過度に疑い深い"
+      }
+    },
+    {
+      "id": "w23_012",
+      "english": "presumably",
+      "japanese": "おそらく、推測では",
+      "englishDef": "very likely, but not known for certain",
+      "partOfSpeech": "adv",
+      "ipa": "/prɪˈzuːməbli/",
+      "katakana": "pri-ZOO-mə-blee",
+      "emoji": "🧐",
+      "exampleEn": "The lights are off, so presumably everyone has already gone home.",
+      "exampleJa": "明かりが消えているので、おそらくみんなもう帰宅したのだろう。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pre", "type": "prefix", "meaning": "前もって" },
+          { "part": "sum", "type": "root", "meaning": "取る（ラテン語 sumere）" },
+          { "part": "ably", "type": "suffix", "meaning": "〜できるほどに（副詞）" }
+        ],
+        "imageDescription": "明かりの消えたオフィスのドアの前で、誰もいないと察している人",
+        "relatedWords": ["presume", "presumption", "supposedly"],
+        "memoryTip": "pre（前もって）+ sum（取る）→ 前もって結論を取る → おそらく"
+      }
+    },
+    {
+      "id": "w23_013",
+      "english": "busted",
+      "japanese": "壊れた、ひびの入った",
+      "englishDef": "broken or cracked",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈbʌstɪd/",
+      "katakana": "BUS-tid",
+      "emoji": "🔨",
+      "exampleEn": "They could not ride the bike because of a busted chain.",
+      "exampleJa": "チェーンが壊れていたので、彼らはその自転車に乗れなかった。",
+      "etymology": {
+        "morphemes": [
+          { "part": "bust", "type": "root", "meaning": "破裂する（burst の口語形）" },
+          { "part": "ed", "type": "suffix", "meaning": "〜された（形容詞）" }
+        ],
+        "imageDescription": "チェーンが外れて切れてしまった自転車",
+        "relatedWords": ["bust", "burst", "broken"],
+        "memoryTip": "burst（破裂する）のくだけた形 bust → 壊れた"
+      }
+    },
+    {
+      "id": "w23_014",
+      "english": "nursery",
+      "japanese": "子ども用の、育児のための",
+      "englishDef": "intended for children or infants",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈnɜːrsəri/",
+      "katakana": "NUR-sə-ree",
+      "emoji": "🧸",
+      "exampleEn": "His mother still sang the same nursery song she had used when he was a baby.",
+      "exampleJa": "彼の母は、彼が赤ん坊のころに歌っていたのと同じ子守歌を今でも歌っていた。",
+      "etymology": {
+        "morphemes": [
+          { "part": "nurse", "type": "root", "meaning": "育てる、乳を与える（ラテン語 nutrire）" },
+          { "part": "ery", "type": "suffix", "meaning": "〜の場所・〜に関する" }
+        ],
+        "imageDescription": "赤ん坊のベッドのそばで子守歌を歌う母親",
+        "relatedWords": ["nurse", "nurture", "nutrition"],
+        "memoryTip": "nurse（育てる）+ ery → 育てるための → 子ども用の"
+      }
+    },
+    {
+      "id": "w23_015",
+      "english": "pitchfork",
+      "japanese": "干し草用のフォーク、熊手",
+      "englishDef": "a tool used for lifting and carrying hay",
+      "partOfSpeech": "n",
+      "ipa": "/ˈpɪtʃfɔːrk/",
+      "katakana": "PICH-fork",
+      "emoji": "🌾",
+      "exampleEn": "The farmer used a pitchfork to move the hay into the back of the truck.",
+      "exampleJa": "その農夫は干し草用のフォークを使って、干し草をトラックの荷台へ移した。",
+      "etymology": {
+        "morphemes": [
+          { "part": "pitch", "type": "root", "meaning": "放り投げる（中英語 picchen）" },
+          { "part": "fork", "type": "root", "meaning": "フォーク、又状の道具" }
+        ],
+        "imageDescription": "農夫が長い柄のフォークで干し草をトラックへ放り上げている様子",
+        "relatedWords": ["pitch", "fork", "hay"],
+        "memoryTip": "pitch（放り投げる）+ fork → 投げるためのフォーク → 干し草用フォーク"
+      }
+    }
+  ]
+}

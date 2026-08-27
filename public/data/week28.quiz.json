@@ -1,0 +1,210 @@
+{
+  "weekId": "week28",
+  "match": [
+    {
+      "word": "surround",
+      "def": "to be around something"
+    },
+    {
+      "word": "bitter",
+      "def": "having a strong taste or smell that is not sweet"
+    },
+    {
+      "word": "miserable",
+      "def": "very unhappy"
+    },
+    {
+      "word": "overpass",
+      "def": "a bridge where a road passes over another"
+    },
+    {
+      "word": "destiny",
+      "def": "things that are sure to happen to someone in the future"
+    },
+    {
+      "word": "squeak",
+      "def": "to make a short, high-pitched noise"
+    },
+    {
+      "word": "retrieve",
+      "def": "to go and get something from somewhere"
+    },
+    {
+      "word": "shady",
+      "def": "sheltered from the sun"
+    },
+    {
+      "word": "hollow",
+      "def": "empty, not having anything inside"
+    },
+    {
+      "word": "abruptly",
+      "def": "quickly and suddenly"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "surround",
+      "sentence": "Tall trees surround the small pond on every side.",
+      "ja": "高い木々がその小さな池を四方から取り囲んでいる。"
+    },
+    {
+      "answer": "bitter",
+      "sentence": "The coffee was so bitter that he added three spoons of sugar.",
+      "ja": "そのコーヒーはあまりに苦かったので、彼は砂糖を三杯入れた。"
+    },
+    {
+      "answer": "miserable",
+      "sentence": "He looked miserable after losing the match he had trained so long for.",
+      "ja": "長いあいだ練習してきた試合に負けたあと、彼はみじめな様子だった。"
+    },
+    {
+      "answer": "overpass",
+      "sentence": "They waited under the overpass until the rain finally stopped.",
+      "ja": "彼らは雨がやむまで、その陸橋の下で待った。"
+    },
+    {
+      "answer": "destiny",
+      "sentence": "He believed it was his destiny to find the treasure his grandfather had lost.",
+      "ja": "祖父が失った宝を見つけることが自分の運命だと、彼は信じていた。"
+    }
+  ],
+  "bank": [
+    "surround",
+    "bitter",
+    "miserable",
+    "overpass",
+    "destiny",
+    "squeak",
+    "retrieve",
+    "shady",
+    "hollow",
+    "abruptly"
+  ],
+  "mc": [
+    {
+      "q": "What does \"squeak\" mean?",
+      "opts": [
+        "to make a short, high-pitched noise",
+        "to be around something",
+        "having a strong taste or smell that is not sweet",
+        "very unhappy"
+      ],
+      "answer": 0,
+      "word": "squeak"
+    },
+    {
+      "q": "What does \"retrieve\" mean?",
+      "opts": [
+        "a bridge where a road passes over another",
+        "to go and get something from somewhere",
+        "things that are sure to happen to someone in the future",
+        "to make a short, high-pitched noise"
+      ],
+      "answer": 1,
+      "word": "retrieve"
+    },
+    {
+      "q": "What does \"shady\" mean?",
+      "opts": [
+        "to go and get something from somewhere",
+        "empty, not having anything inside",
+        "sheltered from the sun",
+        "quickly and suddenly"
+      ],
+      "answer": 2,
+      "word": "shady"
+    },
+    {
+      "q": "What does \"hollow\" mean?",
+      "opts": [
+        "to make something dirty or impure",
+        "to start to grow",
+        "someone who escaped from captivity and is hiding or running away",
+        "empty, not having anything inside"
+      ],
+      "answer": 3,
+      "word": "hollow"
+    },
+    {
+      "q": "What does \"abruptly\" mean?",
+      "opts": [
+        "quickly and suddenly",
+        "with no doubt or limit",
+        "to fall apart in small, thin pieces",
+        "to be around something"
+      ],
+      "answer": 0,
+      "word": "abruptly"
+    },
+    {
+      "q": "What does \"contaminate\" mean?",
+      "opts": [
+        "having a strong taste or smell that is not sweet",
+        "to make something dirty or impure",
+        "very unhappy",
+        "a bridge where a road passes over another"
+      ],
+      "answer": 1,
+      "word": "contaminate"
+    },
+    {
+      "q": "What does \"sprout\" mean?",
+      "opts": [
+        "things that are sure to happen to someone in the future",
+        "to make a short, high-pitched noise",
+        "to start to grow",
+        "to go and get something from somewhere"
+      ],
+      "answer": 2,
+      "word": "sprout"
+    },
+    {
+      "q": "What does \"fugitive\" mean?",
+      "opts": [
+        "sheltered from the sun",
+        "empty, not having anything inside",
+        "quickly and suddenly",
+        "someone who escaped from captivity and is hiding or running away"
+      ],
+      "answer": 3,
+      "word": "fugitive"
+    },
+    {
+      "q": "What does \"absolutely\" mean?",
+      "opts": [
+        "with no doubt or limit",
+        "to make something dirty or impure",
+        "to start to grow",
+        "someone who escaped from captivity and is hiding or running away"
+      ],
+      "answer": 0,
+      "word": "absolutely"
+    },
+    {
+      "q": "What does \"flake\" mean?",
+      "opts": [
+        "with no doubt or limit",
+        "to fall apart in small, thin pieces",
+        "to be around something",
+        "having a strong taste or smell that is not sweet"
+      ],
+      "answer": 1,
+      "word": "flake"
+    }
+  ],
+  "dict": [
+    {
+      "text": "He filled the bottom with rocks to help separate the water from the dirt.",
+      "word": "separate"
+    },
+    {
+      "text": "Once again he tried pulling it out, but it was firmly in the ground.",
+      "word": "pulling"
+    },
+    {
+      "text": "He remembered that when they left the boat, they were headed toward the setting sun.",
+      "word": "remembered"
+    }
+  ]
+}

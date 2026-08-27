@@ -1,0 +1,210 @@
+{
+  "weekId": "week29",
+  "match": [
+    {
+      "word": "drift",
+      "def": "to be moved slowly by wind or water"
+    },
+    {
+      "word": "indistinct",
+      "def": "unable to see the details of"
+    },
+    {
+      "word": "cluster",
+      "def": "a group of things that are close together"
+    },
+    {
+      "word": "courage",
+      "def": "the ability to do something that one is scared of"
+    },
+    {
+      "word": "stumble",
+      "def": "to trip and almost fall"
+    },
+    {
+      "word": "certain",
+      "def": "sure, definite"
+    },
+    {
+      "word": "stoop",
+      "def": "to bend forward and downward"
+    },
+    {
+      "word": "firmly",
+      "def": "without being able to move, securely"
+    },
+    {
+      "word": "commotion",
+      "def": "disorderly conversation among people"
+    },
+    {
+      "word": "suppress",
+      "def": "to force something not to come out"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "drift",
+      "sentence": "The small boat began to drift away from the shore while they slept.",
+      "ja": "彼らが眠っている間に、その小さなボートは岸から漂い出し始めた。"
+    },
+    {
+      "answer": "indistinct",
+      "sentence": "In the fog the houses looked indistinct, like gray shapes without windows.",
+      "ja": "霧の中では家々ははっきりせず、窓のない灰色の影のように見えた。"
+    },
+    {
+      "answer": "cluster",
+      "sentence": "A cluster of small houses stood at the bottom of the valley.",
+      "ja": "谷の底に、小さな家々のかたまりが立っていた。"
+    },
+    {
+      "answer": "courage",
+      "sentence": "It took real courage for him to speak in front of the whole school.",
+      "ja": "全校生徒の前で話すには、彼には本物の勇気が必要だった。"
+    },
+    {
+      "answer": "stumble",
+      "sentence": "He began to stumble over the loose stones in the dark path.",
+      "ja": "彼は暗い小道のゆるんだ石につまずき始めた。"
+    }
+  ],
+  "bank": [
+    "drift",
+    "indistinct",
+    "cluster",
+    "courage",
+    "stumble",
+    "certain",
+    "stoop",
+    "firmly",
+    "commotion",
+    "suppress"
+  ],
+  "mc": [
+    {
+      "q": "What does \"certain\" mean?",
+      "opts": [
+        "sure, definite",
+        "to be moved slowly by wind or water",
+        "unable to see the details of",
+        "a group of things that are close together"
+      ],
+      "answer": 0,
+      "word": "certain"
+    },
+    {
+      "q": "What does \"stoop\" mean?",
+      "opts": [
+        "the ability to do something that one is scared of",
+        "to bend forward and downward",
+        "to trip and almost fall",
+        "sure, definite"
+      ],
+      "answer": 1,
+      "word": "stoop"
+    },
+    {
+      "q": "What does \"firmly\" mean?",
+      "opts": [
+        "to bend forward and downward",
+        "disorderly conversation among people",
+        "without being able to move, securely",
+        "to force something not to come out"
+      ],
+      "answer": 2,
+      "word": "firmly"
+    },
+    {
+      "q": "What does \"commotion\" mean?",
+      "opts": [
+        "to think about something before deciding",
+        "wet and soft",
+        "in a very strong and vigorous way",
+        "disorderly conversation among people"
+      ],
+      "answer": 3,
+      "word": "commotion"
+    },
+    {
+      "q": "What does \"suppress\" mean?",
+      "opts": [
+        "to force something not to come out",
+        "dark and dirty; not clear",
+        "a dip in the surface of something",
+        "to be moved slowly by wind or water"
+      ],
+      "answer": 0,
+      "word": "suppress"
+    },
+    {
+      "q": "What does \"consider\" mean?",
+      "opts": [
+        "unable to see the details of",
+        "to think about something before deciding",
+        "a group of things that are close together",
+        "the ability to do something that one is scared of"
+      ],
+      "answer": 1,
+      "word": "consider"
+    },
+    {
+      "q": "What does \"soggy\" mean?",
+      "opts": [
+        "to trip and almost fall",
+        "sure, definite",
+        "wet and soft",
+        "to bend forward and downward"
+      ],
+      "answer": 2,
+      "word": "soggy"
+    },
+    {
+      "q": "What does \"violently\" mean?",
+      "opts": [
+        "without being able to move, securely",
+        "disorderly conversation among people",
+        "to force something not to come out",
+        "in a very strong and vigorous way"
+      ],
+      "answer": 3,
+      "word": "violently"
+    },
+    {
+      "q": "What does \"murky\" mean?",
+      "opts": [
+        "dark and dirty; not clear",
+        "to think about something before deciding",
+        "wet and soft",
+        "in a very strong and vigorous way"
+      ],
+      "answer": 0,
+      "word": "murky"
+    },
+    {
+      "q": "What does \"indentation\" mean?",
+      "opts": [
+        "dark and dirty; not clear",
+        "a dip in the surface of something",
+        "to be moved slowly by wind or water",
+        "unable to see the details of"
+      ],
+      "answer": 1,
+      "word": "indentation"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Stanley noticed Zero's canteen lying on the ground near his hole.",
+      "word": "canteen"
+    },
+    {
+      "text": "It was a mirage caused by the shimmering waves of heat rising off the dry ground.",
+      "word": "shimmering"
+    },
+    {
+      "text": "All their clothes were very dirty, but their socks were definitely the worst.",
+      "word": "definitely"
+    }
+  ]
+}
