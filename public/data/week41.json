@@ -1,0 +1,2207 @@
+{
+  "weekId": "week41",
+  "weekNumber": 41,
+  "label": "Term C テスト対策",
+  "words": [
+    {
+      "id": "w41_001",
+      "english": "understatement",
+      "japanese": "控えめな表現、過小評価",
+      "englishDef": "a statement that makes something seem less important or serious than it really is",
+      "partOfSpeech": "n",
+      "ipa": "/ˈʌn.də.steɪt.mənt/",
+      "katakana": "UN-dər-stayt-mənt",
+      "emoji": "🤏",
+      "exampleEn": "Saying the storm was \"a bit of rain\" was a huge understatement.",
+      "exampleJa": "嵐を「ちょっとした雨」と言うのは大げさな過小表現だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "under-",
+            "type": "prefix",
+            "meaning": "下に・控えめに"
+          },
+          {
+            "part": "state",
+            "type": "root",
+            "meaning": "述べる（ラテン語 stare「立つ」）"
+          },
+          {
+            "part": "-ment",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "大雨なのに「少し濡れただけ」と笑う人",
+        "relatedWords": [
+          "overstatement",
+          "understate",
+          "state"
+        ],
+        "memoryTip": "under（控えめに）＋ state（述べる）＋ -ment ＝ 控えめな言い方 → 過小表現"
+      }
+    },
+    {
+      "id": "w41_002",
+      "english": "era",
+      "japanese": "時代、年代",
+      "englishDef": "a long period of time known for a particular feature or event",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɪər.ə/",
+      "katakana": "EER-ə",
+      "emoji": "⏳",
+      "exampleEn": "The invention of the computer began a new era in history.",
+      "exampleJa": "コンピューターの発明は、歴史に新しい時代を開いた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "era",
+            "type": "root",
+            "meaning": "時代・紀元（後期ラテン語 aera「数・計算の基準」）"
+          }
+        ],
+        "imageDescription": "年表の中で大きな区切りが入る様子",
+        "relatedWords": [
+          "epoch",
+          "age",
+          "period"
+        ],
+        "memoryTip": "era（紀元）＝ 歴史の区切りとなる長い期間 → 時代"
+      }
+    },
+    {
+      "id": "w41_003",
+      "english": "mass",
+      "japanese": "大量の、大規模な、大衆の",
+      "englishDef": "involving or affecting a very large number of people",
+      "partOfSpeech": "adj",
+      "ipa": "/mæs/",
+      "katakana": "MAS",
+      "emoji": "👥",
+      "exampleEn": "Television is a form of mass communication.",
+      "exampleJa": "テレビは大衆向けコミュニケーションの一形態だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "mass",
+            "type": "root",
+            "meaning": "かたまり（ラテン語 massa ← ギリシャ語 maza「パン生地」）"
+          }
+        ],
+        "imageDescription": "大勢の人が一つのかたまりになって集まる様子",
+        "relatedWords": [
+          "massive",
+          "mass media",
+          "masses"
+        ],
+        "memoryTip": "mass（かたまり）＝ 大勢のかたまり → 大衆の・大量の"
+      }
+    },
+    {
+      "id": "w41_004",
+      "english": "primitive",
+      "japanese": "原始的な、初期の",
+      "englishDef": "belonging to an early stage of development; very simple and basic",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈprɪm.ɪ.tɪv/",
+      "katakana": "PRIM-i-tiv",
+      "emoji": "🪨",
+      "exampleEn": "Early humans used primitive tools made of stone.",
+      "exampleJa": "初期の人類は石で作った原始的な道具を使っていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "prim",
+            "type": "root",
+            "meaning": "最初の（ラテン語 primus）"
+          },
+          {
+            "part": "-itive",
+            "type": "suffix",
+            "meaning": "性質を表す"
+          }
+        ],
+        "imageDescription": "石の道具で火をおこす古代人",
+        "relatedWords": [
+          "prime",
+          "primary",
+          "primitive tool"
+        ],
+        "memoryTip": "prim（最初）＋ -itive ＝ 最初の段階の → 原始的な"
+      }
+    },
+    {
+      "id": "w41_005",
+      "english": "printing press",
+      "japanese": "印刷機",
+      "englishDef": "a machine that prints text and pictures onto paper by pressing",
+      "partOfSpeech": "n",
+      "ipa": "/ˈprɪn.tɪŋ pres/",
+      "katakana": "PRIN-ting PRES",
+      "emoji": "🖨️",
+      "exampleEn": "The printing press made books cheap enough for ordinary people.",
+      "exampleJa": "印刷機のおかげで、本は普通の人でも買える安さになった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "print",
+            "type": "root",
+            "meaning": "押す（ラテン語 premere → 古フランス語 preinte）"
+          },
+          {
+            "part": "press",
+            "type": "root",
+            "meaning": "押しつける（ラテン語 pressare）"
+          }
+        ],
+        "imageDescription": "大きな機械で紙に文字を押しつける様子",
+        "relatedWords": [
+          "printer",
+          "press",
+          "publish"
+        ],
+        "memoryTip": "print（刷る）＋ press（押す）＝ 押して刷る機械 → 印刷機"
+      }
+    },
+    {
+      "id": "w41_006",
+      "english": "platform",
+      "japanese": "土台、演壇、プラットフォーム",
+      "englishDef": "a raised flat surface; a system or website that people use to share or do things",
+      "partOfSpeech": "n",
+      "ipa": "/ˈplæt.fɔːm/",
+      "katakana": "PLAT-form",
+      "emoji": "🚉",
+      "exampleEn": "Many creators share videos on an online platform.",
+      "exampleJa": "多くの投稿者がオンラインのプラットフォームで動画を公開している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "plat",
+            "type": "root",
+            "meaning": "平らな（ギリシャ語 platys）"
+          },
+          {
+            "part": "form",
+            "type": "root",
+            "meaning": "形（ラテン語 forma）"
+          }
+        ],
+        "imageDescription": "平らな台の上に人が立ち、皆に向けて発信する様子",
+        "relatedWords": [
+          "plate",
+          "plain",
+          "form"
+        ],
+        "memoryTip": "plat（平らな）＋ form（形）＝ 平らな台 → 土台・基盤"
+      }
+    },
+    {
+      "id": "w41_007",
+      "english": "enable",
+      "japanese": "可能にする",
+      "englishDef": "to give someone the ability or means to do something",
+      "partOfSpeech": "v",
+      "ipa": "/ɪˈneɪ.bəl/",
+      "katakana": "i-NAY-bəl",
+      "emoji": "🔑",
+      "exampleEn": "The new software enables users to edit photos easily.",
+      "exampleJa": "その新しいソフトのおかげで、利用者は写真を簡単に編集できる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "en-",
+            "type": "prefix",
+            "meaning": "～にする"
+          },
+          {
+            "part": "able",
+            "type": "root",
+            "meaning": "できる（ラテン語 habilis「扱いやすい」）"
+          }
+        ],
+        "imageDescription": "鍵を使って扉を開けられるようにする様子",
+        "relatedWords": [
+          "enabled",
+          "able",
+          "ability"
+        ],
+        "memoryTip": "en（～にする）＋ able（できる）＝ できるようにする → 可能にする"
+      }
+    },
+    {
+      "id": "w41_008",
+      "english": "a testament",
+      "japanese": "証拠、証し",
+      "englishDef": "something that clearly shows that something else exists or is true",
+      "partOfSpeech": "n",
+      "ipa": "/ə ˈtes.tə.mənt/",
+      "katakana": "ə TES-tə-mənt",
+      "emoji": "📜",
+      "exampleEn": "The old bridge is a testament to the skill of its builders.",
+      "exampleJa": "その古い橋は建設者たちの腕前の証しだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "test",
+            "type": "root",
+            "meaning": "証言する（ラテン語 testari ← testis「証人」）"
+          },
+          {
+            "part": "-ment",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "古い橋が職人の技を静かに物語っている様子",
+        "relatedWords": [
+          "testify",
+          "testimony",
+          "attest"
+        ],
+        "memoryTip": "test（証言）＋ -ment ＝ 証言となるもの → 証拠・証し"
+      }
+    },
+    {
+      "id": "w41_009",
+      "english": "authentic",
+      "japanese": "本物の、信頼できる",
+      "englishDef": "real and true, not copied or false",
+      "partOfSpeech": "adj",
+      "ipa": "/ɔːˈθen.tɪk/",
+      "katakana": "aw-THEN-tik",
+      "emoji": "✅",
+      "exampleEn": "She bought an authentic painting by a famous artist.",
+      "exampleJa": "彼女は有名な画家の本物の絵を買った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "auth",
+            "type": "root",
+            "meaning": "自ら（ギリシャ語 authentes「自分で行う者」）"
+          },
+          {
+            "part": "-entic",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "鑑定士が絵のサインを確認して「本物」と認める様子",
+        "relatedWords": [
+          "authenticity",
+          "author",
+          "authority"
+        ],
+        "memoryTip": "auth（自ら）＋ -entic ＝ 本人による → 本物の"
+      }
+    },
+    {
+      "id": "w41_010",
+      "english": "deliberately",
+      "japanese": "わざと、慎重に",
+      "englishDef": "on purpose; in a way that is planned and intended",
+      "partOfSpeech": "adv",
+      "ipa": "/dɪˈlɪb.ər.ət.li/",
+      "katakana": "di-LIB-ər-ət-lee",
+      "emoji": "🎯",
+      "exampleEn": "He deliberately left the door open for the cat.",
+      "exampleJa": "彼は猫のためにわざとドアを開けたままにした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "de-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "liber",
+            "type": "root",
+            "meaning": "重さを量る（ラテン語 libra「天秤」）"
+          },
+          {
+            "part": "-ately",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "天秤で重さを量るようにじっくり考えて選ぶ人",
+        "relatedWords": [
+          "deliberate",
+          "deliberation",
+          "intentionally"
+        ],
+        "memoryTip": "de（完全に）＋ liber（量る）＋ -ately ＝ よく量って → わざと・慎重に"
+      }
+    },
+    {
+      "id": "w41_011",
+      "english": "credible",
+      "japanese": "信じられる、信頼できる",
+      "englishDef": "able to be believed or trusted",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈkred.ə.bəl/",
+      "katakana": "KRED-ə-bəl",
+      "emoji": "🤝",
+      "exampleEn": "The witness gave a credible account of what she had seen.",
+      "exampleJa": "証人は自分が見たことについて信頼できる説明をした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "cred",
+            "type": "root",
+            "meaning": "信じる（ラテン語 credere）"
+          },
+          {
+            "part": "-ible",
+            "type": "suffix",
+            "meaning": "～できる"
+          }
+        ],
+        "imageDescription": "信頼できる証言にうなずく審査員",
+        "relatedWords": [
+          "credit",
+          "incredible",
+          "credibility"
+        ],
+        "memoryTip": "cred（信じる）＋ -ible（できる）＝ 信じられる"
+      }
+    },
+    {
+      "id": "w41_012",
+      "english": "fake",
+      "japanese": "偽の、にせの",
+      "englishDef": "not real; made to look like something real in order to trick people",
+      "partOfSpeech": "adj",
+      "ipa": "/feɪk/",
+      "katakana": "FAYK",
+      "emoji": "🎭",
+      "exampleEn": "The police found a fake passport in his bag.",
+      "exampleJa": "警察は彼のかばんの中から偽造パスポートを見つけた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "fake",
+            "type": "root",
+            "meaning": "にせもの（18世紀の俗語、語源不詳）"
+          }
+        ],
+        "imageDescription": "本物そっくりの偽ブランド品が並ぶ様子",
+        "relatedWords": [
+          "fake news",
+          "forgery",
+          "counterfeit"
+        ],
+        "memoryTip": "fake（にせ）＝ 本物のふりをしたもの → 偽の"
+      }
+    },
+    {
+      "id": "w41_013",
+      "english": "publish",
+      "japanese": "出版する、公表する",
+      "englishDef": "to prepare and print a book, article, or other work for the public to read",
+      "partOfSpeech": "v",
+      "ipa": "/ˈpʌb.lɪʃ/",
+      "katakana": "PUB-lish",
+      "emoji": "📰",
+      "exampleEn": "The company will publish her new novel next spring.",
+      "exampleJa": "その会社は来春、彼女の新作小説を出版する。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "publ",
+            "type": "root",
+            "meaning": "人々（ラテン語 publicus）"
+          },
+          {
+            "part": "-ish",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "新聞や本が人々に配られる様子",
+        "relatedWords": [
+          "publication",
+          "publisher",
+          "public"
+        ],
+        "memoryTip": "publ（人々）＋ -ish（～にする）＝ 人々に知らせる → 出版する"
+      }
+    },
+    {
+      "id": "w41_014",
+      "english": "typical",
+      "japanese": "典型的な、よくある",
+      "englishDef": "having the usual features of a particular type of person, thing, or group",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈtɪp.ɪ.kəl/",
+      "katakana": "TIP-i-kəl",
+      "emoji": "📏",
+      "exampleEn": "A typical day at school starts with a morning meeting.",
+      "exampleJa": "学校の典型的な一日は朝の会から始まる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "typ",
+            "type": "root",
+            "meaning": "型・印（ギリシャ語 typos）"
+          },
+          {
+            "part": "-ical",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "同じ型で作られた見本がずらりと並ぶ様子",
+        "relatedWords": [
+          "type",
+          "typically",
+          "stereotype"
+        ],
+        "memoryTip": "typ（型）＋ -ical ＝ 型どおりの → 典型的な"
+      }
+    },
+    {
+      "id": "w41_015",
+      "english": "inseparable",
+      "japanese": "切り離せない",
+      "englishDef": "so closely connected that it cannot be divided or separated",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈsep.ər.ə.bəl/",
+      "katakana": "in-SEP-ər-ə-bəl",
+      "emoji": "👭",
+      "exampleEn": "The two friends have been inseparable since childhood.",
+      "exampleJa": "その2人の友人は子どもの頃からずっと切っても切れない仲だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "sepa",
+            "type": "root",
+            "meaning": "分ける（ラテン語 separare）"
+          },
+          {
+            "part": "-able",
+            "type": "suffix",
+            "meaning": "～できる"
+          }
+        ],
+        "imageDescription": "いつも手をつないで離れない二人の友達",
+        "relatedWords": [
+          "separate",
+          "separation",
+          "inseparably"
+        ],
+        "memoryTip": "in（否定）＋ separ（分ける）＋ -able ＝ 分けられない"
+      }
+    },
+    {
+      "id": "w41_016",
+      "english": "noteworthy",
+      "japanese": "注目に値する",
+      "englishDef": "deserving attention because it is unusual or important",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈnəʊtˌwɜː.ði/",
+      "katakana": "NOHT-wur-thee",
+      "emoji": "⭐",
+      "exampleEn": "The scientist's discovery is noteworthy for its simplicity.",
+      "exampleJa": "その科学者の発見は、単純さの点で注目に値する。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "note",
+            "type": "root",
+            "meaning": "印をつける・書き留める（ラテン語 nota）"
+          },
+          {
+            "part": "worthy",
+            "type": "root",
+            "meaning": "価値のある（古英語 weorthig）"
+          }
+        ],
+        "imageDescription": "大事な所に星印をつけてノートに書き留める人",
+        "relatedWords": [
+          "note",
+          "noted",
+          "remarkable"
+        ],
+        "memoryTip": "note（書き留める）＋ worthy（価値がある）＝ 書き留める価値がある → 注目に値する"
+      }
+    },
+    {
+      "id": "w41_017",
+      "english": "neutral",
+      "japanese": "中立の、中間の",
+      "englishDef": "not taking either side in a disagreement; having no strong feature",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈnjuː.trəl/",
+      "katakana": "NYOO-trəl",
+      "emoji": "⚖️",
+      "exampleEn": "The referee must stay neutral during the match.",
+      "exampleJa": "審判は試合中、中立を保たなければならない。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ne-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "uter",
+            "type": "root",
+            "meaning": "二者のうちの一方（ラテン語 uter）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "天秤が左右どちらにも傾かず水平な様子",
+        "relatedWords": [
+          "neutrality",
+          "neither",
+          "neutralize"
+        ],
+        "memoryTip": "ne（否定）＋ uter（どちらか）＋ -al ＝ どちらでもない → 中立の"
+      }
+    },
+    {
+      "id": "w41_018",
+      "english": "alter",
+      "japanese": "変える、手直しする",
+      "englishDef": "to change something, usually only a little",
+      "partOfSpeech": "v",
+      "ipa": "/ˈɔːl.tər/",
+      "katakana": "AWL-tər",
+      "emoji": "✂️",
+      "exampleEn": "She had the dress altered to fit her better.",
+      "exampleJa": "彼女はぴったり合うようにドレスを直してもらった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "alter",
+            "type": "root",
+            "meaning": "もう一方の（ラテン語 alter）"
+          }
+        ],
+        "imageDescription": "仕立て屋がドレスの丈を少し直している様子",
+        "relatedWords": [
+          "alteration",
+          "alternate",
+          "alternative"
+        ],
+        "memoryTip": "alter（別の）＝ 別のものにする → 変える"
+      }
+    },
+    {
+      "id": "w41_019",
+      "english": "entice",
+      "japanese": "誘い込む、そそのかす",
+      "englishDef": "to attract someone by offering something pleasant",
+      "partOfSpeech": "v",
+      "ipa": "/ɪnˈtaɪs/",
+      "katakana": "in-TYSE",
+      "emoji": "🍰",
+      "exampleEn": "The smell of fresh bread enticed us into the bakery.",
+      "exampleJa": "焼きたてのパンの香りに誘われて、私たちはパン屋に入った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "en-",
+            "type": "prefix",
+            "meaning": "中へ"
+          },
+          {
+            "part": "tice",
+            "type": "root",
+            "meaning": "火をつける（古フランス語 enticier「あおる」）"
+          }
+        ],
+        "imageDescription": "おいしそうな匂いに引き寄せられて店に入る人",
+        "relatedWords": [
+          "enticing",
+          "enticement",
+          "tempt"
+        ],
+        "memoryTip": "en（中へ）＋ tice（あおる）＝ 心に火をつけて引き込む → 誘い込む"
+      }
+    },
+    {
+      "id": "w41_020",
+      "english": "scoop",
+      "japanese": "特ダネ、すくい取る道具",
+      "englishDef": "an exciting news story that is published or broadcast before other news sources have it",
+      "partOfSpeech": "n",
+      "ipa": "/skuːp/",
+      "katakana": "SKOOP",
+      "emoji": "📰",
+      "exampleEn": "The reporter got a scoop about the mayor's plan.",
+      "exampleJa": "その記者は市長の計画について特ダネをつかんだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "scoop",
+            "type": "root",
+            "meaning": "すくう道具（中オランダ語 schope「水をくむ器」）"
+          }
+        ],
+        "imageDescription": "記者が他社より先にネタをすくい取る様子",
+        "relatedWords": [
+          "scoop up",
+          "spoon",
+          "ladle"
+        ],
+        "memoryTip": "scoop（すくう）＝ 他社より先にすくい取った大ニュース → 特ダネ"
+      }
+    },
+    {
+      "id": "w41_021",
+      "english": "citizen",
+      "japanese": "市民、国民",
+      "englishDef": "a person who legally belongs to a country or a town",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsɪt.ɪ.zən/",
+      "katakana": "SIT-i-zən",
+      "emoji": "🧑‍🤝‍🧑",
+      "exampleEn": "Every citizen has the right to vote.",
+      "exampleJa": "すべての市民には投票する権利がある。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "cit",
+            "type": "root",
+            "meaning": "都市（ラテン語 civis「市民」）"
+          },
+          {
+            "part": "-zen",
+            "type": "suffix",
+            "meaning": "～の人"
+          }
+        ],
+        "imageDescription": "町の人々が投票所に並ぶ様子",
+        "relatedWords": [
+          "city",
+          "civil",
+          "citizenship"
+        ],
+        "memoryTip": "cit（都市）＋ -zen（人）＝ 都市に住む人 → 市民"
+      }
+    },
+    {
+      "id": "w41_022",
+      "english": "verify",
+      "japanese": "確かめる、検証する",
+      "englishDef": "to check that something is true or correct",
+      "partOfSpeech": "v",
+      "ipa": "/ˈver.ɪ.faɪ/",
+      "katakana": "VER-i-fy",
+      "emoji": "🔎",
+      "exampleEn": "Please verify your email address before logging in.",
+      "exampleJa": "ログインする前にメールアドレスを確認してください。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ver",
+            "type": "root",
+            "meaning": "真実の（ラテン語 verus）"
+          },
+          {
+            "part": "-ify",
+            "type": "suffix",
+            "meaning": "～にする"
+          }
+        ],
+        "imageDescription": "虫眼鏡で書類の内容を確認する人",
+        "relatedWords": [
+          "verification",
+          "very",
+          "verdict"
+        ],
+        "memoryTip": "ver（真実）＋ -ify（～にする）＝ 真実だと確かめる → 検証する"
+      }
+    },
+    {
+      "id": "w41_023",
+      "english": "witness",
+      "japanese": "目撃者、証人",
+      "englishDef": "a person who sees something happen, especially a crime or an accident",
+      "partOfSpeech": "n",
+      "ipa": "/ˈwɪt.nəs/",
+      "katakana": "WIT-nəs",
+      "emoji": "👁️",
+      "exampleEn": "A witness saw the car leave the scene.",
+      "exampleJa": "目撃者はその車が現場から立ち去るのを見た。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "wit",
+            "type": "root",
+            "meaning": "知っている（古英語 witan）"
+          },
+          {
+            "part": "-ness",
+            "type": "suffix",
+            "meaning": "状態"
+          }
+        ],
+        "imageDescription": "事故現場を見ていた人が警察に話す様子",
+        "relatedWords": [
+          "eyewitness",
+          "wit",
+          "wise"
+        ],
+        "memoryTip": "wit（知っている）＋ -ness ＝ 知っている人 → 目撃者"
+      }
+    },
+    {
+      "id": "w41_024",
+      "english": "disclose",
+      "japanese": "明らかにする、公表する",
+      "englishDef": "to make secret information known to other people",
+      "partOfSpeech": "v",
+      "ipa": "/dɪsˈkləʊz/",
+      "katakana": "dis-KLOHZ",
+      "emoji": "🔓",
+      "exampleEn": "The company refused to disclose the names of its customers.",
+      "exampleJa": "その会社は顧客の名前を明かすことを拒んだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "dis-",
+            "type": "prefix",
+            "meaning": "反対に"
+          },
+          {
+            "part": "close",
+            "type": "root",
+            "meaning": "閉じる（ラテン語 claudere）"
+          }
+        ],
+        "imageDescription": "閉じていた箱のふたを開けて中身を見せる様子",
+        "relatedWords": [
+          "disclosure",
+          "close",
+          "reveal"
+        ],
+        "memoryTip": "dis（反対）＋ close（閉じる）＝ 閉じたものを開く → 明らかにする"
+      }
+    },
+    {
+      "id": "w41_025",
+      "english": "profitability",
+      "japanese": "収益性",
+      "englishDef": "the ability of a business to make money",
+      "partOfSpeech": "n",
+      "ipa": "/ˌprɒf.ɪ.təˈbɪl.ə.ti/",
+      "katakana": "prof-i-tə-BIL-ə-tee",
+      "emoji": "💹",
+      "exampleEn": "The shop improved its profitability by cutting costs.",
+      "exampleJa": "その店は経費を削減して収益性を高めた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pro-",
+            "type": "prefix",
+            "meaning": "前へ"
+          },
+          {
+            "part": "fit",
+            "type": "root",
+            "meaning": "作る（ラテン語 facere）"
+          },
+          {
+            "part": "-ability",
+            "type": "suffix",
+            "meaning": "能力・性質"
+          }
+        ],
+        "imageDescription": "右肩上がりの利益のグラフ",
+        "relatedWords": [
+          "profit",
+          "profitable",
+          "benefit"
+        ],
+        "memoryTip": "profit（利益）＋ -ability（性質）＝ 利益を生む力 → 収益性"
+      }
+    },
+    {
+      "id": "w41_026",
+      "english": "sustain",
+      "japanese": "維持する、支える",
+      "englishDef": "to keep something going for a long time; to support",
+      "partOfSpeech": "v",
+      "ipa": "/səˈsteɪn/",
+      "katakana": "sə-STAYN",
+      "emoji": "🌿",
+      "exampleEn": "Farmers need water to sustain their crops through the summer.",
+      "exampleJa": "農家は夏の間、作物を維持するために水が必要だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sus-",
+            "type": "prefix",
+            "meaning": "下から"
+          },
+          {
+            "part": "tain",
+            "type": "root",
+            "meaning": "保つ（ラテン語 tenere）"
+          }
+        ],
+        "imageDescription": "下から支えて植物を育て続ける様子",
+        "relatedWords": [
+          "sustainable",
+          "sustainability",
+          "maintain"
+        ],
+        "memoryTip": "sus（下から）＋ tain（保つ）＝ 下から支え続ける → 維持する"
+      }
+    },
+    {
+      "id": "w41_027",
+      "english": "conduct",
+      "japanese": "行う、実施する",
+      "englishDef": "to organize and carry out an activity",
+      "partOfSpeech": "v",
+      "ipa": "/kənˈdʌkt/",
+      "katakana": "kən-DUKT",
+      "emoji": "🧪",
+      "exampleEn": "The scientists will conduct an experiment next week.",
+      "exampleJa": "科学者たちは来週実験を行う。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "con-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "duct",
+            "type": "root",
+            "meaning": "導く（ラテン語 ducere）"
+          }
+        ],
+        "imageDescription": "研究者が実験を進める様子",
+        "relatedWords": [
+          "conductor",
+          "conduct（行為）",
+          "introduce"
+        ],
+        "memoryTip": "con（共に）＋ duct（導く）＝ 皆を導いて進める → 行う"
+      }
+    },
+    {
+      "id": "w41_028",
+      "english": "factor",
+      "japanese": "要因、要素",
+      "englishDef": "one of the things that influences a result",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfæk.tər/",
+      "katakana": "FAK-tər",
+      "emoji": "🧩",
+      "exampleEn": "Weather was a major factor in the team's loss.",
+      "exampleJa": "天候がチームの敗因の大きな要因だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "fact",
+            "type": "root",
+            "meaning": "作る・行う（ラテン語 facere）"
+          },
+          {
+            "part": "-or",
+            "type": "suffix",
+            "meaning": "～するもの"
+          }
+        ],
+        "imageDescription": "いくつかの歯車が組み合わさって結果を動かす様子",
+        "relatedWords": [
+          "facts",
+          "factory",
+          "manufacture"
+        ],
+        "memoryTip": "fact（作る）＋ -or（もの）＝ 結果を作るもの → 要因"
+      }
+    },
+    {
+      "id": "w41_029",
+      "english": "infer",
+      "japanese": "推論する、推測する",
+      "englishDef": "to form an opinion from evidence rather than from direct statement",
+      "partOfSpeech": "v",
+      "ipa": "/ɪnˈfɜːr/",
+      "katakana": "in-FUR",
+      "emoji": "🕵️",
+      "exampleEn": "From her smile, I inferred that she had passed the test.",
+      "exampleJa": "彼女の笑顔から、試験に受かったのだと推測した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "中へ"
+          },
+          {
+            "part": "fer",
+            "type": "root",
+            "meaning": "運ぶ（ラテン語 ferre）"
+          }
+        ],
+        "imageDescription": "手がかりから結論を導く探偵",
+        "relatedWords": [
+          "inference",
+          "refer",
+          "transfer"
+        ],
+        "memoryTip": "in（中へ）＋ fer（運ぶ）＝ 証拠から結論へ運ぶ → 推論する"
+      }
+    },
+    {
+      "id": "w41_030",
+      "english": "citation",
+      "japanese": "引用、出典の明示",
+      "englishDef": "a short mention of a book or source used as evidence",
+      "partOfSpeech": "n",
+      "ipa": "/saɪˈteɪ.ʃən/",
+      "katakana": "sy-TAY-shən",
+      "emoji": "📚",
+      "exampleEn": "The essay needs a citation for every fact.",
+      "exampleJa": "そのエッセイには、事実ごとに出典の明示が必要だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "cit",
+            "type": "root",
+            "meaning": "呼び出す（ラテン語 citare）"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "論文の注釈に参考文献を書き添える様子",
+        "relatedWords": [
+          "cite",
+          "excite",
+          "recite"
+        ],
+        "memoryTip": "cit（呼ぶ）＋ -ation ＝ 呼び出して示すこと → 引用"
+      }
+    },
+    {
+      "id": "w41_031",
+      "english": "theoretical",
+      "japanese": "理論上の、理論的な",
+      "englishDef": "based on ideas and theory rather than on practice",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌθɪə.rəˈtet.ɪ.kəl/",
+      "katakana": "theer-ə-TET-i-kəl",
+      "emoji": "📐",
+      "exampleEn": "It is a theoretical idea that has not been tested yet.",
+      "exampleJa": "それはまだ試されていない理論上の考えだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "theor",
+            "type": "root",
+            "meaning": "眺める・考察する（ギリシャ語 theoria）"
+          },
+          {
+            "part": "-etical",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "黒板に公式を書いて説明する先生",
+        "relatedWords": [
+          "theory",
+          "theorist",
+          "theoretically"
+        ],
+        "memoryTip": "theor（考察）＋ -etical ＝ 考えにもとづく → 理論的な"
+      }
+    },
+    {
+      "id": "w41_032",
+      "english": "comprehensive",
+      "japanese": "包括的な、総合的な",
+      "englishDef": "including everything that is necessary; complete",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌkɒm.prɪˈhen.sɪv/",
+      "katakana": "kom-pri-HEN-siv",
+      "emoji": "📋",
+      "exampleEn": "The report gives a comprehensive view of the problem.",
+      "exampleJa": "その報告書は問題を包括的に示している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "prehend",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 prehendere）"
+          },
+          {
+            "part": "-ive",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "全部を一つの袋にまとめて抱え込む様子",
+        "relatedWords": [
+          "comprehend",
+          "comprehension",
+          "thorough"
+        ],
+        "memoryTip": "com（完全に）＋ prehend（つかむ）＋ -ive ＝ 全部つかんだ → 包括的な"
+      }
+    },
+    {
+      "id": "w41_033",
+      "english": "generation",
+      "japanese": "世代",
+      "englishDef": "all the people born at about the same time; one step in a family line",
+      "partOfSpeech": "n",
+      "ipa": "/ˌdʒen.əˈreɪ.ʃən/",
+      "katakana": "jen-ə-RAY-shən",
+      "emoji": "👨‍👩‍👧",
+      "exampleEn": "Three generations of the family live in the same house.",
+      "exampleJa": "その家では3世代が同じ家に住んでいる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "gener",
+            "type": "root",
+            "meaning": "生み出す（ラテン語 generare）"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "祖父母・親・子が並ぶ家族写真",
+        "relatedWords": [
+          "generate",
+          "general",
+          "genetic"
+        ],
+        "memoryTip": "gener（生む）＋ -ation ＝ 生み出された人々 → 世代"
+      }
+    },
+    {
+      "id": "w41_034",
+      "english": "calculation",
+      "japanese": "計算、算出",
+      "englishDef": "the process of finding an answer using numbers",
+      "partOfSpeech": "n",
+      "ipa": "/ˌkæl.kjəˈleɪ.ʃən/",
+      "katakana": "kal-kyə-LAY-shən",
+      "emoji": "🧮",
+      "exampleEn": "After a quick calculation, he knew how much money he needed.",
+      "exampleJa": "さっと計算して、彼は必要な金額がわかった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "calcul",
+            "type": "root",
+            "meaning": "小石（ラテン語 calculus；そろばんの玉に使った）"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "電卓やそろばんで数を数える様子",
+        "relatedWords": [
+          "calculate",
+          "calculator",
+          "calculus"
+        ],
+        "memoryTip": "calcul（小石）＋ -ation ＝ 小石で数えること → 計算"
+      }
+    },
+    {
+      "id": "w41_035",
+      "english": "operating system",
+      "japanese": "オペレーティングシステム（OS）",
+      "englishDef": "the main software that controls how a computer works",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɒp.ə.reɪ.tɪŋ ˈsɪs.təm/",
+      "katakana": "OP-ə-ray-ting SIS-təm",
+      "emoji": "💻",
+      "exampleEn": "Windows is an operating system used on many computers.",
+      "exampleJa": "Windowsは多くのコンピューターで使われているOSだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "operate",
+            "type": "root",
+            "meaning": "働く・作業する（ラテン語 operari）"
+          },
+          {
+            "part": "system",
+            "type": "root",
+            "meaning": "組織・体系（ギリシャ語 systema）"
+          }
+        ],
+        "imageDescription": "パソコンの画面全体を支える土台のソフト",
+        "relatedWords": [
+          "operate",
+          "operation",
+          "system"
+        ],
+        "memoryTip": "operate（動かす）＋ system（体系）＝ 動かすための仕組み → OS"
+      }
+    },
+    {
+      "id": "w41_036",
+      "english": "commercial",
+      "japanese": "商業の、営利目的の",
+      "englishDef": "connected with buying and selling goods and services",
+      "partOfSpeech": "adj",
+      "ipa": "/kəˈmɜː.ʃəl/",
+      "katakana": "kə-MUR-shəl",
+      "emoji": "🏬",
+      "exampleEn": "The company launched a commercial product last month.",
+      "exampleJa": "その会社は先月、商業製品を発売した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "merc",
+            "type": "root",
+            "meaning": "商品・取引（ラテン語 merx）"
+          },
+          {
+            "part": "-ial",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "商店街で商品が売買されている様子",
+        "relatedWords": [
+          "commerce",
+          "merchant",
+          "market"
+        ],
+        "memoryTip": "com（共に）＋ merc（商品）＋ -ial ＝ 商取引の → 商業の"
+      }
+    },
+    {
+      "id": "w41_037",
+      "english": "concept",
+      "japanese": "概念、考え",
+      "englishDef": "an idea or principle",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkɒn.sept/",
+      "katakana": "KON-sept",
+      "emoji": "💡",
+      "exampleEn": "The concept of time is hard to explain to children.",
+      "exampleJa": "時間という概念は子どもに説明するのが難しい。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "con-",
+            "type": "prefix",
+            "meaning": "共に・完全に"
+          },
+          {
+            "part": "cept",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 capere）"
+          }
+        ],
+        "imageDescription": "頭の中に電球がともる様子",
+        "relatedWords": [
+          "conceive",
+          "conception",
+          "idea"
+        ],
+        "memoryTip": "con（完全に）＋ cept（つかむ）＝ 頭でつかんだもの → 概念"
+      }
+    },
+    {
+      "id": "w41_038",
+      "english": "industry",
+      "japanese": "産業、工業",
+      "englishDef": "the production of goods in factories; a particular branch of business",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɪn.də.stri/",
+      "katakana": "IN-də-stree",
+      "emoji": "🏭",
+      "exampleEn": "The car industry employs thousands of workers.",
+      "exampleJa": "自動車産業は何千人もの人々を雇用している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "indu",
+            "type": "root",
+            "meaning": "内側で（ラテン語 indu-）"
+          },
+          {
+            "part": "stru",
+            "type": "root",
+            "meaning": "築く（ラテン語 struere）"
+          },
+          {
+            "part": "-y",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "煙突のある工場で人々が働く様子",
+        "relatedWords": [
+          "industrial",
+          "industrious",
+          "structure"
+        ],
+        "memoryTip": "indu（中で）＋ stru（築く）＋ -y ＝ 勤勉に作り上げること → 産業"
+      }
+    },
+    {
+      "id": "w41_039",
+      "english": "mobility",
+      "japanese": "移動のしやすさ、流動性",
+      "englishDef": "the ability to move or travel easily",
+      "partOfSpeech": "n",
+      "ipa": "/məʊˈbɪl.ə.ti/",
+      "katakana": "moh-BIL-ə-tee",
+      "emoji": "🚲",
+      "exampleEn": "Bicycles give people greater mobility in the city.",
+      "exampleJa": "自転車は街での人々の移動のしやすさを高める。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "mob",
+            "type": "root",
+            "meaning": "動く（ラテン語 movere）"
+          },
+          {
+            "part": "-ility",
+            "type": "suffix",
+            "meaning": "性質"
+          }
+        ],
+        "imageDescription": "自転車で自由に街を走り回る人",
+        "relatedWords": [
+          "mobile",
+          "move",
+          "motion"
+        ],
+        "memoryTip": "mob（動く）＋ -ility ＝ 動ける性質 → 移動のしやすさ"
+      }
+    },
+    {
+      "id": "w41_040",
+      "english": "omnipresent",
+      "japanese": "遍在する、どこにでもある",
+      "englishDef": "present everywhere at the same time",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌɒm.nɪˈprez.ənt/",
+      "katakana": "om-ni-PREZ-ənt",
+      "emoji": "🌐",
+      "exampleEn": "Smartphones have become omnipresent in modern life.",
+      "exampleJa": "スマートフォンは現代生活のどこにでもあるものになった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "omni-",
+            "type": "prefix",
+            "meaning": "すべての（ラテン語 omnis）"
+          },
+          {
+            "part": "pre-",
+            "type": "prefix",
+            "meaning": "前に"
+          },
+          {
+            "part": "sent",
+            "type": "root",
+            "meaning": "ある（ラテン語 esse）"
+          }
+        ],
+        "imageDescription": "街中の誰もがスマホを持っている光景",
+        "relatedWords": [
+          "omnipotent",
+          "present",
+          "omnivore"
+        ],
+        "memoryTip": "omni（すべて）＋ present（そこにある）＝ どこにでもある → 遍在する"
+      }
+    },
+    {
+      "id": "w41_041",
+      "english": "branch",
+      "japanese": "枝、支店、分野",
+      "englishDef": "a part of a tree growing out of the trunk; a part of a larger organization",
+      "partOfSpeech": "n",
+      "ipa": "/brɑːntʃ/",
+      "katakana": "BRANCH",
+      "emoji": "🌳",
+      "exampleEn": "The bank opened a new branch near the station.",
+      "exampleJa": "その銀行は駅の近くに新しい支店を開いた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "branch",
+            "type": "root",
+            "meaning": "枝（後期ラテン語 branca「足・爪」）"
+          }
+        ],
+        "imageDescription": "幹から何本もの枝が分かれている木",
+        "relatedWords": [
+          "branching",
+          "division",
+          "tree"
+        ],
+        "memoryTip": "branch（枝）＝ 本体から分かれた部分 → 支店・分野"
+      }
+    },
+    {
+      "id": "w41_042",
+      "english": "gradually",
+      "japanese": "だんだんと、徐々に",
+      "englishDef": "slowly, step by step",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈɡrædʒ.u.ə.li/",
+      "katakana": "GRAJ-oo-ə-lee",
+      "emoji": "🪜",
+      "exampleEn": "The weather gradually became warmer in March.",
+      "exampleJa": "3月になって天気は徐々に暖かくなった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "grad",
+            "type": "root",
+            "meaning": "段階・歩み（ラテン語 gradus）"
+          },
+          {
+            "part": "-ual",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "階段を一段ずつ上っていく様子",
+        "relatedWords": [
+          "grade",
+          "graduate",
+          "gradual"
+        ],
+        "memoryTip": "grad（段階）＋ -ual ＋ -ly ＝ 一段ずつ → 徐々に"
+      }
+    },
+    {
+      "id": "w41_043",
+      "english": "divergence",
+      "japanese": "相違、分岐",
+      "englishDef": "the process of moving apart or becoming different",
+      "partOfSpeech": "n",
+      "ipa": "/daɪˈvɜː.dʒəns/",
+      "katakana": "dy-VUR-jəns",
+      "emoji": "↔️",
+      "exampleEn": "There is a divergence between the two reports.",
+      "exampleJa": "その2つの報告書には相違がある。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "di-",
+            "type": "prefix",
+            "meaning": "離れて"
+          },
+          {
+            "part": "verg",
+            "type": "root",
+            "meaning": "傾く・向かう（ラテン語 vergere）"
+          },
+          {
+            "part": "-ence",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "1本の道が二手に分かれていく様子",
+        "relatedWords": [
+          "diverge",
+          "convergence",
+          "diverse"
+        ],
+        "memoryTip": "di（離れて）＋ verg（向かう）＋ -ence ＝ 別方向へ向かうこと → 相違・分岐"
+      }
+    },
+    {
+      "id": "w41_044",
+      "english": "simulate",
+      "japanese": "模擬する、シミュレーションする",
+      "englishDef": "to create the conditions of something in order to test or copy it",
+      "partOfSpeech": "v",
+      "ipa": "/ˈsɪm.jə.leɪt/",
+      "katakana": "SIM-yə-layt",
+      "emoji": "🎮",
+      "exampleEn": "Pilots use machines that simulate real flights.",
+      "exampleJa": "パイロットは実際の飛行を模擬する装置を使う。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "simul",
+            "type": "root",
+            "meaning": "似た（ラテン語 similis）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "実際の飛行を再現する訓練用の操縦席",
+        "relatedWords": [
+          "simulation",
+          "similar",
+          "simulator"
+        ],
+        "memoryTip": "simul（似た）＋ -ate ＝ 似せて作る → 模擬する"
+      }
+    },
+    {
+      "id": "w41_045",
+      "english": "indistinguishable",
+      "japanese": "区別がつかない",
+      "englishDef": "impossible to tell apart from something else",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌɪn.dɪˈstɪŋ.ɡwɪ.ʃə.bəl/",
+      "katakana": "in-di-STING-gwi-shə-bəl",
+      "emoji": "👯",
+      "exampleEn": "The twins were almost indistinguishable from each other.",
+      "exampleJa": "その双子はお互いほとんど区別がつかなかった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "di-",
+            "type": "prefix",
+            "meaning": "離れて"
+          },
+          {
+            "part": "sting",
+            "type": "root",
+            "meaning": "突き刺す・区別する（ラテン語 stinguere）"
+          },
+          {
+            "part": "-able",
+            "type": "suffix",
+            "meaning": "～できる"
+          }
+        ],
+        "imageDescription": "そっくりな二人が並んで見分けがつかない様子",
+        "relatedWords": [
+          "distinguish",
+          "distinct",
+          "extinguish"
+        ],
+        "memoryTip": "in（否定）＋ di ＋ sting（区別）＋ -able ＝ 区別できない"
+      }
+    },
+    {
+      "id": "w41_046",
+      "english": "accumulate",
+      "japanese": "蓄積する、たまる",
+      "englishDef": "to gradually collect a large amount of something",
+      "partOfSpeech": "v",
+      "ipa": "/əˈkjuː.mjə.leɪt/",
+      "katakana": "ə-KYOO-myə-layt",
+      "emoji": "📚",
+      "exampleEn": "Dust accumulated on the old shelves over many years.",
+      "exampleJa": "古い棚には何年もかけてほこりがたまった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ac-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "cumul",
+            "type": "root",
+            "meaning": "積み上げる（ラテン語 cumulus「山」）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "ほこりや本がどんどん積み重なっていく様子",
+        "relatedWords": [
+          "accumulation",
+          "cumulus",
+          "cumulative"
+        ],
+        "memoryTip": "ac（～へ）＋ cumul（積む）＋ -ate ＝ 積み上げる → 蓄積する"
+      }
+    },
+    {
+      "id": "w41_047",
+      "english": "vast",
+      "japanese": "広大な、膨大な",
+      "englishDef": "extremely large in size or amount",
+      "partOfSpeech": "adj",
+      "ipa": "/vɑːst/",
+      "katakana": "VAST",
+      "emoji": "🌌",
+      "exampleEn": "The desert is a vast area with almost no people.",
+      "exampleJa": "その砂漠は、ほとんど人のいない広大な地域だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "vast",
+            "type": "root",
+            "meaning": "広い・空っぽの（ラテン語 vastus）"
+          }
+        ],
+        "imageDescription": "見渡す限りの草原や砂漠が広がる様子",
+        "relatedWords": [
+          "vastly",
+          "devastate",
+          "huge"
+        ],
+        "memoryTip": "vast（広くて何もない）＝ とてつもなく広い → 広大な"
+      }
+    },
+    {
+      "id": "w41_048",
+      "english": "a chunk",
+      "japanese": "大きなかたまり、かなりの量",
+      "englishDef": "a large piece or amount of something",
+      "partOfSpeech": "n",
+      "ipa": "/ə tʃʌŋk/",
+      "katakana": "ə CHUNK",
+      "emoji": "🧀",
+      "exampleEn": "He cut off a chunk of cheese and ate it.",
+      "exampleJa": "彼はチーズを大きく切り取って食べた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "chunk",
+            "type": "root",
+            "meaning": "かたまり（17世紀、chuck「丸太の塊」の変形）"
+          }
+        ],
+        "imageDescription": "大きなチーズのかたまりを切り分ける様子",
+        "relatedWords": [
+          "chunky",
+          "lump",
+          "piece"
+        ],
+        "memoryTip": "chunk（かたまり）＝ ごろっとした大きな一片"
+      }
+    },
+    {
+      "id": "w41_049",
+      "english": "interpret",
+      "japanese": "解釈する、通訳する",
+      "englishDef": "to explain the meaning of something; to understand something in a particular way",
+      "partOfSpeech": "v",
+      "ipa": "/ɪnˈtɜː.prɪt/",
+      "katakana": "in-TUR-prit",
+      "emoji": "🗣️",
+      "exampleEn": "Different people may interpret the same poem in different ways.",
+      "exampleJa": "同じ詩でも、人によって解釈は違うかもしれない。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "inter-",
+            "type": "prefix",
+            "meaning": "間で"
+          },
+          {
+            "part": "pret",
+            "type": "root",
+            "meaning": "取引する・説明する（ラテン語 pretium「価値」）"
+          }
+        ],
+        "imageDescription": "異なる言語の話し手の間で言葉を訳す通訳者",
+        "relatedWords": [
+          "interpretation",
+          "interpreter",
+          "translate"
+        ],
+        "memoryTip": "inter（間）＋ pret（説明）＝ 間に立って意味を伝える → 解釈する"
+      }
+    },
+    {
+      "id": "w41_050",
+      "english": "integral",
+      "japanese": "不可欠な、構成要素となる",
+      "englishDef": "necessary and important as a part of a whole",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈɪn.tɪ.ɡrəl/",
+      "katakana": "IN-ti-grəl",
+      "emoji": "🧩",
+      "exampleEn": "Teamwork is an integral part of our school project.",
+      "exampleJa": "チームワークは私たちの学校プロジェクトに不可欠な部分だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "teg",
+            "type": "root",
+            "meaning": "触れる（ラテン語 tangere）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "パズルの1ピースが全体に欠かせない様子",
+        "relatedWords": [
+          "integrate",
+          "integer",
+          "integrity"
+        ],
+        "memoryTip": "in（否定）＋ teg（触れる）＋ -al ＝ 欠けていない完全な → 不可欠な"
+      }
+    },
+    {
+      "id": "w41_051",
+      "english": "globalization",
+      "japanese": "グローバル化",
+      "englishDef": "the process by which the world becomes more connected through trade and communication",
+      "partOfSpeech": "n",
+      "ipa": "/ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/",
+      "katakana": "gloh-bə-ly-ZAY-shən",
+      "emoji": "🌍",
+      "exampleEn": "Globalization has made it easy to buy goods from other countries.",
+      "exampleJa": "グローバル化のおかげで、外国の商品を簡単に買えるようになった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "glob",
+            "type": "root",
+            "meaning": "球・地球（ラテン語 globus）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          },
+          {
+            "part": "-ization",
+            "type": "suffix",
+            "meaning": "～化"
+          }
+        ],
+        "imageDescription": "地球の周りを人・物・情報が行き交う様子",
+        "relatedWords": [
+          "global",
+          "globe",
+          "worldwide"
+        ],
+        "memoryTip": "glob（地球）＋ -al ＋ -ization（～化）＝ 世界規模になること → グローバル化"
+      }
+    },
+    {
+      "id": "w41_052",
+      "english": "vital",
+      "japanese": "不可欠な、きわめて重要な",
+      "englishDef": "absolutely necessary; essential for life or success",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈvaɪ.təl/",
+      "katakana": "VY-təl",
+      "emoji": "❤️",
+      "exampleEn": "Water is vital for all living things.",
+      "exampleJa": "水はすべての生き物に欠かせない。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "vit",
+            "type": "root",
+            "meaning": "生命（ラテン語 vita）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "生き物の命を支える水や心臓",
+        "relatedWords": [
+          "vitamin",
+          "vitality",
+          "vivid"
+        ],
+        "memoryTip": "vit（命）＋ -al ＝ 命にかかわる → きわめて重要な"
+      }
+    },
+    {
+      "id": "w41_053",
+      "english": "immense",
+      "japanese": "巨大な、莫大な",
+      "englishDef": "extremely large or great",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪˈmens/",
+      "katakana": "i-MENS",
+      "emoji": "🏔️",
+      "exampleEn": "The company made an immense profit last year.",
+      "exampleJa": "その会社は昨年、莫大な利益を上げた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "im-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "mens",
+            "type": "root",
+            "meaning": "測る（ラテン語 metiri）"
+          }
+        ],
+        "imageDescription": "測りきれないほど大きな山の様子",
+        "relatedWords": [
+          "immensely",
+          "measure",
+          "dimension"
+        ],
+        "memoryTip": "im（否定）＋ mens（測る）＝ 測りきれない → 巨大な"
+      }
+    },
+    {
+      "id": "w41_054",
+      "english": "trivial",
+      "japanese": "ささいな、取るに足りない",
+      "englishDef": "of little value or importance",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈtrɪv.i.əl/",
+      "katakana": "TRIV-ee-əl",
+      "emoji": "🔹",
+      "exampleEn": "Don't worry about such a trivial mistake.",
+      "exampleJa": "そんなささいな間違いは気にしないで。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "tri-",
+            "type": "prefix",
+            "meaning": "3つの"
+          },
+          {
+            "part": "via",
+            "type": "root",
+            "meaning": "道（ラテン語 via）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "三叉路で誰もが通るありふれた話題",
+        "relatedWords": [
+          "trivia",
+          "triviality",
+          "minor"
+        ],
+        "memoryTip": "tri（3つ）＋ via（道）＝ 三叉路でのありふれた会話 → ささいな"
+      }
+    },
+    {
+      "id": "w41_055",
+      "english": "via",
+      "japanese": "～を経由して、～を通じて",
+      "englishDef": "by way of; through",
+      "partOfSpeech": "other",
+      "ipa": "/ˈvaɪ.ə/",
+      "katakana": "VY-ə",
+      "emoji": "🛤️",
+      "exampleEn": "We flew from Tokyo to London via Paris.",
+      "exampleJa": "私たちは東京からパリ経由でロンドンへ飛んだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "via",
+            "type": "root",
+            "meaning": "道（ラテン語 via）"
+          }
+        ],
+        "imageDescription": "途中の駅を経由して進む路線図",
+        "relatedWords": [
+          "voyage",
+          "convey",
+          "trivial"
+        ],
+        "memoryTip": "via（道）＝ その道を通って → ～経由で"
+      }
+    },
+    {
+      "id": "w41_056",
+      "english": "contribute",
+      "japanese": "貢献する、寄付する",
+      "englishDef": "to give something, such as money, time, or ideas, to help achieve something",
+      "partOfSpeech": "v",
+      "ipa": "/kənˈtrɪb.juːt/",
+      "katakana": "kən-TRIB-yoot",
+      "emoji": "🤝",
+      "exampleEn": "Everyone should contribute ideas to the group project.",
+      "exampleJa": "全員がグループ課題にアイデアを出すべきだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "con-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "tribut",
+            "type": "root",
+            "meaning": "与える・分ける（ラテン語 tribuere）"
+          }
+        ],
+        "imageDescription": "みんなが力を出し合って一つの成果を作る様子",
+        "relatedWords": [
+          "contribution",
+          "tribute",
+          "distribute"
+        ],
+        "memoryTip": "con（共に）＋ tribut（与える）＝ 共に差し出す → 貢献する"
+      }
+    },
+    {
+      "id": "w41_057",
+      "english": "facet",
+      "japanese": "側面、面",
+      "englishDef": "one particular part or aspect of something",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfæs.ɪt/",
+      "katakana": "FAS-it",
+      "emoji": "💎",
+      "exampleEn": "Each facet of the problem needs to be studied carefully.",
+      "exampleJa": "問題の一つ一つの側面を注意深く調べる必要がある。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "fac",
+            "type": "root",
+            "meaning": "顔・面（ラテン語 facies）"
+          },
+          {
+            "part": "-et",
+            "type": "suffix",
+            "meaning": "小さい"
+          }
+        ],
+        "imageDescription": "宝石のカットされた小さな面が光る様子",
+        "relatedWords": [
+          "face",
+          "facial",
+          "aspect"
+        ],
+        "memoryTip": "fac（面）＋ -et（小さい）＝ 小さな面 → 側面"
+      }
+    },
+    {
+      "id": "w41_058",
+      "english": "browse",
+      "japanese": "ざっと見る、閲覧する",
+      "englishDef": "to look through information on a computer or look around a shop without a clear plan",
+      "partOfSpeech": "v",
+      "ipa": "/braʊz/",
+      "katakana": "BROWZ",
+      "emoji": "🛍️",
+      "exampleEn": "She likes to browse the internet before going to bed.",
+      "exampleJa": "彼女は寝る前にインターネットをざっと見るのが好きだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "browse",
+            "type": "root",
+            "meaning": "若芽を食べる（古フランス語 brost「新芽」）"
+          }
+        ],
+        "imageDescription": "ウェブサイトや棚をのんびり眺めて回る様子",
+        "relatedWords": [
+          "browser",
+          "graze",
+          "scan"
+        ],
+        "memoryTip": "browse（若芽をつまみ食い）＝ あちこちをのんびり見る → 閲覧する"
+      }
+    },
+    {
+      "id": "w41_059",
+      "english": "boast",
+      "japanese": "自慢する",
+      "englishDef": "to talk too proudly about what you have or can do",
+      "partOfSpeech": "v",
+      "ipa": "/bəʊst/",
+      "katakana": "BOHST",
+      "emoji": "🏆",
+      "exampleEn": "He likes to boast about his new car.",
+      "exampleJa": "彼は新しい車を自慢するのが好きだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "boast",
+            "type": "root",
+            "meaning": "自慢する（中英語 bost、語源不詳）"
+          }
+        ],
+        "imageDescription": "新しい車を指さして友達に自慢する人",
+        "relatedWords": [
+          "boastful",
+          "brag",
+          "show off"
+        ],
+        "memoryTip": "boast（自慢）＝ 誇らしげに言いふらす"
+      }
+    },
+    {
+      "id": "w41_060",
+      "english": "infrastructure",
+      "japanese": "社会基盤、インフラ",
+      "englishDef": "the basic systems and structures a country needs, such as roads, power, and communication",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+      "katakana": "IN-frə-struk-chər",
+      "emoji": "🛣️",
+      "exampleEn": "The city is building new infrastructure, including roads and bridges.",
+      "exampleJa": "その市は道路や橋などの新しい社会基盤を整備している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "infra-",
+            "type": "prefix",
+            "meaning": "下に（ラテン語 infra）"
+          },
+          {
+            "part": "struct",
+            "type": "root",
+            "meaning": "築く（ラテン語 struere）"
+          },
+          {
+            "part": "-ure",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "道路・橋・電線が街を支えている様子",
+        "relatedWords": [
+          "structure",
+          "construct",
+          "infrared"
+        ],
+        "memoryTip": "infra（下に）＋ struct（築く）＋ -ure ＝ 社会を下で支える構造 → インフラ"
+      }
+    },
+    {
+      "id": "w41_061",
+      "english": "software development",
+      "japanese": "ソフトウェア開発",
+      "englishDef": "the process of designing, writing, and testing computer programs",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsɒft.weə dɪˈvel.əp.mənt/",
+      "katakana": "SOFT-wair di-VEL-əp-mənt",
+      "emoji": "👨‍💻",
+      "exampleEn": "Software development takes a team of skilled engineers.",
+      "exampleJa": "ソフトウェア開発には、腕のよい技術者のチームが必要だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "soft",
+            "type": "root",
+            "meaning": "やわらかい（古英語 softe）"
+          },
+          {
+            "part": "ware",
+            "type": "root",
+            "meaning": "品物（古英語 waru）"
+          },
+          {
+            "part": "develop",
+            "type": "root",
+            "meaning": "包みを開く（古フランス語 desveloper）"
+          }
+        ],
+        "imageDescription": "画面に向かってプログラムを書く技術者",
+        "relatedWords": [
+          "developer",
+          "software",
+          "hardware"
+        ],
+        "memoryTip": "software（プログラム）＋ development（発展・開発）＝ プログラムを作り上げること"
+      }
+    },
+    {
+      "id": "w41_062",
+      "english": "administrator",
+      "japanese": "管理者、運営者",
+      "englishDef": "a person whose job is to organize and manage a company, school, or system",
+      "partOfSpeech": "n",
+      "ipa": "/ədˈmɪn.ɪ.streɪ.tər/",
+      "katakana": "əd-MIN-i-stray-tər",
+      "emoji": "🧑‍💼",
+      "exampleEn": "The network administrator fixed the problem in an hour.",
+      "exampleJa": "ネットワーク管理者は1時間で問題を直した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ad-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "minister",
+            "type": "root",
+            "meaning": "仕える（ラテン語 ministrare）"
+          },
+          {
+            "part": "-or",
+            "type": "suffix",
+            "meaning": "～する人"
+          }
+        ],
+        "imageDescription": "サーバー室で全体を見守り調整する人",
+        "relatedWords": [
+          "administer",
+          "administration",
+          "admin"
+        ],
+        "memoryTip": "ad（～へ）＋ minister（仕える）＋ -or（人）＝ 組織に仕えて運営する人 → 管理者"
+      }
+    },
+    {
+      "id": "w41_063",
+      "english": "migration",
+      "japanese": "移住、移動",
+      "englishDef": "the movement of people or animals from one place to another",
+      "partOfSpeech": "n",
+      "ipa": "/maɪˈɡreɪ.ʃən/",
+      "katakana": "my-GRAY-shən",
+      "emoji": "🦆",
+      "exampleEn": "The migration of birds begins in autumn.",
+      "exampleJa": "鳥の移動は秋に始まる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "migr",
+            "type": "root",
+            "meaning": "移動する（ラテン語 migrare）"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "渡り鳥が列を作って空を飛んでいく様子",
+        "relatedWords": [
+          "migrate",
+          "migrant",
+          "immigrate"
+        ],
+        "memoryTip": "migr（移る）＋ -ation ＝ 移動すること → 移住・移動"
+      }
+    },
+    {
+      "id": "w41_064",
+      "english": "confidential",
+      "japanese": "機密の、内密の",
+      "englishDef": "meant to be kept secret",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌkɒn.fɪˈden.ʃəl/",
+      "katakana": "kon-fi-DEN-shəl",
+      "emoji": "🤫",
+      "exampleEn": "This file contains confidential information about customers.",
+      "exampleJa": "このファイルには顧客に関する機密情報が入っている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "con-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "fid",
+            "type": "root",
+            "meaning": "信頼する（ラテン語 fidere）"
+          },
+          {
+            "part": "-ential",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "「極秘」とスタンプが押された書類を閉じる人",
+        "relatedWords": [
+          "confidence",
+          "confide",
+          "confidentiality"
+        ],
+        "memoryTip": "con（完全に）＋ fid（信頼）＋ -ential ＝ 信頼して打ち明ける → 機密の"
+      }
+    },
+    {
+      "id": "w41_065",
+      "english": "encryption",
+      "japanese": "暗号化",
+      "englishDef": "the process of changing information into a secret code",
+      "partOfSpeech": "n",
+      "ipa": "/ɪnˈkrɪp.ʃən/",
+      "katakana": "in-KRIP-shən",
+      "emoji": "🔐",
+      "exampleEn": "Encryption keeps your online messages safe from hackers.",
+      "exampleJa": "暗号化は、オンラインのメッセージをハッカーから守る。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "en-",
+            "type": "prefix",
+            "meaning": "～の中に"
+          },
+          {
+            "part": "crypt",
+            "type": "root",
+            "meaning": "隠された（ギリシャ語 kryptos）"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "文字が鍵付きの暗号に変わっていく様子",
+        "relatedWords": [
+          "encrypt",
+          "decrypt",
+          "cryptography"
+        ],
+        "memoryTip": "en（～にする）＋ crypt（隠す）＋ -ion ＝ 隠された形にすること → 暗号化"
+      }
+    }
+  ]
+}

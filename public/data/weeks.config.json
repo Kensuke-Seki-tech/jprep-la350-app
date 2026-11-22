@@ -210,6 +210,14 @@
       "wordCount": 15
     },
     {
+      "weekId": "week41",
+      "weekNumber": 41,
+      "label": "Term C テスト対策",
+      "status": "available",
+      "dataUrl": "/data/week41.json",
+      "wordCount": 65
+    },
+    {
       "weekId": "week31",
       "weekNumber": 31,
       "label": "Term D - Week 1",

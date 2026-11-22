@@ -1,0 +1,210 @@
+{
+  "weekId": "week41",
+  "match": [
+    {
+      "word": "understatement",
+      "def": "a statement that makes something seem less important or serious than it really is"
+    },
+    {
+      "word": "era",
+      "def": "a long period of time known for a particular feature or event"
+    },
+    {
+      "word": "mass",
+      "def": "involving or affecting a very large number of people"
+    },
+    {
+      "word": "primitive",
+      "def": "belonging to an early stage of development; very simple and basic"
+    },
+    {
+      "word": "printing press",
+      "def": "a machine that prints text and pictures onto paper by pressing"
+    },
+    {
+      "word": "platform",
+      "def": "a raised flat surface; a system or website that people use to share or do things"
+    },
+    {
+      "word": "enable",
+      "def": "to give someone the ability or means to do something"
+    },
+    {
+      "word": "a testament",
+      "def": "something that clearly shows that something else exists or is true"
+    },
+    {
+      "word": "authentic",
+      "def": "real and true, not copied or false"
+    },
+    {
+      "word": "deliberately",
+      "def": "on purpose; in a way that is planned and intended"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "understatement",
+      "sentence": "Saying the storm was \"a bit of rain\" was a huge understatement.",
+      "ja": "嵐を「ちょっとした雨」と言うのは大げさな過小表現だった。"
+    },
+    {
+      "answer": "era",
+      "sentence": "The invention of the computer began a new era in history.",
+      "ja": "コンピューターの発明は、歴史に新しい時代を開いた。"
+    },
+    {
+      "answer": "mass",
+      "sentence": "Television is a form of mass communication.",
+      "ja": "テレビは大衆向けコミュニケーションの一形態だ。"
+    },
+    {
+      "answer": "primitive",
+      "sentence": "Early humans used primitive tools made of stone.",
+      "ja": "初期の人類は石で作った原始的な道具を使っていた。"
+    },
+    {
+      "answer": "printing press",
+      "sentence": "The printing press made books cheap enough for ordinary people.",
+      "ja": "印刷機のおかげで、本は普通の人でも買える安さになった。"
+    }
+  ],
+  "bank": [
+    "understatement",
+    "era",
+    "mass",
+    "primitive",
+    "printing press",
+    "platform",
+    "enable",
+    "a testament",
+    "authentic",
+    "deliberately"
+  ],
+  "mc": [
+    {
+      "q": "What does \"platform\" mean?",
+      "opts": [
+        "necessary and important as a part of a whole",
+        "a raised flat surface; a system or website that people use to share or do things",
+        "to create the conditions of something in order to test or copy it",
+        "based on ideas and theory rather than on practice"
+      ],
+      "answer": 1,
+      "word": "platform"
+    },
+    {
+      "q": "What does \"enable\" mean?",
+      "opts": [
+        "the process by which the world becomes more connected through trade and communication",
+        "the production of goods in factories; a particular branch of business",
+        "an idea or principle",
+        "to give someone the ability or means to do something"
+      ],
+      "answer": 3,
+      "word": "enable"
+    },
+    {
+      "q": "What does \"a testament\" mean?",
+      "opts": [
+        "a long period of time known for a particular feature or event",
+        "all the people born at about the same time; one step in a family line",
+        "involving or affecting a very large number of people",
+        "something that clearly shows that something else exists or is true"
+      ],
+      "answer": 3,
+      "word": "a testament"
+    },
+    {
+      "q": "What does \"authentic\" mean?",
+      "opts": [
+        "a person who legally belongs to a country or a town",
+        "slowly, step by step",
+        "real and true, not copied or false",
+        "a person who sees something happen, especially a crime or an accident"
+      ],
+      "answer": 2,
+      "word": "authentic"
+    },
+    {
+      "q": "What does \"deliberately\" mean?",
+      "opts": [
+        "something that clearly shows that something else exists or is true",
+        "not taking either side in a disagreement; having no strong feature",
+        "a machine that prints text and pictures onto paper by pressing",
+        "on purpose; in a way that is planned and intended"
+      ],
+      "answer": 3,
+      "word": "deliberately"
+    },
+    {
+      "q": "What does \"credible\" mean?",
+      "opts": [
+        "the production of goods in factories; a particular branch of business",
+        "to form an opinion from evidence rather than from direct statement",
+        "able to be believed or trusted",
+        "on purpose; in a way that is planned and intended"
+      ],
+      "answer": 2,
+      "word": "credible"
+    },
+    {
+      "q": "What does \"fake\" mean?",
+      "opts": [
+        "not real; made to look like something real in order to trick people",
+        "a person whose job is to organize and manage a company, school, or system",
+        "to change something, usually only a little",
+        "involving or affecting a very large number of people"
+      ],
+      "answer": 0,
+      "word": "fake"
+    },
+    {
+      "q": "What does \"publish\" mean?",
+      "opts": [
+        "to prepare and print a book, article, or other work for the public to read",
+        "having the usual features of a particular type of person, thing, or group",
+        "an exciting news story that is published or broadcast before other news sources have it",
+        "to make secret information known to other people"
+      ],
+      "answer": 0,
+      "word": "publish"
+    },
+    {
+      "q": "What does \"typical\" mean?",
+      "opts": [
+        "having the usual features of a particular type of person, thing, or group",
+        "connected with buying and selling goods and services",
+        "slowly, step by step",
+        "a short mention of a book or source used as evidence"
+      ],
+      "answer": 0,
+      "word": "typical"
+    },
+    {
+      "q": "What does \"inseparable\" mean?",
+      "opts": [
+        "the ability of a business to make money",
+        "one particular part or aspect of something",
+        "so closely connected that it cannot be divided or separated",
+        "something that clearly shows that something else exists or is true"
+      ],
+      "answer": 2,
+      "word": "inseparable"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Saying the storm was \"a bit of rain\" was a huge understatement.",
+      "word": "understatement"
+    },
+    {
+      "text": "Early humans used primitive tools made of stone.",
+      "word": "primitive"
+    },
+    {
+      "text": "The new software enables users to edit photos easily.",
+      "word": "enable"
+    }
+  ]
+}

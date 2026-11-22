@@ -86,8 +86,10 @@ for (const cfg of weeks) {
   const range = (a, b) => words.slice(a, b).map(w => w.english)
 
   // ── Sentences to Remember
+  // 復習用の章など文章を持たない Week は sentencesToRemember 自体を省略してよい（省略時は文章関連の検査をスキップ）
+  const hasSents = week.sentencesToRemember !== undefined
   const sents = week.sentencesToRemember ?? []
-  if (sents.length !== 5) err(id, `sentencesToRemember が ${sents.length} 件（5 件のはず）`)
+  if (hasSents && sents.length !== 5) err(id, `sentencesToRemember が ${sents.length} 件（5 件のはず）`)
   sents.forEach((s, i) => { if (!s.text || !s.ja) err(id, `sentencesToRemember[${i}] の text/ja が空`) })
 
   // ── Part1 match: words[0..9]
@@ -141,7 +143,7 @@ for (const cfg of weeks) {
   // ── Part4 dict: sentencesToRemember の 1・3・5 番目
   const expectDict = [sents[0]?.text, sents[2]?.text, sents[4]?.text]
   const gotDict = (quiz.dict ?? []).map(d => d.text)
-  if (gotDict.join('|') !== expectDict.join('|'))
+  if (hasSents && gotDict.join('|') !== expectDict.join('|'))
     err(id, 'dict が sentencesToRemember の 1・3・5 番目と不一致')
   for (const d of quiz.dict ?? []) {
     if (!d.word) { err(id, `dict "${d.text?.slice(0, 20)}…": word が空`); continue }
