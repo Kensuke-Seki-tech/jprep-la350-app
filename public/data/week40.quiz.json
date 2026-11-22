@@ -1,0 +1,188 @@
+{
+  "weekId": "week40",
+  "match": [
+    {
+      "word": "sarcastic",
+      "def": "using irony to mock or show disagreement"
+    },
+    {
+      "word": "undertaking",
+      "def": "a task that is taken on"
+    },
+    {
+      "word": "emphatically",
+      "def": "expressing an action in a strong and definite manner"
+    },
+    {
+      "word": "unison",
+      "def": "performing together at the same time, all at once"
+    },
+    {
+      "word": "meticulously",
+      "def": "in a way that shows great attention to detail; done very carefully"
+    },
+    {
+      "word": "transgression",
+      "def": "a broken rule or violation of a rule"
+    },
+    {
+      "word": "seep",
+      "def": "to flow slowly through or out of something"
+    },
+    {
+      "word": "fugitive",
+      "def": "a person escaping from the law or other people"
+    },
+    {
+      "word": "exquisite",
+      "def": "extremely beautiful and sensational"
+    },
+    {
+      "word": "meager",
+      "def": "not enough; lacking in quantity"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "sarcastic",
+      "sentence": "His sarcastic comment hurt her feelings.",
+      "ja": "彼の皮肉っぽい発言は彼女の気持ちを傷つけた。"
+    },
+    {
+      "answer": "undertaking",
+      "sentence": "Building the bridge was a huge undertaking.",
+      "ja": "橋を建設することは大変な事業だった。"
+    },
+    {
+      "answer": "emphatically",
+      "sentence": "\"No!\" she said emphatically.",
+      "ja": "「だめ！」と彼女はきっぱりと言った。"
+    },
+    {
+      "answer": "unison",
+      "sentence": "The children sang in unison.",
+      "ja": "子どもたちは声をそろえて歌った。"
+    },
+    {
+      "answer": "meticulously",
+      "sentence": "She meticulously checked every number in the report.",
+      "ja": "彼女は報告書のすべての数字を細心の注意で確認した。"
+    }
+  ],
+  "bank": [
+    "sarcastic",
+    "undertaking",
+    "emphatically",
+    "unison",
+    "meticulously",
+    "transgression",
+    "seep",
+    "fugitive",
+    "exquisite",
+    "meager"
+  ],
+  "mc": [
+    {
+      "q": "What does \"transgression\" mean?",
+      "opts": [
+        "a broken rule or violation of a rule",
+        "extremely beautiful and sensational",
+        "an idea that forms an argument, theory, or plot",
+        "not enough; lacking in quantity"
+      ],
+      "answer": 0,
+      "word": "transgression"
+    },
+    {
+      "q": "What does \"seep\" mean?",
+      "opts": [
+        "performing together at the same time, all at once",
+        "to flow slowly through or out of something",
+        "in a way that shows great attention to detail; done very carefully",
+        "a mistaken belief or faulty reasoning"
+      ],
+      "answer": 1,
+      "word": "seep"
+    },
+    {
+      "q": "What does \"fugitive\" mean?",
+      "opts": [
+        "a person escaping from the law or other people",
+        "a broken rule or violation of a rule",
+        "in a way that shows great attention to detail; done very carefully",
+        "extremely beautiful and sensational"
+      ],
+      "answer": 0,
+      "word": "fugitive"
+    },
+    {
+      "q": "What does \"exquisite\" mean?",
+      "opts": [
+        "not enough; lacking in quantity",
+        "extremely beautiful and sensational",
+        "expressing an action in a strong and definite manner",
+        "using irony to mock or show disagreement"
+      ],
+      "answer": 1,
+      "word": "exquisite"
+    },
+    {
+      "q": "What does \"meager\" mean?",
+      "opts": [
+        "an idea that forms an argument, theory, or plot",
+        "not enough; lacking in quantity",
+        "a person escaping from the law or other people",
+        "using irony to mock or show disagreement"
+      ],
+      "answer": 1,
+      "word": "meager"
+    },
+    {
+      "q": "What does \"premise\" mean?",
+      "opts": [
+        "not enough; lacking in quantity",
+        "a broken rule or violation of a rule",
+        "an idea that forms an argument, theory, or plot",
+        "a task that is taken on"
+      ],
+      "answer": 2,
+      "word": "premise"
+    },
+    {
+      "q": "What does \"affirming\" mean?",
+      "opts": [
+        "to accept or confirm the validity of something",
+        "a broken rule or violation of a rule",
+        "expressing an action in a strong and definite manner",
+        "extremely beautiful and sensational"
+      ],
+      "answer": 0,
+      "word": "affirming"
+    },
+    {
+      "q": "What does \"fallacy\" mean?",
+      "opts": [
+        "to flow slowly through or out of something",
+        "using irony to mock or show disagreement",
+        "a mistaken belief or faulty reasoning",
+        "a broken rule or violation of a rule"
+      ],
+      "answer": 2,
+      "word": "fallacy"
+    }
+  ],
+  "dict": [
+    {
+      "text": "It's what he was told to do, and he knows nothing else.",
+      "word": "told"
+    },
+    {
+      "text": "Do you know that I no longer see colors?",
+      "word": "colors"
+    },
+    {
+      "text": "His legs ached at first; then, as time passed, they became numb.",
+      "word": "numb"
+    }
+  ]
+}

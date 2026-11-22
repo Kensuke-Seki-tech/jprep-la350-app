@@ -1,0 +1,541 @@
+{
+  "weekId": "week39",
+  "weekNumber": 39,
+  "label": "Term D - Week 9",
+  "sentencesToRemember": [
+    {
+      "text": "You don't know what snow is, do you?",
+      "ja": "雪が何なのか、あなたは知らないでしょう？"
+    },
+    {
+      "text": "Suddenly he perceived the word for it: sunshine.",
+      "ja": "突然、彼はそれを表す言葉に気づいた。「太陽の光」だ。"
+    },
+    {
+      "text": "You and I wouldn't have to bear so much by ourselves, if everybody took a part.",
+      "ja": "もし全員が分担すれば、あなたと私はこんなに多くを自分たちだけで背負わずに済むのに。"
+    },
+    {
+      "text": "The attacking armies slowed and watched to see what he was doing.",
+      "ja": "攻めてきた軍隊は動きを緩め、彼が何をしているのかを見守っていた。"
+    },
+    {
+      "text": "Jonas saw again the face of the boy who had lain dying in a field and had begged him for water.",
+      "ja": "ジョナスは、野原に横たわって死にかけ、水をくれと彼に頼んだ少年の顔を再び見た。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w39_001",
+      "english": "indicate",
+      "japanese": "示す、指し示す",
+      "englishDef": "to point out or show",
+      "partOfSpeech": "v",
+      "ipa": "/ˈɪn.dɪ.keɪt/",
+      "katakana": "IN-di-kayt",
+      "emoji": "👉",
+      "exampleEn": "The arrow on the sign indicates the way to the station.",
+      "exampleJa": "標識の矢印は駅への道を示している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "中に・向かって"
+          },
+          {
+            "part": "dic",
+            "type": "root",
+            "meaning": "示す・言う（ラテン語 dicare）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "道路標識の矢印が進む方向を示す様子",
+        "relatedWords": [
+          "indication",
+          "index",
+          "dictate"
+        ],
+        "memoryTip": "in（向かって）＋ dic（示す）＋ -ate ＝ 指し示す"
+      }
+    },
+    {
+      "id": "w39_002",
+      "english": "diminish",
+      "japanese": "減る、減らす",
+      "englishDef": "to lessen or decrease",
+      "partOfSpeech": "v",
+      "ipa": "/dɪˈmɪn.ɪʃ/",
+      "katakana": "di-MIN-ish",
+      "emoji": "📉",
+      "exampleEn": "The pain began to diminish after he took the medicine.",
+      "exampleJa": "薬を飲んだあと、痛みは和らぎ始めた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "di-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "min",
+            "type": "root",
+            "meaning": "小さい（ラテン語 minuere「減らす」）"
+          },
+          {
+            "part": "-ish",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "グラフの線がだんだん小さくなっていく様子",
+        "relatedWords": [
+          "minus",
+          "minor",
+          "minimum"
+        ],
+        "memoryTip": "di（完全に）＋ min（小さく）＋ -ish ＝ 小さくなる → 減る"
+      }
+    },
+    {
+      "id": "w39_003",
+      "english": "admonition",
+      "japanese": "忠告、戒め",
+      "englishDef": "caution or strong advice",
+      "partOfSpeech": "n",
+      "ipa": "/ˌæd.məˈnɪʃ.ən/",
+      "katakana": "ad-mə-NISH-ən",
+      "emoji": "☝️",
+      "exampleEn": "The teacher gave a gentle admonition about being late.",
+      "exampleJa": "先生は遅刻について穏やかに忠告した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ad-",
+            "type": "prefix",
+            "meaning": "～に"
+          },
+          {
+            "part": "mon",
+            "type": "root",
+            "meaning": "思い出させる・警告する（ラテン語 monere）"
+          },
+          {
+            "part": "-ition",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "先生が指を立てて静かに注意する様子",
+        "relatedWords": [
+          "admonish",
+          "monitor",
+          "warning"
+        ],
+        "memoryTip": "ad（～に）＋ mon（警告する）＋ -ition ＝ 注意を促すこと → 忠告"
+      }
+    },
+    {
+      "id": "w39_004",
+      "english": "forsaken",
+      "japanese": "見捨てられた",
+      "englishDef": "being neglected or abandoned",
+      "partOfSpeech": "adj",
+      "ipa": "/fəˈseɪ.kən/",
+      "katakana": "fər-SAY-kən",
+      "emoji": "🥀",
+      "exampleEn": "The forsaken dog waited by the road for its owner.",
+      "exampleJa": "見捨てられた犬は道端で飼い主を待ち続けた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "for-",
+            "type": "prefix",
+            "meaning": "完全に・離れて"
+          },
+          {
+            "part": "sak",
+            "type": "root",
+            "meaning": "争う・拒む（古英語 sacan）"
+          },
+          {
+            "part": "-en",
+            "type": "suffix",
+            "meaning": "過去分詞"
+          }
+        ],
+        "imageDescription": "道端で飼い主を待ち続ける犬",
+        "relatedWords": [
+          "forsake",
+          "sake",
+          "seek"
+        ],
+        "memoryTip": "for（完全に）＋ sak（拒む）＋ -en ＝ 完全に拒まれた → 見捨てられた"
+      }
+    },
+    {
+      "id": "w39_005",
+      "english": "startled",
+      "japanese": "びっくりした、驚いた",
+      "englishDef": "suddenly shocked or alarmed at a surprising event",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈstɑː.təld/",
+      "katakana": "STAR-təld",
+      "emoji": "😳",
+      "exampleEn": "The loud noise startled the sleeping baby.",
+      "exampleJa": "大きな音で眠っていた赤ん坊はびっくりした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "start",
+            "type": "root",
+            "meaning": "跳ね上がる（古英語 styrtan）"
+          },
+          {
+            "part": "-le",
+            "type": "suffix",
+            "meaning": "反復"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "大きな音にびくっとして飛び上がる人",
+        "relatedWords": [
+          "start",
+          "startle",
+          "startling"
+        ],
+        "memoryTip": "start（跳ねる）＋ -le ＋ -ed ＝ 跳ね上がった → びっくりした"
+      }
+    },
+    {
+      "id": "w39_006",
+      "english": "ecstatic",
+      "japanese": "有頂天の、大喜びの",
+      "englishDef": "full of joy and excitement",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪkˈstæt.ɪk/",
+      "katakana": "ik-STAT-ik",
+      "emoji": "🤩",
+      "exampleEn": "The fans were ecstatic when their team won the championship.",
+      "exampleJa": "ファンはチームが優勝して大喜びした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "stat",
+            "type": "root",
+            "meaning": "立つ（ギリシャ語 histanai）"
+          },
+          {
+            "part": "-ic",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "優勝して飛び跳ねて喜ぶファン",
+        "relatedWords": [
+          "ecstasy",
+          "static",
+          "station"
+        ],
+        "memoryTip": "ex（外へ）＋ stat（立つ）＝ 我を忘れて飛び出す → 有頂天の"
+      }
+    },
+    {
+      "id": "w39_007",
+      "english": "excruciating",
+      "japanese": "耐えがたいほど痛い",
+      "englishDef": "extremely painful or unbearable",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪkˈskruː.ʃi.eɪ.tɪŋ/",
+      "katakana": "ik-SKROO-shee-ay-ting",
+      "emoji": "😣",
+      "exampleEn": "He felt excruciating pain in his injured leg.",
+      "exampleJa": "彼はけがをした脚に耐えがたい痛みを感じた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "cruci",
+            "type": "root",
+            "meaning": "十字架・拷問（ラテン語 crux）"
+          },
+          {
+            "part": "-ating",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "けがした脚を抱えて痛みに顔をゆがめる人",
+        "relatedWords": [
+          "crucify",
+          "cross",
+          "crucial"
+        ],
+        "memoryTip": "ex（完全に）＋ cruci（十字架にかける）＝ 激しい苦痛 → 耐えがたい"
+      }
+    },
+    {
+      "id": "w39_008",
+      "english": "exasperated",
+      "japanese": "いらだった、腹を立てた",
+      "englishDef": "bothered or irritated by an event or thing",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪɡˈzɑː.spə.reɪ.tɪd/",
+      "katakana": "ig-ZAS-pə-ray-tid",
+      "emoji": "😤",
+      "exampleEn": "She sighed in an exasperated tone when he lost his keys again.",
+      "exampleJa": "彼がまた鍵をなくしたとき、彼女はいらだったようにため息をついた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "asper",
+            "type": "root",
+            "meaning": "ざらざらした・荒い（ラテン語 asper）"
+          },
+          {
+            "part": "-ated",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "何度も同じことを頼まれてため息をつく人",
+        "relatedWords": [
+          "exasperate",
+          "exasperation",
+          "asperity"
+        ],
+        "memoryTip": "ex（完全に）＋ asper（荒い）＝ 心を荒立たせた → いらだった"
+      }
+    },
+    {
+      "id": "w39_009",
+      "english": "sympathetically",
+      "japanese": "同情して、思いやりを込めて",
+      "englishDef": "doing something in a caring way",
+      "partOfSpeech": "adv",
+      "ipa": "/ˌsɪm.pəˈθet.ɪk.li/",
+      "katakana": "sim-pə-THET-ik-lee",
+      "emoji": "🤗",
+      "exampleEn": "The nurse listened sympathetically to the patient's worries.",
+      "exampleJa": "看護師は患者の悩みを思いやりを込めて聞いた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sym-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "path",
+            "type": "root",
+            "meaning": "感情（ギリシャ語 pathos）"
+          },
+          {
+            "part": "-etic-ally",
+            "type": "suffix",
+            "meaning": "形容詞・副詞化"
+          }
+        ],
+        "imageDescription": "看護師が患者の話にうなずいて耳を傾ける様子",
+        "relatedWords": [
+          "sympathy",
+          "sympathize",
+          "empathy"
+        ],
+        "memoryTip": "sym（共に）＋ path（感情）＋ -ically ＝ 同じ気持ちで → 同情して"
+      }
+    },
+    {
+      "id": "w39_010",
+      "english": "receptacle",
+      "japanese": "容器、入れ物",
+      "englishDef": "something to put things in",
+      "partOfSpeech": "n",
+      "ipa": "/rɪˈsep.tə.kəl/",
+      "katakana": "ri-SEP-tə-kəl",
+      "emoji": "🗑️",
+      "exampleEn": "Please put your empty bottles in the recycling receptacle.",
+      "exampleJa": "空き瓶はリサイクル容器に入れてください。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "re-",
+            "type": "prefix",
+            "meaning": "後ろへ・再び"
+          },
+          {
+            "part": "cept",
+            "type": "root",
+            "meaning": "受け取る（ラテン語 capere）"
+          },
+          {
+            "part": "-acle",
+            "type": "suffix",
+            "meaning": "場所・道具"
+          }
+        ],
+        "imageDescription": "ごみを受け止める大きな容器",
+        "relatedWords": [
+          "receive",
+          "reception",
+          "concept"
+        ],
+        "memoryTip": "re（～に）＋ cept（受け取る）＋ -acle ＝ 受け取る入れ物 → 容器"
+      }
+    },
+    {
+      "id": "w39_011",
+      "english": "perceive",
+      "japanese": "知覚する、気づく",
+      "englishDef": "to become aware or conscious of something",
+      "partOfSpeech": "v",
+      "ipa": "/pəˈsiːv/",
+      "katakana": "pər-SEEV",
+      "emoji": "👁️",
+      "exampleEn": "She perceived a faint smell of smoke in the air.",
+      "exampleJa": "彼女は空気中にかすかな煙のにおいに気づいた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "per-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "ceive",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 capere）"
+          }
+        ],
+        "imageDescription": "かすかな煙のにおいに気づいて振り向く人",
+        "relatedWords": [
+          "perception",
+          "receive",
+          "conceive"
+        ],
+        "memoryTip": "per（完全に）＋ ceive（つかむ）＝ しっかりつかむ → 気づく"
+      }
+    },
+    {
+      "id": "w39_012",
+      "english": "aptitude",
+      "japanese": "適性、才能",
+      "englishDef": "a natural ability to do something",
+      "partOfSpeech": "n",
+      "ipa": "/ˈæp.tɪ.tjuːd/",
+      "katakana": "AP-ti-tyood",
+      "emoji": "🎹",
+      "exampleEn": "She has a natural aptitude for music.",
+      "exampleJa": "彼女には生まれつき音楽の才能がある。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "apt",
+            "type": "root",
+            "meaning": "ふさわしい（ラテン語 aptus）"
+          },
+          {
+            "part": "-itude",
+            "type": "suffix",
+            "meaning": "性質"
+          }
+        ],
+        "imageDescription": "ピアノを軽やかに弾きこなす子ども",
+        "relatedWords": [
+          "apt",
+          "adapt",
+          "attitude"
+        ],
+        "memoryTip": "apt（ふさわしい）＋ -itude ＝ 向いている性質 → 適性"
+      }
+    },
+    {
+      "id": "w39_013",
+      "english": "palpable",
+      "japanese": "はっきり感じられる、明白な",
+      "englishDef": "being intense enough to be felt by others",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈpæl.pə.bəl/",
+      "katakana": "PAL-pə-bəl",
+      "emoji": "✋",
+      "exampleEn": "There was a palpable tension in the room before the test.",
+      "exampleJa": "テストの前、部屋には明らかな緊張感が漂っていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "palp",
+            "type": "root",
+            "meaning": "触る（ラテン語 palpare）"
+          },
+          {
+            "part": "-able",
+            "type": "suffix",
+            "meaning": "～できる"
+          }
+        ],
+        "imageDescription": "張りつめた空気を手で触れられそうな教室",
+        "relatedWords": [
+          "palpate",
+          "palm",
+          "palpitate"
+        ],
+        "memoryTip": "palp（触る）＋ -able ＝ 触れられるほどの → はっきり感じられる"
+      }
+    },
+    {
+      "id": "w39_014",
+      "english": "chastise",
+      "japanese": "厳しく叱る、懲らしめる",
+      "englishDef": "to scold or punish severely",
+      "partOfSpeech": "v",
+      "ipa": "/tʃæsˈtaɪz/",
+      "katakana": "chas-TYZE",
+      "emoji": "😠",
+      "exampleEn": "The coach chastised the players for their careless mistakes.",
+      "exampleJa": "コーチは選手たちの不注意なミスを厳しく叱った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "chast",
+            "type": "root",
+            "meaning": "純粋な・正す（ラテン語 castus）"
+          },
+          {
+            "part": "-ise",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "コーチが選手たちを厳しく叱っている様子",
+        "relatedWords": [
+          "chaste",
+          "chasten",
+          "punish"
+        ],
+        "memoryTip": "chast（正す）＋ -ise ＝ 厳しく正す → 厳しく叱る"
+      }
+    }
+  ]
+}

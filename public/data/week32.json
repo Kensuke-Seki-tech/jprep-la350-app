@@ -1,0 +1,526 @@
+{
+  "weekId": "week32",
+  "weekNumber": 32,
+  "label": "Term D - Week 2",
+  "sentencesToRemember": [
+    {
+      "text": "Almost every citizen in the community had dark eyes.",
+      "ja": "コミュニティのほぼすべての市民が暗い色の目をしていた。"
+    },
+    {
+      "text": "No one had mentioned it, because the public announcement had been sufficient to produce the appropriate remorse.",
+      "ja": "誰もそのことに触れていなかった。公の発表で適切な反省を引き起こすには十分だったからだ。"
+    },
+    {
+      "text": "But suddenly Jonas had noticed that the piece of fruit had changed.",
+      "ja": "しかし突然、ジョナスは果物が変化していたことに気づいた。"
+    },
+    {
+      "text": "Now he swallowed the small pill that his mother handed him.",
+      "ja": "今、彼は母親が手渡した小さな錠剤を飲み込んだ。"
+    },
+    {
+      "text": "We celebrated a release this morning, and that always throws the schedule off a little.",
+      "ja": "今朝、私たちは解放の儀式を祝ったが、それはいつも予定を少し狂わせる。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w32_001",
+      "english": "forbidden",
+      "japanese": "禁じられた",
+      "englishDef": "not allowed; prohibited",
+      "partOfSpeech": "adj",
+      "ipa": "/fəˈbɪd.ən/",
+      "katakana": "fər-BID-ən",
+      "emoji": "🚫",
+      "exampleEn": "Entering the old tunnel is strictly forbidden.",
+      "exampleJa": "その古いトンネルへの立ち入りは固く禁じられている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "for-",
+            "type": "prefix",
+            "meaning": "反対に・禁じて"
+          },
+          {
+            "part": "bid",
+            "type": "root",
+            "meaning": "命じる（古英語 biddan）"
+          },
+          {
+            "part": "-en",
+            "type": "suffix",
+            "meaning": "過去分詞"
+          }
+        ],
+        "imageDescription": "立入禁止の標識が掲げられたトンネルの入口",
+        "relatedWords": [
+          "forbid",
+          "bid",
+          "forgive"
+        ],
+        "memoryTip": "for（反対に）＋ bid（命じる）＝ するなと命じる → 禁じられた"
+      }
+    },
+    {
+      "id": "w32_002",
+      "english": "unsettling",
+      "japanese": "不安にさせる、落ち着かない",
+      "englishDef": "feeling discomfort because of something unpleasant",
+      "partOfSpeech": "adj",
+      "ipa": "/ʌnˈset.əl.ɪŋ/",
+      "katakana": "un-SET-ling",
+      "emoji": "😨",
+      "exampleEn": "The unsettling silence in the house made her nervous.",
+      "exampleJa": "家の中の不安にさせる静けさが彼女を緊張させた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "un-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "settle",
+            "type": "root",
+            "meaning": "落ち着く（古英語 setl「座席」）"
+          },
+          {
+            "part": "-ing",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "暗い部屋で静けさにそわそわしている様子",
+        "relatedWords": [
+          "settle",
+          "unsettled",
+          "settlement"
+        ],
+        "memoryTip": "un（否定）＋ settling（落ち着かせる）＝ 落ち着かなくさせる"
+      }
+    },
+    {
+      "id": "w32_003",
+      "english": "humiliation",
+      "japanese": "屈辱",
+      "englishDef": "a feeling of shame or embarrassment because of an unfortunate event",
+      "partOfSpeech": "n",
+      "ipa": "/hjuːˌmɪl.iˈeɪ.ʃən/",
+      "katakana": "hyoo-mil-ee-AY-shən",
+      "emoji": "😳",
+      "exampleEn": "He felt deep humiliation when everyone laughed at his mistake.",
+      "exampleJa": "皆が自分の間違いを笑ったとき、彼は深い屈辱を感じた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "humil",
+            "type": "root",
+            "meaning": "低い（ラテン語 humilis ← humus「地面」）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "皆に笑われてうつむき顔を赤くする人",
+        "relatedWords": [
+          "humble",
+          "humility",
+          "humus"
+        ],
+        "memoryTip": "humil（低い）＋ -ation ＝ 地面まで低くされること → 屈辱"
+      }
+    },
+    {
+      "id": "w32_004",
+      "english": "remorse",
+      "japanese": "深い後悔、良心の呵責",
+      "englishDef": "a painful regret for doing something wrong",
+      "partOfSpeech": "n",
+      "ipa": "/rɪˈmɔːs/",
+      "katakana": "ri-MORS",
+      "emoji": "😞",
+      "exampleEn": "The thief felt remorse and returned the stolen watch.",
+      "exampleJa": "泥棒は良心の呵責を感じて盗んだ時計を返した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "re-",
+            "type": "prefix",
+            "meaning": "再び"
+          },
+          {
+            "part": "mors",
+            "type": "root",
+            "meaning": "かむ（ラテン語 mordere）"
+          }
+        ],
+        "imageDescription": "自分がしたことを悔やんで肩を落とす人",
+        "relatedWords": [
+          "morsel",
+          "mordant",
+          "bite"
+        ],
+        "memoryTip": "re（再び）＋ mors（かむ）＝ 何度も心をかまれる → 深い後悔"
+      }
+    },
+    {
+      "id": "w32_005",
+      "english": "brag",
+      "japanese": "自慢する",
+      "englishDef": "to speak too proudly about what one has done",
+      "partOfSpeech": "v",
+      "ipa": "/bræɡ/",
+      "katakana": "BRAG",
+      "emoji": "🗣️",
+      "exampleEn": "He likes to brag about how fast he can run.",
+      "exampleJa": "彼は自分の足の速さを自慢するのが好きだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "brag",
+            "type": "root",
+            "meaning": "自慢する（中英語、語源不詳）"
+          }
+        ],
+        "imageDescription": "胸を張って周りに自慢している少年",
+        "relatedWords": [
+          "bragging",
+          "boast",
+          "braggart"
+        ],
+        "memoryTip": "「ブラッグ」→ ブラブラ自慢話を撒き散らす → 自慢する"
+      }
+    },
+    {
+      "id": "w32_006",
+      "english": "community",
+      "japanese": "地域社会、共同体",
+      "englishDef": "a group of people living in the same place or having a similar characteristic in common",
+      "partOfSpeech": "n",
+      "ipa": "/kəˈmjuː.nə.ti/",
+      "katakana": "kə-MYOO-nə-tee",
+      "emoji": "🏘️",
+      "exampleEn": "Our community holds a festival every summer.",
+      "exampleJa": "私たちの地域では毎年夏に祭りが開かれる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "mun",
+            "type": "root",
+            "meaning": "務め・贈り物（ラテン語 munus）"
+          },
+          {
+            "part": "-ity",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "町の人たちが広場に集まって交流する様子",
+        "relatedWords": [
+          "common",
+          "communicate",
+          "municipal"
+        ],
+        "memoryTip": "com（共に）＋ mun（務め）＋ -ity ＝ 共に務めを分かち合う集まり"
+      }
+    },
+    {
+      "id": "w32_007",
+      "english": "fragile",
+      "japanese": "壊れやすい、もろい",
+      "englishDef": "easily damaged or soft to the touch",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈfrædʒ.aɪl/",
+      "katakana": "FRAJ-eyel",
+      "emoji": "🏺",
+      "exampleEn": "Be careful with that fragile glass vase.",
+      "exampleJa": "その壊れやすいガラスの花瓶に気をつけて。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "frag",
+            "type": "root",
+            "meaning": "壊す（ラテン語 frangere）"
+          },
+          {
+            "part": "-ile",
+            "type": "suffix",
+            "meaning": "～しやすい"
+          }
+        ],
+        "imageDescription": "割れ物注意のラベルが貼られた箱の様子",
+        "relatedWords": [
+          "fragment",
+          "fraction",
+          "fracture"
+        ],
+        "memoryTip": "frag（壊す）＋ -ile（～しやすい）＝ 壊れやすい"
+      }
+    },
+    {
+      "id": "w32_008",
+      "english": "fragment",
+      "japanese": "破片、断片",
+      "englishDef": "a piece or part of a whole",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfræɡ.mənt/",
+      "katakana": "FRAG-mənt",
+      "emoji": "🧩",
+      "exampleEn": "She found a fragment of an ancient pot in the garden.",
+      "exampleJa": "彼女は庭で古代の壺の破片を見つけた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "frag",
+            "type": "root",
+            "meaning": "壊す（ラテン語 frangere）"
+          },
+          {
+            "part": "-ment",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "割れた壺のかけらが土の上に散らばる様子",
+        "relatedWords": [
+          "fragile",
+          "fraction",
+          "fracture"
+        ],
+        "memoryTip": "frag（壊す）＋ -ment（もの）＝ 壊れてできたもの → 破片"
+      }
+    },
+    {
+      "id": "w32_009",
+      "english": "puzzled",
+      "japanese": "当惑した、困惑した",
+      "englishDef": "feeling confused about a situation",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈpʌz.əld/",
+      "katakana": "PUZ-əld",
+      "emoji": "😕",
+      "exampleEn": "He looked puzzled by the strange question on the test.",
+      "exampleJa": "彼はテストの奇妙な問題に当惑した顔をしていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "puzzle",
+            "type": "root",
+            "meaning": "難問（語源不詳、16世紀）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "首をかしげてパズルを見つめている人",
+        "relatedWords": [
+          "puzzle",
+          "puzzling",
+          "perplexed"
+        ],
+        "memoryTip": "puzzle（難問）＋ -ed（～された）＝ 難問に悩まされた → 困惑した"
+      }
+    },
+    {
+      "id": "w32_010",
+      "english": "rapidly",
+      "japanese": "急速に、素早く",
+      "englishDef": "doing something quickly",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈræp.ɪd.li/",
+      "katakana": "RAP-id-lee",
+      "emoji": "⚡",
+      "exampleEn": "The river rose rapidly after the heavy rain.",
+      "exampleJa": "大雨のあと川の水位は急速に上がった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "rap",
+            "type": "root",
+            "meaning": "ひったくる・急ぐ（ラテン語 rapere）"
+          },
+          {
+            "part": "-id",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "大雨で川の水かさがぐんぐん増える様子",
+        "relatedWords": [
+          "rapid",
+          "rapidity",
+          "rapture"
+        ],
+        "memoryTip": "rap（急ぐ）＋ -id ＋ -ly ＝ 素早く → 急速に"
+      }
+    },
+    {
+      "id": "w32_011",
+      "english": "elders",
+      "japanese": "長老、年長者たち",
+      "englishDef": "leaders or senior people in a tribe or group",
+      "partOfSpeech": "n",
+      "ipa": "/ˈel.dəz/",
+      "katakana": "EL-dərz",
+      "emoji": "👴",
+      "exampleEn": "The village elders met to decide the matter.",
+      "exampleJa": "村の長老たちはその件を決めるために集まった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "eld",
+            "type": "root",
+            "meaning": "年とった（古英語 eald）"
+          },
+          {
+            "part": "-er",
+            "type": "suffix",
+            "meaning": "より～"
+          },
+          {
+            "part": "-s",
+            "type": "suffix",
+            "meaning": "複数"
+          }
+        ],
+        "imageDescription": "焚き火を囲んで話し合う年配の人々",
+        "relatedWords": [
+          "elder",
+          "old",
+          "elderly"
+        ],
+        "memoryTip": "eld（年とった）＋ -er（より）＝ 年上の人 → 長老"
+      }
+    },
+    {
+      "id": "w32_012",
+      "english": "vehemently",
+      "japanese": "激しく、猛烈に",
+      "englishDef": "in a forceful, passionate, or intense manner",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈviː.ə.mənt.li/",
+      "katakana": "VEE-ə-mənt-lee",
+      "emoji": "😡",
+      "exampleEn": "He vehemently denied taking the money.",
+      "exampleJa": "彼はお金を取ったことを激しく否定した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "veh",
+            "type": "root",
+            "meaning": "運ぶ（ラテン語 vehere）"
+          },
+          {
+            "part": "-ment",
+            "type": "suffix",
+            "meaning": "状態"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "机をたたいて強く否定している人",
+        "relatedWords": [
+          "vehement",
+          "vehemence",
+          "vehicle"
+        ],
+        "memoryTip": "veh（運ぶ）→ 感情に運ばれて激しい → 激しく"
+      }
+    },
+    {
+      "id": "w32_013",
+      "english": "accuser",
+      "japanese": "告発者、非難する人",
+      "englishDef": "a person who claims that another person has committed a crime, an offense, or something wrong",
+      "partOfSpeech": "n",
+      "ipa": "/əˈkjuː.zər/",
+      "katakana": "ə-KYOO-zər",
+      "emoji": "👉",
+      "exampleEn": "The accuser stood up in court and pointed at the man.",
+      "exampleJa": "告発者は法廷で立ち上がり、その男を指さした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ac-",
+            "type": "prefix",
+            "meaning": "～に向かって"
+          },
+          {
+            "part": "cus",
+            "type": "root",
+            "meaning": "原因・訴訟（ラテン語 causa）"
+          },
+          {
+            "part": "-er",
+            "type": "suffix",
+            "meaning": "～する人"
+          }
+        ],
+        "imageDescription": "法廷で立ち上がり相手を指さす人",
+        "relatedWords": [
+          "accuse",
+          "accusation",
+          "excuse"
+        ],
+        "memoryTip": "ac（～に）＋ cus（原因）＋ -er（人）＝ 罪を問う人 → 告発者"
+      }
+    },
+    {
+      "id": "w32_014",
+      "english": "dispute",
+      "japanese": "論争、紛争",
+      "englishDef": "a disagreement or agreement",
+      "partOfSpeech": "n",
+      "ipa": "/dɪˈspjuːt/",
+      "katakana": "dis-PYOOT",
+      "emoji": "⚔️",
+      "exampleEn": "The two neighbors had a dispute over the fence.",
+      "exampleJa": "隣人2人はフェンスをめぐって論争した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "dis-",
+            "type": "prefix",
+            "meaning": "別々に"
+          },
+          {
+            "part": "put",
+            "type": "root",
+            "meaning": "考える（ラテン語 putare）"
+          }
+        ],
+        "imageDescription": "隣同士が塀越しに言い争っている様子",
+        "relatedWords": [
+          "disputable",
+          "compute",
+          "reputation"
+        ],
+        "memoryTip": "dis（別々に）＋ put（考える）＝ 意見が分かれる → 論争"
+      }
+    }
+  ]
+}

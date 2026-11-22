@@ -1,0 +1,199 @@
+{
+  "weekId": "week39",
+  "match": [
+    {
+      "word": "indicate",
+      "def": "to point out or show"
+    },
+    {
+      "word": "diminish",
+      "def": "to lessen or decrease"
+    },
+    {
+      "word": "admonition",
+      "def": "caution or strong advice"
+    },
+    {
+      "word": "forsaken",
+      "def": "being neglected or abandoned"
+    },
+    {
+      "word": "startled",
+      "def": "suddenly shocked or alarmed at a surprising event"
+    },
+    {
+      "word": "ecstatic",
+      "def": "full of joy and excitement"
+    },
+    {
+      "word": "excruciating",
+      "def": "extremely painful or unbearable"
+    },
+    {
+      "word": "exasperated",
+      "def": "bothered or irritated by an event or thing"
+    },
+    {
+      "word": "sympathetically",
+      "def": "doing something in a caring way"
+    },
+    {
+      "word": "receptacle",
+      "def": "something to put things in"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "indicate",
+      "sentence": "The arrow on the sign indicates the way to the station.",
+      "ja": "標識の矢印は駅への道を示している。"
+    },
+    {
+      "answer": "diminish",
+      "sentence": "The pain began to diminish after he took the medicine.",
+      "ja": "薬を飲んだあと、痛みは和らぎ始めた。"
+    },
+    {
+      "answer": "admonition",
+      "sentence": "The teacher gave a gentle admonition about being late.",
+      "ja": "先生は遅刻について穏やかに忠告した。"
+    },
+    {
+      "answer": "forsaken",
+      "sentence": "The forsaken dog waited by the road for its owner.",
+      "ja": "見捨てられた犬は道端で飼い主を待ち続けた。"
+    },
+    {
+      "answer": "startled",
+      "sentence": "The loud noise startled the sleeping baby.",
+      "ja": "大きな音で眠っていた赤ん坊はびっくりした。"
+    }
+  ],
+  "bank": [
+    "indicate",
+    "diminish",
+    "admonition",
+    "forsaken",
+    "startled",
+    "ecstatic",
+    "excruciating",
+    "exasperated",
+    "sympathetically",
+    "receptacle"
+  ],
+  "mc": [
+    {
+      "q": "What does \"ecstatic\" mean?",
+      "opts": [
+        "full of joy and excitement",
+        "being neglected or abandoned",
+        "suddenly shocked or alarmed at a surprising event",
+        "bothered or irritated by an event or thing"
+      ],
+      "answer": 0,
+      "word": "ecstatic"
+    },
+    {
+      "q": "What does \"excruciating\" mean?",
+      "opts": [
+        "extremely painful or unbearable",
+        "being neglected or abandoned",
+        "to scold or punish severely",
+        "bothered or irritated by an event or thing"
+      ],
+      "answer": 0,
+      "word": "excruciating"
+    },
+    {
+      "q": "What does \"exasperated\" mean?",
+      "opts": [
+        "a natural ability to do something",
+        "suddenly shocked or alarmed at a surprising event",
+        "bothered or irritated by an event or thing",
+        "to scold or punish severely"
+      ],
+      "answer": 2,
+      "word": "exasperated"
+    },
+    {
+      "q": "What does \"sympathetically\" mean?",
+      "opts": [
+        "being intense enough to be felt by others",
+        "caution or strong advice",
+        "doing something in a caring way",
+        "to point out or show"
+      ],
+      "answer": 2,
+      "word": "sympathetically"
+    },
+    {
+      "q": "What does \"receptacle\" mean?",
+      "opts": [
+        "something to put things in",
+        "a natural ability to do something",
+        "to lessen or decrease",
+        "full of joy and excitement"
+      ],
+      "answer": 0,
+      "word": "receptacle"
+    },
+    {
+      "q": "What does \"perceive\" mean?",
+      "opts": [
+        "to lessen or decrease",
+        "extremely painful or unbearable",
+        "full of joy and excitement",
+        "to become aware or conscious of something"
+      ],
+      "answer": 3,
+      "word": "perceive"
+    },
+    {
+      "q": "What does \"aptitude\" mean?",
+      "opts": [
+        "to scold or punish severely",
+        "to lessen or decrease",
+        "a natural ability to do something",
+        "extremely painful or unbearable"
+      ],
+      "answer": 2,
+      "word": "aptitude"
+    },
+    {
+      "q": "What does \"palpable\" mean?",
+      "opts": [
+        "suddenly shocked or alarmed at a surprising event",
+        "a natural ability to do something",
+        "to lessen or decrease",
+        "being intense enough to be felt by others"
+      ],
+      "answer": 3,
+      "word": "palpable"
+    },
+    {
+      "q": "What does \"chastise\" mean?",
+      "opts": [
+        "extremely painful or unbearable",
+        "suddenly shocked or alarmed at a surprising event",
+        "to scold or punish severely",
+        "something to put things in"
+      ],
+      "answer": 2,
+      "word": "chastise"
+    }
+  ],
+  "dict": [
+    {
+      "text": "You don't know what snow is, do you?",
+      "word": "snow"
+    },
+    {
+      "text": "You and I wouldn't have to bear so much by ourselves, if everybody took a part.",
+      "word": "bear"
+    },
+    {
+      "text": "Jonas saw again the face of the boy who had lain dying in a field and had begged him for water.",
+      "word": "begged"
+    }
+  ]
+}

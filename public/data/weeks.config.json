@@ -208,6 +208,86 @@
       "status": "available",
       "dataUrl": "/data/week30.json",
       "wordCount": 15
+    },
+    {
+      "weekId": "week31",
+      "weekNumber": 31,
+      "label": "Term D - Week 1",
+      "status": "available",
+      "dataUrl": "/data/week31.json",
+      "wordCount": 14
+    },
+    {
+      "weekId": "week32",
+      "weekNumber": 32,
+      "label": "Term D - Week 2",
+      "status": "available",
+      "dataUrl": "/data/week32.json",
+      "wordCount": 14
+    },
+    {
+      "weekId": "week33",
+      "weekNumber": 33,
+      "label": "Term D - Week 3",
+      "status": "available",
+      "dataUrl": "/data/week33.json",
+      "wordCount": 15
+    },
+    {
+      "weekId": "week34",
+      "weekNumber": 34,
+      "label": "Term D - Week 4",
+      "status": "available",
+      "dataUrl": "/data/week34.json",
+      "wordCount": 14
+    },
+    {
+      "weekId": "week35",
+      "weekNumber": 35,
+      "label": "Term D - Week 5",
+      "status": "available",
+      "dataUrl": "/data/week35.json",
+      "wordCount": 16
+    },
+    {
+      "weekId": "week36",
+      "weekNumber": 36,
+      "label": "Term D - Week 6",
+      "status": "available",
+      "dataUrl": "/data/week36.json",
+      "wordCount": 14
+    },
+    {
+      "weekId": "week37",
+      "weekNumber": 37,
+      "label": "Term D - Week 7",
+      "status": "available",
+      "dataUrl": "/data/week37.json",
+      "wordCount": 14
+    },
+    {
+      "weekId": "week38",
+      "weekNumber": 38,
+      "label": "Term D - Week 8",
+      "status": "available",
+      "dataUrl": "/data/week38.json",
+      "wordCount": 13
+    },
+    {
+      "weekId": "week39",
+      "weekNumber": 39,
+      "label": "Term D - Week 9",
+      "status": "available",
+      "dataUrl": "/data/week39.json",
+      "wordCount": 14
+    },
+    {
+      "weekId": "week40",
+      "weekNumber": 40,
+      "label": "Term D - Week 10",
+      "status": "available",
+      "dataUrl": "/data/week40.json",
+      "wordCount": 13
     }
   ]
 }

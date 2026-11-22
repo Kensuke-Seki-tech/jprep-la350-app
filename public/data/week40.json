@@ -1,0 +1,478 @@
+{
+  "weekId": "week40",
+  "weekNumber": 40,
+  "label": "Term D - Week 10",
+  "sentencesToRemember": [
+    {
+      "text": "It's what he was told to do, and he knows nothing else.",
+      "ja": "それは彼が命じられたことであり、彼はそれ以外のことは何も知らない。"
+    },
+    {
+      "text": "You and I are the only ones who have feelings.",
+      "ja": "感情を持っているのは、あなたと私だけだ。"
+    },
+    {
+      "text": "Do you know that I no longer see colors?",
+      "ja": "私がもう色を見られなくなったって知っている？"
+    },
+    {
+      "text": "My work will be finished when I have helped the community to change and become whole.",
+      "ja": "私の仕事は、コミュニティが変わり、完全なものになるのを手助けしたときに終わる。"
+    },
+    {
+      "text": "His legs ached at first; then, as time passed, they became numb.",
+      "ja": "最初は彼の脚が痛んだが、時間が経つにつれて感覚がなくなっていった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w40_001",
+      "english": "sarcastic",
+      "japanese": "皮肉っぽい、嫌味な",
+      "englishDef": "using irony to mock or show disagreement",
+      "partOfSpeech": "adj",
+      "ipa": "/sɑːˈkæs.tɪk/",
+      "katakana": "sar-KAS-tik",
+      "emoji": "🙄",
+      "exampleEn": "His sarcastic comment hurt her feelings.",
+      "exampleJa": "彼の皮肉っぽい発言は彼女の気持ちを傷つけた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sarc",
+            "type": "root",
+            "meaning": "肉（ギリシャ語 sarx）"
+          },
+          {
+            "part": "-astic",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "目をぐるりと回して皮肉を言う人",
+        "relatedWords": [
+          "sarcasm",
+          "sarcastically",
+          "sarcophagus"
+        ],
+        "memoryTip": "sarc（肉）＋ -astic ＝ 肉を裂くように辛辣な → 皮肉っぽい"
+      }
+    },
+    {
+      "id": "w40_002",
+      "english": "undertaking",
+      "japanese": "仕事、事業",
+      "englishDef": "a task that is taken on",
+      "partOfSpeech": "n",
+      "ipa": "/ˌʌn.dəˈteɪ.kɪŋ/",
+      "katakana": "un-dər-TAY-king",
+      "emoji": "🏗️",
+      "exampleEn": "Building the bridge was a huge undertaking.",
+      "exampleJa": "橋を建設することは大変な事業だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "under-",
+            "type": "prefix",
+            "meaning": "下に"
+          },
+          {
+            "part": "take",
+            "type": "root",
+            "meaning": "取る（古ノルド語 taka）"
+          },
+          {
+            "part": "-ing",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "大きな橋の建設現場で人々が協力する様子",
+        "relatedWords": [
+          "undertake",
+          "take",
+          "endeavor"
+        ],
+        "memoryTip": "under（下に）＋ take（引き受ける）＋ -ing ＝ 引き受けた仕事 → 事業"
+      }
+    },
+    {
+      "id": "w40_003",
+      "english": "emphatically",
+      "japanese": "きっぱりと、断固として",
+      "englishDef": "expressing an action in a strong and definite manner",
+      "partOfSpeech": "adv",
+      "ipa": "/ɪmˈfæt.ɪ.kli/",
+      "katakana": "im-FAT-ik-lee",
+      "emoji": "🙅",
+      "exampleEn": "\"No!\" she said emphatically.",
+      "exampleJa": "「だめ！」と彼女はきっぱりと言った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "em-",
+            "type": "prefix",
+            "meaning": "中に"
+          },
+          {
+            "part": "phas",
+            "type": "root",
+            "meaning": "見せる（ギリシャ語 phainein）"
+          },
+          {
+            "part": "-atic-ally",
+            "type": "suffix",
+            "meaning": "形容詞・副詞化"
+          }
+        ],
+        "imageDescription": "両手を広げて「だめ」とはっきり示す人",
+        "relatedWords": [
+          "emphasis",
+          "emphasize",
+          "phase"
+        ],
+        "memoryTip": "em（中に）＋ phas（見せる）＋ -ally ＝ はっきり示して → きっぱりと"
+      }
+    },
+    {
+      "id": "w40_004",
+      "english": "unison",
+      "japanese": "一斉、調和",
+      "englishDef": "performing together at the same time, all at once",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈjuː.nɪ.sən/",
+      "katakana": "YOO-ni-sən",
+      "emoji": "🎼",
+      "exampleEn": "The children sang in unison.",
+      "exampleJa": "子どもたちは声をそろえて歌った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "uni-",
+            "type": "prefix",
+            "meaning": "一つの"
+          },
+          {
+            "part": "son",
+            "type": "root",
+            "meaning": "音（ラテン語 sonus）"
+          }
+        ],
+        "imageDescription": "合唱団が声をそろえて歌う様子",
+        "relatedWords": [
+          "unity",
+          "sonic",
+          "sound"
+        ],
+        "memoryTip": "uni（一つ）＋ son（音）＝ 一つの音 → 一斉"
+      }
+    },
+    {
+      "id": "w40_005",
+      "english": "meticulously",
+      "japanese": "細心の注意を払って",
+      "englishDef": "in a way that shows great attention to detail; done very carefully",
+      "partOfSpeech": "adv",
+      "ipa": "/məˈtɪk.jʊ.ləs.li/",
+      "katakana": "mə-TIK-yə-ləs-lee",
+      "emoji": "🔍",
+      "exampleEn": "She meticulously checked every number in the report.",
+      "exampleJa": "彼女は報告書のすべての数字を細心の注意で確認した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "metic",
+            "type": "root",
+            "meaning": "恐れ（ラテン語 metus「恐怖」）"
+          },
+          {
+            "part": "-ulous",
+            "type": "suffix",
+            "meaning": "～に満ちた"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "細部まで拡大鏡で入念に確認する人",
+        "relatedWords": [
+          "meticulous",
+          "careful",
+          "thoroughly"
+        ],
+        "memoryTip": "metic（恐れ）＋ -ulous ＋ -ly ＝ ミスを恐れて慎重に → 細心の注意を払って"
+      }
+    },
+    {
+      "id": "w40_006",
+      "english": "transgression",
+      "japanese": "違反、罪",
+      "englishDef": "a broken rule or violation of a rule",
+      "partOfSpeech": "n",
+      "ipa": "/trænzˈɡreʃ.ən/",
+      "katakana": "tranz-GRESH-ən",
+      "emoji": "🚧",
+      "exampleEn": "Breaking the rule was a serious transgression.",
+      "exampleJa": "ルールを破ることは重大な違反だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "trans-",
+            "type": "prefix",
+            "meaning": "越えて"
+          },
+          {
+            "part": "gress",
+            "type": "root",
+            "meaning": "歩く（ラテン語 gradi）"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "立入禁止の線を越えて歩いていく人",
+        "relatedWords": [
+          "transgress",
+          "progress",
+          "aggressive"
+        ],
+        "memoryTip": "trans（越えて）＋ gress（歩く）＋ -ion ＝ 線を越えること → 違反"
+      }
+    },
+    {
+      "id": "w40_007",
+      "english": "seep",
+      "japanese": "にじみ出る、しみ出る",
+      "englishDef": "to flow slowly through or out of something",
+      "partOfSpeech": "v",
+      "ipa": "/siːp/",
+      "katakana": "SEEP",
+      "emoji": "💧",
+      "exampleEn": "Water began to seep through the cracks in the wall.",
+      "exampleJa": "水が壁のひびからしみ出し始めた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "seep",
+            "type": "root",
+            "meaning": "しみ出る（古英語 sipian）"
+          }
+        ],
+        "imageDescription": "壁のひびから水がじわじわにじむ様子",
+        "relatedWords": [
+          "sip",
+          "soak",
+          "leak"
+        ],
+        "memoryTip": "seep（しみる）＝ 少しずつ流れ出る → にじみ出る"
+      }
+    },
+    {
+      "id": "w40_008",
+      "english": "fugitive",
+      "japanese": "逃亡者",
+      "englishDef": "a person escaping from the law or other people",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfjuː.dʒə.tɪv/",
+      "katakana": "FYOO-jə-tiv",
+      "emoji": "🏃",
+      "exampleEn": "The fugitive hid in the forest to avoid the police.",
+      "exampleJa": "逃亡者は警察から逃れるため森に身を隠した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "fug",
+            "type": "root",
+            "meaning": "逃げる（ラテン語 fugere）"
+          },
+          {
+            "part": "-itive",
+            "type": "suffix",
+            "meaning": "～する人"
+          }
+        ],
+        "imageDescription": "森の中を警察から逃げ隠れる人",
+        "relatedWords": [
+          "fugitive",
+          "refuge",
+          "centrifugal"
+        ],
+        "memoryTip": "fug（逃げる）＋ -itive ＝ 逃げる人 → 逃亡者"
+      }
+    },
+    {
+      "id": "w40_009",
+      "english": "exquisite",
+      "japanese": "絶妙な、非常に美しい",
+      "englishDef": "extremely beautiful and sensational",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪkˈskwɪz.ɪt/",
+      "katakana": "ik-SKWIZ-it",
+      "emoji": "💎",
+      "exampleEn": "She wore an exquisite necklace made of tiny pearls.",
+      "exampleJa": "彼女は小さな真珠で作られた絶妙なネックレスを身につけていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "quis",
+            "type": "root",
+            "meaning": "探す（ラテン語 quaerere）"
+          },
+          {
+            "part": "-ite",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "小粒の真珠のネックレスが輝く様子",
+        "relatedWords": [
+          "exquisitely",
+          "require",
+          "inquire"
+        ],
+        "memoryTip": "ex（外へ）＋ quis（探す）＝ 探し出された逸品 → 絶妙な"
+      }
+    },
+    {
+      "id": "w40_010",
+      "english": "meager",
+      "japanese": "乏しい、わずかな",
+      "englishDef": "not enough; lacking in quantity",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈmiː.ɡər/",
+      "katakana": "MEE-gər",
+      "emoji": "🍞",
+      "exampleEn": "The family lived on a meager income.",
+      "exampleJa": "その家族はわずかな収入で暮らしていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "meager",
+            "type": "root",
+            "meaning": "やせた（ラテン語 macer）"
+          }
+        ],
+        "imageDescription": "からっぽに近い皿に少しのパンだけがある様子",
+        "relatedWords": [
+          "macro",
+          "emaciated",
+          "thin"
+        ],
+        "memoryTip": "meager（やせた）＝ 貧弱な → 乏しい"
+      }
+    },
+    {
+      "id": "w40_011",
+      "english": "premise",
+      "japanese": "前提",
+      "englishDef": "an idea that forms an argument, theory, or plot",
+      "partOfSpeech": "n",
+      "ipa": "/ˈprem.ɪs/",
+      "katakana": "PREM-is",
+      "emoji": "📋",
+      "exampleEn": "The whole argument is based on a false premise.",
+      "exampleJa": "その議論全体が誤った前提に基づいている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pre-",
+            "type": "prefix",
+            "meaning": "前に"
+          },
+          {
+            "part": "mis",
+            "type": "root",
+            "meaning": "送る（ラテン語 mittere）"
+          }
+        ],
+        "imageDescription": "議論の土台となる前提を黒板に書く人",
+        "relatedWords": [
+          "promise",
+          "premises",
+          "submit"
+        ],
+        "memoryTip": "pre（前に）＋ mis（送る）＝ 先に置かれたもの → 前提"
+      }
+    },
+    {
+      "id": "w40_012",
+      "english": "affirming",
+      "japanese": "肯定する、確認する",
+      "englishDef": "to accept or confirm the validity of something",
+      "partOfSpeech": "v",
+      "ipa": "/əˈfɜː.mɪŋ/",
+      "katakana": "ə-FUR-ming",
+      "emoji": "👍",
+      "exampleEn": "She nodded, affirming that she agreed with the plan.",
+      "exampleJa": "彼女はうなずき、計画に賛成だと確認した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "af-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "firm",
+            "type": "root",
+            "meaning": "固い・確かな（ラテン語 firmus）"
+          },
+          {
+            "part": "-ing",
+            "type": "suffix",
+            "meaning": "動名詞"
+          }
+        ],
+        "imageDescription": "うなずいて賛成の意思を確認する人",
+        "relatedWords": [
+          "affirm",
+          "firm",
+          "confirm"
+        ],
+        "memoryTip": "af（～へ）＋ firm（固める）＋ -ing ＝ 確かなものにする → 肯定する"
+      }
+    },
+    {
+      "id": "w40_013",
+      "english": "fallacy",
+      "japanese": "誤った考え、誤謬",
+      "englishDef": "a mistaken belief or faulty reasoning",
+      "partOfSpeech": "n",
+      "ipa": "/ˈfæl.ə.si/",
+      "katakana": "FAL-ə-see",
+      "emoji": "❌",
+      "exampleEn": "It is a common fallacy that bigger always means better.",
+      "exampleJa": "大きければ必ず良いというのはよくある誤った考えだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "fall",
+            "type": "root",
+            "meaning": "だます（ラテン語 fallere）"
+          },
+          {
+            "part": "-acy",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "論理の誤りに×印をつけて指摘する人",
+        "relatedWords": [
+          "fail",
+          "false",
+          "fault"
+        ],
+        "memoryTip": "fall（だます）＋ -acy ＝ 人を欺く誤り → 誤謬"
+      }
+    }
+  ]
+}

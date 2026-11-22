@@ -1,0 +1,199 @@
+{
+  "weekId": "week32",
+  "match": [
+    {
+      "word": "forbidden",
+      "def": "not allowed; prohibited"
+    },
+    {
+      "word": "unsettling",
+      "def": "feeling discomfort because of something unpleasant"
+    },
+    {
+      "word": "humiliation",
+      "def": "a feeling of shame or embarrassment because of an unfortunate event"
+    },
+    {
+      "word": "remorse",
+      "def": "a painful regret for doing something wrong"
+    },
+    {
+      "word": "brag",
+      "def": "to speak too proudly about what one has done"
+    },
+    {
+      "word": "community",
+      "def": "a group of people living in the same place or having a similar characteristic in common"
+    },
+    {
+      "word": "fragile",
+      "def": "easily damaged or soft to the touch"
+    },
+    {
+      "word": "fragment",
+      "def": "a piece or part of a whole"
+    },
+    {
+      "word": "puzzled",
+      "def": "feeling confused about a situation"
+    },
+    {
+      "word": "rapidly",
+      "def": "doing something quickly"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "forbidden",
+      "sentence": "Entering the old tunnel is strictly forbidden.",
+      "ja": "その古いトンネルへの立ち入りは固く禁じられている。"
+    },
+    {
+      "answer": "unsettling",
+      "sentence": "The unsettling silence in the house made her nervous.",
+      "ja": "家の中の不安にさせる静けさが彼女を緊張させた。"
+    },
+    {
+      "answer": "humiliation",
+      "sentence": "He felt deep humiliation when everyone laughed at his mistake.",
+      "ja": "皆が自分の間違いを笑ったとき、彼は深い屈辱を感じた。"
+    },
+    {
+      "answer": "remorse",
+      "sentence": "The thief felt remorse and returned the stolen watch.",
+      "ja": "泥棒は良心の呵責を感じて盗んだ時計を返した。"
+    },
+    {
+      "answer": "brag",
+      "sentence": "He likes to brag about how fast he can run.",
+      "ja": "彼は自分の足の速さを自慢するのが好きだ。"
+    }
+  ],
+  "bank": [
+    "forbidden",
+    "unsettling",
+    "humiliation",
+    "remorse",
+    "brag",
+    "community",
+    "fragile",
+    "fragment",
+    "puzzled",
+    "rapidly"
+  ],
+  "mc": [
+    {
+      "q": "What does \"community\" mean?",
+      "opts": [
+        "feeling discomfort because of something unpleasant",
+        "a painful regret for doing something wrong",
+        "a group of people living in the same place or having a similar characteristic in common",
+        "a feeling of shame or embarrassment because of an unfortunate event"
+      ],
+      "answer": 2,
+      "word": "community"
+    },
+    {
+      "q": "What does \"fragile\" mean?",
+      "opts": [
+        "easily damaged or soft to the touch",
+        "a person who claims that another person has committed a crime, an offense, or something wrong",
+        "a painful regret for doing something wrong",
+        "feeling confused about a situation"
+      ],
+      "answer": 0,
+      "word": "fragile"
+    },
+    {
+      "q": "What does \"fragment\" mean?",
+      "opts": [
+        "a person who claims that another person has committed a crime, an offense, or something wrong",
+        "not allowed; prohibited",
+        "a piece or part of a whole",
+        "feeling discomfort because of something unpleasant"
+      ],
+      "answer": 2,
+      "word": "fragment"
+    },
+    {
+      "q": "What does \"puzzled\" mean?",
+      "opts": [
+        "doing something quickly",
+        "a group of people living in the same place or having a similar characteristic in common",
+        "not allowed; prohibited",
+        "feeling confused about a situation"
+      ],
+      "answer": 3,
+      "word": "puzzled"
+    },
+    {
+      "q": "What does \"rapidly\" mean?",
+      "opts": [
+        "a group of people living in the same place or having a similar characteristic in common",
+        "doing something quickly",
+        "leaders or senior people in a tribe or group",
+        "not allowed; prohibited"
+      ],
+      "answer": 1,
+      "word": "rapidly"
+    },
+    {
+      "q": "What does \"elders\" mean?",
+      "opts": [
+        "feeling confused about a situation",
+        "leaders or senior people in a tribe or group",
+        "not allowed; prohibited",
+        "a piece or part of a whole"
+      ],
+      "answer": 1,
+      "word": "elders"
+    },
+    {
+      "q": "What does \"vehemently\" mean?",
+      "opts": [
+        "in a forceful, passionate, or intense manner",
+        "to speak too proudly about what one has done",
+        "a painful regret for doing something wrong",
+        "a piece or part of a whole"
+      ],
+      "answer": 0,
+      "word": "vehemently"
+    },
+    {
+      "q": "What does \"accuser\" mean?",
+      "opts": [
+        "a person who claims that another person has committed a crime, an offense, or something wrong",
+        "a group of people living in the same place or having a similar characteristic in common",
+        "feeling discomfort because of something unpleasant",
+        "not allowed; prohibited"
+      ],
+      "answer": 0,
+      "word": "accuser"
+    },
+    {
+      "q": "What does \"dispute\" mean?",
+      "opts": [
+        "a disagreement or agreement",
+        "in a forceful, passionate, or intense manner",
+        "a feeling of shame or embarrassment because of an unfortunate event",
+        "a piece or part of a whole"
+      ],
+      "answer": 0,
+      "word": "dispute"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Almost every citizen in the community had dark eyes.",
+      "word": "citizen"
+    },
+    {
+      "text": "But suddenly Jonas had noticed that the piece of fruit had changed.",
+      "word": "fruit"
+    },
+    {
+      "text": "We celebrated a release this morning, and that always throws the schedule off a little.",
+      "word": "celebrated"
+    }
+  ]
+}

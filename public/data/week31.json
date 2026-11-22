@@ -1,0 +1,536 @@
+{
+  "weekId": "week31",
+  "weekNumber": 31,
+  "label": "Term D - Week 1",
+  "sentencesToRemember": [
+    {
+      "text": "Needless to say, he will be released, the voice had said, followed by silence.",
+      "ja": "言うまでもなく、彼は解放されるだろう、と声は言い、その後に沈黙が続いた。"
+    },
+    {
+      "text": "There were only two occasions of release which were not punishment.",
+      "ja": "解放には、罰ではないものが2つの場合しかなかった。"
+    },
+    {
+      "text": "There was talk about changing the rule and giving the bicycles at an earlier age.",
+      "ja": "ルールを変えて、自転車をもっと早い年齢で与えるという話が出ていた。"
+    },
+    {
+      "text": "This evening he almost would have preferred to keep his feelings hidden.",
+      "ja": "今夜、彼は自分の気持ちを隠したままにしておくほうがほとんど好ましいと思っていた。"
+    },
+    {
+      "text": "It was one of the few rules that was not taken very seriously and was almost always broken.",
+      "ja": "それは、あまり真剣に受け止められず、ほとんど常に破られている数少ないルールの一つだった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w31_001",
+      "english": "unidentified",
+      "japanese": "身元不明の、正体不明の",
+      "englishDef": "whose name is not known",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌʌn.aɪˈden.tɪ.faɪd/",
+      "katakana": "un-eye-DEN-ti-fyed",
+      "emoji": "❓",
+      "exampleEn": "The police found an unidentified package outside the station.",
+      "exampleJa": "警察は駅の外で身元不明の荷物を見つけた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "un-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "identify",
+            "type": "root",
+            "meaning": "同一だと確認する（ラテン語 idem「同じ」）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "名前のわからない人物が、影の中に立っている様子",
+        "relatedWords": [
+          "identify",
+          "identity",
+          "identification"
+        ],
+        "memoryTip": "un（否定）＋ identified（身元が確認された）＝ 身元不明の"
+      }
+    },
+    {
+      "id": "w31_002",
+      "english": "intrigued",
+      "japanese": "興味をそそられた",
+      "englishDef": "being curious of something",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈtriːɡd/",
+      "katakana": "in-TREEGD",
+      "emoji": "🧐",
+      "exampleEn": "The children were intrigued by the strange old map.",
+      "exampleJa": "子どもたちはその奇妙な古地図に興味をそそられた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "中へ"
+          },
+          {
+            "part": "trig",
+            "type": "root",
+            "meaning": "もつれさせる（ラテン語 tricari「策略を巡らす」）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "不思議な古地図を目を輝かせて覗き込んでいる様子",
+        "relatedWords": [
+          "intrigue",
+          "intriguing",
+          "trick"
+        ],
+        "memoryTip": "in（中へ）＋ trig（もつれ）＝ 心が引き込まれる → 興味をそそられた"
+      }
+    },
+    {
+      "id": "w31_003",
+      "english": "anxiously",
+      "japanese": "心配そうに、不安げに",
+      "englishDef": "showing uneasiness due to fear or concern",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈæŋk.ʃəs.li/",
+      "katakana": "ANK-shus-lee",
+      "emoji": "😰",
+      "exampleEn": "She waited anxiously for the test results to arrive.",
+      "exampleJa": "彼女は不安な気持ちでテスト結果が届くのを待った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "anxi",
+            "type": "root",
+            "meaning": "不安（ラテン語 anxius「悩む」）"
+          },
+          {
+            "part": "-ous",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "電話の前で、そわそわと結果を待つ人の様子",
+        "relatedWords": [
+          "anxious",
+          "anxiety",
+          "anxiousness"
+        ],
+        "memoryTip": "anxious（不安な）＋ -ly（～に）＝ 不安そうに"
+      }
+    },
+    {
+      "id": "w31_004",
+      "english": "abandoned",
+      "japanese": "見捨てられた、放棄された",
+      "englishDef": "left behind",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈbæn.dənd/",
+      "katakana": "ə-BAN-dənd",
+      "emoji": "🏚️",
+      "exampleEn": "The abandoned house at the end of the street was covered with vines.",
+      "exampleJa": "通りの突き当たりの見捨てられた家はつたで覆われていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "a-",
+            "type": "prefix",
+            "meaning": "～に（支配下に）"
+          },
+          {
+            "part": "bandon",
+            "type": "root",
+            "meaning": "支配・権力（古フランス語）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "誰もいない廃屋が草木に覆われている様子",
+        "relatedWords": [
+          "abandon",
+          "abandonment",
+          "deserted"
+        ],
+        "memoryTip": "a（～へ）＋ bandon（支配）→ 支配を手放す → 見捨てる"
+      }
+    },
+    {
+      "id": "w31_005",
+      "english": "ironic",
+      "japanese": "皮肉な",
+      "englishDef": "using words to convey an opposite sense of the literal meaning",
+      "partOfSpeech": "adj",
+      "ipa": "/aɪˈrɒn.ɪk/",
+      "katakana": "eye-RON-ik",
+      "emoji": "🙃",
+      "exampleEn": "It was ironic that the fire station burned down.",
+      "exampleJa": "消防署が焼け落ちたとは皮肉なことだった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "iron",
+            "type": "root",
+            "meaning": "とぼけること（ギリシャ語 eironeia）"
+          },
+          {
+            "part": "-ic",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "消防署が火事になっている皮肉な光景",
+        "relatedWords": [
+          "irony",
+          "ironically",
+          "sarcasm"
+        ],
+        "memoryTip": "iron（とぼけ）＋ -ic（～の）＝ 本心と逆を言う → 皮肉な"
+      }
+    },
+    {
+      "id": "w31_006",
+      "english": "pupil",
+      "japanese": "生徒、児童",
+      "englishDef": "student",
+      "partOfSpeech": "n",
+      "ipa": "/ˈpjuː.pəl/",
+      "katakana": "PYOO-pəl",
+      "emoji": "🧒",
+      "exampleEn": "Every pupil in the class had to read a poem aloud.",
+      "exampleJa": "クラスの生徒は全員、詩を朗読しなければならなかった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pup",
+            "type": "root",
+            "meaning": "小さな子（ラテン語 pupus「男の子」, pupa「女の子」）"
+          },
+          {
+            "part": "-il",
+            "type": "suffix",
+            "meaning": "指小辞"
+          }
+        ],
+        "imageDescription": "教室で先生の話を聞く生徒たちの様子",
+        "relatedWords": [
+          "pupa",
+          "puppet",
+          "puppy"
+        ],
+        "memoryTip": "pup（小さな子）→ 教えを受ける子 → 生徒"
+      }
+    },
+    {
+      "id": "w31_007",
+      "english": "apprehensive",
+      "japanese": "心配して、不安な",
+      "englishDef": "uneasy or fearful about a situation",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌæp.rɪˈhen.sɪv/",
+      "katakana": "ap-ri-HEN-siv",
+      "emoji": "😟",
+      "exampleEn": "He felt apprehensive about his first day at the new school.",
+      "exampleJa": "彼は新しい学校での初日を不安に感じていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ap-",
+            "type": "prefix",
+            "meaning": "～へ向けて"
+          },
+          {
+            "part": "prehend",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 prehendere）"
+          },
+          {
+            "part": "-ive",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "校門の前で緊張して立ちすくむ子どもの様子",
+        "relatedWords": [
+          "apprehension",
+          "apprehend",
+          "comprehend"
+        ],
+        "memoryTip": "ap（～へ）＋ prehend（つかむ）＝ 悪い予感に心をつかまれる → 心配な"
+      }
+    },
+    {
+      "id": "w31_008",
+      "english": "nurture",
+      "japanese": "育てる、養う",
+      "englishDef": "to take care of; to feed and help grow",
+      "partOfSpeech": "v",
+      "ipa": "/ˈnɜː.tʃər/",
+      "katakana": "NUR-chər",
+      "emoji": "🌱",
+      "exampleEn": "Parents should nurture their children with love and patience.",
+      "exampleJa": "親は愛情と忍耐をもって子どもを育てるべきだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "nutri",
+            "type": "root",
+            "meaning": "養う（ラテン語 nutrire）"
+          },
+          {
+            "part": "-ure",
+            "type": "suffix",
+            "meaning": "名詞・動詞化"
+          }
+        ],
+        "imageDescription": "親が小さな芽に水をやって育てている様子",
+        "relatedWords": [
+          "nutrition",
+          "nutrient",
+          "nourish"
+        ],
+        "memoryTip": "nutri（養う）＋ -ure ＝ 栄養を与えて育てる"
+      }
+    },
+    {
+      "id": "w31_009",
+      "english": "frustration",
+      "japanese": "欲求不満、いらだち",
+      "englishDef": "the feeling of being annoyed by a disappointing situation",
+      "partOfSpeech": "n",
+      "ipa": "/frʌˈstreɪ.ʃən/",
+      "katakana": "fruh-STRAY-shən",
+      "emoji": "😤",
+      "exampleEn": "He threw his pencil down in frustration after failing the problem again.",
+      "exampleJa": "問題をまた解けず、彼はいらだって鉛筆を投げ出した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "frustr",
+            "type": "root",
+            "meaning": "無駄にする（ラテン語 frustrari）"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "うまくいかず机に突っ伏して頭を抱える様子",
+        "relatedWords": [
+          "frustrate",
+          "frustrated",
+          "frustrating"
+        ],
+        "memoryTip": "frustr（無駄）＋ -ation（こと）＝ 努力が無駄になる気持ち → いらだち"
+      }
+    },
+    {
+      "id": "w31_010",
+      "english": "prominent",
+      "japanese": "著名な、目立つ",
+      "englishDef": "very well-known or important",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈprɒm.ɪ.nənt/",
+      "katakana": "PROM-i-nənt",
+      "emoji": "🌟",
+      "exampleEn": "She is a prominent scientist known around the world.",
+      "exampleJa": "彼女は世界中に知られた著名な科学者だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pro-",
+            "type": "prefix",
+            "meaning": "前へ"
+          },
+          {
+            "part": "min",
+            "type": "root",
+            "meaning": "突き出る（ラテン語 minere）"
+          },
+          {
+            "part": "-ent",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "大勢の中で舞台の前に立ち注目を集める人",
+        "relatedWords": [
+          "prominence",
+          "eminent",
+          "imminent"
+        ],
+        "memoryTip": "pro（前へ）＋ min（突き出る）＝ 前に突き出ている → 目立つ・著名な"
+      }
+    },
+    {
+      "id": "w31_011",
+      "english": "committee",
+      "japanese": "委員会",
+      "englishDef": "a group of people chosen for a purpose to discuss or make decisions",
+      "partOfSpeech": "n",
+      "ipa": "/kəˈmɪt.i/",
+      "katakana": "kə-MIT-ee",
+      "emoji": "👥",
+      "exampleEn": "The committee voted to build a new library.",
+      "exampleJa": "委員会は新しい図書館を建てることを決議した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "mit",
+            "type": "root",
+            "meaning": "送る・任せる（ラテン語 mittere）"
+          },
+          {
+            "part": "-ee",
+            "type": "suffix",
+            "meaning": "～される人"
+          }
+        ],
+        "imageDescription": "テーブルを囲んで会議し、手を挙げて投票する人々",
+        "relatedWords": [
+          "commit",
+          "submit",
+          "permit"
+        ],
+        "memoryTip": "com（共に）＋ mit（任せる）＋ -ee（人）＝ 任された人々 → 委員会"
+      }
+    },
+    {
+      "id": "w31_012",
+      "english": "inquisitive",
+      "japanese": "好奇心旺盛な",
+      "englishDef": "showing interest or being curious about something",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈkwɪz.ə.tɪv/",
+      "katakana": "in-KWIZ-ə-tiv",
+      "emoji": "🔍",
+      "exampleEn": "The inquisitive girl asked a hundred questions about the stars.",
+      "exampleJa": "その好奇心旺盛な少女は星について100も質問した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "中へ"
+          },
+          {
+            "part": "quisit",
+            "type": "root",
+            "meaning": "尋ねる（ラテン語 quaerere）"
+          },
+          {
+            "part": "-ive",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "虫眼鏡で何でものぞき込む子ども",
+        "relatedWords": [
+          "inquire",
+          "inquiry",
+          "question"
+        ],
+        "memoryTip": "in（中へ）＋ quisit（尋ねる）＝ 深く尋ねたがる → 好奇心旺盛な"
+      }
+    },
+    {
+      "id": "w31_013",
+      "english": "ignorance",
+      "japanese": "無知",
+      "englishDef": "lacking information or knowledge about something",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɪɡ.nər.əns/",
+      "katakana": "IG-nər-əns",
+      "emoji": "🙈",
+      "exampleEn": "His ignorance of the rules caused him to lose the game.",
+      "exampleJa": "ルールを知らなかったせいで、彼は試合に負けた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ig-",
+            "type": "prefix",
+            "meaning": "否定（in- の変形）"
+          },
+          {
+            "part": "gnor",
+            "type": "root",
+            "meaning": "知る（ラテン語 gnoscere）"
+          },
+          {
+            "part": "-ance",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "目を覆って何も見ようとしない人",
+        "relatedWords": [
+          "ignorant",
+          "ignore",
+          "noble"
+        ],
+        "memoryTip": "ig（否定）＋ gnor（知る）＝ 知らないこと → 無知"
+      }
+    },
+    {
+      "id": "w31_014",
+      "english": "distraught",
+      "japanese": "取り乱した、ひどく動揺した",
+      "englishDef": "very worried and upset",
+      "partOfSpeech": "adj",
+      "ipa": "/dɪˈstrɔːt/",
+      "katakana": "dis-TRAWT",
+      "emoji": "😭",
+      "exampleEn": "The distraught mother searched everywhere for her missing child.",
+      "exampleJa": "取り乱した母親は行方不明の子どもをあちこち探し回った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "dis-",
+            "type": "prefix",
+            "meaning": "離れて"
+          },
+          {
+            "part": "traught",
+            "type": "root",
+            "meaning": "引っ張る（ラテン語 trahere）"
+          }
+        ],
+        "imageDescription": "心がばらばらに引き裂かれて泣き崩れる人",
+        "relatedWords": [
+          "distract",
+          "attract",
+          "traction"
+        ],
+        "memoryTip": "dis（離れて）＋ traught（引く）＝ 心があちこちに引かれる → 取り乱した"
+      }
+    }
+  ]
+}

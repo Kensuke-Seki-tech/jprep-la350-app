@@ -1,0 +1,199 @@
+{
+  "weekId": "week36",
+  "match": [
+    {
+      "word": "fleeting",
+      "def": "lasting for a very short time"
+    },
+    {
+      "word": "phenomenon",
+      "def": "an observed trait or condition"
+    },
+    {
+      "word": "capacity",
+      "def": "an ability to perform an action or undertake a task"
+    },
+    {
+      "word": "impression",
+      "def": "an idea, feeling, or opinion about someone or something"
+    },
+    {
+      "word": "comprehend",
+      "def": "to understand the meaning of something"
+    },
+    {
+      "word": "wryly",
+      "def": "expressing dry or mocking humor; sarcastic"
+    },
+    {
+      "word": "absurdity",
+      "def": "the condition of being too unbelievable or crazy"
+    },
+    {
+      "word": "anguished",
+      "def": "feeling or showing serious sadness or pain"
+    },
+    {
+      "word": "vaguely",
+      "def": "communicated in an unclear or difficult to understand way"
+    },
+    {
+      "word": "burden",
+      "def": "a necessary but demanding task"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "fleeting",
+      "sentence": "She caught only a fleeting glimpse of the famous actor.",
+      "ja": "彼女はその有名な俳優をほんの一瞬見ただけだった。"
+    },
+    {
+      "answer": "phenomenon",
+      "sentence": "A rainbow is a natural phenomenon caused by sunlight and rain.",
+      "ja": "虹は日光と雨によって起こる自然現象だ。"
+    },
+    {
+      "answer": "capacity",
+      "sentence": "The stadium has a capacity of fifty thousand people.",
+      "ja": "そのスタジアムの収容人数は5万人だ。"
+    },
+    {
+      "answer": "impression",
+      "sentence": "He made a good impression on the interviewer.",
+      "ja": "彼は面接官によい印象を与えた。"
+    },
+    {
+      "answer": "comprehend",
+      "sentence": "The little boy could not comprehend why the sky was blue.",
+      "ja": "幼い男の子は、なぜ空が青いのか理解できなかった。"
+    }
+  ],
+  "bank": [
+    "fleeting",
+    "phenomenon",
+    "capacity",
+    "impression",
+    "comprehend",
+    "wryly",
+    "absurdity",
+    "anguished",
+    "vaguely",
+    "burden"
+  ],
+  "mc": [
+    {
+      "q": "What does \"wryly\" mean?",
+      "opts": [
+        "the condition of being too unbelievable or crazy",
+        "lasting for a very short time",
+        "expressing dry or mocking humor; sarcastic",
+        "cruel and oppressive leaders"
+      ],
+      "answer": 2,
+      "word": "wryly"
+    },
+    {
+      "q": "What does \"absurdity\" mean?",
+      "opts": [
+        "an observed trait or condition",
+        "the condition of being too unbelievable or crazy",
+        "lasting for a very short time",
+        "a necessary but demanding task"
+      ],
+      "answer": 1,
+      "word": "absurdity"
+    },
+    {
+      "q": "What does \"anguished\" mean?",
+      "opts": [
+        "an idea, feeling, or opinion about someone or something",
+        "to understand the meaning of something",
+        "a deep fissure or crack in the earth's surface",
+        "feeling or showing serious sadness or pain"
+      ],
+      "answer": 3,
+      "word": "anguished"
+    },
+    {
+      "q": "What does \"vaguely\" mean?",
+      "opts": [
+        "communicated in an unclear or difficult to understand way",
+        "expressing dry or mocking humor; sarcastic",
+        "a necessary but demanding task",
+        "to understand the meaning of something"
+      ],
+      "answer": 0,
+      "word": "vaguely"
+    },
+    {
+      "q": "What does \"burden\" mean?",
+      "opts": [
+        "principles concerning what is right and wrong",
+        "the condition of being too unbelievable or crazy",
+        "feeling or showing serious sadness or pain",
+        "a necessary but demanding task"
+      ],
+      "answer": 3,
+      "word": "burden"
+    },
+    {
+      "q": "What does \"morality\" mean?",
+      "opts": [
+        "expressing dry or mocking humor; sarcastic",
+        "the condition of being too unbelievable or crazy",
+        "an idea, feeling, or opinion about someone or something",
+        "principles concerning what is right and wrong"
+      ],
+      "answer": 3,
+      "word": "morality"
+    },
+    {
+      "q": "What does \"chasm\" mean?",
+      "opts": [
+        "an ability to perform an action or undertake a task",
+        "an observed trait or condition",
+        "communicated in an unclear or difficult to understand way",
+        "a deep fissure or crack in the earth's surface"
+      ],
+      "answer": 3,
+      "word": "chasm"
+    },
+    {
+      "q": "What does \"tyrants\" mean?",
+      "opts": [
+        "a deep fissure or crack in the earth's surface",
+        "an idea, feeling, or opinion about someone or something",
+        "cruel and oppressive leaders",
+        "communicated in an unclear or difficult to understand way"
+      ],
+      "answer": 2,
+      "word": "tyrants"
+    },
+    {
+      "q": "What does \"ethics\" mean?",
+      "opts": [
+        "an ability to perform an action or undertake a task",
+        "feeling or showing serious sadness or pain",
+        "a set of rules that influences a person's behavior",
+        "a necessary but demanding task"
+      ],
+      "answer": 2,
+      "word": "ethics"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Maybe your wisdom will come much more quickly than mine.",
+      "word": "wisdom"
+    },
+    {
+      "text": "If you gave some of it to me, maybe your pain would be less.",
+      "word": "pain"
+    },
+    {
+      "text": "What if we could hold up things that were bright red, or bright yellow, and he could choose?",
+      "word": "bright"
+    }
+  ]
+}

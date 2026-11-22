@@ -1,0 +1,199 @@
+{
+  "weekId": "week37",
+  "match": [
+    {
+      "word": "invigorating",
+      "def": "making someone feel energetic or lively"
+    },
+    {
+      "word": "expanse",
+      "def": "a large empty area or space"
+    },
+    {
+      "word": "instantaneous",
+      "def": "occurring or being completed immediately"
+    },
+    {
+      "word": "fulfill",
+      "def": "to accomplish or complete a task"
+    },
+    {
+      "word": "haste",
+      "def": "the state of being in a hurry or rushed"
+    },
+    {
+      "word": "reluctantly",
+      "def": "in an unwilling or cautious manner"
+    },
+    {
+      "word": "extend",
+      "def": "to reach out; to hold something out to someone"
+    },
+    {
+      "word": "pervade",
+      "def": "to be taken over by; affected strongly by something"
+    },
+    {
+      "word": "anticipate",
+      "def": "to expect; to predict"
+    },
+    {
+      "word": "accomplishment",
+      "def": "something successfully done or completed"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "invigorating",
+      "sentence": "A cold shower in the morning is invigorating.",
+      "ja": "朝の冷たいシャワーは気分をシャキッとさせてくれる。"
+    },
+    {
+      "answer": "expanse",
+      "sentence": "A vast expanse of desert stretched before them.",
+      "ja": "広大な砂漠が彼らの目の前に広がっていた。"
+    },
+    {
+      "answer": "instantaneous",
+      "sentence": "The effect of the medicine was almost instantaneous.",
+      "ja": "その薬の効果はほぼ即座に現れた。"
+    },
+    {
+      "answer": "fulfill",
+      "sentence": "She worked hard to fulfill her dream of becoming a doctor.",
+      "ja": "彼女は医者になる夢をかなえるために懸命に働いた。"
+    },
+    {
+      "answer": "haste",
+      "sentence": "In his haste, he left his keys on the table.",
+      "ja": "急いでいて、彼は鍵をテーブルに置き忘れた。"
+    }
+  ],
+  "bank": [
+    "invigorating",
+    "expanse",
+    "instantaneous",
+    "fulfill",
+    "haste",
+    "reluctantly",
+    "extend",
+    "pervade",
+    "anticipate",
+    "accomplishment"
+  ],
+  "mc": [
+    {
+      "q": "What does \"reluctantly\" mean?",
+      "opts": [
+        "in an unwilling or cautious manner",
+        "very important; fundamental",
+        "the quality of being religious",
+        "a large empty area or space"
+      ],
+      "answer": 0,
+      "word": "reluctantly"
+    },
+    {
+      "q": "What does \"extend\" mean?",
+      "opts": [
+        "to reach out; to hold something out to someone",
+        "very important; fundamental",
+        "in an unwilling or cautious manner",
+        "to expect; to predict"
+      ],
+      "answer": 0,
+      "word": "extend"
+    },
+    {
+      "q": "What does \"pervade\" mean?",
+      "opts": [
+        "very important; fundamental",
+        "to expect; to predict",
+        "to be taken over by; affected strongly by something",
+        "the quality of being religious"
+      ],
+      "answer": 2,
+      "word": "pervade"
+    },
+    {
+      "q": "What does \"anticipate\" mean?",
+      "opts": [
+        "to reach out; to hold something out to someone",
+        "a lack or shortage of something",
+        "more than the desired or prescribed amount",
+        "to expect; to predict"
+      ],
+      "answer": 3,
+      "word": "anticipate"
+    },
+    {
+      "q": "What does \"accomplishment\" mean?",
+      "opts": [
+        "occurring or being completed immediately",
+        "making someone feel energetic or lively",
+        "a large empty area or space",
+        "something successfully done or completed"
+      ],
+      "answer": 3,
+      "word": "accomplishment"
+    },
+    {
+      "q": "What does \"piety\" mean?",
+      "opts": [
+        "a large empty area or space",
+        "to expect; to predict",
+        "the quality of being religious",
+        "the state of being in a hurry or rushed"
+      ],
+      "answer": 2,
+      "word": "piety"
+    },
+    {
+      "q": "What does \"cardinal\" mean?",
+      "opts": [
+        "the quality of being religious",
+        "a lack or shortage of something",
+        "very important; fundamental",
+        "to reach out; to hold something out to someone"
+      ],
+      "answer": 2,
+      "word": "cardinal"
+    },
+    {
+      "q": "What does \"deficiency\" mean?",
+      "opts": [
+        "a lack or shortage of something",
+        "the quality of being religious",
+        "very important; fundamental",
+        "something successfully done or completed"
+      ],
+      "answer": 0,
+      "word": "deficiency"
+    },
+    {
+      "q": "What does \"excess\" mean?",
+      "opts": [
+        "a lack or shortage of something",
+        "more than the desired or prescribed amount",
+        "to expect; to predict",
+        "something successfully done or completed"
+      ],
+      "answer": 1,
+      "word": "excess"
+    }
+  ],
+  "dict": [
+    {
+      "text": "He fell with his leg twisted under him and could hear the crack of bone.",
+      "word": "twisted"
+    },
+    {
+      "text": "Finally, when he knew that he could bear it no longer, he opened his eyes.",
+      "word": "bear"
+    },
+    {
+      "text": "The next morning, for the first time, Jonas did not take his pill.",
+      "word": "pill"
+    }
+  ]
+}

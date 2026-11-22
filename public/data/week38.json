@@ -1,0 +1,468 @@
+{
+  "weekId": "week38",
+  "weekNumber": 38,
+  "label": "Term D - Week 8",
+  "sentencesToRemember": [
+    {
+      "text": "He knew that with certainty because now he knew what anger was.",
+      "ja": "怒りとは何かを今や知ったのだから、彼はそれを確信していた。"
+    },
+    {
+      "text": "When she came to me for the first time, she sat there in the chair where you sat on your first day.",
+      "ja": "彼女が初めて私のところに来たとき、あなたが初日に座ったその椅子に座っていた。"
+    },
+    {
+      "text": "When she was gone, the memories came back to the people.",
+      "ja": "彼女がいなくなったとき、記憶は人々のもとへ戻ってきた。"
+    },
+    {
+      "text": "It was clear to him what a terribly difficult and lonely life it was, despite the honor.",
+      "ja": "名誉にもかかわらず、それがどれほどひどく困難で孤独な人生であるかが彼には明らかだった。"
+    },
+    {
+      "text": "But he knew he couldn't go back to the world of no feelings that he had lived in so long.",
+      "ja": "しかし彼は、自分が長く生きてきた感情のない世界にはもう戻れないとわかっていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w38_001",
+      "english": "exempt",
+      "japanese": "免除された",
+      "englishDef": "being free from a duty or obligation",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪɡˈzempt/",
+      "katakana": "ig-ZEMPT",
+      "emoji": "🎫",
+      "exampleEn": "Students with a doctor's note are exempt from gym class.",
+      "exampleJa": "医師の診断書がある生徒は体育の授業が免除される。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "empt",
+            "type": "root",
+            "meaning": "取る（ラテン語 emere）"
+          }
+        ],
+        "imageDescription": "診断書を見せて授業の免除を認められる生徒",
+        "relatedWords": [
+          "exemption",
+          "example",
+          "redeem"
+        ],
+        "memoryTip": "ex（外へ）＋ empt（取る）＝ 外に取り出す → 免除された"
+      }
+    },
+    {
+      "id": "w38_002",
+      "english": "permeate",
+      "japanese": "染み渡る、浸透する",
+      "englishDef": "to penetrate and spread through",
+      "partOfSpeech": "v",
+      "ipa": "/ˈpɜː.mi.eɪt/",
+      "katakana": "PUR-mee-ayt",
+      "emoji": "💧",
+      "exampleEn": "Water slowly permeated the thick cloth.",
+      "exampleJa": "水はゆっくりと厚い布に染み込んだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "per-",
+            "type": "prefix",
+            "meaning": "通して"
+          },
+          {
+            "part": "me",
+            "type": "root",
+            "meaning": "行く・通る（ラテン語 meare）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "水が布全体にじわじわ染み込む様子",
+        "relatedWords": [
+          "permeable",
+          "impermeable",
+          "migrate"
+        ],
+        "memoryTip": "per（通して）＋ me（行く）＋ -ate ＝ 隅々まで通り抜ける → 染み渡る"
+      }
+    },
+    {
+      "id": "w38_003",
+      "english": "exaggerated",
+      "japanese": "誇張された",
+      "englishDef": "expressed as being larger, smaller, better, or worse than reality",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪɡˈzædʒ.ə.reɪ.tɪd/",
+      "katakana": "ig-ZAJ-ə-ray-tid",
+      "emoji": "🎣",
+      "exampleEn": "His exaggerated story about the huge fish made everyone laugh.",
+      "exampleJa": "巨大な魚についての彼の誇張した話に、みんなが笑った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "agger",
+            "type": "root",
+            "meaning": "積み上げる（ラテン語 agger「土手」）"
+          },
+          {
+            "part": "-ated",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "釣った魚の大きさを両手で大げさに広げる人",
+        "relatedWords": [
+          "exaggerate",
+          "exaggeration",
+          "hyperbole"
+        ],
+        "memoryTip": "ex（外へ）＋ agger（積み上げる）＝ 大げさに盛る → 誇張された"
+      }
+    },
+    {
+      "id": "w38_004",
+      "english": "amused",
+      "japanese": "面白がっている、楽しんでいる",
+      "englishDef": "to be entertained by something",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈmjuːzd/",
+      "katakana": "ə-MYOOZD",
+      "emoji": "😄",
+      "exampleEn": "She was amused by the clown's silly tricks.",
+      "exampleJa": "彼女はピエロのおかしな芸を面白がっていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "a-",
+            "type": "prefix",
+            "meaning": "～に"
+          },
+          {
+            "part": "muse",
+            "type": "root",
+            "meaning": "じっと考える・口をぼかんと開ける（古フランス語 muser）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "ピエロの芸を見て笑っている人",
+        "relatedWords": [
+          "amusing",
+          "amusement",
+          "muse"
+        ],
+        "memoryTip": "a（～に）＋ muse（見とれる）＋ -ed ＝ 見とれて楽しむ → 面白がっている"
+      }
+    },
+    {
+      "id": "w38_005",
+      "english": "luminous",
+      "japanese": "光り輝く、明るい",
+      "englishDef": "showing liveliness and brightness",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈluː.mɪ.nəs/",
+      "katakana": "LOO-mi-nəs",
+      "emoji": "🌕",
+      "exampleEn": "The luminous moon lit up the dark path.",
+      "exampleJa": "光り輝く月が暗い小道を照らした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "lumin",
+            "type": "root",
+            "meaning": "光（ラテン語 lumen）"
+          },
+          {
+            "part": "-ous",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "暗い夜道を明るく照らす満月",
+        "relatedWords": [
+          "illuminate",
+          "lumen",
+          "luminary"
+        ],
+        "memoryTip": "lumin（光）＋ -ous ＝ 光に満ちた → 光り輝く"
+      }
+    },
+    {
+      "id": "w38_006",
+      "english": "devastated",
+      "japanese": "打ちひしがれた、荒廃した",
+      "englishDef": "feeling extremely disappointed",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈdev.ə.steɪ.tɪd/",
+      "katakana": "DEV-ə-stay-tid",
+      "emoji": "💔",
+      "exampleEn": "He was devastated when he lost his favorite toy.",
+      "exampleJa": "彼は大好きなおもちゃをなくして打ちひしがれた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "de-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "vast",
+            "type": "root",
+            "meaning": "空っぽの・荒れ果てた（ラテン語 vastus）"
+          },
+          {
+            "part": "-ated",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "崩れた壁の前で肩を落として座り込む人",
+        "relatedWords": [
+          "devastate",
+          "devastation",
+          "vast"
+        ],
+        "memoryTip": "de（完全に）＋ vast（荒れ果てた）＝ 完全に荒らされた → 打ちひしがれた"
+      }
+    },
+    {
+      "id": "w38_007",
+      "english": "private",
+      "japanese": "私的な、秘密の",
+      "englishDef": "not public; not to be revealed to others",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈpraɪ.vət/",
+      "katakana": "PRY-vət",
+      "emoji": "🔒",
+      "exampleEn": "This is a private conversation, so please leave the room.",
+      "exampleJa": "これは私的な会話なので、部屋から出てください。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "priv",
+            "type": "root",
+            "meaning": "切り離された（ラテン語 privus）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "鍵付きの日記を人目につかない所で書く人",
+        "relatedWords": [
+          "privacy",
+          "privilege",
+          "deprive"
+        ],
+        "memoryTip": "priv（切り離す）＝ 公から切り離された → 私的な"
+      }
+    },
+    {
+      "id": "w38_008",
+      "english": "sensation",
+      "japanese": "感覚、感じ",
+      "englishDef": "a physical feeling or reaction to something",
+      "partOfSpeech": "n",
+      "ipa": "/senˈseɪ.ʃən/",
+      "katakana": "sen-SAY-shən",
+      "emoji": "🤚",
+      "exampleEn": "She felt a tingling sensation in her fingers.",
+      "exampleJa": "彼女は指先にチクチクする感覚を覚えた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sens",
+            "type": "root",
+            "meaning": "感じる（ラテン語 sentire）"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "冷たい雪に触れて指先に刺激を感じる様子",
+        "relatedWords": [
+          "sense",
+          "sensitive",
+          "sensor"
+        ],
+        "memoryTip": "sens（感じる）＋ -ation ＝ 感じること → 感覚"
+      }
+    },
+    {
+      "id": "w38_009",
+      "english": "government",
+      "japanese": "政府",
+      "englishDef": "a group of people with the authority to govern a country or state",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɡʌv.ən.mənt/",
+      "katakana": "GUV-ərn-mənt",
+      "emoji": "🏛️",
+      "exampleEn": "The government announced a plan to build more schools.",
+      "exampleJa": "政府はもっと多くの学校を建てる計画を発表した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "govern",
+            "type": "root",
+            "meaning": "舵を取る（ギリシャ語 kybernan）"
+          },
+          {
+            "part": "-ment",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "議事堂で大臣たちが話し合っている様子",
+        "relatedWords": [
+          "govern",
+          "governor",
+          "cybernetics"
+        ],
+        "memoryTip": "govern（舵を取る）＋ -ment ＝ 国を導く組織 → 政府"
+      }
+    },
+    {
+      "id": "w38_010",
+      "english": "political",
+      "japanese": "政治の、政治的な",
+      "englishDef": "related to the government or public affairs of a country",
+      "partOfSpeech": "adj",
+      "ipa": "/pəˈlɪt.ɪ.kəl/",
+      "katakana": "pə-LIT-i-kəl",
+      "emoji": "🗳️",
+      "exampleEn": "Many young people are interested in political issues.",
+      "exampleJa": "多くの若者が政治問題に関心を持っている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "polit",
+            "type": "root",
+            "meaning": "都市・市民（ギリシャ語 polis）"
+          },
+          {
+            "part": "-ical",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "投票箱に票を入れる人",
+        "relatedWords": [
+          "politics",
+          "politician",
+          "police"
+        ],
+        "memoryTip": "polit（都市・市民）＋ -ical ＝ 市民の政治に関する → 政治の"
+      }
+    },
+    {
+      "id": "w38_011",
+      "english": "glimpse",
+      "japanese": "ちらりと見えること",
+      "englishDef": "a brief or partial view of something",
+      "partOfSpeech": "n",
+      "ipa": "/ɡlɪmps/",
+      "katakana": "GLIMPS",
+      "emoji": "👀",
+      "exampleEn": "I caught a glimpse of a deer running through the forest.",
+      "exampleJa": "私は森の中を走る鹿をちらりと見かけた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "glimps",
+            "type": "root",
+            "meaning": "かすかに光る（中英語 glimsen）"
+          }
+        ],
+        "imageDescription": "森の中を走る鹿が一瞬だけ見える様子",
+        "relatedWords": [
+          "glimmer",
+          "glance",
+          "gleam"
+        ],
+        "memoryTip": "glimps（ちらりと光る）＝ 一瞬の光景 → ちらりと見えること"
+      }
+    },
+    {
+      "id": "w38_012",
+      "english": "groan",
+      "japanese": "うめく",
+      "englishDef": "to make a deep sound that shows disappointment",
+      "partOfSpeech": "v",
+      "ipa": "/ɡrəʊn/",
+      "katakana": "GROHN",
+      "emoji": "😩",
+      "exampleEn": "The students groaned when the teacher announced a surprise test.",
+      "exampleJa": "先生が抜き打ちテストを発表すると、生徒たちはうめいた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "groan",
+            "type": "root",
+            "meaning": "うめく（古英語 granian）"
+          }
+        ],
+        "imageDescription": "宿題を言い渡されて落胆してうめく生徒たち",
+        "relatedWords": [
+          "groaning",
+          "grunt",
+          "moan"
+        ],
+        "memoryTip": "groan（うめく）＝ 不満や落胆で出る低い声"
+      }
+    },
+    {
+      "id": "w38_013",
+      "english": "posture",
+      "japanese": "姿勢",
+      "englishDef": "a position or stance of someone either standing or sitting",
+      "partOfSpeech": "n",
+      "ipa": "/ˈpɒs.tʃər/",
+      "katakana": "POS-chər",
+      "emoji": "🧘",
+      "exampleEn": "Good posture can prevent back pain.",
+      "exampleJa": "良い姿勢は腰痛を防ぐことができる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pos",
+            "type": "root",
+            "meaning": "置く（ラテン語 ponere）"
+          },
+          {
+            "part": "-ture",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "背筋を伸ばして椅子に座る人",
+        "relatedWords": [
+          "position",
+          "pose",
+          "posture"
+        ],
+        "memoryTip": "pos（置く）＋ -ture ＝ 体の置き方 → 姿勢"
+      }
+    }
+  ]
+}

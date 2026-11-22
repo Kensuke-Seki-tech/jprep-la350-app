@@ -1,0 +1,511 @@
+{
+  "weekId": "week36",
+  "weekNumber": 36,
+  "label": "Term D - Week 6",
+  "sentencesToRemember": [
+    {
+      "text": "Maybe your wisdom will come much more quickly than mine.",
+      "ja": "もしかするとあなたの知恵は、私のよりずっと早く身につくかもしれない。"
+    },
+    {
+      "text": "Did you know that once there really were elephants?",
+      "ja": "かつて本当にゾウがいたって知っていた？"
+    },
+    {
+      "text": "If you gave some of it to me, maybe your pain would be less.",
+      "ja": "もしあなたがその一部を私に分けてくれたら、あなたの痛みは少し軽くなるかもしれない。"
+    },
+    {
+      "text": "Once, back in the time of the memories, they also had a quality called color.",
+      "ja": "かつて記憶の時代には、人々は「色」と呼ばれる性質も持っていた。"
+    },
+    {
+      "text": "What if we could hold up things that were bright red, or bright yellow, and he could choose?",
+      "ja": "もし私たちが鮮やかな赤や鮮やかな黄色のものを掲げて、彼が選べたとしたらどうだろう？"
+    }
+  ],
+  "words": [
+    {
+      "id": "w36_001",
+      "english": "fleeting",
+      "japanese": "つかの間の、はかない",
+      "englishDef": "lasting for a very short time",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈfliː.tɪŋ/",
+      "katakana": "FLEE-ting",
+      "emoji": "💨",
+      "exampleEn": "She caught only a fleeting glimpse of the famous actor.",
+      "exampleJa": "彼女はその有名な俳優をほんの一瞬見ただけだった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "fleet",
+            "type": "root",
+            "meaning": "素早く流れる（古英語 fleotan「浮かぶ・流れる」）"
+          },
+          {
+            "part": "-ing",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "窓の外を一瞬で過ぎ去る電車を見る人",
+        "relatedWords": [
+          "fleet",
+          "flee",
+          "float"
+        ],
+        "memoryTip": "fleet（素早く）＋ -ing ＝ すぐ過ぎ去る → つかの間の"
+      }
+    },
+    {
+      "id": "w36_002",
+      "english": "phenomenon",
+      "japanese": "現象",
+      "englishDef": "an observed trait or condition",
+      "partOfSpeech": "n",
+      "ipa": "/fəˈnɒm.ɪ.nən/",
+      "katakana": "fə-NOM-i-nən",
+      "emoji": "🌈",
+      "exampleEn": "A rainbow is a natural phenomenon caused by sunlight and rain.",
+      "exampleJa": "虹は日光と雨によって起こる自然現象だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pheno",
+            "type": "root",
+            "meaning": "現れる（ギリシャ語 phainein「見せる」）"
+          },
+          {
+            "part": "-menon",
+            "type": "suffix",
+            "meaning": "もの"
+          }
+        ],
+        "imageDescription": "雨上がりの空に虹がかかる様子",
+        "relatedWords": [
+          "phenomena",
+          "phantom",
+          "fantasy"
+        ],
+        "memoryTip": "pheno（現れる）＋ -menon（もの）＝ 現れたもの → 現象"
+      }
+    },
+    {
+      "id": "w36_003",
+      "english": "capacity",
+      "japanese": "能力、容量",
+      "englishDef": "an ability to perform an action or undertake a task",
+      "partOfSpeech": "n",
+      "ipa": "/kəˈpæs.ə.ti/",
+      "katakana": "kə-PAS-ə-tee",
+      "emoji": "🪣",
+      "exampleEn": "The stadium has a capacity of fifty thousand people.",
+      "exampleJa": "そのスタジアムの収容人数は5万人だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "cap",
+            "type": "root",
+            "meaning": "つかむ・入れる（ラテン語 capere）"
+          },
+          {
+            "part": "-acity",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "満員のスタジアムに観客が詰めかける様子",
+        "relatedWords": [
+          "capable",
+          "capture",
+          "capacious"
+        ],
+        "memoryTip": "cap（つかむ）＋ -acity ＝ 受け入れられる量 → 容量・能力"
+      }
+    },
+    {
+      "id": "w36_004",
+      "english": "impression",
+      "japanese": "印象",
+      "englishDef": "an idea, feeling, or opinion about someone or something",
+      "partOfSpeech": "n",
+      "ipa": "/ɪmˈpreʃ.ən/",
+      "katakana": "im-PRESH-ən",
+      "emoji": "💭",
+      "exampleEn": "He made a good impression on the interviewer.",
+      "exampleJa": "彼は面接官によい印象を与えた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "im-",
+            "type": "prefix",
+            "meaning": "上に・中に"
+          },
+          {
+            "part": "press",
+            "type": "root",
+            "meaning": "押す（ラテン語 premere）"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "握手をして好印象を与える人",
+        "relatedWords": [
+          "impress",
+          "press",
+          "express"
+        ],
+        "memoryTip": "im（中に）＋ press（押す）＝ 心に押しつけられた跡 → 印象"
+      }
+    },
+    {
+      "id": "w36_005",
+      "english": "comprehend",
+      "japanese": "理解する",
+      "englishDef": "to understand the meaning of something",
+      "partOfSpeech": "v",
+      "ipa": "/ˌkɒm.prɪˈhend/",
+      "katakana": "kom-pri-HEND",
+      "emoji": "💡",
+      "exampleEn": "The little boy could not comprehend why the sky was blue.",
+      "exampleJa": "幼い男の子は、なぜ空が青いのか理解できなかった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "prehend",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 prehendere）"
+          }
+        ],
+        "imageDescription": "難しい説明を聞いてぱっと分かった表情の人",
+        "relatedWords": [
+          "comprehension",
+          "apprehend",
+          "comprehensive"
+        ],
+        "memoryTip": "com（完全に）＋ prehend（つかむ）＝ 完全につかむ → 理解する"
+      }
+    },
+    {
+      "id": "w36_006",
+      "english": "wryly",
+      "japanese": "皮肉っぽく、ひねった笑いで",
+      "englishDef": "expressing dry or mocking humor; sarcastic",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈraɪ.li/",
+      "katakana": "RY-lee",
+      "emoji": "😏",
+      "exampleEn": "\"Nice weather,\" he said wryly as rain poured down.",
+      "exampleJa": "雨が降りしきる中、「いい天気だね」と彼は皮肉っぽく言った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "wry",
+            "type": "root",
+            "meaning": "ねじれた（古英語 wrigian「向きを変える」）"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "雨の中で口の端をゆがめて皮肉を言う人",
+        "relatedWords": [
+          "wry",
+          "wriggle",
+          "wring"
+        ],
+        "memoryTip": "wry（ねじれた）＋ -ly ＝ 口をゆがめて → 皮肉っぽく"
+      }
+    },
+    {
+      "id": "w36_007",
+      "english": "absurdity",
+      "japanese": "ばかばかしさ、不条理",
+      "englishDef": "the condition of being too unbelievable or crazy",
+      "partOfSpeech": "n",
+      "ipa": "/əbˈsɜː.də.ti/",
+      "katakana": "ab-SUR-də-tee",
+      "emoji": "🤪",
+      "exampleEn": "We laughed at the absurdity of wearing a coat in the summer heat.",
+      "exampleJa": "私たちは真夏にコートを着るばかばかしさに笑った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ab-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "surd",
+            "type": "root",
+            "meaning": "耳が聞こえない・調子外れ（ラテン語 surdus）"
+          },
+          {
+            "part": "-ity",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "真夏にコートを着て歩いている変な人",
+        "relatedWords": [
+          "absurd",
+          "surd",
+          "sordid"
+        ],
+        "memoryTip": "ab（完全に）＋ surd（調子外れ）＋ -ity ＝ 筋が通らないこと → ばかばかしさ"
+      }
+    },
+    {
+      "id": "w36_008",
+      "english": "anguished",
+      "japanese": "苦悩した、苦痛に満ちた",
+      "englishDef": "feeling or showing serious sadness or pain",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈæŋ.ɡwɪʃt/",
+      "katakana": "ANG-gwisht",
+      "emoji": "😖",
+      "exampleEn": "She let out an anguished cry when she heard the bad news.",
+      "exampleJa": "悪い知らせを聞いて、彼女は苦痛に満ちた叫びをあげた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "angu",
+            "type": "root",
+            "meaning": "締め付ける（ラテン語 angere）"
+          },
+          {
+            "part": "-ish",
+            "type": "suffix",
+            "meaning": "動詞化"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "悲しい知らせに顔をゆがめて叫ぶ人",
+        "relatedWords": [
+          "anguish",
+          "anxiety",
+          "anger"
+        ],
+        "memoryTip": "angu（締め付ける）＋ -ed ＝ 胸が締め付けられた → 苦悩した"
+      }
+    },
+    {
+      "id": "w36_009",
+      "english": "vaguely",
+      "japanese": "ぼんやりと、あいまいに",
+      "englishDef": "communicated in an unclear or difficult to understand way",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈveɪɡ.li/",
+      "katakana": "VAYG-lee",
+      "emoji": "🌫️",
+      "exampleEn": "I vaguely remember meeting her at a party years ago.",
+      "exampleJa": "数年前にパーティーで彼女に会ったことをぼんやり覚えている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "vag",
+            "type": "root",
+            "meaning": "さまよう（ラテン語 vagus）"
+          },
+          {
+            "part": "-ue",
+            "type": "suffix",
+            "meaning": "形容詞"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "霧の中のはっきりしない人影を見つめる様子",
+        "relatedWords": [
+          "vague",
+          "vagabond",
+          "wander"
+        ],
+        "memoryTip": "vag（さまよう）＋ -ly ＝ 定まらず → あいまいに"
+      }
+    },
+    {
+      "id": "w36_010",
+      "english": "burden",
+      "japanese": "重荷、負担",
+      "englishDef": "a necessary but demanding task",
+      "partOfSpeech": "n",
+      "ipa": "/ˈbɜː.dən/",
+      "katakana": "BUR-dən",
+      "emoji": "🎒",
+      "exampleEn": "Carrying the heavy bag was a burden for the old man.",
+      "exampleJa": "重い袋を運ぶことは老人にとって負担だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "burd",
+            "type": "root",
+            "meaning": "運ぶもの・荷（古英語 byrthen）"
+          },
+          {
+            "part": "-en",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "重い荷物を背負って坂道を登る人",
+        "relatedWords": [
+          "bear",
+          "birth",
+          "burdensome"
+        ],
+        "memoryTip": "burd（荷）＝ 背負うもの → 重荷"
+      }
+    },
+    {
+      "id": "w36_011",
+      "english": "morality",
+      "japanese": "道徳、倫理",
+      "englishDef": "principles concerning what is right and wrong",
+      "partOfSpeech": "n",
+      "ipa": "/məˈræl.ə.ti/",
+      "katakana": "mə-RAL-ə-tee",
+      "emoji": "🧭",
+      "exampleEn": "Teachers often discuss morality with their students.",
+      "exampleJa": "教師はしばしば生徒と道徳について話し合う。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "mor",
+            "type": "root",
+            "meaning": "習慣・風習（ラテン語 mos）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "～の"
+          },
+          {
+            "part": "-ity",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "善悪について先生と生徒が話し合う教室",
+        "relatedWords": [
+          "moral",
+          "mores",
+          "immoral"
+        ],
+        "memoryTip": "mor（習慣）＋ -al ＋ -ity ＝ 良い習わしの性質 → 道徳"
+      }
+    },
+    {
+      "id": "w36_012",
+      "english": "chasm",
+      "japanese": "深い割れ目、大きな隔たり",
+      "englishDef": "a deep fissure or crack in the earth's surface",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkæz.əm/",
+      "katakana": "KAZ-əm",
+      "emoji": "🕳️",
+      "exampleEn": "A deep chasm separated the two sides of the canyon.",
+      "exampleJa": "深い裂け目が峡谷の両側を隔てていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "chasm",
+            "type": "root",
+            "meaning": "ぽっかり開いた口（ギリシャ語 khasma「あくび」）"
+          }
+        ],
+        "imageDescription": "断崖の間に大きな裂け目が口を開けている様子",
+        "relatedWords": [
+          "chaos",
+          "gas",
+          "yawn"
+        ],
+        "memoryTip": "chasm（ぽっかり開く）＝ あくびのような大きな口 → 割れ目"
+      }
+    },
+    {
+      "id": "w36_013",
+      "english": "tyrants",
+      "japanese": "暴君、独裁者たち",
+      "englishDef": "cruel and oppressive leaders",
+      "partOfSpeech": "n",
+      "ipa": "/ˈtaɪ.rənts/",
+      "katakana": "TY-rənts",
+      "emoji": "👑",
+      "exampleEn": "The people rose up against the cruel tyrants who ruled them.",
+      "exampleJa": "人々は自分たちを支配する残酷な暴君たちに立ち上がった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "tyrant",
+            "type": "root",
+            "meaning": "専制君主（ギリシャ語 tyrannos）"
+          },
+          {
+            "part": "-s",
+            "type": "suffix",
+            "meaning": "複数"
+          }
+        ],
+        "imageDescription": "玉座で威張る王と怯える人々",
+        "relatedWords": [
+          "tyrant",
+          "tyranny",
+          "tyrannical"
+        ],
+        "memoryTip": "tyrant（独裁者）＋ -s（複数）＝ 暴君たち"
+      }
+    },
+    {
+      "id": "w36_014",
+      "english": "ethics",
+      "japanese": "倫理、道徳規範",
+      "englishDef": "a set of rules that influences a person's behavior",
+      "partOfSpeech": "n",
+      "ipa": "/ˈeθ.ɪks/",
+      "katakana": "ETH-iks",
+      "emoji": "📜",
+      "exampleEn": "Doctors must follow strict medical ethics.",
+      "exampleJa": "医師は厳格な医療倫理に従わなければならない。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "eth",
+            "type": "root",
+            "meaning": "習慣・性格（ギリシャ語 ethos）"
+          },
+          {
+            "part": "-ics",
+            "type": "suffix",
+            "meaning": "学問・規範"
+          }
+        ],
+        "imageDescription": "医師が倫理規定の書類を確認している様子",
+        "relatedWords": [
+          "ethical",
+          "ethos",
+          "unethical"
+        ],
+        "memoryTip": "eth（習慣）＋ -ics ＝ 行動のあるべき規範 → 倫理"
+      }
+    }
+  ]
+}

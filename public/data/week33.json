@@ -1,0 +1,534 @@
+{
+  "weekId": "week33",
+  "weekNumber": 33,
+  "label": "Term D - Week 3",
+  "sentencesToRemember": [
+    {
+      "text": "Each family member had been required to sign a pledge that they would not become attached to this little temporary guest.",
+      "ja": "家族の一人ひとりは、この小さな一時的な客人に愛着を持たないという誓約書に署名することを求められていた。"
+    },
+    {
+      "text": "He would be an adult, like his parents, though a new one and untrained still.",
+      "ja": "彼は両親のように大人になるが、まだ新しくて訓練を受けていない大人だった。"
+    },
+    {
+      "text": "With the chant, the community was accepting him and his new role, giving him life.",
+      "ja": "詠唱とともに、コミュニティは彼と彼の新しい役割を受け入れ、彼に命を与えていた。"
+    },
+    {
+      "text": "We are all aware that Jonas has been a top student throughout his school days.",
+      "ja": "ジョナスが在学中ずっとトップの生徒だったことは、私たちみな知っている。"
+    },
+    {
+      "text": "The community was extraordinarily safe, each citizen watchful and protective of all children.",
+      "ja": "そのコミュニティは並外れて安全で、どの市民も警戒心が強く、すべての子どもたちを守っていた。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w33_001",
+      "english": "irritably",
+      "japanese": "いらいらして、怒りっぽく",
+      "englishDef": "in a way that shows that you become annoyed very easily",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈɪr.ɪ.tə.bli/",
+      "katakana": "IR-i-tə-blee",
+      "emoji": "😠",
+      "exampleEn": "\"Be quiet!\" he said irritably, rubbing his tired eyes.",
+      "exampleJa": "「静かにして！」と彼は疲れた目をこすりながらいらいらして言った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "irrit",
+            "type": "root",
+            "meaning": "怒らせる（ラテン語 irritare）"
+          },
+          {
+            "part": "-able",
+            "type": "suffix",
+            "meaning": "～しやすい"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "寝不足で目をこすりながら不機嫌に話す人",
+        "relatedWords": [
+          "irritate",
+          "irritable",
+          "irritation"
+        ],
+        "memoryTip": "irrit（怒らせる）＋ -able ＋ -ly ＝ すぐ怒る様子で → いらいらして"
+      }
+    },
+    {
+      "id": "w33_002",
+      "english": "emblem",
+      "japanese": "象徴、紋章",
+      "englishDef": "an image or picture that symbolizes something important",
+      "partOfSpeech": "n",
+      "ipa": "/ˈem.bləm/",
+      "katakana": "EM-bləm",
+      "emoji": "🛡️",
+      "exampleEn": "The eagle is the national emblem of the country.",
+      "exampleJa": "ワシはその国の国章である。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "em-",
+            "type": "prefix",
+            "meaning": "中へ"
+          },
+          {
+            "part": "blem",
+            "type": "root",
+            "meaning": "投げ入れる（ギリシャ語 ballein「投げる」）"
+          }
+        ],
+        "imageDescription": "盾に鷲の絵が描かれている紋章",
+        "relatedWords": [
+          "emblematic",
+          "symbol",
+          "problem"
+        ],
+        "memoryTip": "em（中へ）＋ blem（投げる）＝ はめ込んだ飾り → 象徴・紋章"
+      }
+    },
+    {
+      "id": "w33_003",
+      "english": "commotion",
+      "japanese": "騒ぎ、騒動",
+      "englishDef": "a situation of disorder, talk, and noise among a group of people",
+      "partOfSpeech": "n",
+      "ipa": "/kəˈməʊ.ʃən/",
+      "katakana": "kə-MOH-shən",
+      "emoji": "📣",
+      "exampleEn": "A loud commotion broke out in the crowded hallway.",
+      "exampleJa": "混雑した廊下で大きな騒ぎが起きた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "共に・完全に"
+          },
+          {
+            "part": "mot",
+            "type": "root",
+            "meaning": "動く（ラテン語 movere）"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "人々が押し合って大声を上げる廊下の様子",
+        "relatedWords": [
+          "motion",
+          "emotion",
+          "commove"
+        ],
+        "memoryTip": "com（共に）＋ mot（動く）＋ -ion ＝ みんなが一斉に動く → 騒ぎ"
+      }
+    },
+    {
+      "id": "w33_004",
+      "english": "reprieve",
+      "japanese": "執行猶予、一時的な救い",
+      "englishDef": "temporary relief from a commitment or task",
+      "partOfSpeech": "n",
+      "ipa": "/rɪˈpriːv/",
+      "katakana": "ri-PREEV",
+      "emoji": "⏳",
+      "exampleEn": "The storm gave the farmers a short reprieve from the heat.",
+      "exampleJa": "嵐のおかげで農家の人々はしばし暑さから解放された。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "re-",
+            "type": "prefix",
+            "meaning": "後ろへ"
+          },
+          {
+            "part": "prieve",
+            "type": "root",
+            "meaning": "試す・証明する（古フランス語 prover）"
+          }
+        ],
+        "imageDescription": "処刑直前に知らせが届き、ほっとする様子",
+        "relatedWords": [
+          "reprove",
+          "prove",
+          "approve"
+        ],
+        "memoryTip": "re（後ろへ）＋ prieve（吟味）＝ 先延ばしにして吟味する → 猶予"
+      }
+    },
+    {
+      "id": "w33_005",
+      "english": "plea",
+      "japanese": "懇願、嘆願",
+      "englishDef": "an emotional and urgent request",
+      "partOfSpeech": "n",
+      "ipa": "/pliː/",
+      "katakana": "PLEE",
+      "emoji": "🙏",
+      "exampleEn": "The child's plea for help was heard by a passing neighbor.",
+      "exampleJa": "その子の助けを求める嘆願は、通りがかりの隣人に聞こえた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "plea",
+            "type": "root",
+            "meaning": "嘆願・訴え（ラテン語 placitum「望ましいこと」）"
+          }
+        ],
+        "imageDescription": "手を合わせて必死に頼み込む人",
+        "relatedWords": [
+          "plead",
+          "please",
+          "pleasant"
+        ],
+        "memoryTip": "「プリー」→ プリーズ（please）と同じ仲間 → 懇願"
+      }
+    },
+    {
+      "id": "w33_006",
+      "english": "infringe",
+      "japanese": "違反する、侵害する",
+      "englishDef": "to disobey a rule or law",
+      "partOfSpeech": "v",
+      "ipa": "/ɪnˈfrɪndʒ/",
+      "katakana": "in-FRINJ",
+      "emoji": "⚖️",
+      "exampleEn": "The company was sued for infringing on the artist's copyright.",
+      "exampleJa": "その会社は芸術家の著作権を侵害したとして訴えられた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "中へ"
+          },
+          {
+            "part": "fring",
+            "type": "root",
+            "meaning": "壊す（ラテン語 frangere）"
+          }
+        ],
+        "imageDescription": "境界線のフェンスを壊して中に踏み込む様子",
+        "relatedWords": [
+          "infringement",
+          "fragile",
+          "fracture"
+        ],
+        "memoryTip": "in（中へ）＋ fring（壊す）＝ 壊して入り込む → 侵害する"
+      }
+    },
+    {
+      "id": "w33_007",
+      "english": "meticulous",
+      "japanese": "細心の、几帳面な",
+      "englishDef": "taking or showing extreme care about small details",
+      "partOfSpeech": "adj",
+      "ipa": "/məˈtɪk.jʊ.ləs/",
+      "katakana": "mə-TIK-yə-ləs",
+      "emoji": "🔬",
+      "exampleEn": "She is meticulous about keeping her notes neat and complete.",
+      "exampleJa": "彼女はノートをきちんと完全に保つことに細心の注意を払っている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "metic",
+            "type": "root",
+            "meaning": "恐れ（ラテン語 metus「恐怖」）"
+          },
+          {
+            "part": "-ulous",
+            "type": "suffix",
+            "meaning": "～に満ちた"
+          }
+        ],
+        "imageDescription": "細かい作業を虫眼鏡でていねいに確認する人",
+        "relatedWords": [
+          "meticulously",
+          "metus",
+          "careful"
+        ],
+        "memoryTip": "metic（恐れ）＋ -ulous ＝ ミスを恐れるほど慎重な → 細心の"
+      }
+    },
+    {
+      "id": "w33_008",
+      "english": "profound",
+      "japanese": "深い、重大な",
+      "englishDef": "of great significance",
+      "partOfSpeech": "adj",
+      "ipa": "/prəˈfaʊnd/",
+      "katakana": "prə-FOWND",
+      "emoji": "🌊",
+      "exampleEn": "The book had a profound effect on the way he saw the world.",
+      "exampleJa": "その本は彼の世界の見方に深い影響を与えた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pro-",
+            "type": "prefix",
+            "meaning": "前に・十分に"
+          },
+          {
+            "part": "found",
+            "type": "root",
+            "meaning": "底（ラテン語 fundus）"
+          }
+        ],
+        "imageDescription": "深い海の底を見つめて物思いにふける人",
+        "relatedWords": [
+          "profoundly",
+          "foundation",
+          "fundamental"
+        ],
+        "memoryTip": "pro（十分に）＋ found（底）＝ 底が深い → 深い・重大な"
+      }
+    },
+    {
+      "id": "w33_009",
+      "english": "astonishment",
+      "japanese": "驚き、仰天",
+      "englishDef": "amazement or bewilderment at a situation",
+      "partOfSpeech": "n",
+      "ipa": "/əˈstɒn.ɪʃ.mənt/",
+      "katakana": "ə-STON-ish-mənt",
+      "emoji": "😲",
+      "exampleEn": "To our astonishment, the magician made the elephant disappear.",
+      "exampleJa": "驚いたことに、手品師はゾウを消してしまった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "a-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "ston",
+            "type": "root",
+            "meaning": "雷で打つ（ラテン語 tonare「雷鳴」）"
+          },
+          {
+            "part": "-ish",
+            "type": "suffix",
+            "meaning": "動詞化"
+          },
+          {
+            "part": "-ment",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "手品でゾウが消え、観客が口をあんぐり開ける様子",
+        "relatedWords": [
+          "astonish",
+          "thunder",
+          "stun"
+        ],
+        "memoryTip": "a（外へ）＋ ston（雷）＋ -ment ＝ 雷に打たれたような衝撃 → 驚き"
+      }
+    },
+    {
+      "id": "w33_010",
+      "english": "oracle",
+      "japanese": "神託、お告げ",
+      "englishDef": "a priest or priestess acting as a medium for the gods where people would seek advice or prophecy",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɒr.ə.kəl/",
+      "katakana": "OR-ə-kəl",
+      "emoji": "🔮",
+      "exampleEn": "The king traveled to the oracle to ask about the coming war.",
+      "exampleJa": "王は迫る戦争について尋ねるため神託所へ旅した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "or",
+            "type": "root",
+            "meaning": "話す・祈る（ラテン語 orare）"
+          },
+          {
+            "part": "-acle",
+            "type": "suffix",
+            "meaning": "場所・手段"
+          }
+        ],
+        "imageDescription": "神殿で巫女が神のお告げを伝える様子",
+        "relatedWords": [
+          "oral",
+          "orator",
+          "pray"
+        ],
+        "memoryTip": "or（話す）＋ -acle（手段）＝ 神が語る手段 → 神託"
+      }
+    },
+    {
+      "id": "w33_011",
+      "english": "immense",
+      "japanese": "巨大な、広大な",
+      "englishDef": "extremely large or great",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪˈmens/",
+      "katakana": "i-MENS",
+      "emoji": "🏔️",
+      "exampleEn": "An immense mountain rose behind the small village.",
+      "exampleJa": "小さな村の背後に巨大な山がそびえていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "im-",
+            "type": "prefix",
+            "meaning": "否定"
+          },
+          {
+            "part": "mens",
+            "type": "root",
+            "meaning": "測る（ラテン語 metiri）"
+          }
+        ],
+        "imageDescription": "小さな村の後ろに巨大な山がそびえる様子",
+        "relatedWords": [
+          "immensely",
+          "measure",
+          "dimension"
+        ],
+        "memoryTip": "im（否定）＋ mens（測る）＝ 測りきれない → 巨大な"
+      }
+    },
+    {
+      "id": "w33_012",
+      "english": "spouse",
+      "japanese": "配偶者",
+      "englishDef": "husband, wife, or partner that someone is married to",
+      "partOfSpeech": "n",
+      "ipa": "/spaʊs/",
+      "katakana": "SPOWS",
+      "emoji": "💑",
+      "exampleEn": "He thanked his spouse for always supporting him.",
+      "exampleJa": "彼はいつも支えてくれる配偶者に感謝した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "spous",
+            "type": "root",
+            "meaning": "約束する（ラテン語 spondere）"
+          }
+        ],
+        "imageDescription": "結婚式で指輪を交わす2人",
+        "relatedWords": [
+          "espouse",
+          "response",
+          "sponsor"
+        ],
+        "memoryTip": "spous（誓う）＝ 結婚の約束を交わした人 → 配偶者"
+      }
+    },
+    {
+      "id": "w33_013",
+      "english": "temperance",
+      "japanese": "節制、自制",
+      "englishDef": "the quality or ability to show self restraint or moderation",
+      "partOfSpeech": "n",
+      "ipa": "/ˈtem.pər.əns/",
+      "katakana": "TEM-pər-əns",
+      "emoji": "⚖️",
+      "exampleEn": "Temperance in eating and drinking helps people stay healthy.",
+      "exampleJa": "飲食を節制することは健康維持に役立つ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "temper",
+            "type": "root",
+            "meaning": "適度に混ぜる（ラテン語 temperare）"
+          },
+          {
+            "part": "-ance",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "食べ過ぎないよう料理を前に手を止める人",
+        "relatedWords": [
+          "temper",
+          "temperature",
+          "temperate"
+        ],
+        "memoryTip": "temper（ほどよく整える）＋ -ance ＝ 度を越さないこと → 節制"
+      }
+    },
+    {
+      "id": "w33_014",
+      "english": "pursuit",
+      "japanese": "追求、追跡",
+      "englishDef": "the activity to look for or chase something",
+      "partOfSpeech": "n",
+      "ipa": "/pəˈsjuːt/",
+      "katakana": "pər-SYOOT",
+      "emoji": "🏃",
+      "exampleEn": "The police car began a high-speed pursuit of the stolen truck.",
+      "exampleJa": "パトカーは盗まれたトラックを猛スピードで追跡し始めた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pur-",
+            "type": "prefix",
+            "meaning": "前へ（pro- の変形）"
+          },
+          {
+            "part": "suit",
+            "type": "root",
+            "meaning": "続く（ラテン語 sequi）"
+          }
+        ],
+        "imageDescription": "パトカーが盗難トラックを追いかけている様子",
+        "relatedWords": [
+          "pursue",
+          "suit",
+          "sequence"
+        ],
+        "memoryTip": "pur（前へ）＋ suit（続く）＝ 前を追って続く → 追求・追跡"
+      }
+    },
+    {
+      "id": "w33_015",
+      "english": "carpenter",
+      "japanese": "大工",
+      "englishDef": "a person who works with and repairs wooden items",
+      "partOfSpeech": "n",
+      "ipa": "/ˈkɑː.pɪn.tər/",
+      "katakana": "KAR-pin-tər",
+      "emoji": "🪚",
+      "exampleEn": "The carpenter built a sturdy table from oak wood.",
+      "exampleJa": "大工はオーク材で頑丈なテーブルを作った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "carpent",
+            "type": "root",
+            "meaning": "荷馬車（ラテン語 carpentum）"
+          },
+          {
+            "part": "-er",
+            "type": "suffix",
+            "meaning": "～する人"
+          }
+        ],
+        "imageDescription": "のこぎりと金づちで木のテーブルを作る大工",
+        "relatedWords": [
+          "carpentry",
+          "car",
+          "cart"
+        ],
+        "memoryTip": "carpent（荷馬車）＋ -er（人）＝ 荷馬車を作る人 → 大工"
+      }
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "weekId": "week34",
+  "match": [
+    {
+      "word": "conceited",
+      "def": "excessively proud or in love with oneself; vain"
+    },
+    {
+      "word": "dwelling",
+      "def": "a home; a place of living"
+    },
+    {
+      "word": "anthem",
+      "def": "a song of loyalty to a group or community"
+    },
+    {
+      "word": "assembled",
+      "def": "brought together or grouped"
+    },
+    {
+      "word": "confess",
+      "def": "to admit or confirm an action (usually against a rule)"
+    },
+    {
+      "word": "affectionately",
+      "def": "in a way showing love or emotion"
+    },
+    {
+      "word": "bewildered",
+      "def": "feeling extremely confused or shocked"
+    },
+    {
+      "word": "nuisance",
+      "def": "something that is annoying"
+    },
+    {
+      "word": "discipline",
+      "def": "the practice of training people to obey rules or a code of behavior, using punishment to correct disobedience"
+    },
+    {
+      "word": "rigorous",
+      "def": "extremely difficult and exhausting"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "conceited",
+      "sentence": "The conceited actor thought he was better than everyone else.",
+      "ja": "そのうぬぼれた俳優は自分が誰よりも優れていると思っていた。"
+    },
+    {
+      "answer": "dwelling",
+      "sentence": "The villagers lived in a simple dwelling made of mud and straw.",
+      "ja": "村人たちは泥とわらで作った簡素な住居に住んでいた。"
+    },
+    {
+      "answer": "anthem",
+      "sentence": "The crowd stood and sang the national anthem together.",
+      "ja": "群衆は立ち上がり、一緒に国歌を歌った。"
+    },
+    {
+      "answer": "assembled",
+      "sentence": "The assembled crowd cheered when the team arrived.",
+      "ja": "集まった群衆は、チームの到着に歓声を上げた。"
+    },
+    {
+      "answer": "confess",
+      "sentence": "The boy decided to confess that he had broken the window.",
+      "ja": "少年は窓を割ったことを白状することにした。"
+    }
+  ],
+  "bank": [
+    "conceited",
+    "dwelling",
+    "anthem",
+    "assembled",
+    "confess",
+    "affectionately",
+    "bewildered",
+    "nuisance",
+    "discipline",
+    "rigorous"
+  ],
+  "mc": [
+    {
+      "q": "What does \"affectionately\" mean?",
+      "opts": [
+        "in a way showing love or emotion",
+        "extremely difficult and exhausting",
+        "feeling extremely confused or shocked",
+        "a conference or meeting to discuss a particular subject"
+      ],
+      "answer": 0,
+      "word": "affectionately"
+    },
+    {
+      "q": "What does \"bewildered\" mean?",
+      "opts": [
+        "brought together or grouped",
+        "excessively proud or in love with oneself; vain",
+        "feeling extremely confused or shocked",
+        "something that is annoying"
+      ],
+      "answer": 2,
+      "word": "bewildered"
+    },
+    {
+      "q": "What does \"nuisance\" mean?",
+      "opts": [
+        "a home; a place of living",
+        "feeling extremely confused or shocked",
+        "something that is annoying",
+        "to admit or confirm an action (usually against a rule)"
+      ],
+      "answer": 2,
+      "word": "nuisance"
+    },
+    {
+      "q": "What does \"discipline\" mean?",
+      "opts": [
+        "a home; a place of living",
+        "the practice of training people to obey rules or a code of behavior, using punishment to correct disobedience",
+        "a conference or meeting to discuss a particular subject",
+        "extremely difficult and exhausting"
+      ],
+      "answer": 1,
+      "word": "discipline"
+    },
+    {
+      "q": "What does \"rigorous\" mean?",
+      "opts": [
+        "extremely difficult and exhausting",
+        "a home; a place of living",
+        "to admit or confirm an action (usually against a rule)",
+        "in a way showing love or emotion"
+      ],
+      "answer": 0,
+      "word": "rigorous"
+    },
+    {
+      "q": "What does \"symposium\" mean?",
+      "opts": [
+        "a conference or meeting to discuss a particular subject",
+        "shared trust and friendship shared by two people who spend a lot of time together",
+        "a song of loyalty to a group or community",
+        "the practice of training people to obey rules or a code of behavior, using punishment to correct disobedience"
+      ],
+      "answer": 0,
+      "word": "symposium"
+    },
+    {
+      "q": "What does \"diagnosed\" mean?",
+      "opts": [
+        "shared trust and friendship shared by two people who spend a lot of time together",
+        "excessively proud or in love with oneself; vain",
+        "to examine symptoms and identify an illness",
+        "in a way showing love or emotion"
+      ],
+      "answer": 2,
+      "word": "diagnosed"
+    },
+    {
+      "q": "What does \"orator\" mean?",
+      "opts": [
+        "to examine symptoms and identify an illness",
+        "the practice of training people to obey rules or a code of behavior, using punishment to correct disobedience",
+        "excessively proud or in love with oneself; vain",
+        "a skilled public speaker"
+      ],
+      "answer": 3,
+      "word": "orator"
+    },
+    {
+      "q": "What does \"camaraderie\" mean?",
+      "opts": [
+        "a song of loyalty to a group or community",
+        "extremely difficult and exhausting",
+        "shared trust and friendship shared by two people who spend a lot of time together",
+        "a conference or meeting to discuss a particular subject"
+      ],
+      "answer": 2,
+      "word": "camaraderie"
+    }
+  ],
+  "dict": [
+    {
+      "text": "They told his whole life before they released him.",
+      "word": "released"
+    },
+    {
+      "text": "When something went to a committee for study, the people always joked about it.",
+      "word": "committee"
+    },
+    {
+      "text": "Frightened meant that deep, sickening feeling of something terrible about to happen.",
+      "word": "Frightened"
+    }
+  ]
+}

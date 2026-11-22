@@ -1,0 +1,582 @@
+{
+  "weekId": "week35",
+  "weekNumber": 35,
+  "label": "Term D - Week 5",
+  "sentencesToRemember": [
+    {
+      "text": "From this moment you are exempted from rules governing rudeness.",
+      "ja": "この瞬間から、あなたは無作法に関する規則を免除される。"
+    },
+    {
+      "text": "Except for illness or injury unrelated to your training, do not apply for any medication.",
+      "ja": "あなたの訓練と無関係な病気やけが以外では、薬を申請してはならない。"
+    },
+    {
+      "text": "No doors in the community were locked, ever.",
+      "ja": "コミュニティでは、ドアに鍵がかけられていることは決してなかった。"
+    },
+    {
+      "text": "The failure of the previous selection was ten years ago.",
+      "ja": "前回の選抜の失敗は10年前のことだった。"
+    },
+    {
+      "text": "It's not my past that I must give to you, it's the memories of the whole world.",
+      "ja": "私があなたに与えなければならないのは私の過去ではなく、全世界の記憶なのだ。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w35_001",
+      "english": "hesitation",
+      "japanese": "ためらい、躊躇",
+      "englishDef": "a pause caused by doubt or suspicion",
+      "partOfSpeech": "n",
+      "ipa": "/ˌhez.ɪˈteɪ.ʃən/",
+      "katakana": "hez-i-TAY-shən",
+      "emoji": "🤔",
+      "exampleEn": "She answered without hesitation.",
+      "exampleJa": "彼女はためらうことなく答えた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "hes",
+            "type": "root",
+            "meaning": "くっつく・ためらう（ラテン語 haerere）"
+          },
+          {
+            "part": "-it",
+            "type": "suffix",
+            "meaning": "動詞化"
+          },
+          {
+            "part": "-ation",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "選択肢の前で立ち止まって考え込む人",
+        "relatedWords": [
+          "hesitate",
+          "hesitant",
+          "adhere"
+        ],
+        "memoryTip": "hes（くっつく）→ その場に貼りついて動けない → ためらい"
+      }
+    },
+    {
+      "id": "w35_002",
+      "english": "present",
+      "japanese": "示す、提示する",
+      "englishDef": "to show something to someone",
+      "partOfSpeech": "v",
+      "ipa": "/prɪˈzent/",
+      "katakana": "pri-ZENT",
+      "emoji": "🎁",
+      "exampleEn": "The students will present their projects to the class tomorrow.",
+      "exampleJa": "生徒たちは明日クラスの前で自分たちのプロジェクトを発表する。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pre-",
+            "type": "prefix",
+            "meaning": "前に"
+          },
+          {
+            "part": "sent",
+            "type": "root",
+            "meaning": "ある（ラテン語 esse）"
+          }
+        ],
+        "imageDescription": "前に立って資料をみんなに見せている人",
+        "relatedWords": [
+          "presence",
+          "represent",
+          "present（贈り物）"
+        ],
+        "memoryTip": "pre（前に）＋ sent（ある）＝ 目の前に差し出す → 示す"
+      }
+    },
+    {
+      "id": "w35_003",
+      "english": "accustomed",
+      "japanese": "慣れている",
+      "englishDef": "familiar with; used to something",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈkʌs.təmd/",
+      "katakana": "ə-KUS-təmd",
+      "emoji": "🥱",
+      "exampleEn": "He is accustomed to waking up at five every morning.",
+      "exampleJa": "彼は毎朝5時に起きることに慣れている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ac-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "custom",
+            "type": "root",
+            "meaning": "習慣（ラテン語 consuetudo）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "毎朝同じ時間に起きて身支度する人",
+        "relatedWords": [
+          "custom",
+          "customer",
+          "costume"
+        ],
+        "memoryTip": "ac（～へ）＋ custom（習慣）＝ 習慣になった → 慣れている"
+      }
+    },
+    {
+      "id": "w35_004",
+      "english": "prohibition",
+      "japanese": "禁止",
+      "englishDef": "the act of making something illegal",
+      "partOfSpeech": "n",
+      "ipa": "/ˌprəʊ.ɪˈbɪʃ.ən/",
+      "katakana": "proh-i-BISH-ən",
+      "emoji": "🚭",
+      "exampleEn": "There is a strict prohibition against smoking in the building.",
+      "exampleJa": "その建物内では喫煙が固く禁止されている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pro-",
+            "type": "prefix",
+            "meaning": "前に"
+          },
+          {
+            "part": "hibit",
+            "type": "root",
+            "meaning": "持つ・抑える（ラテン語 habere）"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "禁止マークの標識が貼られた壁",
+        "relatedWords": [
+          "prohibit",
+          "exhibit",
+          "inhibit"
+        ],
+        "memoryTip": "pro（前で）＋ hibit（抑える）＝ 前に立ちはだかり抑える → 禁止"
+      }
+    },
+    {
+      "id": "w35_005",
+      "english": "transmit",
+      "japanese": "伝える、送信する",
+      "englishDef": "to transfer or pass on information",
+      "partOfSpeech": "v",
+      "ipa": "/trænzˈmɪt/",
+      "katakana": "tranz-MIT",
+      "emoji": "📡",
+      "exampleEn": "The tower transmits radio signals across the whole region.",
+      "exampleJa": "その塔は地域全体にラジオ信号を送信している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "trans-",
+            "type": "prefix",
+            "meaning": "越えて"
+          },
+          {
+            "part": "mit",
+            "type": "root",
+            "meaning": "送る（ラテン語 mittere）"
+          }
+        ],
+        "imageDescription": "電波塔から信号が遠くへ発信される様子",
+        "relatedWords": [
+          "transmission",
+          "transmitter",
+          "submit"
+        ],
+        "memoryTip": "trans（越えて）＋ mit（送る）＝ 向こうへ送る → 伝える"
+      }
+    },
+    {
+      "id": "w35_006",
+      "english": "deftly",
+      "japanese": "巧みに、器用に",
+      "englishDef": "doing something skillfully",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈdeft.li/",
+      "katakana": "DEFT-lee",
+      "emoji": "🤹",
+      "exampleEn": "The chef deftly sliced the vegetables into thin pieces.",
+      "exampleJa": "シェフは野菜を手際よく薄切りにした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "deft",
+            "type": "root",
+            "meaning": "きちんとした・器用な（古英語 gedæfte「穏やかな」）"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "シェフが手際よく野菜を切っている様子",
+        "relatedWords": [
+          "deft",
+          "daft",
+          "dexterity"
+        ],
+        "memoryTip": "deft（器用な）＋ -ly ＝ 器用に → 巧みに"
+      }
+    },
+    {
+      "id": "w35_007",
+      "english": "substance",
+      "japanese": "物質、実質",
+      "englishDef": "a physical material of some sort",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsʌb.stəns/",
+      "katakana": "SUB-stəns",
+      "emoji": "🧪",
+      "exampleEn": "The scientist studied a strange substance found in the cave.",
+      "exampleJa": "科学者は洞窟で見つかった奇妙な物質を調べた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sub-",
+            "type": "prefix",
+            "meaning": "下に"
+          },
+          {
+            "part": "stan",
+            "type": "root",
+            "meaning": "立つ（ラテン語 stare）"
+          },
+          {
+            "part": "-ance",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "フラスコの中の不思議な物質を観察する人",
+        "relatedWords": [
+          "stand",
+          "substantial",
+          "constant"
+        ],
+        "memoryTip": "sub（下に）＋ stan（立つ）＝ 下で支えるもの → 物質・実質"
+      }
+    },
+    {
+      "id": "w35_008",
+      "english": "tentatively",
+      "japanese": "試験的に、ためらいがちに",
+      "englishDef": "not definitive; expressing a temporary state",
+      "partOfSpeech": "adv",
+      "ipa": "/ˈten.tə.tɪv.li/",
+      "katakana": "TEN-tə-tiv-lee",
+      "emoji": "🤷",
+      "exampleEn": "\"Maybe,\" she said tentatively, unsure of the answer.",
+      "exampleJa": "「たぶん」と、彼女は答えに自信がなく、ためらいがちに言った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "tent",
+            "type": "root",
+            "meaning": "試す（ラテン語 tentare）"
+          },
+          {
+            "part": "-ative",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          },
+          {
+            "part": "-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "自信なさそうにおそるおそる答える人",
+        "relatedWords": [
+          "tentative",
+          "attempt",
+          "tempt"
+        ],
+        "memoryTip": "tent（試す）＋ -ative ＋ -ly ＝ 試しに → 仮に・ためらいがちに"
+      }
+    },
+    {
+      "id": "w35_009",
+      "english": "practical",
+      "japanese": "実用的な、現実的な",
+      "englishDef": "adapted or designed for actual use",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈpræk.tɪ.kəl/",
+      "katakana": "PRAK-ti-kəl",
+      "emoji": "🛠️",
+      "exampleEn": "A raincoat is a practical gift for a rainy country.",
+      "exampleJa": "レインコートは雨の多い国への実用的な贈り物だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pract",
+            "type": "root",
+            "meaning": "行う（ギリシャ語 prattein）"
+          },
+          {
+            "part": "-ical",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "工具を手に実際に作業をする人",
+        "relatedWords": [
+          "practice",
+          "practically",
+          "impractical"
+        ],
+        "memoryTip": "pract（行う）＋ -ical ＝ 実際に行える → 実用的な"
+      }
+    },
+    {
+      "id": "w35_010",
+      "english": "perceive",
+      "japanese": "知覚する、気づく",
+      "englishDef": "to identify or make sense of",
+      "partOfSpeech": "v",
+      "ipa": "/pəˈsiːv/",
+      "katakana": "pər-SEEV",
+      "emoji": "👁️",
+      "exampleEn": "I perceived a slight change in her voice.",
+      "exampleJa": "私は彼女の声のわずかな変化に気づいた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "per-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "ceive",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 capere）"
+          }
+        ],
+        "imageDescription": "耳をすませて小さな変化に気づく人",
+        "relatedWords": [
+          "perception",
+          "receive",
+          "conceive"
+        ],
+        "memoryTip": "per（完全に）＋ ceive（つかむ）＝ しっかりつかむ → 知覚する"
+      }
+    },
+    {
+      "id": "w35_011",
+      "english": "interlocutor",
+      "japanese": "対話者、話し相手",
+      "englishDef": "a person who takes part in a dialogue or conversation",
+      "partOfSpeech": "n",
+      "ipa": "/ˌɪn.təˈlɒk.jə.tər/",
+      "katakana": "in-tər-LOK-yə-tər",
+      "emoji": "💬",
+      "exampleEn": "The interviewer was a skilled interlocutor who made guests feel at ease.",
+      "exampleJa": "その面接官は、客をくつろがせる話し上手な対話者だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "inter-",
+            "type": "prefix",
+            "meaning": "間で"
+          },
+          {
+            "part": "locut",
+            "type": "root",
+            "meaning": "話す（ラテン語 loqui）"
+          },
+          {
+            "part": "-or",
+            "type": "suffix",
+            "meaning": "～する人"
+          }
+        ],
+        "imageDescription": "テーブルを挟んで2人が会話している様子",
+        "relatedWords": [
+          "locution",
+          "eloquent",
+          "dialogue"
+        ],
+        "memoryTip": "inter（間で）＋ locut（話す）＋ -or（人）＝ 間で話す人 → 対話者"
+      }
+    },
+    {
+      "id": "w35_012",
+      "english": "moral",
+      "japanese": "教訓、道徳",
+      "englishDef": "a standard of behavior; a principle of right or wrong as judge by a society",
+      "partOfSpeech": "n",
+      "ipa": "/ˈmɒr.əl/",
+      "katakana": "MOR-əl",
+      "emoji": "📖",
+      "exampleEn": "The moral of the story is that honesty is the best policy.",
+      "exampleJa": "その物語の教訓は、正直が最良の策だということだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "mor",
+            "type": "root",
+            "meaning": "習慣・風習（ラテン語 mos）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "～の"
+          }
+        ],
+        "imageDescription": "昔話の本を開き、教訓を読む子ども",
+        "relatedWords": [
+          "morals",
+          "morality",
+          "mores"
+        ],
+        "memoryTip": "mor（習慣）＋ -al ＝ 社会の習わしにかなったこと → 道徳・教訓"
+      }
+    },
+    {
+      "id": "w35_013",
+      "english": "scenario",
+      "japanese": "筋書き、シナリオ",
+      "englishDef": "a setting or a sequence of events",
+      "partOfSpeech": "n",
+      "ipa": "/səˈnɑː.ri.əʊ/",
+      "katakana": "sə-NAH-ree-oh",
+      "emoji": "🎬",
+      "exampleEn": "In the worst scenario, the flight would be cancelled.",
+      "exampleJa": "最悪の場合は、そのフライトが欠航になるだろう。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "scen",
+            "type": "root",
+            "meaning": "舞台（ギリシャ語 skene）"
+          },
+          {
+            "part": "-ario",
+            "type": "suffix",
+            "meaning": "～に関するもの"
+          }
+        ],
+        "imageDescription": "ホワイトボードに場面の流れを描いて説明する人",
+        "relatedWords": [
+          "scene",
+          "scenic",
+          "scenery"
+        ],
+        "memoryTip": "scen（舞台）＋ -ario ＝ 舞台の筋書き → シナリオ"
+      }
+    },
+    {
+      "id": "w35_014",
+      "english": "suspect",
+      "japanese": "容疑者、疑わしい",
+      "englishDef": "a person believed to have committed a crime; not to be trusted or believed",
+      "partOfSpeech": "n",
+      "ipa": "/ˈsʌs.pekt/",
+      "katakana": "SUS-pekt",
+      "emoji": "🕵️",
+      "exampleEn": "The police arrested a suspect in the robbery.",
+      "exampleJa": "警察は強盗事件の容疑者を逮捕した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sus-",
+            "type": "prefix",
+            "meaning": "下から"
+          },
+          {
+            "part": "spect",
+            "type": "root",
+            "meaning": "見る（ラテン語 specere）"
+          }
+        ],
+        "imageDescription": "探偵が下から覗き込むように怪しい人物を見る様子",
+        "relatedWords": [
+          "suspicion",
+          "suspicious",
+          "inspect"
+        ],
+        "memoryTip": "sus（下から）＋ spect（見る）＝ 下からじっと見る → 疑う・容疑者"
+      }
+    },
+    {
+      "id": "w35_015",
+      "english": "just",
+      "japanese": "公正な、正しい",
+      "englishDef": "based on or behaving according to what is right and fair",
+      "partOfSpeech": "adj",
+      "ipa": "/dʒʌst/",
+      "katakana": "JUST",
+      "emoji": "⚖️",
+      "exampleEn": "The judge made a fair and just decision.",
+      "exampleJa": "裁判官は公平で正しい判断を下した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "just",
+            "type": "root",
+            "meaning": "正しい（ラテン語 justus ← jus「法・正義」）"
+          }
+        ],
+        "imageDescription": "天秤をまっすぐ持つ正義の女神像",
+        "relatedWords": [
+          "justice",
+          "justify",
+          "injustice"
+        ],
+        "memoryTip": "just（正しい）＝ 法にかなう → 公正な"
+      }
+    },
+    {
+      "id": "w35_016",
+      "english": "prestigious",
+      "japanese": "名声のある、一流の",
+      "englishDef": "inspiring respect and admiration; having a high status",
+      "partOfSpeech": "adj",
+      "ipa": "/preˈstɪdʒ.əs/",
+      "katakana": "pre-STIJ-əs",
+      "emoji": "🏆",
+      "exampleEn": "She was accepted into a prestigious university.",
+      "exampleJa": "彼女は名門大学に合格した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "praestig",
+            "type": "root",
+            "meaning": "目くらまし・幻惑（ラテン語 praestigium）"
+          },
+          {
+            "part": "-ious",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "立派な校舎の名門大学の門の前に立つ人",
+        "relatedWords": [
+          "prestige",
+          "prestigiously",
+          "reputation"
+        ],
+        "memoryTip": "praestig（幻惑）＋ -ious ＝ 人を魅了する → 名声のある"
+      }
+    }
+  ]
+}

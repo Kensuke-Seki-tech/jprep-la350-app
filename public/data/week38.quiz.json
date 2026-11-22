@@ -1,0 +1,188 @@
+{
+  "weekId": "week38",
+  "match": [
+    {
+      "word": "exempt",
+      "def": "being free from a duty or obligation"
+    },
+    {
+      "word": "permeate",
+      "def": "to penetrate and spread through"
+    },
+    {
+      "word": "exaggerated",
+      "def": "expressed as being larger, smaller, better, or worse than reality"
+    },
+    {
+      "word": "amused",
+      "def": "to be entertained by something"
+    },
+    {
+      "word": "luminous",
+      "def": "showing liveliness and brightness"
+    },
+    {
+      "word": "devastated",
+      "def": "feeling extremely disappointed"
+    },
+    {
+      "word": "private",
+      "def": "not public; not to be revealed to others"
+    },
+    {
+      "word": "sensation",
+      "def": "a physical feeling or reaction to something"
+    },
+    {
+      "word": "government",
+      "def": "a group of people with the authority to govern a country or state"
+    },
+    {
+      "word": "political",
+      "def": "related to the government or public affairs of a country"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "exempt",
+      "sentence": "Students with a doctor's note are exempt from gym class.",
+      "ja": "医師の診断書がある生徒は体育の授業が免除される。"
+    },
+    {
+      "answer": "permeate",
+      "sentence": "Water slowly permeated the thick cloth.",
+      "ja": "水はゆっくりと厚い布に染み込んだ。"
+    },
+    {
+      "answer": "exaggerated",
+      "sentence": "His exaggerated story about the huge fish made everyone laugh.",
+      "ja": "巨大な魚についての彼の誇張した話に、みんなが笑った。"
+    },
+    {
+      "answer": "amused",
+      "sentence": "She was amused by the clown's silly tricks.",
+      "ja": "彼女はピエロのおかしな芸を面白がっていた。"
+    },
+    {
+      "answer": "luminous",
+      "sentence": "The luminous moon lit up the dark path.",
+      "ja": "光り輝く月が暗い小道を照らした。"
+    }
+  ],
+  "bank": [
+    "exempt",
+    "permeate",
+    "exaggerated",
+    "amused",
+    "luminous",
+    "devastated",
+    "private",
+    "sensation",
+    "government",
+    "political"
+  ],
+  "mc": [
+    {
+      "q": "What does \"devastated\" mean?",
+      "opts": [
+        "feeling extremely disappointed",
+        "to make a deep sound that shows disappointment",
+        "a physical feeling or reaction to something",
+        "a position or stance of someone either standing or sitting"
+      ],
+      "answer": 0,
+      "word": "devastated"
+    },
+    {
+      "q": "What does \"private\" mean?",
+      "opts": [
+        "to penetrate and spread through",
+        "feeling extremely disappointed",
+        "not public; not to be revealed to others",
+        "a group of people with the authority to govern a country or state"
+      ],
+      "answer": 2,
+      "word": "private"
+    },
+    {
+      "q": "What does \"sensation\" mean?",
+      "opts": [
+        "being free from a duty or obligation",
+        "a brief or partial view of something",
+        "a physical feeling or reaction to something",
+        "expressed as being larger, smaller, better, or worse than reality"
+      ],
+      "answer": 2,
+      "word": "sensation"
+    },
+    {
+      "q": "What does \"government\" mean?",
+      "opts": [
+        "feeling extremely disappointed",
+        "showing liveliness and brightness",
+        "a group of people with the authority to govern a country or state",
+        "a position or stance of someone either standing or sitting"
+      ],
+      "answer": 2,
+      "word": "government"
+    },
+    {
+      "q": "What does \"political\" mean?",
+      "opts": [
+        "a physical feeling or reaction to something",
+        "related to the government or public affairs of a country",
+        "a brief or partial view of something",
+        "not public; not to be revealed to others"
+      ],
+      "answer": 1,
+      "word": "political"
+    },
+    {
+      "q": "What does \"glimpse\" mean?",
+      "opts": [
+        "related to the government or public affairs of a country",
+        "to penetrate and spread through",
+        "a group of people with the authority to govern a country or state",
+        "a brief or partial view of something"
+      ],
+      "answer": 3,
+      "word": "glimpse"
+    },
+    {
+      "q": "What does \"groan\" mean?",
+      "opts": [
+        "expressed as being larger, smaller, better, or worse than reality",
+        "to make a deep sound that shows disappointment",
+        "not public; not to be revealed to others",
+        "a group of people with the authority to govern a country or state"
+      ],
+      "answer": 1,
+      "word": "groan"
+    },
+    {
+      "q": "What does \"posture\" mean?",
+      "opts": [
+        "a position or stance of someone either standing or sitting",
+        "being free from a duty or obligation",
+        "not public; not to be revealed to others",
+        "feeling extremely disappointed"
+      ],
+      "answer": 0,
+      "word": "posture"
+    }
+  ],
+  "dict": [
+    {
+      "text": "He knew that with certainty because now he knew what anger was.",
+      "word": "certainty"
+    },
+    {
+      "text": "When she was gone, the memories came back to the people.",
+      "word": "memories"
+    },
+    {
+      "text": "But he knew he couldn't go back to the world of no feelings that he had lived in so long.",
+      "word": "feelings"
+    }
+  ]
+}

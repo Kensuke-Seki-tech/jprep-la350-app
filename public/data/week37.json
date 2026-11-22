@@ -1,0 +1,526 @@
+{
+  "weekId": "week37",
+  "weekNumber": 37,
+  "label": "Term D - Week 7",
+  "sentencesToRemember": [
+    {
+      "text": "He fell with his leg twisted under him and could hear the crack of bone.",
+      "ja": "彼は脚をひねったまま倒れ、骨が折れる音を聞いた。"
+    },
+    {
+      "text": "I simply advised them against increasing the population.",
+      "ja": "私は、人口を増やすことに反対するよう彼らに助言しただけだ。"
+    },
+    {
+      "text": "Finally, when he knew that he could bear it no longer, he opened his eyes.",
+      "ja": "ついに、もうこれ以上耐えられないと悟ったとき、彼は目を開けた。"
+    },
+    {
+      "text": "On the floor there were packages wrapped in brightly colored paper.",
+      "ja": "床には、鮮やかな色の紙で包まれた小包がいくつもあった。"
+    },
+    {
+      "text": "The next morning, for the first time, Jonas did not take his pill.",
+      "ja": "翌朝、彼は初めて薬を飲まなかった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w37_001",
+      "english": "invigorating",
+      "japanese": "さわやかな、元気づける",
+      "englishDef": "making someone feel energetic or lively",
+      "partOfSpeech": "adj",
+      "ipa": "/ɪnˈvɪɡ.ər.eɪ.tɪŋ/",
+      "katakana": "in-VIG-ə-ray-ting",
+      "emoji": "🌬️",
+      "exampleEn": "A cold shower in the morning is invigorating.",
+      "exampleJa": "朝の冷たいシャワーは気分をシャキッとさせてくれる。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "中に"
+          },
+          {
+            "part": "vigor",
+            "type": "root",
+            "meaning": "活力（ラテン語 vigere「元気である」）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          },
+          {
+            "part": "-ing",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "朝の冷たい空気を深く吸って伸びをする人",
+        "relatedWords": [
+          "vigor",
+          "vigorous",
+          "invigorate"
+        ],
+        "memoryTip": "in（中に）＋ vigor（活力）＋ -ating ＝ 活力を吹き込む → 元気づける"
+      }
+    },
+    {
+      "id": "w37_002",
+      "english": "expanse",
+      "japanese": "広がり、広大な空間",
+      "englishDef": "a large empty area or space",
+      "partOfSpeech": "n",
+      "ipa": "/ɪkˈspæns/",
+      "katakana": "ik-SPANS",
+      "emoji": "🏜️",
+      "exampleEn": "A vast expanse of desert stretched before them.",
+      "exampleJa": "広大な砂漠が彼らの目の前に広がっていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "pans",
+            "type": "root",
+            "meaning": "広げる（ラテン語 pandere）"
+          }
+        ],
+        "imageDescription": "見渡す限りの砂漠が広がる様子",
+        "relatedWords": [
+          "expand",
+          "expansion",
+          "expansive"
+        ],
+        "memoryTip": "ex（外へ）＋ pans（広げる）＝ 外へ広がったもの → 広大な空間"
+      }
+    },
+    {
+      "id": "w37_003",
+      "english": "instantaneous",
+      "japanese": "即座の",
+      "englishDef": "occurring or being completed immediately",
+      "partOfSpeech": "adj",
+      "ipa": "/ˌɪn.stənˈteɪ.ni.əs/",
+      "katakana": "in-stən-TAY-nee-əs",
+      "emoji": "⚡",
+      "exampleEn": "The effect of the medicine was almost instantaneous.",
+      "exampleJa": "その薬の効果はほぼ即座に現れた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "in-",
+            "type": "prefix",
+            "meaning": "上に・すぐそばに"
+          },
+          {
+            "part": "stan",
+            "type": "root",
+            "meaning": "立つ（ラテン語 stare）"
+          },
+          {
+            "part": "-taneous",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "スイッチを押した瞬間に電球が灯る様子",
+        "relatedWords": [
+          "instant",
+          "instantly",
+          "stand"
+        ],
+        "memoryTip": "in（すぐそばに）＋ stan（立つ）＝ 今ここに立っている → 即座の"
+      }
+    },
+    {
+      "id": "w37_004",
+      "english": "fulfill",
+      "japanese": "果たす、満たす",
+      "englishDef": "to accomplish or complete a task",
+      "partOfSpeech": "v",
+      "ipa": "/fʊlˈfɪl/",
+      "katakana": "ful-FIL",
+      "emoji": "✅",
+      "exampleEn": "She worked hard to fulfill her dream of becoming a doctor.",
+      "exampleJa": "彼女は医者になる夢をかなえるために懸命に働いた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ful",
+            "type": "root",
+            "meaning": "満ちた（古英語 full）"
+          },
+          {
+            "part": "fill",
+            "type": "root",
+            "meaning": "満たす（古英語 fyllan）"
+          }
+        ],
+        "imageDescription": "目標のチェックリストに印をつける人",
+        "relatedWords": [
+          "fulfillment",
+          "full",
+          "fill"
+        ],
+        "memoryTip": "ful（完全に）＋ fill（満たす）＝ 完全に満たす → 果たす"
+      }
+    },
+    {
+      "id": "w37_005",
+      "english": "haste",
+      "japanese": "急ぎ、慌ただしさ",
+      "englishDef": "the state of being in a hurry or rushed",
+      "partOfSpeech": "n",
+      "ipa": "/heɪst/",
+      "katakana": "HAYST",
+      "emoji": "🏃‍♂️",
+      "exampleEn": "In his haste, he left his keys on the table.",
+      "exampleJa": "急いでいて、彼は鍵をテーブルに置き忘れた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "haste",
+            "type": "root",
+            "meaning": "急ぎ（古フランス語 haste ← ゲルマン語）"
+          }
+        ],
+        "imageDescription": "慌てて家を飛び出していく人",
+        "relatedWords": [
+          "hasten",
+          "hasty",
+          "hastily"
+        ],
+        "memoryTip": "haste（急ぎ）＝ 慌ただしさ → 急ぎ"
+      }
+    },
+    {
+      "id": "w37_006",
+      "english": "reluctantly",
+      "japanese": "しぶしぶ、気が進まず",
+      "englishDef": "in an unwilling or cautious manner",
+      "partOfSpeech": "adv",
+      "ipa": "/rɪˈlʌk.tənt.li/",
+      "katakana": "ri-LUK-tənt-lee",
+      "emoji": "😒",
+      "exampleEn": "He reluctantly agreed to help his brother clean the room.",
+      "exampleJa": "彼はしぶしぶ兄の部屋の掃除を手伝うことに同意した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "re-",
+            "type": "prefix",
+            "meaning": "逆らって"
+          },
+          {
+            "part": "luct",
+            "type": "root",
+            "meaning": "もがく（ラテン語 luctari）"
+          },
+          {
+            "part": "-ant-ly",
+            "type": "suffix",
+            "meaning": "形容詞・副詞化"
+          }
+        ],
+        "imageDescription": "嫌々ながら手を挙げてうなずく人",
+        "relatedWords": [
+          "reluctant",
+          "reluctance",
+          "wrestle"
+        ],
+        "memoryTip": "re（逆らって）＋ luct（もがく）＋ -ly ＝ 抵抗しながら → しぶしぶ"
+      }
+    },
+    {
+      "id": "w37_007",
+      "english": "extend",
+      "japanese": "伸ばす、広げる",
+      "englishDef": "to reach out; to hold something out to someone",
+      "partOfSpeech": "v",
+      "ipa": "/ɪkˈstend/",
+      "katakana": "ik-STEND",
+      "emoji": "🤲",
+      "exampleEn": "Please extend your arms to the sides.",
+      "exampleJa": "両腕を横に伸ばしてください。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "tend",
+            "type": "root",
+            "meaning": "伸ばす（ラテン語 tendere）"
+          }
+        ],
+        "imageDescription": "腕を前にまっすぐ伸ばして握手を求める人",
+        "relatedWords": [
+          "extension",
+          "extent",
+          "tend"
+        ],
+        "memoryTip": "ex（外へ）＋ tend（伸ばす）＝ 外へ伸ばす → 広げる"
+      }
+    },
+    {
+      "id": "w37_008",
+      "english": "pervade",
+      "japanese": "行き渡る、充満する",
+      "englishDef": "to be taken over by; affected strongly by something",
+      "partOfSpeech": "v",
+      "ipa": "/pəˈveɪd/",
+      "katakana": "pər-VAYD",
+      "emoji": "🌫️",
+      "exampleEn": "The smell of fresh bread pervaded the whole house.",
+      "exampleJa": "焼きたてのパンの香りが家じゅうに行き渡った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "per-",
+            "type": "prefix",
+            "meaning": "通して"
+          },
+          {
+            "part": "vade",
+            "type": "root",
+            "meaning": "行く（ラテン語 vadere）"
+          }
+        ],
+        "imageDescription": "パンの香りが家中に広がっている様子",
+        "relatedWords": [
+          "pervasive",
+          "invade",
+          "evade"
+        ],
+        "memoryTip": "per（通して）＋ vade（行く）＝ 隅々まで行き渡る → 充満する"
+      }
+    },
+    {
+      "id": "w37_009",
+      "english": "anticipate",
+      "japanese": "予期する、期待する",
+      "englishDef": "to expect; to predict",
+      "partOfSpeech": "v",
+      "ipa": "/ænˈtɪs.ɪ.peɪt/",
+      "katakana": "an-TIS-i-payt",
+      "emoji": "🔮",
+      "exampleEn": "We anticipate heavy traffic during the holiday weekend.",
+      "exampleJa": "連休の週末は交通渋滞になると予想している。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "anti-",
+            "type": "prefix",
+            "meaning": "前に"
+          },
+          {
+            "part": "cip",
+            "type": "root",
+            "meaning": "つかむ（ラテン語 capere）"
+          },
+          {
+            "part": "-ate",
+            "type": "suffix",
+            "meaning": "動詞化"
+          }
+        ],
+        "imageDescription": "窓の外を見て来客を待ちわびる人",
+        "relatedWords": [
+          "anticipation",
+          "participate",
+          "capture"
+        ],
+        "memoryTip": "anti（前に）＋ cip（つかむ）＝ 先につかむ → 予期する"
+      }
+    },
+    {
+      "id": "w37_010",
+      "english": "accomplishment",
+      "japanese": "成果、偉業",
+      "englishDef": "something successfully done or completed",
+      "partOfSpeech": "n",
+      "ipa": "/əˈkʌm.plɪʃ.mənt/",
+      "katakana": "ə-KUM-plish-mənt",
+      "emoji": "🏅",
+      "exampleEn": "Finishing the marathon was a great accomplishment for him.",
+      "exampleJa": "マラソンを完走したことは彼にとって大きな偉業だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ac-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "com-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "pli",
+            "type": "root",
+            "meaning": "満たす（ラテン語 plere）"
+          },
+          {
+            "part": "-ish-ment",
+            "type": "suffix",
+            "meaning": "動詞・名詞化"
+          }
+        ],
+        "imageDescription": "ゴールテープを切って両手を上げる人",
+        "relatedWords": [
+          "accomplish",
+          "complete",
+          "fulfill"
+        ],
+        "memoryTip": "ac（～へ）＋ com（完全に）＋ pli（満たす）＋ -ment ＝ 完全に成し遂げたこと → 成果"
+      }
+    },
+    {
+      "id": "w37_011",
+      "english": "piety",
+      "japanese": "信心深さ、敬虔さ",
+      "englishDef": "the quality of being religious",
+      "partOfSpeech": "n",
+      "ipa": "/ˈpaɪ.ə.ti/",
+      "katakana": "PY-ə-tee",
+      "emoji": "🙏",
+      "exampleEn": "The monk was admired for his piety and kindness.",
+      "exampleJa": "その修道士は信心深さと優しさで尊敬されていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "pi",
+            "type": "root",
+            "meaning": "忠実な・敬虔な（ラテン語 pius）"
+          },
+          {
+            "part": "-ety",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "静かな教会でひざまずいて祈る人",
+        "relatedWords": [
+          "pious",
+          "pity",
+          "impious"
+        ],
+        "memoryTip": "pi（敬虔な）＋ -ety ＝ 敬虔であること → 信心深さ"
+      }
+    },
+    {
+      "id": "w37_012",
+      "english": "cardinal",
+      "japanese": "最も重要な、基本的な",
+      "englishDef": "very important; fundamental",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈkɑː.dɪ.nəl/",
+      "katakana": "KAR-di-nəl",
+      "emoji": "📍",
+      "exampleEn": "Honesty is a cardinal rule in our family.",
+      "exampleJa": "正直さは私たちの家族の最も重要な決まりだ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "cardin",
+            "type": "root",
+            "meaning": "蝶番・要（ラテン語 cardo）"
+          },
+          {
+            "part": "-al",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "ドアの蝶番が扉全体を支えている様子",
+        "relatedWords": [
+          "cardinal number",
+          "cardinal directions",
+          "cardio"
+        ],
+        "memoryTip": "cardin（蝶番）＝ ドアを支える要 → 最も重要な"
+      }
+    },
+    {
+      "id": "w37_013",
+      "english": "deficiency",
+      "japanese": "不足、欠乏",
+      "englishDef": "a lack or shortage of something",
+      "partOfSpeech": "n",
+      "ipa": "/dɪˈfɪʃ.ən.si/",
+      "katakana": "di-FISH-ən-see",
+      "emoji": "📉",
+      "exampleEn": "A deficiency of vitamin C can cause serious health problems.",
+      "exampleJa": "ビタミンCの不足は深刻な健康問題を引き起こすことがある。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "de-",
+            "type": "prefix",
+            "meaning": "欠けて"
+          },
+          {
+            "part": "fici",
+            "type": "root",
+            "meaning": "作る・行う（ラテン語 facere）"
+          },
+          {
+            "part": "-ency",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "空っぽの器と足りない栄養を示すグラフ",
+        "relatedWords": [
+          "deficient",
+          "efficient",
+          "sufficient"
+        ],
+        "memoryTip": "de（欠けて）＋ fici（作る）＋ -ency ＝ 作りが足りないこと → 不足"
+      }
+    },
+    {
+      "id": "w37_014",
+      "english": "excess",
+      "japanese": "過剰な、超過した",
+      "englishDef": "more than the desired or prescribed amount",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈek.ses/",
+      "katakana": "EK-ses",
+      "emoji": "📦",
+      "exampleEn": "Please pay a fee for any excess baggage.",
+      "exampleJa": "超過手荷物には料金をお支払いください。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "ex-",
+            "type": "prefix",
+            "meaning": "外へ"
+          },
+          {
+            "part": "cess",
+            "type": "root",
+            "meaning": "行く（ラテン語 cedere）"
+          }
+        ],
+        "imageDescription": "荷物が重量制限をはみ出して積み上がる様子",
+        "relatedWords": [
+          "excessive",
+          "exceed",
+          "process"
+        ],
+        "memoryTip": "ex（外へ）＋ cess（行く）＝ 枠の外へ出る → 過剰な"
+      }
+    }
+  ]
+}

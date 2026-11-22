@@ -1,0 +1,199 @@
+{
+  "weekId": "week31",
+  "match": [
+    {
+      "word": "unidentified",
+      "def": "whose name is not known"
+    },
+    {
+      "word": "intrigued",
+      "def": "being curious of something"
+    },
+    {
+      "word": "anxiously",
+      "def": "showing uneasiness due to fear or concern"
+    },
+    {
+      "word": "abandoned",
+      "def": "left behind"
+    },
+    {
+      "word": "ironic",
+      "def": "using words to convey an opposite sense of the literal meaning"
+    },
+    {
+      "word": "pupil",
+      "def": "student"
+    },
+    {
+      "word": "apprehensive",
+      "def": "uneasy or fearful about a situation"
+    },
+    {
+      "word": "nurture",
+      "def": "to take care of; to feed and help grow"
+    },
+    {
+      "word": "frustration",
+      "def": "the feeling of being annoyed by a disappointing situation"
+    },
+    {
+      "word": "prominent",
+      "def": "very well-known or important"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "unidentified",
+      "sentence": "The police found an unidentified package outside the station.",
+      "ja": "警察は駅の外で身元不明の荷物を見つけた。"
+    },
+    {
+      "answer": "intrigued",
+      "sentence": "The children were intrigued by the strange old map.",
+      "ja": "子どもたちはその奇妙な古地図に興味をそそられた。"
+    },
+    {
+      "answer": "anxiously",
+      "sentence": "She waited anxiously for the test results to arrive.",
+      "ja": "彼女は不安な気持ちでテスト結果が届くのを待った。"
+    },
+    {
+      "answer": "abandoned",
+      "sentence": "The abandoned house at the end of the street was covered with vines.",
+      "ja": "通りの突き当たりの見捨てられた家はつたで覆われていた。"
+    },
+    {
+      "answer": "ironic",
+      "sentence": "It was ironic that the fire station burned down.",
+      "ja": "消防署が焼け落ちたとは皮肉なことだった。"
+    }
+  ],
+  "bank": [
+    "unidentified",
+    "intrigued",
+    "anxiously",
+    "abandoned",
+    "ironic",
+    "pupil",
+    "apprehensive",
+    "nurture",
+    "frustration",
+    "prominent"
+  ],
+  "mc": [
+    {
+      "q": "What does \"pupil\" mean?",
+      "opts": [
+        "whose name is not known",
+        "the feeling of being annoyed by a disappointing situation",
+        "being curious of something",
+        "student"
+      ],
+      "answer": 3,
+      "word": "pupil"
+    },
+    {
+      "q": "What does \"apprehensive\" mean?",
+      "opts": [
+        "showing uneasiness due to fear or concern",
+        "uneasy or fearful about a situation",
+        "showing interest or being curious about something",
+        "whose name is not known"
+      ],
+      "answer": 1,
+      "word": "apprehensive"
+    },
+    {
+      "q": "What does \"nurture\" mean?",
+      "opts": [
+        "being curious of something",
+        "to take care of; to feed and help grow",
+        "very well-known or important",
+        "left behind"
+      ],
+      "answer": 1,
+      "word": "nurture"
+    },
+    {
+      "q": "What does \"frustration\" mean?",
+      "opts": [
+        "the feeling of being annoyed by a disappointing situation",
+        "showing uneasiness due to fear or concern",
+        "lacking information or knowledge about something",
+        "whose name is not known"
+      ],
+      "answer": 0,
+      "word": "frustration"
+    },
+    {
+      "q": "What does \"prominent\" mean?",
+      "opts": [
+        "showing uneasiness due to fear or concern",
+        "left behind",
+        "the feeling of being annoyed by a disappointing situation",
+        "very well-known or important"
+      ],
+      "answer": 3,
+      "word": "prominent"
+    },
+    {
+      "q": "What does \"committee\" mean?",
+      "opts": [
+        "a group of people chosen for a purpose to discuss or make decisions",
+        "the feeling of being annoyed by a disappointing situation",
+        "uneasy or fearful about a situation",
+        "left behind"
+      ],
+      "answer": 0,
+      "word": "committee"
+    },
+    {
+      "q": "What does \"inquisitive\" mean?",
+      "opts": [
+        "being curious of something",
+        "whose name is not known",
+        "showing interest or being curious about something",
+        "uneasy or fearful about a situation"
+      ],
+      "answer": 2,
+      "word": "inquisitive"
+    },
+    {
+      "q": "What does \"ignorance\" mean?",
+      "opts": [
+        "left behind",
+        "very worried and upset",
+        "student",
+        "lacking information or knowledge about something"
+      ],
+      "answer": 3,
+      "word": "ignorance"
+    },
+    {
+      "q": "What does \"distraught\" mean?",
+      "opts": [
+        "student",
+        "very worried and upset",
+        "very well-known or important",
+        "left behind"
+      ],
+      "answer": 1,
+      "word": "distraught"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Needless to say, he will be released, the voice had said, followed by silence.",
+      "word": "released"
+    },
+    {
+      "text": "There was talk about changing the rule and giving the bicycles at an earlier age.",
+      "word": "bicycles"
+    },
+    {
+      "text": "It was one of the few rules that was not taken very seriously and was almost always broken.",
+      "word": "rules"
+    }
+  ]
+}

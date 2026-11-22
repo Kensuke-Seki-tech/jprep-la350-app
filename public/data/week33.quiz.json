@@ -1,0 +1,210 @@
+{
+  "weekId": "week33",
+  "match": [
+    {
+      "word": "irritably",
+      "def": "in a way that shows that you become annoyed very easily"
+    },
+    {
+      "word": "emblem",
+      "def": "an image or picture that symbolizes something important"
+    },
+    {
+      "word": "commotion",
+      "def": "a situation of disorder, talk, and noise among a group of people"
+    },
+    {
+      "word": "reprieve",
+      "def": "temporary relief from a commitment or task"
+    },
+    {
+      "word": "plea",
+      "def": "an emotional and urgent request"
+    },
+    {
+      "word": "infringe",
+      "def": "to disobey a rule or law"
+    },
+    {
+      "word": "meticulous",
+      "def": "taking or showing extreme care about small details"
+    },
+    {
+      "word": "profound",
+      "def": "of great significance"
+    },
+    {
+      "word": "astonishment",
+      "def": "amazement or bewilderment at a situation"
+    },
+    {
+      "word": "oracle",
+      "def": "a priest or priestess acting as a medium for the gods where people would seek advice or prophecy"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "irritably",
+      "sentence": "\"Be quiet!\" he said irritably, rubbing his tired eyes.",
+      "ja": "「静かにして！」と彼は疲れた目をこすりながらいらいらして言った。"
+    },
+    {
+      "answer": "emblem",
+      "sentence": "The eagle is the national emblem of the country.",
+      "ja": "ワシはその国の国章である。"
+    },
+    {
+      "answer": "commotion",
+      "sentence": "A loud commotion broke out in the crowded hallway.",
+      "ja": "混雑した廊下で大きな騒ぎが起きた。"
+    },
+    {
+      "answer": "reprieve",
+      "sentence": "The storm gave the farmers a short reprieve from the heat.",
+      "ja": "嵐のおかげで農家の人々はしばし暑さから解放された。"
+    },
+    {
+      "answer": "plea",
+      "sentence": "The child's plea for help was heard by a passing neighbor.",
+      "ja": "その子の助けを求める嘆願は、通りがかりの隣人に聞こえた。"
+    }
+  ],
+  "bank": [
+    "irritably",
+    "emblem",
+    "commotion",
+    "reprieve",
+    "plea",
+    "infringe",
+    "meticulous",
+    "profound",
+    "astonishment",
+    "oracle"
+  ],
+  "mc": [
+    {
+      "q": "What does \"infringe\" mean?",
+      "opts": [
+        "extremely large or great",
+        "to disobey a rule or law",
+        "a situation of disorder, talk, and noise among a group of people",
+        "husband, wife, or partner that someone is married to"
+      ],
+      "answer": 1,
+      "word": "infringe"
+    },
+    {
+      "q": "What does \"meticulous\" mean?",
+      "opts": [
+        "a person who works with and repairs wooden items",
+        "taking or showing extreme care about small details",
+        "an emotional and urgent request",
+        "amazement or bewilderment at a situation"
+      ],
+      "answer": 1,
+      "word": "meticulous"
+    },
+    {
+      "q": "What does \"profound\" mean?",
+      "opts": [
+        "husband, wife, or partner that someone is married to",
+        "extremely large or great",
+        "of great significance",
+        "a priest or priestess acting as a medium for the gods where people would seek advice or prophecy"
+      ],
+      "answer": 2,
+      "word": "profound"
+    },
+    {
+      "q": "What does \"astonishment\" mean?",
+      "opts": [
+        "husband, wife, or partner that someone is married to",
+        "a priest or priestess acting as a medium for the gods where people would seek advice or prophecy",
+        "of great significance",
+        "amazement or bewilderment at a situation"
+      ],
+      "answer": 3,
+      "word": "astonishment"
+    },
+    {
+      "q": "What does \"oracle\" mean?",
+      "opts": [
+        "a priest or priestess acting as a medium for the gods where people would seek advice or prophecy",
+        "an emotional and urgent request",
+        "husband, wife, or partner that someone is married to",
+        "the activity to look for or chase something"
+      ],
+      "answer": 0,
+      "word": "oracle"
+    },
+    {
+      "q": "What does \"immense\" mean?",
+      "opts": [
+        "an emotional and urgent request",
+        "taking or showing extreme care about small details",
+        "a person who works with and repairs wooden items",
+        "extremely large or great"
+      ],
+      "answer": 3,
+      "word": "immense"
+    },
+    {
+      "q": "What does \"spouse\" mean?",
+      "opts": [
+        "in a way that shows that you become annoyed very easily",
+        "the quality or ability to show self restraint or moderation",
+        "a priest or priestess acting as a medium for the gods where people would seek advice or prophecy",
+        "husband, wife, or partner that someone is married to"
+      ],
+      "answer": 3,
+      "word": "spouse"
+    },
+    {
+      "q": "What does \"temperance\" mean?",
+      "opts": [
+        "a person who works with and repairs wooden items",
+        "the quality or ability to show self restraint or moderation",
+        "an emotional and urgent request",
+        "to disobey a rule or law"
+      ],
+      "answer": 1,
+      "word": "temperance"
+    },
+    {
+      "q": "What does \"pursuit\" mean?",
+      "opts": [
+        "an image or picture that symbolizes something important",
+        "in a way that shows that you become annoyed very easily",
+        "the activity to look for or chase something",
+        "to disobey a rule or law"
+      ],
+      "answer": 2,
+      "word": "pursuit"
+    },
+    {
+      "q": "What does \"carpenter\" mean?",
+      "opts": [
+        "temporary relief from a commitment or task",
+        "an image or picture that symbolizes something important",
+        "a person who works with and repairs wooden items",
+        "husband, wife, or partner that someone is married to"
+      ],
+      "answer": 2,
+      "word": "carpenter"
+    }
+  ],
+  "dict": [
+    {
+      "text": "Each family member had been required to sign a pledge that they would not become attached to this little temporary guest.",
+      "word": "pledge"
+    },
+    {
+      "text": "With the chant, the community was accepting him and his new role, giving him life.",
+      "word": "chant"
+    },
+    {
+      "text": "The community was extraordinarily safe, each citizen watchful and protective of all children.",
+      "word": "extraordinarily"
+    }
+  ]
+}

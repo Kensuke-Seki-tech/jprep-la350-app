@@ -1,0 +1,536 @@
+{
+  "weekId": "week34",
+  "weekNumber": 34,
+  "label": "Term D - Week 4",
+  "sentencesToRemember": [
+    {
+      "text": "They told his whole life before they released him.",
+      "ja": "彼らは彼を解放する前に、彼の一生の物語を語った。"
+    },
+    {
+      "text": "There was absolutely nothing remarkable about that apple.",
+      "ja": "そのリンゴには、まったく何も特筆すべき点がなかった。"
+    },
+    {
+      "text": "When something went to a committee for study, the people always joked about it.",
+      "ja": "何かが検討のために委員会に回されると、人々はいつもそれを冗談の種にした。"
+    },
+    {
+      "text": "He did not know what his selection meant, and he did not know what he was to become.",
+      "ja": "彼は自分の選抜が何を意味するのか、そして自分が何になるのかを知らなかった。"
+    },
+    {
+      "text": "Frightened meant that deep, sickening feeling of something terrible about to happen.",
+      "ja": "「恐ろしい」とは、何か恐ろしいことが起ころうとしているという、あの深く吐き気をもよおすような感覚のことだった。"
+    }
+  ],
+  "words": [
+    {
+      "id": "w34_001",
+      "english": "conceited",
+      "japanese": "うぬぼれた、思い上がった",
+      "englishDef": "excessively proud or in love with oneself; vain",
+      "partOfSpeech": "adj",
+      "ipa": "/kənˈsiː.tɪd/",
+      "katakana": "kən-SEE-tid",
+      "emoji": "😏",
+      "exampleEn": "The conceited actor thought he was better than everyone else.",
+      "exampleJa": "そのうぬぼれた俳優は自分が誰よりも優れていると思っていた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "con-",
+            "type": "prefix",
+            "meaning": "共に・完全に"
+          },
+          {
+            "part": "ceit",
+            "type": "root",
+            "meaning": "取る・考え（ラテン語 capere）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "鏡の前で自分に見とれている人",
+        "relatedWords": [
+          "conceit",
+          "concept",
+          "deceit"
+        ],
+        "memoryTip": "con（完全に）＋ ceit（考え）＝ 自分の考えにとらわれた → うぬぼれた"
+      }
+    },
+    {
+      "id": "w34_002",
+      "english": "dwelling",
+      "japanese": "住居、住まい",
+      "englishDef": "a home; a place of living",
+      "partOfSpeech": "n",
+      "ipa": "/ˈdwel.ɪŋ/",
+      "katakana": "DWEL-ing",
+      "emoji": "🏠",
+      "exampleEn": "The villagers lived in a simple dwelling made of mud and straw.",
+      "exampleJa": "村人たちは泥とわらで作った簡素な住居に住んでいた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "dwell",
+            "type": "root",
+            "meaning": "住む（古英語 dwellan「迷う、とどまる」）"
+          },
+          {
+            "part": "-ing",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "泥とわらで作った素朴な家の様子",
+        "relatedWords": [
+          "dwell",
+          "dweller",
+          "residence"
+        ],
+        "memoryTip": "dwell（住む）＋ -ing（もの）＝ 住む場所 → 住居"
+      }
+    },
+    {
+      "id": "w34_003",
+      "english": "anthem",
+      "japanese": "賛歌、国歌",
+      "englishDef": "a song of loyalty to a group or community",
+      "partOfSpeech": "n",
+      "ipa": "/ˈæn.θəm/",
+      "katakana": "AN-thəm",
+      "emoji": "🎶",
+      "exampleEn": "The crowd stood and sang the national anthem together.",
+      "exampleJa": "群衆は立ち上がり、一緒に国歌を歌った。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "anti-",
+            "type": "prefix",
+            "meaning": "向かい合って"
+          },
+          {
+            "part": "phon",
+            "type": "root",
+            "meaning": "声（ギリシャ語 phone）"
+          }
+        ],
+        "imageDescription": "観客が胸に手を当てて国歌を斉唱する様子",
+        "relatedWords": [
+          "antiphon",
+          "phone",
+          "symphony"
+        ],
+        "memoryTip": "anti（向かい合う）＋ phon（声）＝ 交互に歌う歌 → 賛歌・国歌"
+      }
+    },
+    {
+      "id": "w34_004",
+      "english": "assembled",
+      "japanese": "集められた、組み立てられた",
+      "englishDef": "brought together or grouped",
+      "partOfSpeech": "adj",
+      "ipa": "/əˈsem.bəld/",
+      "katakana": "ə-SEM-bəld",
+      "emoji": "🧑‍🤝‍🧑",
+      "exampleEn": "The assembled crowd cheered when the team arrived.",
+      "exampleJa": "集まった群衆は、チームの到着に歓声を上げた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "as-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "sembl",
+            "type": "root",
+            "meaning": "一緒に（ラテン語 simul）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "広場に大勢が集まって歓声をあげる様子",
+        "relatedWords": [
+          "assemble",
+          "assembly",
+          "similar"
+        ],
+        "memoryTip": "as（～へ）＋ sembl（一緒に）＝ 一つの所に集める → 集められた"
+      }
+    },
+    {
+      "id": "w34_005",
+      "english": "confess",
+      "japanese": "白状する、告白する",
+      "englishDef": "to admit or confirm an action (usually against a rule)",
+      "partOfSpeech": "v",
+      "ipa": "/kənˈfes/",
+      "katakana": "kən-FES",
+      "emoji": "🤐",
+      "exampleEn": "The boy decided to confess that he had broken the window.",
+      "exampleJa": "少年は窓を割ったことを白状することにした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "con-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "fess",
+            "type": "root",
+            "meaning": "話す・認める（ラテン語 fateri）"
+          }
+        ],
+        "imageDescription": "うつむいて自分の過ちを打ち明ける少年",
+        "relatedWords": [
+          "confession",
+          "profess",
+          "professor"
+        ],
+        "memoryTip": "con（完全に）＋ fess（認める）＝ すべて認める → 白状する"
+      }
+    },
+    {
+      "id": "w34_006",
+      "english": "affectionately",
+      "japanese": "愛情を込めて、優しく",
+      "englishDef": "in a way showing love or emotion",
+      "partOfSpeech": "adv",
+      "ipa": "/əˈfek.ʃən.ət.li/",
+      "katakana": "ə-FEK-shə-nət-lee",
+      "emoji": "🥰",
+      "exampleEn": "She patted the dog affectionately on the head.",
+      "exampleJa": "彼女は愛情を込めて犬の頭をなでた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "af-",
+            "type": "prefix",
+            "meaning": "～へ"
+          },
+          {
+            "part": "fect",
+            "type": "root",
+            "meaning": "行う・影響する（ラテン語 facere）"
+          },
+          {
+            "part": "-ion",
+            "type": "suffix",
+            "meaning": "名詞化"
+          },
+          {
+            "part": "-ate-ly",
+            "type": "suffix",
+            "meaning": "副詞化"
+          }
+        ],
+        "imageDescription": "犬の頭をやさしくなでている様子",
+        "relatedWords": [
+          "affection",
+          "affect",
+          "affectionate"
+        ],
+        "memoryTip": "af（～へ）＋ fect（作用）＋ -ion ＝ 心に働きかける気持ち → 愛情"
+      }
+    },
+    {
+      "id": "w34_007",
+      "english": "bewildered",
+      "japanese": "当惑した、うろたえた",
+      "englishDef": "feeling extremely confused or shocked",
+      "partOfSpeech": "adj",
+      "ipa": "/bɪˈwɪl.dəd/",
+      "katakana": "bi-WIL-dərd",
+      "emoji": "😵",
+      "exampleEn": "The tourist looked bewildered by the maze of streets.",
+      "exampleJa": "旅行者は入り組んだ通りに途方に暮れた様子だった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "be-",
+            "type": "prefix",
+            "meaning": "完全に"
+          },
+          {
+            "part": "wilder",
+            "type": "root",
+            "meaning": "道に迷わせる（wild「野生」と関連）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "迷路のような道で地図を持って立ち尽くす旅行者",
+        "relatedWords": [
+          "bewilder",
+          "wilderness",
+          "wild"
+        ],
+        "memoryTip": "be（完全に）＋ wilder（野で迷う）＝ 野で迷う → 当惑した"
+      }
+    },
+    {
+      "id": "w34_008",
+      "english": "nuisance",
+      "japanese": "迷惑なもの、厄介者",
+      "englishDef": "something that is annoying",
+      "partOfSpeech": "n",
+      "ipa": "/ˈnjuː.səns/",
+      "katakana": "NYOO-səns",
+      "emoji": "🦟",
+      "exampleEn": "The loud music from next door is a real nuisance.",
+      "exampleJa": "隣からの大音量の音楽は本当に迷惑だ。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "nuis",
+            "type": "root",
+            "meaning": "害する（ラテン語 nocere）"
+          },
+          {
+            "part": "-ance",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "夜中に蚊の羽音で眠れずいらいらする様子",
+        "relatedWords": [
+          "noxious",
+          "innocent",
+          "nocturnal"
+        ],
+        "memoryTip": "nuis（害する）＋ -ance ＝ 害になるもの → 迷惑"
+      }
+    },
+    {
+      "id": "w34_009",
+      "english": "discipline",
+      "japanese": "規律、訓練",
+      "englishDef": "the practice of training people to obey rules or a code of behavior, using punishment to correct disobedience",
+      "partOfSpeech": "n",
+      "ipa": "/ˈdɪs.ə.plɪn/",
+      "katakana": "DIS-ə-plin",
+      "emoji": "🥋",
+      "exampleEn": "The soccer coach teaches discipline as well as skills.",
+      "exampleJa": "サッカーのコーチは技術だけでなく規律も教えている。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "dis-",
+            "type": "prefix",
+            "meaning": "離れて"
+          },
+          {
+            "part": "cip",
+            "type": "root",
+            "meaning": "つかむ・学ぶ（ラテン語 capere）"
+          },
+          {
+            "part": "-line",
+            "type": "suffix",
+            "meaning": "名詞化"
+          }
+        ],
+        "imageDescription": "整列して先生の指導を受ける練習の様子",
+        "relatedWords": [
+          "disciple",
+          "disciplined",
+          "capture"
+        ],
+        "memoryTip": "disc（学ぶ）＋ -ipline ＝ 学び鍛えること → 規律・訓練"
+      }
+    },
+    {
+      "id": "w34_010",
+      "english": "rigorous",
+      "japanese": "厳格な、厳しい",
+      "englishDef": "extremely difficult and exhausting",
+      "partOfSpeech": "adj",
+      "ipa": "/ˈrɪɡ.ər.əs/",
+      "katakana": "RIG-ər-əs",
+      "emoji": "🏋️",
+      "exampleEn": "The soldiers went through a rigorous training program.",
+      "exampleJa": "兵士たちは厳しい訓練プログラムを受けた。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "rig",
+            "type": "root",
+            "meaning": "固い（ラテン語 rigere）"
+          },
+          {
+            "part": "-or",
+            "type": "suffix",
+            "meaning": "状態"
+          },
+          {
+            "part": "-ous",
+            "type": "suffix",
+            "meaning": "形容詞化"
+          }
+        ],
+        "imageDescription": "息を切らして厳しい訓練を続ける人",
+        "relatedWords": [
+          "rigor",
+          "rigid",
+          "rigidity"
+        ],
+        "memoryTip": "rig（固い）＋ -ous ＝ 固く容赦ない → 厳格な"
+      }
+    },
+    {
+      "id": "w34_011",
+      "english": "symposium",
+      "japanese": "シンポジウム、討論会",
+      "englishDef": "a conference or meeting to discuss a particular subject",
+      "partOfSpeech": "n",
+      "ipa": "/sɪmˈpəʊ.zi.əm/",
+      "katakana": "sim-POH-zee-əm",
+      "emoji": "🎤",
+      "exampleEn": "Scientists from many countries attended the symposium on climate change.",
+      "exampleJa": "多くの国の科学者が気候変動に関するシンポジウムに参加した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "sym-",
+            "type": "prefix",
+            "meaning": "共に"
+          },
+          {
+            "part": "pos",
+            "type": "root",
+            "meaning": "飲む（ギリシャ語 posis「飲むこと」）"
+          },
+          {
+            "part": "-ium",
+            "type": "suffix",
+            "meaning": "場所"
+          }
+        ],
+        "imageDescription": "演壇の前に専門家が並び、聴衆が議論を聞く様子",
+        "relatedWords": [
+          "symphony",
+          "potion",
+          "potable"
+        ],
+        "memoryTip": "sym（共に）＋ pos（飲む）＝ 共に飲みながら語り合う会 → 討論会"
+      }
+    },
+    {
+      "id": "w34_012",
+      "english": "diagnosed",
+      "japanese": "診断された",
+      "englishDef": "to examine symptoms and identify an illness",
+      "partOfSpeech": "v",
+      "ipa": "/ˈdaɪ.əɡ.nəʊzd/",
+      "katakana": "DY-əg-nohzd",
+      "emoji": "🩺",
+      "exampleEn": "The doctor diagnosed her illness as a common cold.",
+      "exampleJa": "医師は彼女の病気を普通の風邪と診断した。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "dia-",
+            "type": "prefix",
+            "meaning": "通して"
+          },
+          {
+            "part": "gnos",
+            "type": "root",
+            "meaning": "知る（ギリシャ語 gnosis）"
+          },
+          {
+            "part": "-ed",
+            "type": "suffix",
+            "meaning": "過去形"
+          }
+        ],
+        "imageDescription": "医師が聴診器で患者を診察する様子",
+        "relatedWords": [
+          "diagnosis",
+          "diagnose",
+          "prognosis"
+        ],
+        "memoryTip": "dia（通して）＋ gnos（知る）＝ 見抜いて知る → 診断する"
+      }
+    },
+    {
+      "id": "w34_013",
+      "english": "orator",
+      "japanese": "雄弁家、演説者",
+      "englishDef": "a skilled public speaker",
+      "partOfSpeech": "n",
+      "ipa": "/ˈɒr.ə.tər/",
+      "katakana": "OR-ə-tər",
+      "emoji": "🎙️",
+      "exampleEn": "The famous orator moved the audience with his powerful speech.",
+      "exampleJa": "その有名な雄弁家は力強い演説で聴衆の心を動かした。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "or",
+            "type": "root",
+            "meaning": "話す（ラテン語 orare）"
+          },
+          {
+            "part": "-ator",
+            "type": "suffix",
+            "meaning": "～する人"
+          }
+        ],
+        "imageDescription": "壇上で身振りを交えて演説する人",
+        "relatedWords": [
+          "oratory",
+          "oral",
+          "oracle"
+        ],
+        "memoryTip": "or（話す）＋ -ator（人）＝ 話す人 → 雄弁家"
+      }
+    },
+    {
+      "id": "w34_014",
+      "english": "camaraderie",
+      "japanese": "仲間意識、友情",
+      "englishDef": "shared trust and friendship shared by two people who spend a lot of time together",
+      "partOfSpeech": "n",
+      "ipa": "/ˌkæm.əˈrɑː.dər.i/",
+      "katakana": "kam-ə-RAH-də-ree",
+      "emoji": "🤝",
+      "exampleEn": "There was a strong sense of camaraderie among the team members.",
+      "exampleJa": "チームメンバーの間には強い仲間意識があった。",
+      "etymology": {
+        "morphemes": [
+          {
+            "part": "camarade",
+            "type": "root",
+            "meaning": "同室の仲間（フランス語、スペイン語 camara「部屋」）"
+          },
+          {
+            "part": "-rie",
+            "type": "suffix",
+            "meaning": "状態"
+          }
+        ],
+        "imageDescription": "チームで肩を組んで笑い合う様子",
+        "relatedWords": [
+          "comrade",
+          "chamber",
+          "camera"
+        ],
+        "memoryTip": "camara（部屋）→ 同じ部屋の仲間 → 仲間意識"
+      }
+    }
+  ]
+}

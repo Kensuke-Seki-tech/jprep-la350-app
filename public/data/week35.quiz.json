@@ -1,0 +1,210 @@
+{
+  "weekId": "week35",
+  "match": [
+    {
+      "word": "hesitation",
+      "def": "a pause caused by doubt or suspicion"
+    },
+    {
+      "word": "present",
+      "def": "to show something to someone"
+    },
+    {
+      "word": "accustomed",
+      "def": "familiar with; used to something"
+    },
+    {
+      "word": "prohibition",
+      "def": "the act of making something illegal"
+    },
+    {
+      "word": "transmit",
+      "def": "to transfer or pass on information"
+    },
+    {
+      "word": "deftly",
+      "def": "doing something skillfully"
+    },
+    {
+      "word": "substance",
+      "def": "a physical material of some sort"
+    },
+    {
+      "word": "tentatively",
+      "def": "not definitive; expressing a temporary state"
+    },
+    {
+      "word": "practical",
+      "def": "adapted or designed for actual use"
+    },
+    {
+      "word": "perceive",
+      "def": "to identify or make sense of"
+    }
+  ],
+  "gap": [
+    {
+      "answer": "hesitation",
+      "sentence": "She answered without hesitation.",
+      "ja": "彼女はためらうことなく答えた。"
+    },
+    {
+      "answer": "present",
+      "sentence": "The students will present their projects to the class tomorrow.",
+      "ja": "生徒たちは明日クラスの前で自分たちのプロジェクトを発表する。"
+    },
+    {
+      "answer": "accustomed",
+      "sentence": "He is accustomed to waking up at five every morning.",
+      "ja": "彼は毎朝5時に起きることに慣れている。"
+    },
+    {
+      "answer": "prohibition",
+      "sentence": "There is a strict prohibition against smoking in the building.",
+      "ja": "その建物内では喫煙が固く禁止されている。"
+    },
+    {
+      "answer": "transmit",
+      "sentence": "The tower transmits radio signals across the whole region.",
+      "ja": "その塔は地域全体にラジオ信号を送信している。"
+    }
+  ],
+  "bank": [
+    "hesitation",
+    "present",
+    "accustomed",
+    "prohibition",
+    "transmit",
+    "deftly",
+    "substance",
+    "tentatively",
+    "practical",
+    "perceive"
+  ],
+  "mc": [
+    {
+      "q": "What does \"deftly\" mean?",
+      "opts": [
+        "to identify or make sense of",
+        "doing something skillfully",
+        "a physical material of some sort",
+        "a person believed to have committed a crime; not to be trusted or believed"
+      ],
+      "answer": 1,
+      "word": "deftly"
+    },
+    {
+      "q": "What does \"substance\" mean?",
+      "opts": [
+        "a setting or a sequence of events",
+        "doing something skillfully",
+        "a physical material of some sort",
+        "familiar with; used to something"
+      ],
+      "answer": 2,
+      "word": "substance"
+    },
+    {
+      "q": "What does \"tentatively\" mean?",
+      "opts": [
+        "not definitive; expressing a temporary state",
+        "a physical material of some sort",
+        "to transfer or pass on information",
+        "a person who takes part in a dialogue or conversation"
+      ],
+      "answer": 0,
+      "word": "tentatively"
+    },
+    {
+      "q": "What does \"practical\" mean?",
+      "opts": [
+        "a setting or a sequence of events",
+        "to identify or make sense of",
+        "adapted or designed for actual use",
+        "a person believed to have committed a crime; not to be trusted or believed"
+      ],
+      "answer": 2,
+      "word": "practical"
+    },
+    {
+      "q": "What does \"perceive\" mean?",
+      "opts": [
+        "to identify or make sense of",
+        "a standard of behavior; a principle of right or wrong as judge by a society",
+        "doing something skillfully",
+        "a person believed to have committed a crime; not to be trusted or believed"
+      ],
+      "answer": 0,
+      "word": "perceive"
+    },
+    {
+      "q": "What does \"interlocutor\" mean?",
+      "opts": [
+        "a person who takes part in a dialogue or conversation",
+        "doing something skillfully",
+        "a pause caused by doubt or suspicion",
+        "adapted or designed for actual use"
+      ],
+      "answer": 0,
+      "word": "interlocutor"
+    },
+    {
+      "q": "What does \"moral\" mean?",
+      "opts": [
+        "to show something to someone",
+        "a setting or a sequence of events",
+        "a standard of behavior; a principle of right or wrong as judge by a society",
+        "not definitive; expressing a temporary state"
+      ],
+      "answer": 2,
+      "word": "moral"
+    },
+    {
+      "q": "What does \"scenario\" mean?",
+      "opts": [
+        "a standard of behavior; a principle of right or wrong as judge by a society",
+        "a pause caused by doubt or suspicion",
+        "doing something skillfully",
+        "a setting or a sequence of events"
+      ],
+      "answer": 3,
+      "word": "scenario"
+    },
+    {
+      "q": "What does \"suspect\" mean?",
+      "opts": [
+        "a pause caused by doubt or suspicion",
+        "inspiring respect and admiration; having a high status",
+        "a person believed to have committed a crime; not to be trusted or believed",
+        "the act of making something illegal"
+      ],
+      "answer": 2,
+      "word": "suspect"
+    },
+    {
+      "q": "What does \"just\" mean?",
+      "opts": [
+        "to show something to someone",
+        "based on or behaving according to what is right and fair",
+        "familiar with; used to something",
+        "doing something skillfully"
+      ],
+      "answer": 1,
+      "word": "just"
+    }
+  ],
+  "dict": [
+    {
+      "text": "From this moment you are exempted from rules governing rudeness.",
+      "word": "exempted"
+    },
+    {
+      "text": "No doors in the community were locked, ever.",
+      "word": "locked"
+    },
+    {
+      "text": "It's not my past that I must give to you, it's the memories of the whole world.",
+      "word": "memories"
+    }
+  ]
+}
